@@ -51,8 +51,11 @@ http
       try {
         body = await readFile(file);
       } catch {
+        const notFound = await readFile(path.join(root, '404.html')).catch(
+          () => 'Not found',
+        );
         res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
-        res.end(await readFile(path.join(root, '404.html')));
+        res.end(notFound);
         return;
       }
       const headers = {
@@ -84,6 +87,10 @@ http
       res.writeHead(200, { ...headers, 'Content-Length': body.length });
       res.end(req.method === 'HEAD' ? undefined : body);
     } catch {
+      if (res.headersSent) {
+        res.destroy();
+        return;
+      }
       res.writeHead(400);
       res.end('Bad request');
     }

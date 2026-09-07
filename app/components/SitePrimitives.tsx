@@ -28,8 +28,13 @@ const picture = (id: string, small = false) =>
   asset(`/images/${id}${small ? '-thumb' : ''}.webp`);
 // Descriptive image alternatives are interface accessibility copy, not marketing prose.
 const imageAlts: Record<string, string> = {
+  'hero-design-direction':
+    'The Vessyl pools and Dome surrounded by tropical rainforest',
   'hero-arenal': 'Arenal Volcano beyond the Vessyl pool',
+  'closing-design-direction': 'Arenal Volcano at sunset above the rainforest',
   'dome-exterior': 'The Frequency Dome in the Costa Rican landscape',
+  'dome-design-direction':
+    'The copper-clad Frequency Dome surrounded by tropical gardens',
   'dome-interior': 'A group resting inside the Frequency Dome',
   'dome-detail': 'A plant beside the copper-clad Dome',
   'dome-practice': 'A group practice inside the Frequency Dome',
@@ -58,11 +63,13 @@ export function Photo({
   alt = '',
   className = '',
   eager = false,
+  sizes,
 }: {
   id: string;
   alt?: string;
   className?: string;
   eager?: boolean;
+  sizes?: string;
 }) {
   const dimensions = imageDimensions[id as keyof typeof imageDimensions];
   return (
@@ -78,9 +85,10 @@ export function Photo({
       width={dimensions?.width}
       height={dimensions?.height}
       sizes={
-        eager
+        sizes ??
+        (eager
           ? '100vw'
-          : '(max-width: 560px) 100vw, (max-width: 1000px) 60vw, 50vw'
+          : '(max-width: 560px) 100vw, (max-width: 1000px) 60vw, 50vw')
       }
       alt={alt ? imageAlts[id] || alt : ''}
       loading={eager ? 'eager' : 'lazy'}
@@ -114,17 +122,18 @@ export function LinkArrow({
   );
 }
 export function Pattern({
-  kind = 'lattice',
+  tone = 'paper',
+  variant,
 }: {
-  kind?: 'lattice' | 'wave' | 'fans';
+  tone?: 'forest' | 'copper' | 'paper';
+  variant?: 'fans';
 }) {
   return (
     <div
       aria-hidden="true"
-      className={`brand-pattern pattern-${kind}`}
+      className={`brand-pattern pattern-${tone}${variant ? ` pattern-${variant}` : ''}`}
       style={{
-        maskImage: `url(${asset(`/brand/patterns/${kind}.svg`)})`,
-        WebkitMaskImage: `url(${asset(`/brand/patterns/${kind}.svg`)})`,
+        backgroundImage: `url(${asset(`/brand/patterns/${variant ?? `direction-${tone === 'copper' ? 'copper' : 'forest'}`}.svg`)})`,
       }}
     />
   );
@@ -207,7 +216,13 @@ export function Gallery({
     </section>
   );
 }
-export function Film({ autoPlay = false }: { autoPlay?: boolean }) {
+export function Film({
+  autoPlay = false,
+  showControls = true,
+}: {
+  autoPlay?: boolean;
+  showControls?: boolean;
+}) {
   const video = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
   const userPaused = useRef(false);
@@ -251,21 +266,23 @@ export function Film({ autoPlay = false }: { autoPlay?: boolean }) {
       >
         <source src={asset('/images/hero-ambient.mp4')} type="video/mp4" />
       </video>
-      <button
-        className="film-play"
-        onClick={() => {
-          userPaused.current = playing;
-          if (playing) video.current?.pause();
-          else video.current?.play().catch(() => setPlaying(false));
-        }}
-        aria-label={playing ? 'Pause Vessyl film' : 'Play Vessyl film'}
-      >
-        {playing ? <Pause /> : <Play />}
-        <span>
-          {playing ? c('ui.pauseFilm') : c('ui.film')}
-          <small>12 s · {c('ui.filmSound')}</small>
-        </span>
-      </button>
+      {showControls && (
+        <button
+          className="film-play"
+          onClick={() => {
+            userPaused.current = playing;
+            if (playing) video.current?.pause();
+            else video.current?.play().catch(() => setPlaying(false));
+          }}
+          aria-label={playing ? 'Pause Vessyl film' : 'Play Vessyl film'}
+        >
+          {playing ? <Pause /> : <Play />}
+          <span>
+            {playing ? c('ui.pauseFilm') : c('ui.film')}
+            <small>12 s · {c('ui.filmSound')}</small>
+          </span>
+        </button>
+      )}
     </div>
   );
 }

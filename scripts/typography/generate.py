@@ -21,8 +21,14 @@ jobs = []
 for entry in manifest.values():
     for device, styles in sizes.items():
         size, width = styles[entry['style']]
-        jobs.append(dict(text=entry['text'], weight=700 if entry['style'] == 'h1' else 400,
-                         size=size, width=width, file=entry[device]))
+        size = entry.get('layout', {}).get(device, {}).get('size', size)
+        width = entry.get('layout', {}).get(device, {}).get('width', width)
+        jobs.append(dict(text=entry.get('layout', {}).get(device, {}).get('text', entry['text']), weight=entry.get('weight', 700 if entry['style'] == 'h1' else 400),
+                         size=size, width=width, file=entry[device], align=entry.get('align', 'left')))
+    for variant in entry.get('responsive', {}).values():
+        jobs.append(dict(text=entry['text'], weight=entry.get('weight', 400),
+                         size=variant['size'], width=variant['width'], file=variant['file'],
+                         align=entry.get('align', 'left'), preventWordSplit=True))
 with tempfile.TemporaryDirectory(prefix='vessyl-type-') as temporary:
     job_path = Path(temporary) / 'jobs.json'
     job_path.write_text(json.dumps(jobs))
@@ -35,5 +41,8 @@ for entry in manifest.values():
     for device in sizes:
         entry[device + 'Width'] = dimensions[entry[device]]['width']
         entry[device + 'Height'] = dimensions[entry[device]]['height']
+    for variant in entry.get('responsive', {}).values():
+        variant['width'] = dimensions[variant['file']]['width']
+        variant['height'] = dimensions[variant['file']]['height']
 manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
 print(f'Regenerated {len(jobs)} renderings; no font binaries copied.')

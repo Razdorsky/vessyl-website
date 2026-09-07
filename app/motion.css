@@ -66,10 +66,20 @@ html[data-leaving='true'] body {
 }
 .experience-mega img {
   border-radius: 6px;
-  transition: filter 300ms var(--ease-dissolve);
+  transition:
+    filter 300ms var(--ease-dissolve),
+    transform 480ms var(--ease-refined);
 }
-.experience-mega a:hover img {
+.experience-mega a:is(:hover, :focus-visible) img {
   filter: brightness(1.04);
+  transform: scale(1.06);
+}
+.experience-mega .mega-index {
+  transform-origin: left center;
+  transition: transform 480ms var(--ease-refined);
+}
+.experience-mega .mega-index:is(:hover, :focus-visible) {
+  transform: scale(1.06);
 }
 .experience-trigger svg,
 [data-slot='accordion-trigger-icon'] {
@@ -555,6 +565,10 @@ html[data-leaving='true'] body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .experience-mega a:is(:hover, :focus-visible) img,
+  .experience-mega .mega-index:is(:hover, :focus-visible) {
+    transform: none;
+  }
   .reveal-waiting {
     opacity: 1;
     translate: none;

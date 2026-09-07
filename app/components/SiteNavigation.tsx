@@ -17,7 +17,7 @@ import {
   AccordionContent,
 } from '../../components/ui/accordion';
 
-// Component contract: Figma Website 548:977 (vsl-00-nav-wire-v1).
+// Figma Website 548:977; user revision puts Experience before Founder.
 // App stores are not supplied: the Download App entry leads to the honest app-status page.
 export function SiteNavigation({
   edition,
@@ -32,6 +32,9 @@ export function SiteNavigation({
   const trigger = useRef<HTMLButtonElement>(null);
   const href = (p = 'home') =>
     `${basePath}/${edition}/${p === 'home' ? '' : `${p}/`}`;
+  const jointLogo =
+    ['stay', 'rancho', 'contact'].includes(page) ||
+    (edition === 'immersive' && page === 'home');
   const spaces = [
     ['dome', 'The Dome', 'dome-exterior'],
     ['hearth', 'Harmonic Hearth', 'hearth'],
@@ -67,6 +70,16 @@ export function SiteNavigation({
       document.removeEventListener('keydown', escape);
     };
   }, []);
+  useEffect(() => {
+    if (edition !== 'classic') return;
+    const breakpoint = window.matchMedia('(max-width: 1200px)');
+    const closeMenus = () => {
+      setMobileOpen(false);
+      setExperienceOpen(false);
+    };
+    breakpoint.addEventListener('change', closeMenus);
+    return () => breakpoint.removeEventListener('change', closeMenus);
+  }, [edition]);
   const appAction = (
     <a className="nav-download" href={href('app')}>
       Download App
@@ -82,9 +95,7 @@ export function SiteNavigation({
       <a href={href()} className="brand" aria-label="Vessyl home">
         <img
           src={asset(
-            ['home', 'stay', 'rancho', 'contact'].includes(page)
-              ? '/brand/logo-aken-white.svg'
-              : '/brand/logo-white.svg',
+            jointLogo ? '/brand/logo-aken-white.svg' : '/brand/logo-white.svg',
           )}
           alt="Vessyl"
           width="176"
@@ -92,12 +103,6 @@ export function SiteNavigation({
         />
       </a>
       <nav className="desktop-navigation" aria-label="Main navigation">
-        <a
-          href={href('founder')}
-          aria-current={page === 'founder' ? 'page' : undefined}
-        >
-          The Founder
-        </a>
         <button
           className="experience-trigger"
           ref={trigger}
@@ -130,19 +135,27 @@ export function SiteNavigation({
               key={id}
               aria-current={page === id ? 'page' : undefined}
             >
-              <img
-                src={asset(`/images/${photo}-thumb.webp`)}
-                alt=""
-                width="800"
-                height="600"
-              />
-              <span>{label}</span>
+              <div className="mega-image">
+                <img
+                  src={asset(`/images/${photo}-thumb.webp`)}
+                  alt=""
+                  width="800"
+                  height="600"
+                />
+              </div>
+              <span className="mega-label">{label}</span>
             </a>
           ))}
           <a href={href('experience')} className="mega-index">
-            See all four <ArrowUpRight size={16} />
+            Overview <ArrowUpRight size={16} />
           </a>
         </div>
+        <a
+          href={href('founder')}
+          aria-current={page === 'founder' ? 'page' : undefined}
+        >
+          The Founder
+        </a>
         <a
           href={href('sessions')}
           aria-current={page === 'sessions' ? 'page' : undefined}
@@ -164,53 +177,57 @@ export function SiteNavigation({
         <DialogTrigger className="menu-toggle" aria-label="Open navigation">
           <Menu />
         </DialogTrigger>
-        <DialogContent className="menu-dialog translate-x-0 translate-y-0">
+        <DialogContent
+          className={`menu-dialog ${edition === 'classic' ? 'classic-controls' : ''} translate-x-0 translate-y-0`}
+        >
           <DialogTitle className="sr-only">Vessyl navigation</DialogTitle>
           <DialogDescription className="sr-only">
             Choose a page to explore.
           </DialogDescription>
-          <a
-            href={href()}
-            className={`mobile-brand ${['home', 'stay', 'rancho', 'contact'].includes(page) ? 'joint-mobile' : ''}`}
-            aria-label="Vessyl home"
-          >
-            <img
-              src={asset(
-                ['home', 'stay', 'rancho', 'contact'].includes(page)
-                  ? '/brand/logo-aken-white.svg'
-                  : '/brand/logo-dark.svg',
-              )}
-              alt="Vessyl"
-              width="160"
-              height="32"
-            />
-          </a>
-          <nav aria-label="Mobile navigation">
-            <a href={href('founder')}>The Founder</a>
-            <Accordion
-              defaultValue={['experience']}
-              className="mobile-experience"
+          <div className="menu-dialog-body">
+            <a
+              href={href()}
+              className={`mobile-brand ${jointLogo ? 'joint-mobile' : ''}`}
+              aria-label="Vessyl home"
             >
-              <AccordionItem value="experience">
-                <AccordionTrigger>The Experience</AccordionTrigger>
-                <AccordionContent className="mobile-experience-links">
-                  {spaces.map(([id, label]) => (
-                    <a href={href(id)} key={id}>
-                      {label}
+              <img
+                src={asset(
+                  jointLogo
+                    ? '/brand/logo-aken-white.svg'
+                    : '/brand/logo-dark.svg',
+                )}
+                alt="Vessyl"
+                width="160"
+                height="32"
+              />
+            </a>
+            <nav aria-label="Mobile navigation">
+              <Accordion
+                defaultValue={['experience']}
+                className="mobile-experience"
+              >
+                <AccordionItem value="experience">
+                  <AccordionTrigger>The Experience</AccordionTrigger>
+                  <AccordionContent className="mobile-experience-links">
+                    {spaces.map(([id, label]) => (
+                      <a href={href(id)} key={id}>
+                        {label}
+                      </a>
+                    ))}
+                    <a href={href('experience')}>
+                      Overview <ArrowUpRight size={14} />
                     </a>
-                  ))}
-                  <a href={href('experience')}>
-                    See all four <ArrowUpRight size={14} />
-                  </a>
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-            <a href={href('sessions')}>Sessions</a>
-            <a href={href('press')}>Press</a>
-          </nav>
-          <div className="mobile-actions">
-            {bookAction}
-            {appAction}
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+              <a href={href('founder')}>The Founder</a>
+              <a href={href('sessions')}>Sessions</a>
+              <a href={href('press')}>Press</a>
+            </nav>
+            <div className="mobile-actions">
+              {bookAction}
+              {appAction}
+            </div>
           </div>
         </DialogContent>
       </Dialog>

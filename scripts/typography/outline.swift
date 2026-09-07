@@ -11,26 +11,35 @@ for path in CommandLine.arguments[3...4] {
 func num(_ v:CGFloat)->String {String(format:"%.2f",Double(v))}
 var result:[[String:Any]]=[]
 for job in jobs {
- let text=job["text"] as! String; let size=job["size"] as! Double; let width=job["width"] as! Double
+ let text=job["text"] as! String; let size=job["size"] as! Double; var width=job["width"] as! Double
  let font=CTFontCreateWithName((job["weight"] as! Int == 700 ? "TeluguMN-Bold" : "TeluguMN") as CFString,size,nil)
  let actual=CTFontCopyPostScriptName(font) as String
  guard actual.hasPrefix("TeluguMN") else {fatalError("Wrong font: \(actual)")}
+ if job["preventWordSplit"] as? Bool == true {
+  for word in text.split(whereSeparator: { $0.isWhitespace }) {
+   let wordLine=CTLineCreateWithAttributedString(NSAttributedString(string:String(word),attributes:[NSAttributedString.Key(kCTFontAttributeName as String):font]))
+   width=max(width,ceil(CTLineGetTypographicBounds(wordLine,nil,nil,nil))+8)
+  }
+ }
  let attr=NSAttributedString(string:text,attributes:[NSAttributedString.Key(kCTFontAttributeName as String):font])
  let typesetter=CTTypesetterCreateWithAttributedString(attr);var start=0;var y=CGFloat(size)*1.15;var paths:[String]=[]
  while start<attr.length {
   let count=CTTypesetterSuggestLineBreak(typesetter,start,width-8)
   guard count>0 else {fatalError("Line wrapping failed")}
   let line=CTTypesetterCreateLine(typesetter,CFRange(location:start,length:count))
+  let offset = job["align"] as? String == "center"
+    ? CTLineGetPenOffsetForFlush(line, 0.5, width-8) : 0
   let runs=CTLineGetGlyphRuns(line) as! [CTRun]
   for run in runs {
+   let runFont=(CTRunGetAttributes(run) as NSDictionary)[kCTFontAttributeName] as! CTFont
    let n=CTRunGetGlyphCount(run);var glyphs=[CGGlyph](repeating:0,count:n);var positions=[CGPoint](repeating:.zero,count:n)
    CTRunGetGlyphs(run,CFRange(location:0,length:0),&glyphs);CTRunGetPositions(run,CFRange(location:0,length:0),&positions)
    for i in 0..<n {
-    guard let path=CTFontCreatePathForGlyph(font,glyphs[i],nil) else {continue}
+    guard let path=CTFontCreatePathForGlyph(runFont,glyphs[i],nil) else {continue}
     var d=""; let position = positions[i]
     path.applyWithBlock { item in
      let e=item.pointee;let p=e.points
-     func pt(_ i:Int)->String {num(p[i].x+position.x+4)+" "+num(y-p[i].y-position.y)}
+     func pt(_ i:Int)->String {num(p[i].x+position.x+4+offset)+" "+num(y-p[i].y-position.y)}
      switch e.type {case .moveToPoint:d+="M"+pt(0);case .addLineToPoint:d+="L"+pt(0);case .addQuadCurveToPoint:d+="Q"+pt(0)+" "+pt(1);case .addCurveToPoint:d+="C"+pt(0)+" "+pt(1)+" "+pt(2);case .closeSubpath:d+="Z";@unknown default:break}
     }
     paths.append("<path d=\""+d+"\"/>")

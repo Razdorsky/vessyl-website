@@ -114,16 +114,22 @@
     "sourceSha256": "e7209a82bc03a0e461ea8fbd00b83164d6165b48d7f0969037714269f3a0db5e"
   },
   "founderCta": {
-    "text": "the story behind the vessyl",
+    "text": "The story behind the Vessyl",
     "source": "157:2509",
-    "kind": "exact-node",
-    "sourceSha256": "242cb886d752e2892cb01554faf81a9294b6d1964f5b46903a18876a79271a33"
+    "kind": "capitalization-corrected",
+    "sourceSha256": "242cb886d752e2892cb01554faf81a9294b6d1964f5b46903a18876a79271a33",
+    "sourceText": "the story behind the vessyl",
+    "sourceKind": "exact-node",
+    "editorialChange": "Initial letters and proper names capitalized per user instruction, 2026-09-07."
   },
   "stayCta": {
-    "text": "stay with us",
+    "text": "Stay with us",
     "source": "162:412",
-    "kind": "exact-node",
-    "sourceSha256": "8645ca2778e12050cd127ed4187e618e77bc04cc5be14783b4f85f9e72b366d2"
+    "kind": "capitalization-corrected",
+    "sourceSha256": "8645ca2778e12050cd127ed4187e618e77bc04cc5be14783b4f85f9e72b366d2",
+    "sourceText": "stay with us",
+    "sourceKind": "exact-node",
+    "editorialChange": "Initial letters and proper names capitalized per user instruction, 2026-09-07."
   },
   "book": {
     "text": "Book Now",
@@ -144,16 +150,22 @@
     "sourceSha256": "15733b62d9617f75efd3ebf0f13cce4b60e175a07c84fde2c7c817f28a0dc64b"
   },
   "personalBook": {
-    "text": "book a personal session",
+    "text": "Book a personal session",
     "source": "165:2360",
-    "kind": "exact-node",
-    "sourceSha256": "1705aa0d52af742cbc1302bc77897d684187657414ffa6352eff435ea8f785d6"
+    "kind": "capitalization-corrected",
+    "sourceSha256": "1705aa0d52af742cbc1302bc77897d684187657414ffa6352eff435ea8f785d6",
+    "sourceText": "book a personal session",
+    "sourceKind": "exact-node",
+    "editorialChange": "Initial letters and proper names capitalized per user instruction, 2026-09-07."
   },
   "musicCta": {
-    "text": "explore the vessyl music label",
+    "text": "Explore the Vessyl music label",
     "source": "157:1637",
-    "kind": "exact-node",
-    "sourceSha256": "8454ef6b6cd1c97da30d50b49e650a2fe414c5147a59e4401c668f2743d53919"
+    "kind": "capitalization-corrected",
+    "sourceSha256": "8454ef6b6cd1c97da30d50b49e650a2fe414c5147a59e4401c668f2743d53919",
+    "sourceText": "explore the vessyl music label",
+    "sourceKind": "exact-node",
+    "editorialChange": "Initial letters and proper names capitalized per user instruction, 2026-09-07."
   },
   "hospitality": {
     "text": "Hospitality",
@@ -162,10 +174,13 @@
     "sourceSha256": "fb6cd373360f7179eae047a92301edadfe01b9cdf64f037344702bc3b3d0ef4f"
   },
   "culinary": {
-    "text": "culinary experience",
+    "text": "Culinary experience",
     "source": "165:1999",
-    "kind": "exact-node",
-    "sourceSha256": "3b5755f8c6e3da48dac4e54365bbfcd8e3fa57f85d19eacf9ba238ccc04baf12"
+    "kind": "capitalization-corrected",
+    "sourceSha256": "3b5755f8c6e3da48dac4e54365bbfcd8e3fa57f85d19eacf9ba238ccc04baf12",
+    "sourceText": "culinary experience",
+    "sourceKind": "exact-node",
+    "editorialChange": "Initial letters and proper names capitalized per user instruction, 2026-09-07."
   },
   "quoteAuthor": {
     "text": "Josh Stanley",
@@ -180,16 +195,22 @@
     "sourceSha256": "352cfc749e55222e135ee48e67631ba33f834d936c137560fd39063d2e57e5cb"
   },
   "domeSession": {
-    "text": "dome sessions",
+    "text": "Dome sessions",
     "source": "157:1689",
-    "kind": "exact-node",
-    "sourceSha256": "6964706494f8562893906fd32166e2dadc7e9e96e2f11b2bacf1eb0ab784caf6"
+    "kind": "capitalization-corrected",
+    "sourceSha256": "6964706494f8562893906fd32166e2dadc7e9e96e2f11b2bacf1eb0ab784caf6",
+    "sourceText": "dome sessions",
+    "sourceKind": "exact-node",
+    "editorialChange": "Initial letters and proper names capitalized per user instruction, 2026-09-07."
   },
   "hearthSession": {
-    "text": "harmonic hearth sessions",
+    "text": "Harmonic Hearth sessions",
     "source": "157:2130",
-    "kind": "exact-node",
-    "sourceSha256": "bec5973500eaffb85806b932b08393c4871d853e68976265876c40812fecaf49"
+    "kind": "capitalization-corrected",
+    "sourceSha256": "bec5973500eaffb85806b932b08393c4871d853e68976265876c40812fecaf49",
+    "sourceText": "harmonic hearth sessions",
+    "sourceKind": "exact-node",
+    "editorialChange": "Initial letters and proper names capitalized per user instruction, 2026-09-07."
   },
   "studio": {
     "text": "The Recording Studio",
@@ -240,16 +261,22 @@
     "sourceSha256": "a6fba74c512b92808073bac4c0aec6c754137fae35b825ceff06bd0419d2c2c4"
   },
   "arrival": {
-    "text": "the location",
+    "text": "The location",
     "source": "157:1179",
-    "kind": "exact-node",
-    "sourceSha256": "bc7d0b4a032ac98ead4d1700b4cfd23876bb3993e2482b1107c45c4ccee93783"
+    "kind": "capitalization-corrected",
+    "sourceSha256": "bc7d0b4a032ac98ead4d1700b4cfd23876bb3993e2482b1107c45c4ccee93783",
+    "sourceText": "the location",
+    "sourceKind": "exact-node",
+    "editorialChange": "Initial letters and proper names capitalized per user instruction, 2026-09-07."
   },
   "digital": {
-    "text": "digital experience",
+    "text": "Digital experience",
     "source": "157:1160",
-    "kind": "exact-node",
-    "sourceSha256": "aa82de93b6ec718db2413478a5283242272b1132b76f92519e63774eaf97930c"
+    "kind": "capitalization-corrected",
+    "sourceSha256": "aa82de93b6ec718db2413478a5283242272b1132b76f92519e63774eaf97930c",
+    "sourceText": "digital experience",
+    "sourceKind": "exact-node",
+    "editorialChange": "Initial letters and proper names capitalized per user instruction, 2026-09-07."
   },
   "soul": {
     "text": "Quantum Soul Session",
@@ -348,10 +375,13 @@
     "sourceSha256": "ebee5fcf2685faff8912b366d080821361bee1d4486e5d83143d84e5630f83b8"
   },
   "appGoogle": {
-    "text": "download google",
+    "text": "Download Google",
     "source": "165:1949",
-    "kind": "exact-node",
-    "sourceSha256": "fc4d1928566f828e6686196241b2d843f8743f3432809408eab8d51aaec79737"
+    "kind": "capitalization-corrected",
+    "sourceSha256": "fc4d1928566f828e6686196241b2d843f8743f3432809408eab8d51aaec79737",
+    "sourceText": "download google",
+    "sourceKind": "exact-node",
+    "editorialChange": "Initial letters and proper names capitalized per user instruction, 2026-09-07."
   },
   "homeIntro": {
     "text": "The Vessyl is an immersive wellness destination located on 118 acres of tropical rainforest near the Arenal Volcano in La Fortuna, Costa Rica. Founded by Charlotte's Web co-founder Josh Stanley and developed in partnership with AKEN Hotels & Resorts, The Vessyl combines sound, nature, restorative experiences, and intentional community to support presence, recovery, and meaningful human connection.",
@@ -474,10 +504,13 @@
     "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
   },
   "fractalsIntro": {
-    "text": "these immersive journeys combine mesmerizing fractal worlds with surround sound and vibration to create a deeply meditative, trance-like experience.",
+    "text": "These immersive journeys combine mesmerizing fractal worlds with surround sound and vibration to create a deeply meditative, trance-like experience.",
     "source": "69:342",
-    "kind": "verbatim-excerpt",
-    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+    "kind": "capitalization-corrected",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720",
+    "sourceText": "these immersive journeys combine mesmerizing fractal worlds with surround sound and vibration to create a deeply meditative, trance-like experience.",
+    "sourceKind": "verbatim-excerpt",
+    "editorialChange": "Initial letters and proper names capitalized per user instruction, 2026-09-07."
   },
   "voicesIntro": {
     "text": "Voices in the Dark immerses you in a pitch-black journey featuring indigenous songs, prayers, chants, and sacred vocal traditions from cultures around the world, enhanced by surround sound and full-body vibration.",
@@ -1107,10 +1140,13 @@
     "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
   },
   "mobilityIntro": {
-    "text": "dynamic mobility exercises and active meditation techniques, completely enveloped by immersive 4K visuals, ambient surround sound, and a vibrating floor that anchors your awareness into the body.",
+    "text": "Dynamic mobility exercises and active meditation techniques, completely enveloped by immersive 4K visuals, ambient surround sound, and a vibrating floor that anchors your awareness into the body.",
     "source": "69:342",
-    "kind": "verbatim-excerpt",
-    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+    "kind": "capitalization-corrected",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720",
+    "sourceText": "dynamic mobility exercises and active meditation techniques, completely enveloped by immersive 4K visuals, ambient surround sound, and a vibrating floor that anchors your awareness into the body.",
+    "sourceKind": "verbatim-excerpt",
+    "editorialChange": "Initial letters and proper names capitalized per user instruction, 2026-09-07."
   },
   "worlds": {
     "text": "Worlds Beyond Earth + Voices in the Dark",
@@ -1162,5 +1198,166 @@
     "text": "As seen in",
     "source": "548:515",
     "kind": "exact-node"
+  },
+  "twoDoors": {
+    "text": "Two doors, one experience",
+    "source": "548:638",
+    "kind": "exact-node",
+    "sourceSha256": "28e590079b4d4be4b547d0c70522a0d3276a64e1122a81fbb06ac6aebf497797",
+    "authority": "User explicitly restored the combined Two doors composition from Design direction on 2026-09-07; other site copy retains Context and Sitemap priority."
+  },
+  "twoDoorsIntro": {
+    "text": "The volcano is one way. Your phone is another.",
+    "source": "548:639",
+    "kind": "exact-node",
+    "sourceSha256": "b2e92267258d7debf706d0b8e02c7f503ca2499272dd74f0e2183a3c83c605fa",
+    "authority": "User explicitly restored the combined Two doors composition from Design direction on 2026-09-07; other site copy retains Context and Sitemap priority."
+  },
+  "inPerson": {
+    "text": "In person",
+    "source": "548:643",
+    "kind": "capitalization-corrected",
+    "sourceSha256": "d36e268672a0aec66db0ba2525a665d3998a46a0b9f1c473019595ce560ece53",
+    "authority": "User explicitly restored the combined Two doors composition from Design direction on 2026-09-07; other site copy retains Context and Sitemap priority.",
+    "sourceText": "in person"
+  },
+  "stayCostaRica": {
+    "text": "Stay with us in Costa Rica",
+    "source": "548:644",
+    "kind": "exact-node",
+    "sourceSha256": "9f80b22aa9fd96ee2159b4a3618a05f70dce182247c3d64b24f14af1c5651f36",
+    "authority": "User explicitly restored the combined Two doors composition from Design direction on 2026-09-07; other site copy retains Context and Sitemap priority."
+  },
+  "fromAnywhere": {
+    "text": "From anywhere",
+    "source": "548:650",
+    "kind": "capitalization-corrected",
+    "sourceSha256": "036eded7f242cd070a6456c8649890a57d48505458febb3ff55bdcb4901b18ce",
+    "authority": "User explicitly restored the combined Two doors composition from Design direction on 2026-09-07; other site copy retains Context and Sitemap priority.",
+    "sourceText": "from anywhere"
+  },
+  "sessionsPocket": {
+    "text": "The sessions, in your pocket.",
+    "source": "548:651",
+    "kind": "exact-node",
+    "sourceSha256": "312ea980b04c80be6116314972690d00aba26116f0d23131c1ec8009976dd577",
+    "authority": "User explicitly restored the combined Two doors composition from Design direction on 2026-09-07; other site copy retains Context and Sitemap priority."
+  },
+  "downloadTheApp": {
+    "text": "Download the app",
+    "source": "548:653",
+    "kind": "capitalization-corrected",
+    "sourceSha256": "494f3e79a64760e7da8bcf0bb841213b92a74712f8858a8afdf022523bfefd19",
+    "authority": "User explicitly restored the combined Two doors composition from Design direction on 2026-09-07; other site copy retains Context and Sitemap priority.",
+    "sourceText": "download the app"
+  },
+  "closingPresence": {
+    "text": "Sound, frequency, and presence, on a volcano in Costa Rica.",
+    "source": "548:658",
+    "kind": "exact-node",
+    "sourceSha256": "22a58ee23e22fb12bd0103362035882ff573883ae28970e32defdb0f3b99fe4f",
+    "authority": "User explicitly restored the combined Two doors composition from Design direction on 2026-09-07; other site copy retains Context and Sitemap priority."
+  },
+  "homeOrigins": {
+    "text": "Founded by Charlotte's Web co-founder Josh Stanley and developed in partnership with AKEN Hotels & Resorts, The Vessyl combines sound, nature, restorative experiences, and intentional community to support presence, recovery, and meaningful human connection.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "founderBioLead": {
+    "text": "Josh Stanley is an entrepreneur, wellness innovator, and co-founder of Charlotte's Web, the pioneering company widely recognized for helping bring CBD into the mainstream conversation in the United States.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "founderBrothers": {
+    "text": "Alongside his brothers, Stanley helped break open the CBD industry, transforming a once misunderstood category into one of the fastest-growing sectors in modern wellness.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "founderPhilosophy": {
+    "text": "Stanley's philosophy is rooted in the understanding that wellbeing extends beyond physical health.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "founderVision": {
+    "text": "The Vessyl was inspired by founder Josh Stanley's personal journey and a deep conviction that experiences often associated with inner exploration deserved a physical place in the world. Designed as a destination for connection, reflection, and restoration, The Vessyl brings together nature, wellness, and community in a setting intended to support meaningful transformation.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "founderQuote": {
+    "text": "People are overwhelmed, disconnected, anxious, and craving something real. The Vessyl was built to bring people back to nature, to community, to presence, and to themselves.",
+    "source": "74:534",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "fdc0f363d4d57ab7b3c0bb45e9cad8e3de1e6340f20e199203e6251e59d51443"
+  },
+  "founderOpening": {
+    "text": "The Vessyl was inspired by founder Josh Stanley's personal journey and a deep conviction that experiences often associated with inner exploration deserved a physical place in the world. Stanley's philosophy is rooted in the understanding that wellbeing extends beyond physical health.",
+    "source": "user:2026-09-07:founder-editorial-sequence",
+    "kind": "user-approved-copy",
+    "sourceSha256": "6149a52a9ad282a3d3847de26da851066400d60980399f279275e19702e81837",
+    "derivedFrom": ["69:340"],
+    "authority": "Verbatim user-supplied copy and order, superseding earlier Founder wording and placement."
+  },
+  "founderProfileLead": {
+    "text": "An entrepreneur, wellness innovator, and co-founder of Charlotte's Web, the pioneering company widely recognized for helping bring CBD into the mainstream conversation in the United States.",
+    "source": "user:2026-09-07:founder-editorial-sequence",
+    "kind": "user-approved-copy",
+    "sourceSha256": "6149a52a9ad282a3d3847de26da851066400d60980399f279275e19702e81837",
+    "derivedFrom": ["69:340"],
+    "authority": "Verbatim user-supplied copy and order, superseding earlier Founder wording and placement."
+  },
+  "founderExplorationIntro": {
+    "text": "Through years of work at the intersection of health, entrepreneurship, and human potential, Stanley became increasingly interested in a broader question:",
+    "source": "user:2026-09-07:founder-editorial-sequence",
+    "kind": "user-approved-copy",
+    "sourceSha256": "6149a52a9ad282a3d3847de26da851066400d60980399f279275e19702e81837",
+    "derivedFrom": ["69:340"],
+    "authority": "Verbatim user-supplied copy and order, superseding earlier Founder wording and placement."
+  },
+  "founderExplorationQuestion": {
+    "text": "How do people cultivate resilience, presence, and meaningful connection in a rapidly changing world? That exploration ultimately led to the creation of Vessyl.",
+    "source": "user:2026-09-07:founder-editorial-sequence",
+    "kind": "user-approved-copy",
+    "sourceSha256": "6149a52a9ad282a3d3847de26da851066400d60980399f279275e19702e81837",
+    "derivedFrom": ["69:340"],
+    "authority": "Verbatim user-supplied copy and order, superseding earlier Founder wording and placement."
+  },
+  "founderDestination": {
+    "text": "Designed as a destination for connection, reflection, and restoration, The Vessyl brings together nature, wellness, and community in a setting intended to support meaningful transformation.",
+    "source": "user:2026-09-07:founder-editorial-sequence",
+    "kind": "user-approved-copy",
+    "sourceSha256": "6149a52a9ad282a3d3847de26da851066400d60980399f279275e19702e81837",
+    "derivedFrom": ["69:340"],
+    "authority": "Verbatim user-supplied copy and order, superseding earlier Founder wording and placement."
+  },
+  "guidesExpertiseIntro": {
+    "text": "Areas of expertise include: Breathwork; Quantum Self Sessions; Human Design, Numerology, Astrology, i-Ching; Meditation and mindfulness; Yoga; Sound Bowl Healing; Tuning Fork Healing; Cold plunge facilitation; Integrative wellness practices; Movement and restorative experiences.",
+    "source": "69:340",
+    "kind": "format-adapted-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87",
+    "sourceText": "Areas of expertise include:\nBreathwork\nQuantum  Self Sessions\nHuman Design, Numerology, Astrology, i-Ching\nMeditation and mindfulness\nYoga\nSound Bowl Healing\nTuning Fork Healing\nCold plunge facilitation\nIntegrative wellness practices\nMovement and restorative experiences  \n",
+    "editorialChange": "Preserve every item and its wording from the PRACTITIONERS & GUIDES expertise list; normalize whitespace, replace line breaks with semicolons, and add a closing period for the Sessions paragraph. User requires replacement of duplicated prose without leaving its block empty."
+  },
+  "homeApproach": {
+    "text": "Developed in partnership with AKEN Hotels & Resorts, Vessyl offers a contemporary approach to wellbeing rooted in the belief that healing should feel alive.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "quantumApproach": {
+    "text": "Beyond the Dome, Vessyl's programming draws inspiration from both time-honored traditions and contemporary approaches to wellbeing.",
+    "source": "66:341",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "87c083093a7afcd2bbf82469fa4df35062595197786269eb8f2e0b5171f62cef"
+  },
+  "stayAccommodation": {
+    "text": "The resort accommodates just 33 guests at a time across six private villas, a signature treehouse, and seven thoughtfully appointed glamping tents, creating an intimate setting where rest and reflection can happen naturally.",
+    "source": "66:341",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "87c083093a7afcd2bbf82469fa4df35062595197786269eb8f2e0b5171f62cef"
   }
 }

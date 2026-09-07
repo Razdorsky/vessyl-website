@@ -70,7 +70,7 @@ export const practices: Practice[] = [
   ['worlds', 'worlds', 'Quantum', 'dome-interior', 'worldsIntro'],
   ['vibrational-yoga', 'vibrational', 'Wellness', 'yoga', 'vibrationalIntro'],
   ['mobility', 'mobility', 'Wellness', 'meditation', 'mobilityIntro'],
-  ['hearth', 'hearth', 'Wellness', 'nature-waterfall', 'hearthIntro'],
+  ['hearth', 'hearth', 'Wellness', 'hearth', 'hearthIntro'],
   ['bodywork', 'bodyTreatments', 'Wellness', 'massage', 'bodyTreatmentsIntro'],
 
   ['quantum-self', 'soul', 'Quantum', 'session', 'quantumIntro'],

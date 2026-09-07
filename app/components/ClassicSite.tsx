@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect, type ReactNode } from 'react';
+import { useState, useEffect, useRef, type ReactNode } from 'react';
 import {
   ArrowDown,
   ArrowUpRight,
@@ -36,6 +36,7 @@ import { copy as c, type CopyKey } from '../../lib/copy';
 import { Heading } from './Typography';
 import { PressMarks } from './PressMarks';
 import { AutoHeight } from './MotionPrimitives';
+import { EditorialFilm } from './EditorialFilm';
 import {
   Photo,
   LinkArrow,
@@ -48,7 +49,6 @@ export function ClassicSite({ page }: { page: string }) {
   const edition = 'classic';
   const href = (p = 'home') =>
     `${basePath}/${edition}/${p === 'home' ? '' : `${p}/`}`;
-  const immersive = false;
   useEffect(() => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const observer = new IntersectionObserver(
@@ -76,11 +76,19 @@ export function ClassicSite({ page }: { page: string }) {
   }, [page]);
   const [selected, setSelected] = useState<Practice | null>(null);
   const [practiceOpen, setPracticeOpen] = useState(false);
+  const practiceDialog = useRef<HTMLDivElement>(null);
   const [layer, setLayer] = useState('sound');
   const text = (key: CopyKey) => <p data-copy={key}>{c(key)}</p>;
-  const heading = (key: CopyKey, light = false) => (
-    <Heading text={c(key)} light={light} />
+  const heading = (key: CopyKey, light = false, centered = false) => (
+    <Heading
+      text={c(key)}
+      light={light}
+      align={centered ? 'center' : undefined}
+    />
   );
+  const hasSplitHeroPhoto = (image: string) =>
+    page !== 'sessions' &&
+    ['massage', 'session', 'equine-bond', 'pool', 'dining'].includes(image);
   const hero = (
     key: CopyKey,
     body: CopyKey | null,
@@ -88,13 +96,26 @@ export function ClassicSite({ page }: { page: string }) {
     compact = false,
   ) => (
     <section
-      className={`page-hero ${compact ? 'compact-hero' : ''} ${['massage', 'session', 'equine-bond', 'pool', 'dining'].includes(image) ? 'people-hero' : ''}`}
+      className={`page-hero ${compact ? 'compact-hero' : ''} ${hasSplitHeroPhoto(image) ? 'people-hero' : ''}`}
     >
-      <Photo id={image} eager className="hero-photo" alt={pageTitles[page]} />
+      <Photo
+        id={image}
+        eager
+        className="hero-photo"
+        alt={pageTitles[page]}
+        sizes={
+          page === 'sessions' ? '(max-width: 820px) 1600px, 100vw' : undefined
+        }
+      />
       <div className="hero-shade" />
       <div className="page-hero-copy">
-        <span className="eyebrow light">{c('locationIntro')}</span>
-        <Heading as="h1" text={c(key)} light />
+        <Heading
+          as="h1"
+          weight="bold"
+          text={c(key)}
+          light
+          align={hasSplitHeroPhoto(image) ? undefined : 'center'}
+        />
         {body && text(body)}
       </div>
     </section>
@@ -103,11 +124,11 @@ export function ClassicSite({ page }: { page: string }) {
     title: CopyKey,
     bodies: CopyKey[],
     link?: [string, CopyKey],
+    showTitle = title !== page,
   ) => (
     <section className="intro-section">
-      <span className="eyebrow">{pageTitles[page]}</span>
       <div>
-        {heading(title)}
+        {showTitle && heading(title, false, true)}
         <div className="intro-body">
           {bodies.map((key) => (
             <p key={key} data-copy={key}>
@@ -115,7 +136,9 @@ export function ClassicSite({ page }: { page: string }) {
             </p>
           ))}
         </div>
-        {link && <LinkArrow href={href(link[0])}>{c(link[1])}</LinkArrow>}
+        {link && link[0] !== page && (
+          <LinkArrow href={href(link[0])}>{c(link[1])}</LinkArrow>
+        )}
       </div>
     </section>
   );
@@ -128,9 +151,12 @@ export function ClassicSite({ page }: { page: string }) {
             <span className="image-arrow">
               <ArrowUpRight size={23} />
             </span>
-            <span className="image-number">{e.number}</span>
           </div>
-          <Heading as="h3" text={e.name} />
+          <Heading
+            as={page === 'experience' ? 'h2' : 'h3'}
+            visualStyle="h3"
+            text={e.name}
+          />
         </a>
       ))}
     </div>
@@ -153,16 +179,24 @@ export function ClassicSite({ page }: { page: string }) {
             </span>
           </div>
           <span className="eyebrow">{item.category}</span>
-          <Heading as="h3" text={item.title} />
+          <Heading
+            as={
+              ['sessions', 'quantum', 'wellness'].includes(page) ? 'h2' : 'h3'
+            }
+            visualStyle="h3"
+            text={item.title}
+          />
           <p>{item.intro}</p>
         </button>
       ))}
     </div>
   );
   const sessions = (
-    <section className="session-cta section">
+    <section
+      className={`session-cta section${page === 'experience' ? ' facilitators-pattern pattern-panel' : ''}`}
+    >
+      {page === 'experience' && <Pattern tone="paper" variant="fans" />}
       <div>
-        <span className="eyebrow">{c('sessions')}</span>
         {heading('guidesCta')}
         {text('guidesIntro')}
         <LinkArrow href={href('sessions')}>{c('sessionCta')}</LinkArrow>
@@ -172,26 +206,44 @@ export function ClassicSite({ page }: { page: string }) {
       </div>
     </section>
   );
-  const app = (
-    <section className="app-cta section pattern-panel">
-      <Pattern kind="fans" />
-      <div className="app-graphic" aria-hidden="true" />
-      <div>
-        <span className="eyebrow light">{c('digital')}</span>
-        {heading('appHeadline', true)}
-        {text('appIntro')}
-        <LinkArrow href={href('app')} button light>
-          {c('download')}
-        </LinkArrow>
+  const hasTwoDoors = page === 'home' || page === 'experience';
+  const twoDoors = (
+    <section className="two-doors section pattern-panel">
+      <Pattern tone="forest" />
+      <div className="two-doors-content">
+        <div className="two-doors-heading">
+          {heading('twoDoors', true)}
+          {text('twoDoorsIntro')}
+        </div>
+        <div className="two-doors-options">
+          <div className="two-doors-option">
+            <span className="eyebrow">{c('inPerson')}</span>
+            <Heading as="h3" text={c('stayCostaRica')} light />
+            <LinkArrow href={BOOKING} button light external>
+              {c('bookStay')}
+            </LinkArrow>
+          </div>
+          <div className="two-doors-option">
+            <span className="eyebrow">{c('fromAnywhere')}</span>
+            <Heading as="h3" text={c('sessionsPocket')} light />
+            <LinkArrow href={href('app')} button light>
+              {c('downloadTheApp')}
+            </LinkArrow>
+          </div>
+        </div>
       </div>
     </section>
   );
-  const quote = (
-    <section className="quote-section pattern-panel">
-      <Pattern />
-      <Heading as="blockquote" text={c('quote')} />
+  const quote = (key: CopyKey, tone: 'paper' | 'copper' = 'paper') => (
+    <section className={`quote-section quote-${tone} pattern-panel`}>
+      <Pattern tone={tone} />
+      <Heading
+        as="blockquote"
+        text={c(key)}
+        align="center"
+        light={tone === 'copper'}
+      />
       <span className="eyebrow">{c('quoteAuthor')}</span>
-      <LinkArrow href={href('founder')}>{c('founderCta')}</LinkArrow>
     </section>
   );
   const gallery = (images: [string, CopyKey][], title: CopyKey = 'gallery') => (
@@ -203,31 +255,33 @@ export function ClassicSite({ page }: { page: string }) {
   const story = (
     image: string,
     title: CopyKey,
-    body: CopyKey,
+    body: CopyKey | null,
     link?: [string, CopyKey],
   ) => (
     <section className="split-editorial section photo-bridge">
       <Photo id={image} alt={c(title)} />
       <div>
-        {heading(title)}
-        {text(body)}
-        {link && <LinkArrow href={href(link[0])}>{c(link[1])}</LinkArrow>}
+        {title !== page && heading(title)}
+        {body && text(body)}
+        {link && link[0] !== page && (
+          <LinkArrow href={href(link[0])}>{c(link[1])}</LinkArrow>
+        )}
       </div>
     </section>
   );
   const location = (
     <section className="arrival-section section pattern-panel">
-      <Pattern kind="fans" />
+      <Pattern />
       <MapPin size={26} />
       <span className="eyebrow">{c('arrival')}</span>
-      {heading('locationIntro')}
+      {heading('locationIntro', false, true)}
       <div className="three-columns travel-columns">
         <article>
-          <Heading as="h3" text={c('drivingSjo')} />
+          <Heading as="h3" text={c('drivingSjo')} align="center" />
           {text('travelSjo')}
         </article>
         <article>
-          <Heading as="h3" text={c('drivingLir')} />
+          <Heading as="h3" text={c('drivingLir')} align="center" />
           {text('travelLir')}
         </article>
         <article>{text('flights')}</article>
@@ -243,43 +297,68 @@ export function ClassicSite({ page }: { page: string }) {
       <>
         <section className="home-hero">
           <Photo
-            id="hero-arenal"
+            id="hero-design-direction"
             alt={c('locationIntro')}
             eager
             className="hero-photo"
           />
           <div className="hero-shade" />
           <div className="hero-copy">
-            <span className="eyebrow light">{c('home')}</span>
-            <Heading as="h1" text={c('homeHeadline')} light />
-            {text('homeShort')}
+            <Heading
+              as="h1"
+              weight="bold"
+              align="center"
+              text={c('homeHeadline')}
+              light
+            />
+            {text('homeApproach')}
             <LinkArrow href={href('experience')} button light>
               {c('discover')}
             </LinkArrow>
           </div>
-          <div className="hero-bottom">
-            <a href="#introduction">
-              <ArrowDown size={16} />
-              {c('ui.scroll')}
-            </a>
-            <span>{c('locationIntro')}</span>
-          </div>
         </section>
         <div id="introduction" className="pattern-panel">
-          <Pattern />
-          {intro('home', ['homeIntro'])}
+          <Pattern tone="forest" />
+          <section className="intro-section home-introduction">
+            <div>
+              <Heading
+                as="h3"
+                text={c('homeShort').trim()}
+                light
+                align="center"
+              />
+              <div className="intro-body">{text('homeOrigins')}</div>
+            </div>
+          </section>
         </div>
         <div className="founder-bridge">
           {story('founder', 'founder', 'founderWhy', ['founder', 'founderCta'])}
         </div>
         <PressMarks />
-        <section className="dome-feature">
+        <section className="dome-feature home-dome-feature">
           <div className="dome-feature-image">
-            <Photo id="dome-interior" alt={c('dome')} />
+            <Photo id="dome-design-direction" alt={c('dome')} sizes="121vw" />
           </div>
+          <img
+            className="dome-echo"
+            src={asset('/brand/dome-echo.svg')}
+            width="1440"
+            height="810"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          />
           <div className="dome-feature-copy">
-            <span className="eyebrow light">{c('experience')}</span>
-            {heading('dome', true)}
+            <img
+              className="dome-brand-mark"
+              src={asset('/brand/dome-symbol.svg')}
+              width="70"
+              height="70"
+              alt=""
+              aria-hidden="true"
+              loading="lazy"
+            />
+            {heading('dome', true, true)}
             {text('domeIntro')}
             <LinkArrow href={href('dome')} button light>
               {c('learn')}
@@ -291,40 +370,66 @@ export function ClassicSite({ page }: { page: string }) {
           <div className="section-heading">{heading('experience')}</div>
           {cards}
         </section>
-        {story('food', 'rancho', 'ranchoIntro', ['rancho', 'learn'])}
-        {quote}
-        {sessions}
-        {app}
+        <div className="home-quote-sequence">
+          {story('food', 'rancho', 'ranchoIntro', ['rancho', 'learn'])}
+          {quote('quote', 'copper')}
+          {sessions}
+        </div>
+        <EditorialFilm name="main" />
+        {twoDoors}
       </>
     );
   else if (page === 'founder')
     content = (
       <>
-        {hero('founder', 'founderIntro', 'nature')}
+        {hero('founder', 'founderOpening', 'nature')}
         <div className="founder-bridge founder-portrait-story">
-          {story('founder', 'quoteAuthor', 'founderWhy')}
+          <section className="split-editorial section photo-bridge">
+            <Photo id="founder" alt={c('quoteAuthor')} />
+            <div className="founder-profile-copy">
+              {heading('quoteAuthor')}
+              {text('founderProfileLead')}
+              {text('founderBrothers')}
+            </div>
+          </section>
         </div>
         <PressMarks />
-        {intro('quoteAuthor', [
-          'founderStory',
-          'founderQuestion',
-          'founderNext',
-        ])}
-        <Film autoPlay />
-        {quote}
-        {story('dome-exterior', 'press', 'founderWhy', ['press', 'news'])}
+        <section className="intro-section founder-biography">
+          <div>
+            <Heading
+              as="h3"
+              text={c('founderExplorationIntro')}
+              align="center"
+            />
+            <div className="intro-body">
+              {text('founderExplorationQuestion')}
+              {text('founderNext')}
+              {text('founderDestination')}
+            </div>
+          </div>
+        </section>
+        <EditorialFilm name="founder" />
+        {quote('founderQuote')}
+        {story('dome-exterior', 'press', null, ['press', 'news'])}
       </>
     );
   else if (page === 'experience')
     content = (
       <>
         {hero('experience', 'homeShort', 'hero-arenal')}
-        {intro('experience', ['choiceIntro'])}
-        <section className="section experience-section">{cards}</section>
+        <section className="section experience-section choice-section">
+          <Heading
+            as="h2"
+            visualStyle="h3"
+            text={c('choiceIntro')}
+            align="center"
+          />
+          {cards}
+        </section>
         {story('table', 'rancho', 'ranchoSoul', ['rancho', 'learn'])}
         {sessions}
         {story('dome-interior', 'music', 'musicIntro', ['music', 'musicCta'])}
-        {app}
+        {twoDoors}
       </>
     );
   else if (page === 'dome')
@@ -336,8 +441,7 @@ export function ClassicSite({ page }: { page: string }) {
             <Photo id="dome-detail" alt={c('dome')} />
           </div>
           <div className="sensory-copy">
-            <span className="eyebrow light">{c('technology')}</span>
-            {heading('dome', true)}
+            {heading('technology', true)}
             <Tabs value={layer} onValueChange={(v) => setLayer(String(v))}>
               <TabsList className="sensory-tabs" aria-label={c('technology')}>
                 <TabsTrigger value="sound">{c('audio')}</TabsTrigger>
@@ -369,9 +473,8 @@ export function ClassicSite({ page }: { page: string }) {
           ['dome-practice', 'sessions'],
         ])}
         <section className="music-strip section pattern-panel">
-          <Pattern kind="wave" />
-          <span className="eyebrow">{c('music')}</span>
-          {heading('studio')}
+          <Pattern />
+          {heading('studio', false, true)}
           {text('studioIntro')}
           {text('studioDetail')}
           <LinkArrow href={href('music')}>{c('musicCta')}</LinkArrow>
@@ -383,9 +486,8 @@ export function ClassicSite({ page }: { page: string }) {
       <>
         {hero('hearth', 'hearthIntro', 'hearth')}
         <section className="hearth-section section pattern-panel">
-          <Pattern kind="wave" />
+          <Pattern tone="copper" />
           <div>
-            <span className="eyebrow light">{c('hearthSession')}</span>
             {heading('hydro', true)}
             {text('hydroIntro')}
             <LinkArrow href={href('facilitators')}>{c('guidesCta')}</LinkArrow>
@@ -397,11 +499,12 @@ export function ClassicSite({ page }: { page: string }) {
         <section className="section">
           {practiceCards(
             practices.filter((p) =>
-              ['hydro', 'breathwork', 'hearth'].includes(p.id),
+              ['breathwork', 'vibrational-yoga', 'qi-chai'].includes(p.id),
             ),
           )}
         </section>
         {gallery([
+          ['hearth', 'hearth'],
           ['nature-waterfall', 'waterfalls'],
           ['nature', 'natureWalk'],
         ])}
@@ -433,11 +536,16 @@ export function ClassicSite({ page }: { page: string }) {
       <>
         {hero(
           page as CopyKey,
-          page === 'quantum' ? 'quantumIntro' : 'guidesIntro',
+          page === 'quantum' ? 'quantumApproach' : 'guidesIntro',
           page === 'quantum' ? 'session' : 'massage',
         )}
-        {intro('sessions', ['choiceIntro'])}
-        <section className="section sessions-section">
+        <section className="section sessions-section choice-section">
+          <Heading
+            as={page === 'sessions' ? 'h3' : 'h2'}
+            visualStyle="h3"
+            text={c('choiceIntro')}
+            align="center"
+          />
           <Tabs
             defaultValue={
               page === 'quantum'
@@ -448,9 +556,8 @@ export function ClassicSite({ page }: { page: string }) {
             }
           >
             <div className="session-filter">
-              <span className="eyebrow">{c('sessionCta')}</span>
               <TabsList className="filter-tabs" aria-label={c('sessions')}>
-                {['All', 'Quantum', 'Wellness'].map((t) => (
+                {['All', 'Wellness', 'Quantum'].map((t) => (
                   <TabsTrigger value={t} key={t}>
                     {t === 'All' ? c('ui.all') : t}
                   </TabsTrigger>
@@ -458,7 +565,7 @@ export function ClassicSite({ page }: { page: string }) {
               </TabsList>
             </div>
             <AutoHeight>
-              {['All', 'Quantum', 'Wellness'].map((t) => (
+              {['All', 'Wellness', 'Quantum'].map((t) => (
                 <TabsContent value={t} key={t}>
                   {practiceCards(
                     t === 'All'
@@ -469,9 +576,9 @@ export function ClassicSite({ page }: { page: string }) {
               ))}
             </AutoHeight>
           </Tabs>
-          <p className="small-note">{c('ui.enquiryNote')}</p>
         </section>
-        {story('session', 'facilitators', 'guidesIntro', [
+        {page === 'sessions' && <EditorialFilm name="sessions" />}
+        {story('session', 'facilitators', 'guidesExpertiseIntro', [
           'facilitators',
           'guidesCta',
         ])}
@@ -481,7 +588,6 @@ export function ClassicSite({ page }: { page: string }) {
     content = (
       <>
         {hero('stay', 'stayIntro', 'pool')}
-        {intro('rooms', ['stayIntro'])}
         <section className="section stay-options">
           <Tabs defaultValue="suite">
             <div className="section-heading">
@@ -493,15 +599,15 @@ export function ClassicSite({ page }: { page: string }) {
             </div>
             <AutoHeight>
               {[
-                ['suite', 'Pulse Suite'],
-                ['villa', 'Pulse Villa'],
+                ['suite', c('roomConcept') + ' 01'],
+                ['villa', c('roomConcept') + ' 02'],
               ].map(([id, name]) => (
                 <TabsContent value={id} key={id}>
                   <div className="room-feature">
                     <Photo id={id} alt={name} />
                     <div>
-                      <span className="eyebrow">{c('stay')}</span>
-                      <Heading as="h3" text={c('rooms')} />
+                      {heading('roomConcept')}
+                      {text('stayAccommodation')}
                       <LinkArrow href={BOOKING} button external>
                         {c('bookStay')}
                       </LinkArrow>
@@ -537,10 +643,16 @@ export function ClassicSite({ page }: { page: string }) {
   else if (page === 'app')
     content = (
       <>
-        <section className="digital-hero section">
+        <section className="digital-hero section pattern-panel">
+          <Pattern tone="forest" />
           <div>
-            <span className="eyebrow light">{c('app')}</span>
-            <Heading as="h1" text={c('appHeadline')} light />
+            <Heading
+              as="h1"
+              weight="bold"
+              align="center"
+              text={c('appHeadline')}
+              light
+            />
             {text('appIntro')}
             <div className="store-actions">
               <button
@@ -562,20 +674,15 @@ export function ClassicSite({ page }: { page: string }) {
               {c('ui.waitlist')}
             </LinkArrow>
           </div>
-          <div className="digital-symbol">
-            <div className="app-artwork">
-              <Pattern kind="fans" />
-            </div>
-          </div>
         </section>
         {intro('appDoor', ['appStory'])}
-        <section className="section three-columns">
+        <section className="section three-columns app-features">
           <article>
-            {heading('appLibrary')}
+            {heading('appLibrary', false, true)}
             {text('appLibraryIntro')}
           </article>
           <article>
-            {heading('appGuides')}
+            {heading('appGuides', false, true)}
             {text('appGuidesIntro')}
             <LinkArrow href={href('facilitators')}>{c('guidesCta')}</LinkArrow>
           </article>
@@ -632,15 +739,13 @@ export function ClassicSite({ page }: { page: string }) {
             </article>
           ))}
         </section>
-        {intro('sessions', ['guidesIntro'], ['sessions', 'sessionCta'])}
       </>
     );
   else if (page === 'contact')
     content = (
       <>
         <section className="plain-hero section">
-          <span className="eyebrow">{c('contact')}</span>
-          <Heading as="h1" text={c('contact')} />
+          <Heading as="h1" weight="bold" align="center" text={c('contact')} />
           {text('locationIntro')}
         </section>
         <section className="section contact-grid">
@@ -684,7 +789,7 @@ export function ClassicSite({ page }: { page: string }) {
             <Photo id="dome-exterior" alt={c('dome')} />
             <div>
               {heading('arrival')}
-              {text('locationIntro')}
+              {text('destinationIntro')}
               {text('flights')}
             </div>
           </div>
@@ -702,7 +807,7 @@ export function ClassicSite({ page }: { page: string }) {
     content = (
       <>
         <section className="plain-hero section">
-          <Heading as="h1" text={c('faq')} />
+          <Heading as="h1" weight="bold" align="center" text={c('faq')} />
         </section>
         <section className="section faq-page">
           <aside>
@@ -716,11 +821,10 @@ export function ClassicSite({ page }: { page: string }) {
     content = (
       <>
         <section className="plain-hero section">
-          <span className="eyebrow">{c('press')}</span>
-          <Heading as="h1" text={c('press')} />
+          <Heading as="h1" weight="bold" align="center" text={c('press')} />
           {text('homeShort')}
         </section>
-        {intro('overview', ['homeIntro', 'founderIntro'])}
+        {intro('overview', ['homeOrigins', 'founderIntro'], undefined, false)}
         <section className="section press-resources">
           {heading('facts')}
           <div className="resource-links">
@@ -754,21 +858,31 @@ export function ClassicSite({ page }: { page: string }) {
       <SiteNavigation edition={edition} page={page} />
       <main id="content">
         {content}
-        <section className="closing-invitation">
-          <Photo id="hero-arenal" alt="" />
+        <section
+          className={`closing-invitation ${hasTwoDoors ? 'closing-signature' : ''} ${page === 'home' ? 'closing-reference' : ''}`}
+        >
+          <Photo
+            id={page === 'home' ? 'closing-design-direction' : 'hero-arenal'}
+            alt=""
+            sizes={
+              page === 'home' ? '(max-width: 1000px) 1120px, 100vw' : undefined
+            }
+          />
           <div />
-          <span className="eyebrow light">{c('hospitality')}</span>
-          <Heading text={c('stayCta')} light />
-          <LinkArrow href={BOOKING} button light external>
-            {c('bookStay')}
-          </LinkArrow>
+          <Heading
+            text={c(hasTwoDoors ? 'closingPresence' : 'stayCta')}
+            light
+            align="center"
+          />
+          {!hasTwoDoors && (
+            <LinkArrow href={BOOKING} button light external>
+              {c('bookStay')}
+            </LinkArrow>
+          )}
         </section>
       </main>
       <footer className="site-footer">
         <div className="footer-grid">
-          <div className="footer-statement">
-            <Heading text={c('home')} light />
-          </div>
           {[
             [
               'founder',
@@ -808,37 +922,38 @@ export function ClassicSite({ page }: { page: string }) {
             ],
           ].map(([key, links]) => (
             <div key={key as string}>
-              <span className="eyebrow">{c(key as CopyKey)}</span>
-              {(links as string[][]).map(([p, label]) => (
-                <a href={href(p)} key={p}>
-                  {c(label as CopyKey)}
-                </a>
-              ))}
+              <a className="eyebrow" href={href(key as string)}>
+                {c(key as CopyKey)}
+              </a>
+              {(links as string[][])
+                .filter(([p]) => p !== key)
+                .map(([p, label]) => (
+                  <a href={href(p)} key={p}>
+                    {c(label as CopyKey)}
+                  </a>
+                ))}
             </div>
           ))}
         </div>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} Vessyl</span>
           <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
-          <span>AKEN Soul</span>
         </div>
+        <nav className="edition-switch" aria-label={c('ui.edition')}>
+          <a
+            className="active"
+            aria-current="true"
+            href={`${basePath}/classic/${page === 'home' ? '' : page + '/'}`}
+          >
+            {c('ui.classic')}
+          </a>
+          <a
+            href={`${basePath}/immersive/${page === 'home' ? '' : page + '/'}`}
+          >
+            {c('ui.immersive')}
+          </a>
+        </nav>
       </footer>
-      <nav className="edition-switch" aria-label={c('ui.edition')}>
-        <a
-          className={immersive ? '' : 'active'}
-          aria-current={!immersive ? 'true' : undefined}
-          href={`${basePath}/classic/${page === 'home' ? '' : page + '/'}`}
-        >
-          {c('ui.classic')}
-        </a>
-        <a
-          className={immersive ? 'active' : ''}
-          aria-current={immersive ? 'true' : undefined}
-          href={`${basePath}/immersive/${page === 'home' ? '' : page + '/'}`}
-        >
-          {c('ui.immersive')}
-        </a>
-      </nav>
       <Dialog
         open={practiceOpen}
         onOpenChange={setPracticeOpen}
@@ -846,9 +961,13 @@ export function ClassicSite({ page }: { page: string }) {
           if (!open) setSelected(null);
         }}
       >
-        <DialogContent className="practice-dialog">
+        <DialogContent
+          className="practice-dialog classic-controls"
+          ref={practiceDialog}
+          initialFocus={practiceDialog}
+        >
           {selected && (
-            <>
+            <div className="practice-dialog-body">
               <Photo id={selected.image} alt="" />
               <div className="practice-dialog-copy">
                 <span className="eyebrow">{selected.category}</span>
@@ -864,7 +983,7 @@ export function ClassicSite({ page }: { page: string }) {
                 </LinkArrow>
                 <small>{c('ui.enquiryNote')}</small>
               </div>
-            </>
+            </div>
           )}
         </DialogContent>
       </Dialog>

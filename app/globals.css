@@ -593,7 +593,7 @@ button:hover .image-window img {
   font-size: 10px;
   letter-spacing: 0.1em;
 }
-.experience-card h3 {
+.experience-card :is(h2, h3) {
   font-size: 32px;
   margin: 13px 0 8px;
 }
@@ -1210,7 +1210,7 @@ blockquote {
   font-size: 10px;
   margin: 23px 0 13px;
 }
-.practice-card h3 {
+.practice-card :is(h2, h3) {
   font-size: 35px;
   margin-bottom: 10px;
 }
@@ -1258,7 +1258,7 @@ blockquote {
   overflow: auto;
   background: var(--paper);
 }
-.practice-dialog > img {
+.practice-dialog-body > img {
   width: 100%;
   height: 100%;
   min-height: 570px;
@@ -1815,7 +1815,7 @@ blockquote {
   .experience-card .image-window {
     height: 290px;
   }
-  .experience-card h3 {
+  .experience-card :is(h2, h3) {
     font-size: 28px;
   }
   .experience-card .eyebrow {
@@ -1846,7 +1846,7 @@ blockquote {
   .practice-card .image-window {
     height: 270px;
   }
-  .practice-card h3 {
+  .practice-card :is(h2, h3) {
     font-size: 30px;
   }
   .room-feature > div {
@@ -1930,7 +1930,7 @@ blockquote {
   .experience-card:nth-child(even) {
     padding-top: 40px;
   }
-  .experience-card h3 {
+  .experience-card :is(h2, h3) {
     font-size: 31px;
   }
   .dome-feature {
@@ -2270,7 +2270,7 @@ blockquote {
   .experience-card:nth-child(even) {
     padding-top: 36px;
   }
-  .experience-card h3 {
+  .experience-card :is(h2, h3) {
     font-size: 26px;
     line-height: 1.12;
     margin: 12px 0 8px;
@@ -2545,7 +2545,7 @@ blockquote {
   .practice-card .image-window {
     height: 310px;
   }
-  .practice-card h3 {
+  .practice-card :is(h2, h3) {
     font-size: 35px;
   }
   .practice-card .eyebrow {
@@ -2566,7 +2566,7 @@ blockquote {
     grid-template-columns: 1fr;
     max-height: 90svh;
   }
-  .practice-dialog > img {
+  .practice-dialog-body > img {
     height: 200px;
     min-height: 200px;
   }
@@ -2774,7 +2774,7 @@ blockquote {
 .scene-canvas {
   margin: 0;
 }
-/* Original vector motifs exported from the Vessyl Figma Patterns page. */
+/* Original composed pattern fields from Design direction 548:363 / 548:434. */
 .pattern-panel {
   position: relative;
   isolation: isolate;
@@ -2785,67 +2785,79 @@ blockquote {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  mask-repeat: repeat;
-  mask-size: 760px 756px;
-  background: var(--forest);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pattern-paper {
   opacity: 0.055;
-}
-.pattern-wave {
-  mask-size: 290px 178px;
-  opacity: 0.04;
-}
-.pattern-fans {
-  mask-size: 640px 653px;
-  opacity: 0.04;
 }
 #introduction {
   background: var(--forest);
   color: var(--cream);
 }
-#introduction .brand-pattern {
-  background: var(--brand-copper-soft);
-  opacity: 0.1;
-  mask-size: 1120px 1114px;
-}
-#introduction h2 em {
-  color: var(--brand-green-soft);
-}
-#introduction .intro-columns p {
-  color: color-mix(in srgb, var(--brand-ground) 72.94%, transparent);
-}
 #introduction .text-link {
   border-color: color-mix(in srgb, var(--brand-ground) 36.08%, transparent);
 }
-.app-cta > .brand-pattern {
-  background: var(--brand-copper-soft);
-  opacity: 0.09;
-  mask-image: linear-gradient(to right, black, transparent);
+.classic :is(.app-cta, .digital-hero) {
+  background: var(--forest);
 }
-.hearth-section > .brand-pattern {
-  background: var(--brand-copper-soft);
-  opacity: 0.055;
+.classic :is(.hearth-section, .quote-copper) {
+  background: #311500;
 }
-.quote-section > .brand-pattern,
-.founder-statement > .brand-pattern {
-  mask-size: 1080px 1075px;
-  opacity: 0.04;
+.classic .quote-copper {
+  color: var(--cream);
 }
-.arrival-section > .brand-pattern {
-  opacity: 0.055;
+/* Neighboring photographs bridge both edges of the Home quotation. */
+.classic .home-quote-sequence {
+  --quote-photo-overlap: clamp(32px, 4.5vw, 64px);
 }
-.music-strip > .brand-pattern {
-  mask-size: 430px 265px;
-  opacity: 0.045;
+.classic .home-quote-sequence > .split-editorial {
+  padding-bottom: 0;
+}
+.classic .home-quote-sequence > .split-editorial > img {
+  align-self: end;
+  transform: none;
+  margin-bottom: calc(-1 * var(--quote-photo-overlap));
+}
+.classic .home-quote-sequence > .quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 680px;
+  padding-block: 160px;
+}
+.classic .home-quote-sequence > .quote-section blockquote {
+  width: 100%;
+}
+.classic .home-quote-sequence > .session-cta {
+  padding-top: 0;
+}
+.classic .home-quote-sequence .session-cta-image {
+  position: relative;
+  z-index: 2;
+  align-self: start;
+  margin-top: calc(-1 * var(--quote-photo-overlap));
+}
+.classic .home-quote-sequence > .session-cta > div:first-child {
+  padding-top: var(--quote-photo-overlap);
 }
 @media (max-width: 560px) {
-  #introduction .brand-pattern {
-    mask-size: 650px 646px;
+  .classic .home-quote-sequence > .split-editorial {
+    padding-top: 40px;
+    gap: 28px;
   }
-  .app-cta > .brand-pattern {
-    opacity: 0.06;
+  .classic .home-quote-sequence > .split-editorial > img {
+    grid-row: 2;
   }
-  .quote-section > .brand-pattern {
-    mask-size: 720px 716px;
+  .classic .home-quote-sequence > .split-editorial > div {
+    grid-row: 1;
+  }
+  .classic .home-quote-sequence > .quote-section {
+    padding-block: 112px;
+  }
+  .classic .home-quote-sequence > .session-cta > div:first-child {
+    padding-top: 0;
   }
 }
 @media (min-width: 561px) and (max-width: 1000px) {
@@ -2989,13 +3001,20 @@ blockquote {
   gap: 12px;
   font-size: 14px;
 }
+.site-header nav .experience-mega > a::after {
+  content: none;
+}
+.experience-mega .mega-image {
+  overflow: hidden;
+  border-radius: 6px;
+}
 .experience-mega img {
   width: 100%;
   aspect-ratio: 4 / 3;
   height: auto;
   object-fit: cover;
 }
-.experience-mega a:hover span {
+.experience-mega a:is(:hover, :focus-visible) .mega-label {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
@@ -3004,6 +3023,9 @@ blockquote {
   align-items: flex-start;
   gap: 8px;
   padding-top: 8px;
+  align-self: start;
+  justify-self: start;
+  text-decoration: none;
 }
 .menu-dialog[data-slot='dialog-content'] {
   padding: 28px 26px;
@@ -3110,6 +3132,9 @@ blockquote {
 }
 .brand-heading-h1 {
   max-width: 1100px;
+}
+.heading-regular {
+  font-weight: 400;
 }
 .brand-heading-h2 {
   max-width: 760px;
@@ -3244,9 +3269,6 @@ blockquote {
   background: var(--copper);
   color: var(--ink);
 }
-.brand-pattern {
-  color: var(--cream);
-}
 
 .joint-mobile img {
   filter: brightness(0);
@@ -3260,6 +3282,18 @@ blockquote {
 .mobile-brand {
   width: 160px;
 }
+/* Classic brand marks: 40% larger in every header and the mobile menu. */
+.classic .site-header .brand {
+  width: 246.4px;
+  max-width: calc(100% - 54px);
+}
+.classic-controls .mobile-brand {
+  width: 224px;
+  flex-shrink: 0;
+}
+.classic-controls .mobile-brand img {
+  width: 100%;
+}
 .hero-bottom > span {
   max-width: 55%;
   white-space: normal;
@@ -3271,11 +3305,6 @@ blockquote {
 }
 #introduction .intro-body {
   color: var(--cream);
-}
-#introduction .brand-pattern,
-.app-cta > .brand-pattern,
-.hearth-section > .brand-pattern {
-  background: var(--cream);
 }
 .guide-activity {
   margin: 0;
@@ -3455,6 +3484,17 @@ blockquote {
   margin: 0 var(--page-pad);
   border-radius: var(--photo-radius);
   z-index: 2;
+}
+.classic[data-page='founder'] .film {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 16 / 9;
+  margin: 0;
+  border-radius: 0;
+}
+.classic[data-page='founder'] .film video {
+  display: block;
 }
 .people-hero {
   display: grid;
@@ -4143,4 +4183,833 @@ blockquote {
   .chapter-gallery .journey-scroll-hint {
     margin-top: 24px;
   }
+}
+
+/* Classic: centered standalone copy and 4px outlined CTAs from Figma 548:277. */
+.heading-centered {
+  margin-inline: auto;
+  text-align: center;
+}
+.classic .home-hero,
+.classic .page-hero:not(.people-hero) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  max-height: none;
+  min-height: max(780px, 100svh);
+  padding: 180px var(--page-pad) 160px;
+}
+.classic .home-hero .hero-copy,
+.classic .page-hero:not(.people-hero) .page-hero-copy {
+  position: relative;
+  inset: auto;
+  transform: none;
+  width: 100%;
+  max-width: 960px;
+  text-align: center;
+}
+.classic .home-hero .hero-copy > :is(.eyebrow, p),
+.classic .page-hero:not(.people-hero) .page-hero-copy > :is(.eyebrow, p) {
+  margin-inline: auto;
+  max-width: 680px;
+}
+/* Founder's brief opening grows with its copy instead of filling the viewport. */
+.classic[data-page='founder'] .page-hero:not(.people-hero) {
+  min-height: 0;
+  padding-block: clamp(144px, 12.5vw, 180px) 104px;
+}
+.classic .page-hero .page-hero-copy > p {
+  max-width: 680px;
+}
+.classic .home-hero .hero-shade,
+.classic .page-hero:not(.people-hero) .hero-shade {
+  background: linear-gradient(
+    180deg,
+    rgb(17 17 17 / 55%),
+    rgb(17 17 17 / 50%) 55%,
+    rgb(17 17 17 / 32%)
+  );
+}
+/* Sessions uses a background photograph with both faces clear of the copy. */
+.classic[data-page='sessions'] .page-hero:not(.people-hero) {
+  align-items: flex-end;
+  min-height: 0;
+  padding-block: 335px 215px;
+}
+.classic[data-page='sessions'] .page-hero .hero-photo {
+  object-fit: cover;
+  object-position: 37% 0%;
+  transform: scale(1.12);
+  transform-origin: 37% 0%;
+}
+.classic[data-page='sessions'] .page-hero .hero-shade {
+  background: linear-gradient(
+    180deg,
+    rgb(17 17 17 / 35%),
+    rgb(17 17 17 / 40%) 45%,
+    rgb(17 17 17 / 82%)
+  );
+}
+@media (max-width: 560px) {
+  .classic[data-page='sessions'] .page-hero:not(.people-hero) {
+    padding-block: 323px 135px;
+  }
+  .classic[data-page='sessions'] .page-hero .hero-photo {
+    transform: scale(1.08);
+  }
+}
+/* Design direction 548:282/548:418: shared header/hero gradient at every width. */
+.classic[data-page='home'] {
+  --classic-hero-shade: #311500;
+}
+.classic[data-page='home'] .site-header {
+  background: transparent;
+  border-bottom: 0;
+}
+.classic[data-page='home'] .home-hero .hero-shade {
+  background: linear-gradient(
+    180deg,
+    var(--classic-hero-shade) 8.152%,
+    color-mix(in srgb, var(--classic-hero-shade) 60%, transparent) 41.163%,
+    color-mix(in srgb, var(--classic-hero-shade) 0%, transparent) 100%
+  );
+}
+.classic[data-page='home'] .site-header .nav-book {
+  color: var(--classic-hero-shade);
+}
+.classic .intro-section {
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
+  gap: 24px;
+  text-align: center;
+}
+.classic .intro-section > .eyebrow {
+  padding: 0;
+  margin: 0;
+}
+.classic .intro-section > div {
+  width: 100%;
+  max-width: 900px;
+}
+.classic .intro-section .intro-body {
+  margin-inline: auto;
+}
+.classic :is(.home-introduction, .founder-biography) .brand-heading-h3 {
+  max-width: 900px;
+  margin-inline: auto;
+}
+.classic :is(.home-introduction, .founder-biography) .intro-body {
+  margin: 28px auto 0;
+}
+.classic .founder-profile-copy p {
+  max-width: none;
+  margin-bottom: 0;
+}
+.classic .app-cta,
+.classic .digital-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0;
+}
+.classic .app-cta {
+  min-height: 560px;
+}
+.classic .digital-hero {
+  min-height: max(720px, 90svh);
+}
+.classic .app-cta > div:not(.brand-pattern),
+.classic .digital-hero > div:not(.brand-pattern) {
+  width: 100%;
+  max-width: 900px;
+}
+.classic :is(.app-cta, .digital-hero, .music-strip, .plain-hero) > p,
+.classic :is(.app-cta, .digital-hero) > div > p {
+  max-width: 680px;
+  margin-inline: auto;
+}
+.classic .store-actions {
+  justify-content: center;
+}
+.classic .app-features {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  text-align: center;
+  gap: clamp(32px, 6vw, 100px);
+}
+.classic .app-features p {
+  margin: 24px auto;
+  max-width: 540px;
+}
+.classic .plain-hero,
+.classic .travel-columns {
+  text-align: center;
+}
+.classic :is(.button, .text-link),
+.classic-controls :is(.button, .text-link) {
+  justify-content: center;
+  gap: 12px;
+  max-width: 100%;
+  min-height: 50px;
+  padding: 14px 24px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.classic :is(.button, .text-link) > svg,
+.classic-controls :is(.button, .text-link) > svg {
+  flex-shrink: 0;
+}
+.classic :is(.button, .text-link):not(:disabled):hover,
+.classic-controls :is(.button, .text-link):not(:disabled):hover {
+  background: color-mix(in srgb, currentColor 8%, transparent);
+  color: inherit;
+}
+.classic :is(.nav-download, .nav-book),
+.classic-controls :is(.nav-download, .nav-book) {
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+/* Keep navigation and meaningful labels readable alongside the enlarged prose. */
+.classic
+  .site-header
+  :is(
+    .desktop-navigation > a,
+    .experience-trigger,
+    .experience-mega > a,
+    .header-actions > a
+  ) {
+  font-size: 16px;
+}
+.classic .eyebrow,
+.classic-controls .eyebrow {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+}
+.classic .gallery-item > span,
+.classic .guide-activity figcaption {
+  font-size: 16px;
+}
+@media (max-width: 1200px) {
+  .classic
+    .site-header
+    :is(.desktop-navigation, .header-actions, .experience-mega) {
+    display: none;
+  }
+  .classic .site-header .menu-toggle {
+    display: flex;
+    margin-left: auto;
+  }
+}
+@media (max-width: 560px) {
+  .classic .home-hero,
+  .classic .page-hero:not(.people-hero) {
+    min-height: max(730px, 100svh);
+    padding-top: 155px;
+    padding-bottom: 125px;
+  }
+  .classic .app-cta {
+    min-height: 0;
+  }
+  .classic .app-features {
+    grid-template-columns: 1fr;
+  }
+  .classic :is(.button, .text-link),
+  .classic-controls :is(.button, .text-link) {
+    font-size: 14px;
+    padding-inline: 18px;
+  }
+}
+
+.classic .dome-feature-copy > .button + .text-link {
+  margin-top: 12px;
+}
+
+/* Strong, layered paragraph shadows use the opposite tone of the text. */
+.classic,
+.practice-dialog.classic-controls {
+  --paragraph-shadow-dark:
+    0 2px 4px rgb(0 0 0 / 80%), 0 4px 10px rgb(0 0 0 / 60%);
+  --paragraph-shadow-light:
+    0 2px 4px rgb(255 255 255 / 90%), 0 4px 10px rgb(255 255 255 / 75%);
+}
+.classic p:not(.eyebrow),
+.practice-dialog.classic-controls [data-slot='dialog-description'] {
+  text-shadow: var(--paragraph-shadow-light);
+}
+.classic
+  :is(
+    .home-hero,
+    .page-hero,
+    #introduction,
+    .dome-feature,
+    .sensory-section,
+    .hearth-section,
+    .app-cta,
+    .two-doors,
+    .digital-hero
+  )
+  p:not(.eyebrow) {
+  text-shadow: var(--paragraph-shadow-dark);
+}
+
+/* Classic prose: the original +2px refinement, plus the user's additional 1px. */
+.classic p:not(.eyebrow) {
+  font-size: calc(var(--classic-paragraph-size, 16px) + 3px);
+}
+.classic :is(.hero-copy, .page-hero, .digital-hero, .intro-body) p {
+  --classic-paragraph-size: 17px;
+}
+.classic :is(.sensory-section, .three-columns, .press-resources, .faq-list) p {
+  --classic-paragraph-size: 15px;
+}
+.classic :is(.practice-card, .contact-aside, .faq-page aside) p {
+  --classic-paragraph-size: 14px;
+}
+.practice-dialog.classic-controls [data-slot='dialog-description'] {
+  font-size: 19px;
+}
+@media (max-width: 800px) {
+  .classic .intro-body p {
+    --classic-paragraph-size: 16px;
+  }
+  .classic :is(.sensory-section, .three-columns) p {
+    --classic-paragraph-size: 14px;
+  }
+}
+@media (max-width: 760px) {
+  .classic .hero-copy p {
+    --classic-paragraph-size: 16px;
+  }
+}
+@media (max-width: 560px) {
+  .classic
+    :is(
+      .hero-copy,
+      .page-hero,
+      .digital-hero,
+      .intro-body,
+      .dome-feature,
+      .session-cta,
+      .split-editorial,
+      .app-cta,
+      .music-strip,
+      .sensory-section,
+      .three-columns
+    )
+    p {
+    --classic-paragraph-size: 15px;
+  }
+  .classic .faq-list p {
+    --classic-paragraph-size: 14px;
+  }
+}
+
+.classic .home-hero .hero-copy {
+  max-width: 1100px;
+}
+
+/* Classic keeps meaningful labels and actions; repeated decorative labels are omitted. */
+.classic :is(.hero-copy, .page-hero-copy, .digital-hero) .brand-heading-h1 {
+  margin-top: 0;
+}
+.classic .intro-section .intro-body:first-child {
+  margin-block: 0;
+}
+.classic .session-filter {
+  justify-content: flex-start;
+}
+.classic[data-page='sessions'] .sessions-section {
+  padding-top: 48px;
+}
+.classic[data-page='sessions'] .sessions-section > .brand-heading-h3 {
+  max-width: 900px;
+  margin: 0 auto 28px;
+}
+.classic .footer-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.classic .edition-switch {
+  position: static;
+  width: fit-content;
+  margin-top: 28px;
+  padding: 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  color: var(--cream);
+}
+.classic .edition-switch a {
+  padding: 8px 0;
+  border-radius: 0;
+  background: none;
+  color: inherit;
+}
+.classic .edition-switch a + a {
+  margin-left: 24px;
+}
+.classic .edition-switch a.active {
+  background: none;
+  color: inherit;
+  border-bottom: 1px solid currentColor;
+}
+@media (max-width: 1050px) {
+  .classic .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .classic .footer-grid > div:last-child {
+    grid-column: auto;
+    display: block;
+  }
+}
+
+/* A continuous photographic Dome card, as composed in Design direction 548:279. */
+.classic .home-dome-feature {
+  --dome-axis-x: 50%;
+  --dome-photo-axis-x: 56.5%;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+  min-height: 720px;
+  aspect-ratio: 1440 / 810;
+  padding: 90px var(--page-pad);
+  text-align: center;
+}
+.classic .home-dome-feature .dome-feature-image {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  min-height: 0;
+  height: 100%;
+}
+/* Place the visible copper silhouette on the shared axis, then level the
+   architecture around that axis. The small top bleed prevents rotation gaps. */
+.classic .home-dome-feature .dome-feature-image img {
+  position: absolute;
+  top: -1vw;
+  left: var(--dome-axis-x);
+  width: 120.1%;
+  max-width: none;
+  height: auto;
+  object-fit: contain;
+  transform-origin: var(--dome-photo-axis-x) 55%;
+  transform: translateX(calc(-1 * var(--dome-photo-axis-x))) rotate(-1deg);
+}
+.classic .home-dome-feature .dome-echo {
+  position: absolute;
+  inset: 0;
+  left: var(--dome-axis-x);
+  right: auto;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+.classic .home-dome-feature::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgb(0 0 0 / 70%), rgb(0 0 0 / 0%));
+}
+.classic .home-dome-feature .dome-feature-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+  padding: 0;
+  align-items: center;
+}
+.classic .home-dome-feature .dome-brand-mark {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  margin-bottom: 36px;
+}
+.classic .home-dome-feature .brand-heading-h2 {
+  margin-top: 0;
+}
+.classic .home-dome-feature p {
+  max-width: 610px;
+}
+.classic .home-hero .button,
+.classic .home-dome-feature :is(.button, .text-link) {
+  background: linear-gradient(0deg, rgb(49 21 0 / 60%), rgb(49 21 0 / 35%));
+  text-shadow: 0 1px 3px rgb(0 0 0 / 55%);
+}
+.classic .home-hero .button:hover,
+.classic .home-dome-feature :is(.button, .text-link):hover {
+  background: linear-gradient(0deg, rgb(49 21 0 / 75%), rgb(49 21 0 / 50%));
+}
+.classic
+  :is(
+    .session-cta-image,
+    .sensory-visual,
+    .sensory-visual > img,
+    .hearth-visual > img,
+    .experience-card .image-window,
+    .room-feature > img,
+    .guide-activity img
+  ) {
+  border-radius: var(--photo-radius);
+}
+.classic[data-page='app'] .practice-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (max-width: 1100px) {
+  .classic .home-dome-feature {
+    min-height: 0;
+    aspect-ratio: auto;
+    flex-direction: column;
+    padding: 70px 0 0;
+  }
+  .classic .home-dome-feature .dome-feature-copy {
+    order: 0;
+    padding-inline: var(--page-pad);
+    padding-bottom: 36px;
+  }
+  .classic .home-dome-feature .dome-feature-image {
+    position: relative;
+    inset: auto;
+    order: 1;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1440 / 810;
+  }
+  .classic .home-dome-feature .dome-feature-image::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, var(--deep), transparent 35%);
+    pointer-events: none;
+  }
+  .classic .home-dome-feature::before {
+    display: none;
+  }
+  .classic .home-dome-feature .dome-echo {
+    height: 680px;
+  }
+}
+@media (max-width: 560px) {
+  .classic[data-page='app'] .practice-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Design direction 548:635: two equal ways into one experience. */
+.classic .two-doors {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  background: var(--forest);
+  color: var(--cream);
+}
+.two-doors-content {
+  width: 100%;
+  max-width: 1014px;
+  margin-inline: auto;
+}
+.two-doors-heading .brand-heading {
+  max-width: 702px;
+  margin: 0 0 10px;
+}
+.two-doors-heading p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--cream);
+}
+.two-doors-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: clamp(48px, 14.58vw, 210px);
+  row-gap: 48px;
+  margin-top: 60px;
+}
+.two-doors-option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.two-doors-option .eyebrow {
+  margin: 0 0 10px;
+  color: var(--brand-copper-soft);
+}
+.two-doors-option .brand-heading {
+  width: 100%;
+  margin: 0 0 40px;
+}
+.two-doors-option .button {
+  margin-top: auto;
+}
+.closing-signature .brand-heading {
+  max-width: 522px;
+}
+.classic .closing-reference {
+  min-height: 600px;
+}
+.classic .closing-reference > img {
+  object-position: center bottom;
+}
+.classic .closing-reference > div {
+  background: linear-gradient(180deg, rgb(0 0 0 / 60%), transparent);
+}
+@media (max-width: 560px) {
+  .classic .two-doors {
+    min-height: 0;
+    padding-block: 80px;
+  }
+  .two-doors-heading p {
+    --classic-paragraph-size: 15px;
+  }
+  .two-doors-options {
+    grid-template-columns: minmax(0, 1fr);
+    margin-top: 44px;
+  }
+  .two-doors-option .brand-heading {
+    margin-bottom: 24px;
+  }
+}
+
+/* Classic display copy wraps for its actual container, without shrinking a desktop line to caption size. */
+.heading-responsive-art {
+  display: none;
+}
+:is(.classic, .classic-controls) .heading-adaptive {
+  container: heading / inline-size;
+  width: 100%;
+}
+:is(.classic, .classic-controls) .heading-adaptive > .heading-fallback {
+  display: none;
+}
+:is(.classic, .classic-controls) .heading-responsive-art {
+  --heading-image: var(--heading-wide-image);
+  --heading-ratio: var(--heading-wide-ratio);
+  --heading-width: var(--heading-wide-width);
+  display: block;
+  width: 100%;
+  max-width: var(--heading-width);
+  aspect-ratio: var(--heading-ratio);
+  background-color: currentColor;
+  mask-image: var(--heading-image);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+}
+:is(.classic, .classic-controls) .heading-centered > .heading-responsive-art {
+  margin-inline: auto;
+}
+:is(.classic, .classic-controls) .heading-light > .heading-responsive-art {
+  background-color: var(--cream);
+}
+@container heading (max-width: 899px) {
+  :is(.classic, .classic-controls) .heading-responsive-art {
+    --heading-image: var(--heading-large-image);
+    --heading-ratio: var(--heading-large-ratio);
+    --heading-width: var(--heading-large-width);
+  }
+}
+@container heading (max-width: 639px) {
+  :is(.classic, .classic-controls) .heading-responsive-art {
+    --heading-image: var(--heading-medium-image);
+    --heading-ratio: var(--heading-medium-ratio);
+    --heading-width: var(--heading-medium-width);
+  }
+}
+@container heading (max-width: 399px) {
+  :is(.classic, .classic-controls) .heading-responsive-art {
+    --heading-image: var(--heading-small-image);
+    --heading-ratio: var(--heading-small-ratio);
+    --heading-width: var(--heading-small-width);
+  }
+}
+.classic .press-marks > div {
+  column-gap: clamp(16px, 2.1vw, 32px);
+}
+@media (max-width: 1200px) {
+  .classic .experience-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 560px) {
+  .classic .experience-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Let photographed interior heroes continue behind the navigation on every device. */
+.classic:has(.page-hero:not(.people-hero), .digital-hero) .site-header {
+  background: linear-gradient(
+    180deg,
+    rgb(17 17 17 / 94%),
+    rgb(17 17 17 / 60%) 42%,
+    transparent
+  );
+  border-bottom: 0;
+}
+
+/* The session introduction belongs to the collection it introduces. */
+.classic .choice-section {
+  padding-top: 48px;
+}
+.classic .choice-section > .brand-heading-h3 {
+  max-width: 900px;
+  margin: 0 auto 28px;
+}
+.classic .session-filter .filter-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: min(480px, 100%);
+  max-width: 100%;
+  gap: 8px;
+}
+.classic .filter-tabs [data-slot='tabs-trigger'] {
+  font-size: 16px;
+  line-height: 1.35;
+  white-space: normal;
+  min-width: 0;
+  min-height: 48px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.classic .sensory-tabs [data-slot='tabs-trigger'],
+.classic .contact-links a,
+.classic .contact-links strong,
+.classic [data-slot='accordion-trigger'] {
+  font-size: 16px;
+}
+.classic .footer-grid a:not(.eyebrow) {
+  font-size: 14px;
+  line-height: 1.75;
+  min-height: 32px;
+  padding-block: 4px;
+}
+
+/* Scroll the practice content while keeping its close control reachable. */
+.classic-controls.practice-dialog {
+  overflow: hidden;
+}
+.practice-dialog-body {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-height: 90svh;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+.classic-controls.practice-dialog [data-slot='dialog-close'] {
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+}
+@media (max-width: 760px) {
+  .practice-dialog-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.classic-controls.practice-dialog [data-slot='dialog-title'] {
+  width: 100%;
+}
+
+.menu-dialog-body {
+  display: contents;
+}
+.menu-dialog.classic-controls[data-slot='dialog-content'] {
+  height: 100svh;
+  padding: 0;
+  gap: 0;
+  overflow: hidden;
+}
+.classic-controls .menu-dialog-body {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 28px 26px;
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+.menu-dialog.classic-controls [data-slot='dialog-close'] {
+  z-index: 2;
+  border-radius: 50%;
+  background: var(--paper);
+}
+
+/* Keep film controls above the following photograph's overlap. */
+.classic[data-page='music'] .film-play {
+  bottom: 88px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+}
+.classic[data-page='music'] .film-play span {
+  font-size: 16px;
+}
+.classic[data-page='music'] .film-play small {
+  font-size: 12px;
+}
+
+/* A separate, neutral original pattern for the Experience facilitators story. */
+.classic .facilitators-pattern {
+  background: var(--surface-sunken);
+}
+.classic .facilitators-pattern .pattern-fans {
+  filter: brightness(0);
+  opacity: 0.075;
+}
+
+/* Full-frame approved films retain their original proportions at every width. */
+.classic .editorial-film {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--deep);
+}
+.editorial-film video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.editorial-film-action {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.editorial-film-action:focus-visible {
+  outline: 2px solid var(--cream);
+  outline-offset: -8px;
+}
+/* A photograph can bridge a color field, but must leave the whole film visible. */
+.classic .editorial-film + .photo-bridge {
+  padding-top: clamp(32px, 5.2vw, 80px);
+}
+.classic .editorial-film + .photo-bridge > img {
+  transform: none;
+  margin-bottom: 0;
 }
