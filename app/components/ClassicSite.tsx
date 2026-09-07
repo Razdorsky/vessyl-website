@@ -24,34 +24,40 @@ import {
   BOOKING,
   WAITLIST,
   EMAIL,
-  pageTitles,
-  experiences,
-  practices,
-  faqs,
+  getContent,
   type Practice,
 } from '../../lib/content';
-import { asset, basePath } from '../../lib/paths';
+import { asset, pagePath } from '../../lib/paths';
 import { classicPhoto } from '../../lib/classic-photography';
 import { SiteNavigation } from './SiteNavigation';
-import { copy as c, type CopyKey } from '../../lib/copy';
+import { type CopyKey, type Locale } from '../../lib/copy';
+import { LocaleProvider, useLocale } from './LocaleProvider';
 import { Heading } from './Typography';
 import { PressMarks } from './PressMarks';
 import { AutoHeight } from './MotionPrimitives';
 import { EditorialFilm } from './EditorialFilm';
-import {
-  Photo,
-  LinkArrow,
-  Pattern,
-  Gallery,
-  Film,
-  FaqList,
-} from './SitePrimitives';
-export function ClassicSite({ page }: { page: string }) {
+import { PhotoCarousel } from './PhotoCarousel';
+import { Photo, LinkArrow, Pattern, Gallery, FaqList } from './SitePrimitives';
+export function ClassicSite({
+  page,
+  locale = 'en',
+}: {
+  page: string;
+  locale?: Locale;
+}) {
+  return (
+    <LocaleProvider locale={locale}>
+      <ClassicPage page={page} />
+    </LocaleProvider>
+  );
+}
+function ClassicPage({ page }: { page: string }) {
+  const { c, locale } = useLocale();
+  const { pageTitles, experiences, practices, faqs } = getContent(locale);
   const edition = 'classic';
   const photo = (slot: string, fallback: string) =>
     classicPhoto(page, slot, fallback);
-  const href = (p = 'home') =>
-    `${basePath}/${edition}/${p === 'home' ? '' : `${p}/`}`;
+  const href = (p = 'home') => pagePath(edition, p, locale);
   useEffect(() => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const observer = new IntersectionObserver(
@@ -145,9 +151,17 @@ export function ClassicSite({ page }: { page: string }) {
       </div>
     </section>
   );
+  const cardExperiences = [...experiences];
+  if (page === 'home') {
+    const domeIndex = cardExperiences.findIndex((item) => item.id === 'dome');
+    if (domeIndex !== -1) {
+      const [dome] = cardExperiences.splice(domeIndex, 1);
+      cardExperiences.splice(2, 0, dome);
+    }
+  }
   const cards = (
     <div className="experience-grid">
-      {experiences.map((e) => (
+      {cardExperiences.map((e) => (
         <a className="experience-card" key={e.id} href={href(e.id)}>
           <div className="image-window">
             <Photo id={photo(`experience:${e.id}`, e.image)} alt={e.name} />
@@ -184,7 +198,13 @@ export function ClassicSite({ page }: { page: string }) {
               <Plus size={22} />
             </span>
           </div>
-          <span className="eyebrow">{item.category}</span>
+          <span className="eyebrow">
+            {c(
+              item.category === 'Quantum'
+                ? 'ui.quantumCategory'
+                : 'ui.wellnessCategory',
+            )}
+          </span>
           <Heading
             as={
               ['sessions', 'quantum', 'wellness'].includes(page) ? 'h2' : 'h3'
@@ -296,8 +316,10 @@ export function ClassicSite({ page }: { page: string }) {
           <Heading as="h3" text={c('drivingLir')} align="center" />
           {text('travelLir')}
         </article>
-        <article>{text('flights')}</article>
       </div>
+      <p className="travel-flights" data-copy="flights">
+        {c('flights')}
+      </p>
       <LinkArrow href={href('contact')} button>
         {c('contact')}
       </LinkArrow>
@@ -575,7 +597,13 @@ export function ClassicSite({ page }: { page: string }) {
               <TabsList className="filter-tabs" aria-label={c('sessions')}>
                 {['All', 'Wellness', 'Quantum'].map((t) => (
                   <TabsTrigger value={t} key={t}>
-                    {t === 'All' ? c('ui.all') : t}
+                    {c(
+                      t === 'All'
+                        ? 'ui.all'
+                        : t === 'Quantum'
+                          ? 'ui.quantumCategory'
+                          : 'ui.wellnessCategory',
+                    )}
                   </TabsTrigger>
                 ))}
               </TabsList>
@@ -605,34 +633,23 @@ export function ClassicSite({ page }: { page: string }) {
       <>
         {hero('stay', 'stayIntro', 'pool')}
         <section className="section stay-options">
-          <Tabs defaultValue="suite">
-            <div className="section-heading">
-              {heading('rooms')}
-              <TabsList className="filter-tabs" aria-label={c('rooms')}>
-                <TabsTrigger value="suite">01</TabsTrigger>
-                <TabsTrigger value="villa">02</TabsTrigger>
-              </TabsList>
+          <div className="section-heading">{heading('rooms')}</div>
+          <div className="room-feature">
+            <PhotoCarousel
+              label={c('roomConcept')}
+              images={['suite', 'villa'].map((id) => ({
+                id: photo(`room:${id}`, id),
+                caption: c('roomConcept'),
+              }))}
+            />
+            <div className="room-description">
+              {heading('roomConcept')}
+              {text('stayAccommodation')}
+              <LinkArrow href={BOOKING} button external>
+                {c('bookStay')}
+              </LinkArrow>
             </div>
-            <AutoHeight>
-              {[
-                ['suite', c('roomConcept') + ' 01'],
-                ['villa', c('roomConcept') + ' 02'],
-              ].map(([id, name]) => (
-                <TabsContent value={id} key={id}>
-                  <div className="room-feature">
-                    <Photo id={photo(`room:${id}`, id)} alt={name} />
-                    <div>
-                      {heading('roomConcept')}
-                      {text('stayAccommodation')}
-                      <LinkArrow href={BOOKING} button external>
-                        {c('bookStay')}
-                      </LinkArrow>
-                    </div>
-                  </div>
-                </TabsContent>
-              ))}
-            </AutoHeight>
-          </Tabs>
+          </div>
         </section>
         {gallery([
           ['suite-view', 'rooms'],
@@ -724,7 +741,7 @@ export function ClassicSite({ page }: { page: string }) {
       <>
         {hero('music', 'musicIntro', 'dome-interior')}
         {intro('studio', ['studioIntro', 'studioDetail'])}
-        <Film />
+        <EditorialFilm name="music" />
         {story('dome-detail', 'dome', 'domeIntro', ['dome', 'learn'])}
       </>
     );
@@ -843,11 +860,16 @@ export function ClassicSite({ page }: { page: string }) {
           <Heading as="h1" weight="bold" align="center" text={c('press')} />
           {text('homeShort')}
         </section>
-        {intro('overview', ['homeOrigins', 'founderIntro'], undefined, false)}
+        {intro('overview', ['homeOrigins'], undefined, false)}
         <section className="section press-resources">
           {heading('facts')}
           <div className="resource-links">
-            <a href={asset('/press/vessyl-overview.txt')} download>
+            <a
+              href={asset(
+                `/press/vessyl-overview${locale === 'es-LA' ? '-es-LA' : ''}.txt`,
+              )}
+              download
+            >
               <span>{c('ui.pressDownload')}</span>
               <ArrowDown />
             </a>
@@ -870,7 +892,12 @@ export function ClassicSite({ page }: { page: string }) {
       </>
     );
   return (
-    <div className={`site ${edition}`} data-page={page}>
+    <div
+      className={`site ${edition}`}
+      data-page={page}
+      data-locale={locale}
+      lang={locale === 'es-LA' ? 'es-419' : 'en'}
+    >
       <a className="skip-link" href="#content">
         {c('ui.skip')}
       </a>
@@ -969,15 +996,11 @@ export function ClassicSite({ page }: { page: string }) {
           <a
             className="active"
             aria-current="true"
-            href={`${basePath}/classic/${page === 'home' ? '' : page + '/'}`}
+            href={pagePath('classic', page, locale)}
           >
             {c('ui.classic')}
           </a>
-          <a
-            href={`${basePath}/immersive/${page === 'home' ? '' : page + '/'}`}
-          >
-            {c('ui.immersive')}
-          </a>
+          <a href={pagePath('immersive', page, locale)}>{c('ui.immersive')}</a>
         </nav>
       </footer>
       <Dialog
@@ -988,6 +1011,7 @@ export function ClassicSite({ page }: { page: string }) {
         }}
       >
         <DialogContent
+          closeLabel={c('ui.close')}
           className="practice-dialog classic-controls"
           ref={practiceDialog}
           initialFocus={practiceDialog}
@@ -996,7 +1020,13 @@ export function ClassicSite({ page }: { page: string }) {
             <div className="practice-dialog-body">
               <Photo id={selected.image} alt="" />
               <div className="practice-dialog-copy">
-                <span className="eyebrow">{selected.category}</span>
+                <span className="eyebrow">
+                  {c(
+                    selected.category === 'Quantum'
+                      ? 'ui.quantumCategory'
+                      : 'ui.wellnessCategory',
+                  )}
+                </span>
                 <DialogTitle>
                   <Heading as="span" text={selected.title} />
                 </DialogTitle>

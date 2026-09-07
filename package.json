@@ -13,7 +13,7 @@
     "format": "oxfmt",
     "build:github": "NEXT_PUBLIC_BASE_PATH=/vessyl-website npm run build",
     "preview": "node scripts/serve.mjs",
-    "check": "tsc --noEmit && oxlint && node scripts/check-export.mjs && python3 scripts/check-copy.py"
+    "check": "tsc --noEmit && oxlint && node scripts/check-export.mjs && python3 scripts/check-copy.py && python3 scripts/check-locales.py"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

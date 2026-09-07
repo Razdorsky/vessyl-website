@@ -1,0 +1,310 @@
+/* One photographic surface; supporting frames reveal the collection beneath. */
+.gallery-stack {
+  position: relative;
+  isolation: isolate;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+.gallery-stack-front,
+.gallery-stack-back {
+  overflow: hidden;
+  border-radius: var(--photo-radius);
+  aspect-ratio: 16 / 10;
+  background: var(--deep);
+  box-shadow: 0 6px 22px rgb(0 0 0 / 12%);
+}
+.gallery-stack-front {
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  cursor: zoom-in;
+}
+.gallery-stack-back {
+  position: absolute;
+  inset: 0 0 auto;
+  pointer-events: none;
+  transition: transform 600ms var(--ease-editorial);
+}
+.gallery-stack-back-1 {
+  z-index: 2;
+  transform: translateY(14px) scale(0.975) rotate(-1.1deg);
+}
+.gallery-stack-back-2 {
+  z-index: 1;
+  transform: translateY(28px) scale(0.95) rotate(1.1deg);
+}
+.gallery-stack :is(.gallery-stack-front, .gallery-stack-back) > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+.gallery-stack-back img {
+  filter: brightness(0.8);
+}
+.gallery-stack-open {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid color-mix(in srgb, var(--cream) 55%, transparent);
+  border-radius: 50%;
+  color: var(--cream);
+  background: color-mix(in srgb, var(--deep) 45%, transparent);
+  backdrop-filter: blur(8px);
+  transition:
+    background 240ms,
+    transform 400ms var(--ease-editorial);
+}
+.gallery-stack-front:focus-visible {
+  outline-offset: 6px;
+}
+
+.photo-carousel {
+  min-width: 0;
+  width: 100%;
+}
+.photo-carousel-viewport {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--photo-radius);
+  touch-action: pan-y pinch-zoom;
+}
+.photo-carousel-track {
+  display: flex;
+  height: 100%;
+  touch-action: pan-y pinch-zoom;
+}
+.photo-carousel-slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  height: 100%;
+}
+.photo-carousel-slide img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.photo-edge {
+  position: absolute;
+  inset-block: 0;
+  width: 44%;
+  border: 0;
+  padding: 20px;
+  background: none;
+  color: var(--cream);
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.photo-edge-previous {
+  left: 0;
+  justify-content: flex-start;
+}
+.photo-edge-next {
+  right: 0;
+  justify-content: flex-end;
+}
+.photo-edge > span {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  background: color-mix(in srgb, var(--deep) 50%, transparent);
+  border: 1px solid color-mix(in srgb, var(--cream) 50%, transparent);
+  border-radius: 50%;
+  backdrop-filter: blur(8px);
+  transition:
+    background 220ms,
+    transform 400ms var(--ease-editorial);
+}
+.photo-edge:focus-visible {
+  outline: none;
+}
+.photo-edge:focus-visible > span {
+  outline: 2px solid var(--copper);
+  outline-offset: 3px;
+}
+.photo-thumbnails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 4px 4px;
+}
+.photo-thumbnails button {
+  flex: 0 0 auto;
+  width: 76px;
+  height: 52px;
+  border-radius: 6px;
+  border: 0;
+  padding: 0;
+  background: var(--deep);
+  opacity: 0.55;
+  overflow: hidden;
+  outline: 1px solid transparent;
+  outline-offset: 3px;
+  transition:
+    opacity 240ms,
+    outline-color 240ms;
+}
+.photo-thumbnails button[aria-pressed='true'] {
+  opacity: 1;
+  outline-color: currentColor;
+}
+.photo-thumbnails button:focus-visible {
+  outline: 2px solid currentColor;
+}
+.photo-thumbnails img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photo-carousel-room .photo-carousel-viewport {
+  aspect-ratio: 4 / 3;
+}
+.room-feature > .photo-carousel {
+  display: block;
+  padding: 0;
+  align-self: center;
+}
+.room-feature {
+  gap: clamp(24px, 4vw, 64px);
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  align-items: center;
+}
+.room-feature > .room-description {
+  padding: 0;
+  min-width: 0;
+}
+
+.gallery-dialog[data-slot='dialog-content'] {
+  width: min(1100px, calc(100vw - 32px));
+  max-width: min(1100px, calc(100vw - 32px));
+  max-height: calc(100svh - 32px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0 0 18px;
+}
+.photo-carousel-lightbox {
+  container-type: inline-size;
+}
+.photo-carousel-lightbox .photo-carousel-viewport {
+  height: min(
+    calc(100cqw * var(--photo-height-ratio)),
+    70svh,
+    760px,
+    calc(100svh - 168px)
+  );
+  border-radius: 0;
+  background: var(--deep);
+  transition: height 440ms var(--ease-editorial);
+}
+.photo-carousel-lightbox .photo-carousel-slide img {
+  object-fit: contain;
+  object-position: center !important;
+}
+.photo-carousel-caption {
+  min-height: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 24px 0;
+  font: 400 16px/1.4 var(--body-font);
+}
+.photo-carousel-caption > span {
+  text-align: center;
+}
+.photo-carousel-caption small {
+  flex: 0 0 auto;
+  font-size: 13px;
+  opacity: 0.65;
+}
+.photo-carousel-lightbox .photo-thumbnails {
+  padding-top: 14px;
+}
+.gallery-dialog [data-slot='dialog-close'] {
+  z-index: 4;
+  width: 44px;
+  height: 44px;
+}
+@media (hover: hover) {
+  .gallery-stack:has(.gallery-stack-front:hover) .gallery-stack-back-1 {
+    transform: translateY(17px) scale(0.98) rotate(-1.4deg);
+  }
+  .gallery-stack:has(.gallery-stack-front:hover) .gallery-stack-back-2 {
+    transform: translateY(32px) scale(0.955) rotate(1.4deg);
+  }
+  .gallery-stack-front:hover .gallery-stack-open {
+    background: var(--deep);
+    transform: scale(1.06);
+  }
+  .photo-edge:hover > span {
+    background: var(--deep);
+    transform: scale(1.06);
+  }
+  .photo-thumbnails button:hover {
+    opacity: 1;
+  }
+}
+@media (max-width: 820px) {
+  .room-feature {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  .room-feature > .room-description {
+    padding: 0;
+  }
+  .gallery-stack {
+    padding-bottom: 28px;
+  }
+  .gallery-stack-front,
+  .gallery-stack-back {
+    aspect-ratio: 4 / 3;
+  }
+  .gallery-stack-open {
+    right: 14px;
+    bottom: 14px;
+  }
+  .photo-edge {
+    padding-inline: 12px;
+  }
+  .gallery-dialog[data-slot='dialog-content'] {
+    width: calc(100vw - 24px);
+    max-width: calc(100vw - 24px);
+    max-height: calc(100svh - 24px);
+  }
+  .photo-carousel-caption {
+    gap: 12px;
+    padding-inline: 16px;
+  }
+  .photo-thumbnails button {
+    width: 64px;
+    height: 46px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .photo-carousel-lightbox .photo-carousel-viewport {
+    transition: none;
+  }
+  .gallery-stack-back,
+  .gallery-stack-open,
+  .photo-edge > span,
+  .photo-thumbnails button {
+    transition: none;
+  }
+}

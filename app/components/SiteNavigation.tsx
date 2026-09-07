@@ -10,7 +10,9 @@ import {
   DialogTrigger,
 } from '../../components/ui/dialog';
 import { BOOKING } from '../../lib/content';
-import { asset, basePath } from '../../lib/paths';
+import { asset, pagePath } from '../../lib/paths';
+import { useLocale } from './LocaleProvider';
+import { LanguageSelector } from './LanguageSelector';
 import {
   Accordion,
   AccordionItem,
@@ -27,20 +29,18 @@ export function SiteNavigation({
   edition: 'classic' | 'immersive';
   page: string;
 }) {
+  const { c, locale } = useLocale();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [experienceOpen, setExperienceOpen] = useState(false);
   const header = useRef<HTMLElement>(null);
   const trigger = useRef<HTMLButtonElement>(null);
-  const href = (p = 'home') =>
-    `${basePath}/${edition}/${p === 'home' ? '' : `${p}/`}`;
-  const jointLogo =
-    ['stay', 'rancho', 'contact'].includes(page) ||
-    (edition === 'immersive' && page === 'home');
+  const href = (p = 'home') => pagePath(edition, p, locale);
+  const jointLogo = ['stay', 'rancho', 'contact'].includes(page);
   const spaces = [
-    ['dome', 'The Dome', 'dome-exterior'],
-    ['hearth', 'Harmonic Hearth', 'hearth'],
-    ['nature', 'Equine & Nature', 'equine'],
-    ['stay', 'AKEN Soul', 'pool'],
+    ['dome', c('navDome'), 'dome-exterior'],
+    ['hearth', c('hearth'), 'hearth'],
+    ['nature', c('navNature'), 'equine'],
+    ['stay', c('stay'), 'pool'],
   ];
   useEffect(() => {
     const outside = (event: PointerEvent) => {
@@ -72,7 +72,6 @@ export function SiteNavigation({
     };
   }, []);
   useEffect(() => {
-    if (edition !== 'classic') return;
     const breakpoint = window.matchMedia('(max-width: 1200px)');
     const closeMenus = () => {
       setMobileOpen(false);
@@ -83,17 +82,17 @@ export function SiteNavigation({
   }, [edition]);
   const appAction = (
     <a className="nav-download" href={href('app')}>
-      Download App
+      {c('download')}
     </a>
   );
   const bookAction = (
     <a className="nav-book" href={BOOKING} target="_blank" rel="noreferrer">
-      Book a stay <ArrowUpRight size={15} />
+      {c('bookStay')} <ArrowUpRight size={15} />
     </a>
   );
   return (
     <header className="site-header" role="banner" ref={header}>
-      <a href={href()} className="brand" aria-label="Vessyl home">
+      <a href={href()} className="brand" aria-label={c('ui.homeLink')}>
         <img
           src={asset(
             jointLogo ? '/brand/logo-aken-white.svg' : '/brand/logo-white.svg',
@@ -103,7 +102,7 @@ export function SiteNavigation({
           height="35"
         />
       </a>
-      <nav className="desktop-navigation" aria-label="Main navigation">
+      <nav className="desktop-navigation" aria-label={c('ui.mainNavigation')}>
         <button
           className="experience-trigger"
           ref={trigger}
@@ -121,7 +120,7 @@ export function SiteNavigation({
             );
           }}
         >
-          The Experience <ChevronDown size={14} />
+          {c('navExperience')} <ChevronDown size={14} />
         </button>
         <div
           id="experience-menu"
@@ -139,7 +138,7 @@ export function SiteNavigation({
               <div className="mega-image">
                 <img
                   src={asset(
-                    `/images/${edition === 'classic' ? classicNavigationPhoto(id, photo) : photo}-thumb.webp`,
+                    `/images/${classicNavigationPhoto(id, photo)}-thumb.webp`,
                   )}
                   alt=""
                   width="800"
@@ -150,48 +149,52 @@ export function SiteNavigation({
             </a>
           ))}
           <a href={href('experience')} className="mega-index">
-            Overview <ArrowUpRight size={16} />
+            {c('ui.overview')} <ArrowUpRight size={16} />
           </a>
         </div>
         <a
           href={href('founder')}
           aria-current={page === 'founder' ? 'page' : undefined}
         >
-          The Founder
+          {c('founder')}
         </a>
         <a
           href={href('sessions')}
           aria-current={page === 'sessions' ? 'page' : undefined}
         >
-          Sessions
+          {c('navSessions')}
         </a>
         <a
           href={href('press')}
           aria-current={page === 'press' ? 'page' : undefined}
         >
-          Press
+          {c('navPress')}
         </a>
       </nav>
       <div className="header-actions">
+        <LanguageSelector edition={edition} page={page} />
         {appAction}
         {bookAction}
       </div>
       <Dialog open={mobileOpen} onOpenChange={setMobileOpen}>
-        <DialogTrigger className="menu-toggle" aria-label="Open navigation">
+        <DialogTrigger className="menu-toggle" aria-label={c('ui.menu')}>
           <Menu />
         </DialogTrigger>
         <DialogContent
-          className={`menu-dialog ${edition === 'classic' ? 'classic-controls' : ''} translate-x-0 translate-y-0`}
+          closeLabel={c('ui.close')}
+          className={`menu-dialog classic-controls translate-x-0 translate-y-0`}
         >
-          <DialogTitle className="sr-only">Vessyl navigation</DialogTitle>
+          <DialogTitle className="sr-only">
+            {c('ui.navigationTitle')}
+          </DialogTitle>
           <DialogDescription className="sr-only">
-            Choose a page to explore.
+            {c('ui.navigationDescription')}
           </DialogDescription>
           <div className="menu-dialog-body">
             <a
               href={href()}
               className={`mobile-brand ${jointLogo ? 'joint-mobile' : ''}`}
-              aria-label="Vessyl home"
+              aria-label={c('ui.homeLink')}
             >
               <img
                 src={asset(
@@ -204,13 +207,13 @@ export function SiteNavigation({
                 height="32"
               />
             </a>
-            <nav aria-label="Mobile navigation">
+            <nav aria-label={c('ui.mobileNavigation')}>
               <Accordion
                 defaultValue={['experience']}
                 className="mobile-experience"
               >
                 <AccordionItem value="experience">
-                  <AccordionTrigger>The Experience</AccordionTrigger>
+                  <AccordionTrigger>{c('navExperience')}</AccordionTrigger>
                   <AccordionContent className="mobile-experience-links">
                     {spaces.map(([id, label]) => (
                       <a href={href(id)} key={id}>
@@ -218,15 +221,16 @@ export function SiteNavigation({
                       </a>
                     ))}
                     <a href={href('experience')}>
-                      Overview <ArrowUpRight size={14} />
+                      {c('ui.overview')} <ArrowUpRight size={14} />
                     </a>
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
-              <a href={href('founder')}>The Founder</a>
-              <a href={href('sessions')}>Sessions</a>
-              <a href={href('press')}>Press</a>
+              <a href={href('founder')}>{c('founder')}</a>
+              <a href={href('sessions')}>{c('navSessions')}</a>
+              <a href={href('press')}>{c('navPress')}</a>
             </nav>
+            <LanguageSelector edition={edition} page={page} mobile />
             <div className="mobile-actions">
               {bookAction}
               {appAction}

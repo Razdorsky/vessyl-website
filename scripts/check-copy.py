@@ -26,9 +26,10 @@ def lowercase_start(t):
  # Standalone copy must start with a capital; contact addresses and URLs retain their spelling.
  if re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+',t) or re.match(r'^(?:https?://|www\.)',t):return False
  return bool(re.match(r'^[\s\"\'“‘(]*[a-z]',t))
+spanish=json.loads((root/'lib/locales/es-LA.json').read_text())
 known={norm(x['text']):x for x in entries.values()}
 # Factual destinations and operational structure, not marketing prose.
-operational={'©','Vessyl','AKEN','AKEN Soul','Quantum','Wellness','All sessions','guestservices@thevessyl.com','reservations@akenhotels.com','+506 8608 0022','12 s ·','Sound off','Play film','Pause film','Page not found','Overview','Close','Vessyl navigation','Choose a page to explore.'}
+operational={'EN','ES','©','Vessyl','AKEN','AKEN Soul','Quantum','Wellness','All sessions','guestservices@thevessyl.com','reservations@akenhotels.com','+506 8608 0022','12 s ·','Sound off','Play film','Pause film','Page not found','Overview','Close','Vessyl navigation','Choose a page to explore.'}
 ignored={'script','style','svg','template','noscript','head'}
 semantic={'h1','h2','h3','h4','p','blockquote','a','button','summary','li','label','dt','dd','figcaption','span','small'}
 def units(n):
@@ -57,6 +58,8 @@ for copy_key,entry in entries.items():
 for edition in ['classic','immersive']:
  for f in sorted((output/edition).glob('**/index.html')):
   slug=str(f.parent.relative_to(output/edition));key=edition+'/'+('home' if slug=='.' else slug)
+  localized='es-LA' in f.relative_to(output).parts
+  known={norm(spanish[k] if localized else v['text']):v for k,v in entries.items()}
   p=Parser();p.feed(f.read_text());rows=[]
   for t in units(p.root):
    kind,source=classify(t);rows.append({'text':t,'kind':kind,'source':source})
@@ -73,15 +76,20 @@ for edition in ['classic','immersive']:
 # be reused from another Classic page, even inside a longer paragraph.
 def prose_sentences(text):
  return [norm(s).casefold() for s in re.split(r'(?<=[.!?])\s+',text)
-         if len(re.findall(r"\b[\w']+\b",s))>=8]
+         if len(re.findall(r"\b[\w']+\b",s))>=8
+         # The Nature gallery repeats the activity's approved name. Its Spanish
+         # title exceeds eight words; it is still a caption, not repeated prose.
+         and norm(s) not in {entries['natureWalk']['text'],spanish['natureWalk']}]
 founder_duplicates=[]
-for text in main.get('classic/founder',[]):
- for sentence in prose_sentences(text):
-  for page,texts in main.items():
-   if not page.startswith('classic/') or page=='classic/founder':continue
-   if any(sentence in norm(other).casefold() for other in texts):
-    founder_duplicates.append({'page':page,'sentence':sentence})
-    errors.append('Founder editorial copy repeats '+page+': '+sentence)
+for locale_prefix in ['', 'es-LA/']:
+ founder_page='classic/'+locale_prefix+'founder'
+ for text in main.get(founder_page,[]):
+  for sentence in prose_sentences(text):
+   for page,texts in main.items():
+    if not page.startswith('classic/') or page==founder_page or ('/es-LA/' in page)!=bool(locale_prefix):continue
+    if any(sentence in norm(other).casefold() for other in texts):
+     founder_duplicates.append({'page':page,'sentence':sentence})
+     errors.append('Founder editorial copy repeats '+page+': '+sentence)
 uniqueness_path=root/'docs/compliance/founder-uniqueness.json'
 uniqueness_path.parent.mkdir(parents=True,exist_ok=True)
 uniqueness_path.write_text(json.dumps({
@@ -98,6 +106,21 @@ for page,texts in main.items():
  if duplicates:classic_duplicates[page]=duplicates
  for text,count in duplicates.items():errors.append(f'{page} editorial sentence repeats {count} times: '+text)
 (root/'docs/compliance/classic-uniqueness.json').write_text(json.dumps(classic_duplicates,ensure_ascii=False,indent=2)+'\n')
+# Immersive must receive the same editorial cleanup, with no scene-control chrome.
+immersive_duplicates={}
+for page,texts in main.items():
+ if not page.startswith('immersive/'):continue
+ duplicates={t:n for t,n in Counter(sentence for t in texts for sentence in prose_sentences(t)).items() if n>1}
+ if duplicates:immersive_duplicates[page]=duplicates
+ for text,count in duplicates.items():errors.append(f'{page} editorial sentence repeats {count} times: '+text)
+ for forbidden in ['Play', 'Pause', 'Scroll to enter', 'Interactive interpretation']:
+  if any(row['text']==forbidden for row in report[page]):errors.append(page+': extraneous control '+forbidden)
+for text in main.get('immersive/founder',[]):
+ for sentence in prose_sentences(text):
+  for page,texts in main.items():
+   if page.startswith('immersive/') and page!='immersive/founder' and any(sentence in norm(other).casefold() for other in texts):
+    errors.append('Immersive Founder editorial copy repeats '+page+': '+sentence)
+(root/'docs/compliance/immersive-uniqueness.json').write_text(json.dumps(immersive_duplicates,ensure_ascii=False,indent=2)+'\n')
 # Every selected container-aware display variant must exist with usable dimensions.
 art=json.loads((root/'lib/typography-art.json').read_text())
 for key,entry in art.items():
@@ -118,3 +141,5 @@ if errors:print('\n'.join(errors));sys.exit(1)
 print(f'PASS: {len(report)} routes; every rendered text unit is source-linked copy or documented interface behavior; all display headings have Telugu MN artwork; independent edition renderers verified.')
 print('PASS: Founder editorial sentences do not repeat another Classic page.')
 print('PASS: No repeated editorial sentences within any Classic page; responsive artwork references verified.')
+
+print('PASS: No repeated Immersive editorial sentences, unique Founder copy, and no scene-control labels.')

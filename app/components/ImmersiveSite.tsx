@@ -7,83 +7,112 @@ import {
   useRef,
   useState,
 } from 'react';
-import { ArrowDown, ArrowUpRight, Pause, Play, Plus } from 'lucide-react';
+import { ArrowUpRight, Plus } from 'lucide-react';
 import { SiteNavigation } from './SiteNavigation';
 import { Heading } from './Typography';
 import { PressMarks } from './PressMarks';
-import { Photo, Film, FaqList, Gallery, LinkArrow } from './SitePrimitives';
-import { copy as c, type CopyKey } from '../../lib/copy';
+import { Photo, Pattern, FaqList, Gallery, LinkArrow } from './SitePrimitives';
+import { EditorialFilm } from './EditorialFilm';
+import { type CopyKey, type Locale } from '../../lib/copy';
+import { LocaleProvider, useLocale } from './LocaleProvider';
 import { journeys, containedChapter } from '../../lib/journeys';
-import {
-  BOOKING,
-  EMAIL,
-  WAITLIST,
-  pageTitles,
-  practices,
-  faqs,
-} from '../../lib/content';
-import { asset, basePath } from '../../lib/paths';
+import { BOOKING, EMAIL, WAITLIST, getContent } from '../../lib/content';
+import { classicPhoto as photo } from '../../lib/classic-photography';
+import { asset, pagePath } from '../../lib/paths';
 import { AutoHeight, Disclosure } from './MotionPrimitives';
 import { journeyPosition } from '../../lib/journey-position';
 const ScrollWorld = lazy(() => import('./ScrollWorld'));
-const url = (page = 'home', edition = 'immersive') =>
-  `${basePath}/${edition}/${page === 'home' ? '' : page + '/'}`;
+const selections: Record<string, string[]> = {
+  dome: ['yoga-nidra', 'fractals', 'voices'],
+  hearth: ['breathwork', 'vibrational-yoga', 'qi-chai'],
+  app: ['quantum-self', 'chakra', 'breathwork', 'vibrational-yoga'],
+};
 function SessionLibrary({ page }: { page: string }) {
+  const { c, locale } = useLocale();
+  const { practices } = getContent(locale);
   const [filter, setFilter] = useState(
     page === 'quantum' ? 'Quantum' : page === 'wellness' ? 'Wellness' : 'All',
   );
   const [opened, setOpened] = useState<string | null>(null);
+  const catalog = !selections[page];
   return (
     <section className="journey-library journey-section" id="session-library">
       <div className="journey-section-title">
-        <span className="eyebrow">{c('sessionCta')}</span>
-        <Heading text={c('sessions')} />
+        <Heading
+          as={catalog ? 'h3' : 'h2'}
+          text={c(
+            catalog
+              ? 'choiceIntro'
+              : page === 'dome'
+                ? 'domeSession'
+                : 'sessions',
+          )}
+          align="center"
+        />
       </div>
-      <div className="journey-filters" aria-label={c('sessions')}>
-        {['All', 'Quantum', 'Wellness'].map((f) => (
-          <button
-            key={f}
-            aria-pressed={f === filter}
-            onClick={() => {
-              setFilter(f);
-              setOpened(null);
-            }}
-          >
-            {f === 'All' ? c('ui.all') : f}
-          </button>
-        ))}
-      </div>
+      {catalog && (
+        <div className="journey-filters" aria-label={c('sessions')}>
+          {['All', 'Wellness', 'Quantum'].map((f) => (
+            <button
+              key={f}
+              aria-pressed={f === filter}
+              onClick={() => {
+                setFilter(f);
+                setOpened(null);
+              }}
+            >
+              {c(
+                f === 'All'
+                  ? 'ui.all'
+                  : f === 'Quantum'
+                    ? 'ui.quantumCategory'
+                    : 'ui.wellnessCategory',
+              )}
+            </button>
+          ))}
+        </div>
+      )}
       <AutoHeight>
         <div className="journey-session-list" key={filter}>
           {practices
-            .filter((p) => filter === 'All' || p.category === filter)
-            .map((p, i) => (
+            .filter((p) =>
+              selections[page]
+                ? selections[page].includes(p.id)
+                : filter === 'All' || p.category === filter,
+            )
+            .map((p) => (
               <article className="journey-session" key={p.id}>
                 <button
                   aria-expanded={opened === p.id}
                   aria-controls={'practice-' + p.id}
                   onClick={() => setOpened(opened === p.id ? null : p.id)}
                 >
-                  <span className="session-number">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
-                  <Photo id={p.image} />
+                  <Photo id={photo(page, `practice:${p.id}`, p.image)} />
                   <span>
-                    <small>{p.category}</small>
+                    <small>
+                      {c(
+                        p.category === 'Quantum'
+                          ? 'ui.quantumCategory'
+                          : 'ui.wellnessCategory',
+                      )}
+                    </small>
                     <Heading as="h3" text={p.title} />
                   </span>
-                  <Plus />
+                  <Plus aria-hidden="true" />
                 </button>
                 <Disclosure open={opened === p.id} id={'practice-' + p.id}>
                   <div className="journey-session-body">
-                    <p>{p.body}</p>
+                    <p>
+                      {page === 'quantum' && p.id === 'quantum-self'
+                        ? c('quantumMethods')
+                        : p.body}
+                    </p>
                     <LinkArrow
                       href={`mailto:${EMAIL}?subject=${encodeURIComponent(c('personalBook') + ': ' + p.title)}`}
                       button
                     >
                       {c('personalBook')}
                     </LinkArrow>
-                    <p className="small-note">{c('ui.enquiryNote')}</p>
                   </div>
                 </Disclosure>
               </article>
@@ -93,56 +122,93 @@ function SessionLibrary({ page }: { page: string }) {
     </section>
   );
 }
-export function ImmersiveSite({ page }: { page: string }) {
+function TwoDoors() {
+  const { c, locale } = useLocale();
+  const url = (page = 'home') => pagePath('immersive', page, locale);
+  return (
+    <section className="journey-two-doors journey-section pattern-panel">
+      <Pattern tone="forest" />
+      <Heading text={c('twoDoors')} light align="center" />
+      <p>{c('twoDoorsIntro')}</p>
+      <div className="journey-door-options">
+        <div>
+          <span>{c('inPerson')}</span>
+          <Heading as="h3" text={c('stayCostaRica')} light />
+          <LinkArrow href={BOOKING} button light external>
+            {c('bookStay')}
+          </LinkArrow>
+        </div>
+        <div>
+          <span>{c('fromAnywhere')}</span>
+          <Heading as="h3" text={c('sessionsPocket')} light />
+          <LinkArrow href={url('app')} button light>
+            {c('downloadTheApp')}
+          </LinkArrow>
+        </div>
+      </div>
+    </section>
+  );
+}
+export function ImmersiveSite({
+  page,
+  locale = 'en',
+}: {
+  page: string;
+  locale?: Locale;
+}) {
+  return (
+    <LocaleProvider locale={locale}>
+      <ImmersivePage page={page} />
+    </LocaleProvider>
+  );
+}
+function ImmersivePage({ page }: { page: string }) {
+  const { c, locale } = useLocale();
+  const { pageTitles, faqs } = getContent(locale);
+  const url = (page = 'home', edition = 'immersive') =>
+    pagePath(edition, page, locale);
   const chapters = journeys[page];
   const root = useRef<HTMLDivElement>(null);
   const [ready, setReady] = useState(false),
     [failed, setFailed] = useState(false),
-    [paused, setPaused] = useState(false),
-    [active, setActive] = useState(0);
+    [reduced, setReduced] = useState<boolean | null>(null);
+  const utility = ['press', 'contact', 'faq'].includes(page);
+  const staticWorld = failed || reduced === true || utility;
   const onReady = useCallback(() => setReady(true), []),
     onFailure = useCallback(() => setFailed(true), []);
+  useEffect(() => {
+    const media = matchMedia('(prefers-reduced-motion: reduce)');
+    const update = () => setReduced(media.matches);
+    update();
+    media.addEventListener('change', update);
+    return () => media.removeEventListener('change', update);
+  }, []);
   useEffect(() => {
     const el = root.current;
     if (!el) return;
     let frame = 0;
-    const media = matchMedia('(prefers-reduced-motion: reduce)');
-    setPaused(media.matches);
-    const preferenceChanged = () => setPaused(media.matches);
-    media.addEventListener('change', preferenceChanged);
     const update = () => {
       frame = 0;
       const track = el.querySelector<HTMLElement>('.journey-track');
       if (!track) return;
-      const { bounds: rect, progress } = journeyPosition(track);
+      const { bounds, progress } = journeyPosition(track);
       const index = Math.min(chapters.length - 1, Math.floor(progress + 0.15));
-      setActive(index);
-      const inJourney = rect.bottom > innerHeight * 0.35;
-      el.dataset.inJourney = String(inJourney);
-      const controls = el.querySelector<HTMLElement>('.journey-controls');
-      controls?.toggleAttribute('inert', !inJourney);
-      controls?.setAttribute('aria-hidden', String(!inJourney));
-      el.style.setProperty(
-        '--journey-progress',
-        String(Math.min(1, progress / chapters.length)),
+      el.dataset.inJourney = String(
+        !staticWorld && bounds.bottom > innerHeight * 0.35,
       );
       el.querySelectorAll<HTMLElement>('.journey-chapter').forEach(
         (section, i) => {
           const local = progress - i;
-          const fade = media.matches
+          const fade = staticWorld
             ? 1
-            : Math.max(0, Math.min(1, (0.84 - local) * 5.5));
+            : Math.max(0, Math.min(1, (0.94 - local) * 6));
           section.style.setProperty('--chapter-opacity', String(fade));
           if (i === index) {
             const copy = section.querySelector<HTMLElement>('.journey-copy');
-            const end = Math.min(
-              innerHeight - 98,
-              Math.max(
-                innerHeight * 0.48,
-                (copy?.getBoundingClientRect().bottom || 0) + 16,
-              ),
+            el.style.setProperty(
+              '--copy-scrim-end',
+              `${Math.min(innerHeight - 32, Math.max(innerHeight * 0.48, (copy?.getBoundingClientRect().bottom || 0) + 16))}px`,
             );
-            el.style.setProperty('--copy-scrim-end', `${end}px`);
           }
         },
       );
@@ -152,139 +218,196 @@ export function ImmersiveSite({ page }: { page: string }) {
     };
     window.addEventListener('scroll', schedule, { passive: true });
     window.addEventListener('resize', schedule);
-    const copyObserver = new ResizeObserver(schedule);
+    const observer = new ResizeObserver(schedule);
     el.querySelectorAll('.journey-copy').forEach((copy) =>
-      copyObserver.observe(copy),
+      observer.observe(copy),
     );
     update();
     return () => {
       cancelAnimationFrame(frame);
       window.removeEventListener('scroll', schedule);
       window.removeEventListener('resize', schedule);
-      copyObserver.disconnect();
-      media.removeEventListener('change', preferenceChanged);
+      observer.disconnect();
     };
-  }, [chapters]);
-  const supplemental: Partial<Record<string, [CopyKey, CopyKey[]]>> = {
-    home: ['home', ['homeIntro']],
-    nature: ['park', ['destinationIntro']],
-    hearth: ['hearthSession', ['choiceIntro']],
-    rancho: ['culinary', ['ranchoRitual']],
-    facilitators: ['sessions', ['guidesIntro']],
-    stay: ['arrival', ['locationIntro', 'travelSjo', 'travelLir', 'flights']],
-    press: ['facts', ['founderWhy']],
-  };
-  const details = supplemental[page];
+  }, [chapters, staticWorld]);
+  const prose = (key: CopyKey) => (
+    <p key={key} data-copy={key}>
+      {c(key).trim()}
+    </p>
+  );
+  const editorial = (
+    title: CopyKey,
+    body: CopyKey[],
+    as: 'h2' | 'h3' = 'h2',
+  ) => (
+    <section className="journey-section journey-editorial">
+      <Heading as={as} text={c(title)} align="center" />
+      <div>{body.map(prose)}</div>
+    </section>
+  );
+  const quote = (key: CopyKey, copper = false) => (
+    <section
+      className={`journey-quote journey-section pattern-panel ${copper ? 'journey-quote-copper' : ''}`}
+    >
+      <Pattern tone={copper ? 'copper' : 'paper'} />
+      <Heading as="blockquote" text={c(key)} align="center" light={copper} />
+      <span className="quote-author">{c('quoteAuthor')}</span>
+    </section>
+  );
+  const facilitatorBlock = [
+    'home',
+    'experience',
+    'hearth',
+    'sessions',
+    'quantum',
+    'wellness',
+    'app',
+  ].includes(page);
+  const hasTwoDoors = ['home', 'experience'].includes(page);
   return (
     <div
       ref={root}
-      className={`site immersive-journey ${ready ? 'world-ready' : ''} ${failed ? 'world-failed' : ''}`}
+      className={`site immersive-journey ${ready ? 'world-ready' : ''} ${staticWorld ? 'world-failed' : ''} ${utility ? 'journey-utility' : ''}`}
       data-page={page}
-      data-in-journey="true"
+      data-locale={locale}
+      lang={locale === 'es-LA' ? 'es-419' : 'en'}
+      data-in-journey={!staticWorld}
       data-renderer="independent-scroll-world"
     >
       <a className="skip-link" href="#content">
         {c('ui.skip')}
       </a>
       <SiteNavigation edition="immersive" page={page} />
-      <div className="journey-stage">
-        <img
-          className={`journey-poster ${containedChapter(chapters[0]) ? 'poster-contained' : ''}`}
-          src={asset('/images/' + chapters[0].image + '.webp')}
-          alt=""
-          fetchPriority="high"
-        />
-        {!failed && (
-          <Suspense fallback={null}>
-            <ScrollWorld
-              chapters={chapters}
-              paused={paused}
-              onReady={onReady}
-              onFailure={onFailure}
-            />
-          </Suspense>
-        )}
-        <div className="journey-scrim" />
-      </div>
+      {!staticWorld && (
+        <div className="journey-stage" aria-hidden="true">
+          <Photo
+            id={chapters[0].image}
+            className={`journey-poster ${containedChapter(chapters[0]) ? 'poster-contained' : ''}`}
+            alt=""
+            eager
+          />
+          {reduced === false && (
+            <Suspense fallback={null}>
+              <ScrollWorld
+                chapters={chapters}
+                paused={false}
+                onReady={onReady}
+                onFailure={onFailure}
+              />
+            </Suspense>
+          )}
+          <div className="journey-scrim" />
+        </div>
+      )}
       <main id="content">
         <div className="journey-track">
-          {chapters.map((chapter, i) => (
-            <section
-              key={i}
-              className={`journey-chapter chapter-${chapter.world} ${containedChapter(chapter) ? 'chapter-contained' : ''} ${i === 0 && page === 'home' ? 'chapter-opening' : ''}`}
-              id={'chapter-' + i}
-              data-journey-chapter={i}
-              tabIndex={-1}
-            >
-              <div className="journey-copy">
-                <div className="chapter-label">
-                  <span>{String(i + 1).padStart(2, '0')}</span>
-                  <span>{c(i === 0 ? 'home' : chapter.title)}</span>
-                  <i />
+          {chapters.map((chapter, i) => {
+            const contained = containedChapter(chapter);
+            const marks = chapter.image === 'founder';
+            return (
+              <section
+                key={i}
+                className={`journey-chapter chapter-${chapter.world} ${contained ? 'chapter-contained' : 'chapter-panorama'} ${chapter.image === 'dome-design-direction' ? 'chapter-dome-exterior' : ''} ${i === 0 ? 'chapter-first' : ''} ${chapter.heading === 'h3' ? 'chapter-statement' : ''}`}
+                id={'chapter-' + i}
+                data-journey-chapter={i}
+                tabIndex={-1}
+              >
+                <div className="journey-copy">
+                  {chapter.title === 'dome' && (
+                    <img
+                      className="journey-dome-mark"
+                      src={asset('/brand/dome-symbol.svg')}
+                      width="70"
+                      height="70"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                  )}
+                  <Heading
+                    as={i === 0 ? 'h1' : (chapter.heading ?? 'h2')}
+                    weight={i === 0 ? 'bold' : undefined}
+                    text={c(chapter.title)}
+                    light
+                    align={contained && i !== 0 ? undefined : 'center'}
+                  />
+                  <div className="chapter-prose">{chapter.body.map(prose)}</div>
+                  {chapter.to && chapter.to !== page && (
+                    <LinkArrow href={url(chapter.to)} light button>
+                      {c(chapter.action || 'learn')}
+                    </LinkArrow>
+                  )}
+                  {marks && <PressMarks />}
+                  {(contained || chapter.image === 'dome-design-direction') && (
+                    <Photo
+                      id={chapter.image}
+                      className="chapter-mobile-photo"
+                      eager={i === 0}
+                    />
+                  )}
                 </div>
-                <Heading
-                  as={i === 0 ? 'h1' : 'h2'}
-                  text={c(chapter.title)}
-                  light
-                />
-                <div className="chapter-prose">
-                  {chapter.body.map((key) => (
-                    <p data-copy={key} key={key}>
-                      {c(key)}
-                    </p>
-                  ))}
-                </div>
-                {chapter.to && (
-                  <LinkArrow href={url(chapter.to)} light>
-                    {c(chapter.action || 'learn')}
-                  </LinkArrow>
+                {(!ready || staticWorld) && !utility && (
+                  <Photo
+                    id={chapter.image}
+                    className="chapter-fallback"
+                    alt=""
+                    eager={i === 0}
+                  />
                 )}
-                {i === 0 && (
-                  <a
-                    className="journey-scroll-hint"
-                    href={
-                      chapters.length > 1 ? '#chapter-1' : '#journey-details'
-                    }
-                  >
-                    <ArrowDown size={16} />
-                    {c('ui.scroll')}
-                  </a>
-                )}
-              </div>
-              {(failed || !ready) && (
-                <img
-                  className="chapter-fallback"
-                  src={asset('/images/' + chapter.image + '.webp')}
-                  alt=""
-                  loading={i === 0 ? 'eager' : 'lazy'}
-                />
-              )}
-            </section>
-          ))}
+              </section>
+            );
+          })}
         </div>
         <div className="journey-details" id="journey-details">
-          {['home', 'founder', 'press'].includes(page) && <PressMarks />}
           {page === 'founder' && (
-            <div className="journey-film">
-              <Film autoPlay />
-            </div>
+            <>
+              {editorial(
+                'founderExplorationIntro',
+                [
+                  'founderExplorationQuestion',
+                  'founderNext',
+                  'founderDestination',
+                ],
+                'h3',
+              )}
+              <EditorialFilm name="founder" />
+              {quote('founderQuote')}
+            </>
           )}
-          {details && (
-            <section className="journey-section journey-editorial">
-              <span className="eyebrow">{pageTitles[page]}</span>
-              <div>
-                <Heading text={c(details[0])} />
-                {details[1].map((k) => (
-                  <p key={k}>{c(k)}</p>
-                ))}
-              </div>
-            </section>
-          )}
-          {['home', 'founder'].includes(page) && (
-            <section className="journey-quote journey-section">
-              <Heading as="blockquote" text={c('quote')} />
-              <span className="eyebrow">{c('quoteAuthor')}</span>
-            </section>
+          {page === 'home' && quote('quote', true)}
+          {page === 'nature' && editorial('park', ['destinationIntro'])}
+          {page === 'rancho' &&
+            editorial('rancho', ['tableIntro', 'ranchoRitual'])}
+          {page === 'stay' &&
+            editorial('arrival', [
+              'locationIntro',
+              'travelSjo',
+              'travelLir',
+              'flights',
+            ])}
+          {page === 'app' && (
+            <>
+              <section className="journey-section journey-store">
+                <div>
+                  <button
+                    className="button"
+                    disabled
+                    title={c('ui.notConnected')}
+                  >
+                    {c('appStore')}
+                  </button>
+                  <button
+                    className="button"
+                    disabled
+                    title={c('ui.notConnected')}
+                  >
+                    {c('googlePlay')}
+                  </button>
+                  <LinkArrow href={WAITLIST}>{c('ui.waitlist')}</LinkArrow>
+                </div>
+              </section>
+              {editorial('appLibrary', ['appLibraryIntro'])}
+              {editorial('appGuides', ['appGuidesIntro'])}
+            </>
           )}
           {[
             'sessions',
@@ -294,74 +417,96 @@ export function ImmersiveSite({ page }: { page: string }) {
             'dome',
             'hearth',
           ].includes(page) && <SessionLibrary page={page} />}
-          {page === 'app' && (
-            <section className="journey-section journey-store">
-              <Heading text={c('appHeadline')} />
+          {page === 'music' && <EditorialFilm name="music" />}
+          {page === 'sessions' && <EditorialFilm name="sessions" />}
+          {facilitatorBlock && (
+            <section
+              className={`journey-facilitators journey-section ${page === 'experience' ? 'pattern-panel' : ''}`}
+            >
+              {page === 'experience' && <Pattern tone="paper" variant="fans" />}
+              <Photo
+                id={photo(
+                  page,
+                  ['sessions', 'quantum', 'wellness'].includes(page)
+                    ? 'story:facilitators'
+                    : 'facilitators-cta',
+                  'session',
+                )}
+              />
               <div>
-                <button
-                  className="button"
-                  disabled
-                  title={c('ui.notConnected')}
-                >
-                  {c('appStore')}
-                </button>
-                <button
-                  className="button"
-                  disabled
-                  title={c('ui.notConnected')}
-                >
-                  {c('googlePlay')}
-                </button>
-                <LinkArrow href={WAITLIST}>{c('ui.waitlist')}</LinkArrow>
+                <Heading text={c('guidesCta')} />
+                {prose(
+                  ['sessions', 'wellness'].includes(page)
+                    ? 'guidesExpertiseIntro'
+                    : 'guidesIntro',
+                )}
+                <LinkArrow href={url('facilitators')} button>
+                  {c('learn')}
+                </LinkArrow>
               </div>
             </section>
           )}
-          {page === 'music' && (
-            <div className="journey-film">
-              <Film />
-            </div>
+          {page === 'experience' && (
+            <section className="journey-facilitators journey-section">
+              <Photo id={photo(page, 'story:music', 'dome-interior')} />
+              <div>
+                <Heading text={c('music')} />
+                {prose('musicIntro')}
+                <LinkArrow href={url('music')} button>
+                  {c('musicCta')}
+                </LinkArrow>
+              </div>
+            </section>
           )}
-          {page === 'stay' && (
+          {['stay', 'rancho', 'dome', 'hearth'].includes(page) && (
             <Gallery
-              images={[
-                { id: 'suite-view', caption: c('rooms') },
-                { id: 'villa-living', caption: c('roomConcept') },
-                { id: 'villa-kitchen', caption: c('hospitality') },
-              ]}
-            />
-          )}
-          {page === 'rancho' && (
-            <Gallery
-              images={[
-                { id: 'food', caption: c('culinary') },
-                { id: 'table', caption: c('rancho') },
-                { id: 'dining', caption: c('hospitality') },
-              ]}
+              images={[0, 1, 2].map((index) => ({
+                id: photo(page, `gallery:${index}`, 'nature'),
+                caption: c(
+                  (page === 'stay'
+                    ? ['rooms', 'roomConcept', 'hospitality']
+                    : page === 'rancho'
+                      ? ['culinary', 'rancho', 'hospitality']
+                      : page === 'dome'
+                        ? ['dome', 'domeSession', 'studio']
+                        : ['hearth', 'waterfalls', 'wellness'])[
+                    index
+                  ] as CopyKey,
+                ),
+              }))}
             />
           )}
           {page === 'dome' && (
-            <Gallery
-              images={[
-                { id: 'dome-exterior', caption: c('dome') },
-                { id: 'dome-interior', caption: c('domeSession') },
-                { id: 'dome-detail', caption: c('studio') },
-              ]}
-            />
+            <>
+              {editorial('studio', ['studioIntro', 'studioDetail'])}
+              <div className="journey-inline-action">
+                <LinkArrow href={url('music')} button>
+                  {c('musicCta')}
+                </LinkArrow>
+              </div>
+            </>
           )}
           {page === 'press' && (
-            <section className="journey-section journey-contact">
-              <a href={asset('/press/vessyl-overview.txt')} download>
-                {c('ui.pressDownload')}
-                <ArrowUpRight />
-              </a>
-              <p>
-                {c('mediaName')} · {c('mediaOrg')}
-              </p>
-              <a href={'mailto:' + c('mediaEmail')}>
-                {c('mediaEmail')}
-                <ArrowUpRight />
-              </a>
-            </section>
+            <>
+              <PressMarks />
+              <section className="journey-section journey-contact">
+                <a
+                  href={asset(
+                    `/press/vessyl-overview${locale === 'es-LA' ? '-es-LA' : ''}.txt`,
+                  )}
+                  download
+                >
+                  {c('ui.pressDownload')}
+                  <ArrowUpRight />
+                </a>
+                {prose('mediaName')}
+                {prose('mediaOrg')}
+                <a href={'mailto:' + c('mediaEmail')}>
+                  {c('mediaEmail')}
+                  <ArrowUpRight />
+                </a>
+              </section>
+            </>
           )}
           {page === 'contact' && (
             <section className="journey-section journey-contact">
@@ -381,23 +526,30 @@ export function ImmersiveSite({ page }: { page: string }) {
                 +506 8608 0022
                 <ArrowUpRight />
               </a>
-              <p>{c('flights')}</p>
+              {prose('flights')}
             </section>
           )}
           {['faq', 'contact'].includes(page) && (
             <section className="journey-section">
-              <Heading text={c('faq')} />
+              {page === 'contact' && <Heading text={c('faq')} align="center" />}
               <FaqList items={page === 'faq' ? faqs : faqs.slice(0, 4)} />
             </section>
           )}
+          {page === 'home' && <EditorialFilm name="main" />}
+          {hasTwoDoors && <TwoDoors />}
           <section className="journey-departure">
-            <Photo id="hero-arenal" alt={c('locationIntro')} />
+            <Photo id={photo(page, 'closing', 'closing-design-direction')} />
             <div>
-              <span className="eyebrow">{c('hospitality')}</span>
-              <Heading text={c('stayCta')} light />
-              <LinkArrow href={BOOKING} button light external>
-                {c('bookStay')}
-              </LinkArrow>
+              <Heading
+                text={c(hasTwoDoors ? 'closingPresence' : 'stayCta')}
+                light
+                align="center"
+              />
+              {!hasTwoDoors && (
+                <LinkArrow href={BOOKING} button light external>
+                  {c('bookStay')}
+                </LinkArrow>
+              )}
             </div>
           </section>
           <footer className="journey-footer journey-section">
@@ -405,17 +557,16 @@ export function ImmersiveSite({ page }: { page: string }) {
               <img
                 src={asset('/brand/logo-white.svg')}
                 alt="Vessyl"
-                width="190"
-                height="40"
+                width="266"
+                height="56"
               />
             </a>
-            <nav aria-label="Explore Vessyl">
+            <nav aria-label={c('ui.mainNavigation')}>
               {Object.entries(pageTitles)
                 .filter(([p]) => p !== 'home')
                 .map(([p, title]) => (
                   <a key={p} href={url(p)}>
                     {title}
-                    <ArrowUpRight size={14} />
                   </a>
                 ))}
             </nav>
@@ -423,33 +574,15 @@ export function ImmersiveSite({ page }: { page: string }) {
               <span>© {new Date().getFullYear()} Vessyl</span>
               <a href={'mailto:' + EMAIL}>{EMAIL}</a>
             </div>
+            <nav className="edition-switch" aria-label={c('ui.edition')}>
+              <a href={url(page, 'classic')}>{c('ui.classic')}</a>
+              <a className="active" aria-current="true" href={url(page)}>
+                {c('ui.immersive')}
+              </a>
+            </nav>
           </footer>
         </div>
       </main>
-      <aside className="journey-controls" aria-label={c('ui.immersive')}>
-        {!failed && (
-          <button
-            onClick={() => setPaused(!paused)}
-            aria-label={paused ? c('ui.play3d') : c('ui.pause3d')}
-          >
-            {paused ? <Play size={14} /> : <Pause size={14} />}
-            <span>{paused ? c('ui.play') : c('ui.pause')}</span>
-          </button>
-        )}
-        <span>
-          {String(active + 1).padStart(2, '0')} /{' '}
-          {String(chapters.length).padStart(2, '0')}
-        </span>
-        <div className="journey-progress">
-          <i />
-        </div>
-      </aside>
-      <nav className="edition-switch" aria-label={c('ui.edition')}>
-        <a href={url(page, 'classic')}>{c('ui.classic')}</a>
-        <a className="active" aria-current="true" href={url(page)}>
-          {c('ui.immersive')}
-        </a>
-      </nav>
     </div>
   );
 }

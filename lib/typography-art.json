@@ -4709,5 +4709,4811 @@
         "height": 134.27999999999997
       }
     }
+  },
+  "90ebe0aa": {
+    "text": "Harmonic Hearth",
+    "style": "h2",
+    "desktop": "90ebe0aa-desktop.svg",
+    "mobile": "90ebe0aa-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "90ebe0aa-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "90ebe0aa-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "90ebe0aa-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "align": "center"
+  },
+  "645546f4": {
+    "text": "Two doors, one experience",
+    "style": "h2",
+    "weight": 400,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 42,
+        "width": 702
+      },
+      "mobile": {
+        "size": 36,
+        "width": 340
+      }
+    },
+    "desktop": "645546f4-desktop.svg",
+    "mobile": "645546f4-mobile.svg",
+    "desktopWidth": 702,
+    "desktopHeight": 59.21999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "645546f4-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "645546f4-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "645546f4-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    }
+  },
+  "fbf1eede": {
+    "text": "AKEN Soul",
+    "style": "h1",
+    "desktop": "fbf1eede-desktop.svg",
+    "mobile": "fbf1eede-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 56.400000000000006,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "align": "center"
+  },
+  "6cee48a3": {
+    "text": "The location",
+    "style": "h2",
+    "desktop": "6cee48a3-desktop.svg",
+    "mobile": "6cee48a3-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "6cee48a3-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "6cee48a3-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "6cee48a3-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "align": "center"
+  },
+  "24e44558": {
+    "text": "FAQs",
+    "style": "h2",
+    "desktop": "24e44558-desktop.svg",
+    "mobile": "24e44558-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "24e44558-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "24e44558-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "24e44558-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "align": "center"
+  },
+  "ffbd2b54": {
+    "text": "Wellness Sessions",
+    "style": "h1",
+    "desktop": "ffbd2b54-desktop.svg",
+    "mobile": "ffbd2b54-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "align": "center"
+  },
+  "998c53d6": {
+    "text": "Equine & Natural Experience",
+    "style": "h1",
+    "desktop": "998c53d6-desktop.svg",
+    "mobile": "998c53d6-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 236.44,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "align": "center"
+  },
+  "66b3e73f": {
+    "text": "Path of Presence - Nature Walk",
+    "style": "h2",
+    "desktop": "66b3e73f-desktop.svg",
+    "mobile": "66b3e73f-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "66b3e73f-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 134.27999999999997
+      },
+      "medium": {
+        "file": "66b3e73f-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "66b3e73f-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "align": "center"
+  },
+  "9d799178": {
+    "text": "El Rancho",
+    "style": "h1",
+    "desktop": "9d799178-desktop.svg",
+    "mobile": "9d799178-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 56.400000000000006,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "align": "center"
+  },
+  "b0e4599b": {
+    "text": "El Rancho",
+    "style": "h2",
+    "desktop": "b0e4599b-desktop.svg",
+    "mobile": "b0e4599b-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "b0e4599b-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "b0e4599b-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "b0e4599b-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "align": "center"
+  },
+  "5e1eebe7": {
+    "text": "Facilitators",
+    "style": "h1",
+    "desktop": "5e1eebe7-desktop.svg",
+    "mobile": "5e1eebe7-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 56.400000000000006,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "align": "center"
+  },
+  "a44e960f": {
+    "text": "Oscar",
+    "style": "h2",
+    "desktop": "a44e960f-desktop.svg",
+    "mobile": "a44e960f-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "a44e960f-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "a44e960f-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "a44e960f-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "align": "center"
+  },
+  "775c7bc3": {
+    "text": "Dome sessions",
+    "style": "h2",
+    "desktop": "775c7bc3-desktop.svg",
+    "mobile": "775c7bc3-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "775c7bc3-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "775c7bc3-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "775c7bc3-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "align": "center"
+  },
+  "72d5c37e": {
+    "text": "HydroChallenge",
+    "style": "h2",
+    "desktop": "72d5c37e-desktop.svg",
+    "mobile": "72d5c37e-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "72d5c37e-small.svg",
+        "size": 36,
+        "width": 286,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "72d5c37e-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "72d5c37e-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "align": "center"
+  },
+  "3b3d3e92": {
+    "text": "Quantum Sessions",
+    "style": "h1",
+    "desktop": "3b3d3e92-desktop.svg",
+    "mobile": "3b3d3e92-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "align": "center"
+  },
+  "fbaf9d7e": {
+    "text": "El fundador",
+    "style": "h1",
+    "desktop": "fbaf9d7e-desktop.svg",
+    "mobile": "fbaf9d7e-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "locale": "es-LA",
+    "sourceHeading": "c86cd26e"
+  },
+  "75d9a610": {
+    "text": "La experiencia Vessyl",
+    "style": "h1",
+    "desktop": "75d9a610-desktop.svg",
+    "mobile": "75d9a610-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "90395aa3"
+  },
+  "55e4a679": {
+    "text": "Experiencias con caballos y en la naturaleza",
+    "style": "h1",
+    "desktop": "55e4a679-desktop.svg",
+    "mobile": "55e4a679-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 358.08000000000004,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "c21e756c"
+  },
+  "32f40db1": {
+    "text": "Sesiones personales",
+    "style": "h1",
+    "desktop": "32f40db1-desktop.svg",
+    "mobile": "32f40db1-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "7928e753"
+  },
+  "7bffa226": {
+    "text": "Sesiones cuánticas",
+    "style": "h1",
+    "desktop": "7bffa226-desktop.svg",
+    "mobile": "7bffa226-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "c8dc9fc4"
+  },
+  "df185c03": {
+    "text": "Sesiones de bienestar",
+    "style": "h1",
+    "desktop": "df185c03-desktop.svg",
+    "mobile": "df185c03-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "fac076b6"
+  },
+  "37692fdc": {
+    "text": "Facilitadores",
+    "style": "h1",
+    "desktop": "37692fdc-desktop.svg",
+    "mobile": "37692fdc-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "locale": "es-LA",
+    "sourceHeading": "530ab981"
+  },
+  "762c9148": {
+    "text": "La aplicación",
+    "style": "h1",
+    "desktop": "762c9148-desktop.svg",
+    "mobile": "762c9148-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "locale": "es-LA",
+    "sourceHeading": "3a20f5ee"
+  },
+  "2c5d9a54": {
+    "text": "Sello discográfico",
+    "style": "h1",
+    "desktop": "2c5d9a54-desktop.svg",
+    "mobile": "2c5d9a54-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "f8f2b063"
+  },
+  "a8c5129d": {
+    "text": "Sala de prensa",
+    "style": "h1",
+    "desktop": "a8c5129d-desktop.svg",
+    "mobile": "a8c5129d-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "locale": "es-LA",
+    "sourceHeading": "22d3ab7c"
+  },
+  "766496f": {
+    "text": "Contáctenos / Haga una reserva",
+    "style": "h1",
+    "desktop": "766496f-desktop.svg",
+    "mobile": "766496f-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "bf90b0f2"
+  },
+  "f4173783": {
+    "text": "Preguntas frecuentes",
+    "style": "h1",
+    "desktop": "f4173783-desktop.svg",
+    "mobile": "f4173783-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "18c13d3b"
+  },
+  "6a414aa5": {
+    "text": "El mundo se volvió más ruidoso. Aquí encuentra la calma.",
+    "style": "h1",
+    "desktop": "6a414aa5-desktop.svg",
+    "mobile": "6a414aa5-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 358.08000000000004,
+    "mobileWidth": 340,
+    "mobileHeight": 266.19999999999993,
+    "locale": "es-LA",
+    "sourceHeading": "66c77ac8"
+  },
+  "2ee6b6de": {
+    "text": "The Vessyl, dondequiera que esté.",
+    "style": "h1",
+    "desktop": "2ee6b6de-desktop.svg",
+    "mobile": "2ee6b6de-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "ed065ade"
+  },
+  "7221ff00": {
+    "text": "Página no encontrada",
+    "style": "h1",
+    "desktop": "7221ff00-desktop.svg",
+    "mobile": "7221ff00-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "551d6a70"
+  },
+  "a824d70e": {
+    "text": "Yoga vibratorio",
+    "style": "h2",
+    "desktop": "a824d70e-desktop.svg",
+    "mobile": "a824d70e-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "a824d70e-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "a824d70e-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "a824d70e-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "e4a72d40"
+  },
+  "9eb9b1a1": {
+    "text": "Movilidad, meditación y atención plena",
+    "style": "h2",
+    "desktop": "9eb9b1a1-desktop.svg",
+    "mobile": "9eb9b1a1-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 134.27999999999997,
+    "responsive": {
+      "small": {
+        "file": "9eb9b1a1-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 134.27999999999997
+      },
+      "medium": {
+        "file": "9eb9b1a1-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "9eb9b1a1-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "34791db2"
+  },
+  "bc6a105f": {
+    "text": "Tratamientos de sonido y trabajo corporal",
+    "style": "h2",
+    "desktop": "bc6a105f-desktop.svg",
+    "mobile": "bc6a105f-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 134.27999999999997,
+    "responsive": {
+      "small": {
+        "file": "bc6a105f-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 176.03999999999996
+      },
+      "medium": {
+        "file": "bc6a105f-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 156.66
+      },
+      "large": {
+        "file": "bc6a105f-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "de6a9acf"
+  },
+  "fa0e7387": {
+    "text": "Viajes por los chakras",
+    "style": "h2",
+    "desktop": "fa0e7387-desktop.svg",
+    "mobile": "fa0e7387-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "fa0e7387-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "fa0e7387-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "fa0e7387-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "88bb2120"
+  },
+  "4708f011": {
+    "text": "Viajes planetarios",
+    "style": "h2",
+    "desktop": "4708f011-desktop.svg",
+    "mobile": "4708f011-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "4708f011-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "4708f011-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "4708f011-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "916963d0"
+  },
+  "7fe4b196": {
+    "text": "Mundos más allá de la Tierra + Voces en la oscuridad",
+    "style": "h2",
+    "desktop": "7fe4b196-desktop.svg",
+    "mobile": "7fe4b196-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 223.79999999999995,
+    "mobileWidth": 340,
+    "mobileHeight": 134.27999999999997,
+    "responsive": {
+      "small": {
+        "file": "7fe4b196-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 176.03999999999996
+      },
+      "medium": {
+        "file": "7fe4b196-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 156.66
+      },
+      "large": {
+        "file": "7fe4b196-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "a5597fed"
+  },
+  "d5d1f1ef": {
+    "text": "El fundador",
+    "style": "h2",
+    "desktop": "d5d1f1ef-desktop.svg",
+    "mobile": "d5d1f1ef-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "d5d1f1ef-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "d5d1f1ef-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "d5d1f1ef-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "f98b81ab"
+  },
+  "435683c9": {
+    "text": "La experiencia Vessyl",
+    "style": "h2",
+    "desktop": "435683c9-desktop.svg",
+    "mobile": "435683c9-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "435683c9-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "435683c9-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "435683c9-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "b5cc138a"
+  },
+  "257269f2": {
+    "text": "Experiencias con caballos y en la naturaleza",
+    "style": "h2",
+    "desktop": "257269f2-desktop.svg",
+    "mobile": "257269f2-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 134.27999999999997,
+    "responsive": {
+      "small": {
+        "file": "257269f2-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 134.27999999999997
+      },
+      "medium": {
+        "file": "257269f2-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 156.66
+      },
+      "large": {
+        "file": "257269f2-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "c18337e9"
+  },
+  "9ef9f880": {
+    "text": "Sesiones personales",
+    "style": "h2",
+    "desktop": "9ef9f880-desktop.svg",
+    "mobile": "9ef9f880-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "9ef9f880-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "9ef9f880-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "9ef9f880-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "4219368a"
+  },
+  "9756c2c1": {
+    "text": "Sesiones cuánticas",
+    "style": "h2",
+    "desktop": "9756c2c1-desktop.svg",
+    "mobile": "9756c2c1-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "9756c2c1-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "9756c2c1-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "9756c2c1-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "1fed98ef"
+  },
+  "bc4c1efe": {
+    "text": "Sesiones de bienestar",
+    "style": "h2",
+    "desktop": "bc4c1efe-desktop.svg",
+    "mobile": "bc4c1efe-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "bc4c1efe-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "bc4c1efe-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "bc4c1efe-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "2bf4ffb"
+  },
+  "16ed4299": {
+    "text": "Facilitadores",
+    "style": "h2",
+    "desktop": "16ed4299-desktop.svg",
+    "mobile": "16ed4299-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "16ed4299-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "16ed4299-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "16ed4299-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "9c50682"
+  },
+  "5cbc0d05": {
+    "text": "La aplicación",
+    "style": "h2",
+    "desktop": "5cbc0d05-desktop.svg",
+    "mobile": "5cbc0d05-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "5cbc0d05-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "5cbc0d05-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "5cbc0d05-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "1c99d4c3"
+  },
+  "fda780ab": {
+    "text": "Sello discográfico",
+    "style": "h2",
+    "desktop": "fda780ab-desktop.svg",
+    "mobile": "fda780ab-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "fda780ab-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "fda780ab-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "fda780ab-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "5f4fff4e"
+  },
+  "81b73f86": {
+    "text": "Sala de prensa",
+    "style": "h2",
+    "desktop": "81b73f86-desktop.svg",
+    "mobile": "81b73f86-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "81b73f86-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "81b73f86-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "81b73f86-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "52902b2b"
+  },
+  "4c5990c4": {
+    "text": "Contáctenos / Haga una reserva",
+    "style": "h2",
+    "desktop": "4c5990c4-desktop.svg",
+    "mobile": "4c5990c4-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "4c5990c4-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 134.27999999999997
+      },
+      "medium": {
+        "file": "4c5990c4-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "4c5990c4-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "d0f37a2b"
+  },
+  "12c8fbc8": {
+    "text": "Preguntas frecuentes",
+    "style": "h2",
+    "desktop": "12c8fbc8-desktop.svg",
+    "mobile": "12c8fbc8-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "12c8fbc8-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "12c8fbc8-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "12c8fbc8-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "57e87cb4"
+  },
+  "fa15399d": {
+    "text": "Concepto de habitación",
+    "style": "h2",
+    "desktop": "fa15399d-desktop.svg",
+    "mobile": "fa15399d-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "fa15399d-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "fa15399d-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "fa15399d-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "7a1178e2"
+  },
+  "72c22c15": {
+    "text": "Habitaciones",
+    "style": "h2",
+    "desktop": "72c22c15-desktop.svg",
+    "mobile": "72c22c15-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "72c22c15-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "72c22c15-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "72c22c15-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "af01242f"
+  },
+  "5d12717": {
+    "text": "The Vessyl se encuentra cerca de La Fortuna, Costa Rica, al pie del volcán Arenal.",
+    "style": "h2",
+    "desktop": "5d12717-desktop.svg",
+    "mobile": "5d12717-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 293.4,
+    "mobileWidth": 340,
+    "mobileHeight": 217.79999999999995,
+    "responsive": {
+      "small": {
+        "file": "5d12717-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 259.56
+      },
+      "medium": {
+        "file": "5d12717-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 205.38
+      },
+      "large": {
+        "file": "5d12717-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 193.95999999999998
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "f3a24ff8"
+  },
+  "bf98b83": {
+    "text": "The Vessyl, dondequiera que esté.",
+    "style": "h2",
+    "desktop": "bf98b83-desktop.svg",
+    "mobile": "bf98b83-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 134.27999999999997,
+    "responsive": {
+      "small": {
+        "file": "bf98b83-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 134.27999999999997
+      },
+      "medium": {
+        "file": "bf98b83-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "bf98b83-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "9f2580eb"
+  },
+  "4a1d552a": {
+    "text": "No es un sustituto. Es una puerta.",
+    "style": "h2",
+    "desktop": "4a1d552a-desktop.svg",
+    "mobile": "4a1d552a-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "4a1d552a-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 134.27999999999997
+      },
+      "medium": {
+        "file": "4a1d552a-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "4a1d552a-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "492c4320"
+  },
+  "7874dce6": {
+    "text": "La biblioteca de sesiones",
+    "style": "h2",
+    "desktop": "7874dce6-desktop.svg",
+    "mobile": "7874dce6-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "7874dce6-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "7874dce6-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "7874dce6-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "f2e19e22"
+  },
+  "9ebbe163": {
+    "text": "Los facilitadores",
+    "style": "h2",
+    "desktop": "9ebbe163-desktop.svg",
+    "mobile": "9ebbe163-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "9ebbe163-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "9ebbe163-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "9ebbe163-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "f70d264b"
+  },
+  "37cfe361": {
+    "text": "Conozca a los facilitadores",
+    "style": "h2",
+    "desktop": "37cfe361-desktop.svg",
+    "mobile": "37cfe361-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "37cfe361-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "37cfe361-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "37cfe361-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "8e90d94c"
+  },
+  "70d50460": {
+    "text": "El estudio de grabación",
+    "style": "h2",
+    "desktop": "70d50460-desktop.svg",
+    "mobile": "70d50460-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "70d50460-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "70d50460-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "70d50460-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "f5bc55a7"
+  },
+  "d51c095": {
+    "text": "Conexión con los caballos",
+    "style": "h2",
+    "desktop": "d51c095-desktop.svg",
+    "mobile": "d51c095-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "d51c095-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "d51c095-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "d51c095-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "e1d13885"
+  },
+  "8f64c6ca": {
+    "text": "Cabalgata y río",
+    "style": "h2",
+    "desktop": "8f64c6ca-desktop.svg",
+    "mobile": "8f64c6ca-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "8f64c6ca-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "8f64c6ca-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "8f64c6ca-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "c544a129"
+  },
+  "9b4a1598": {
+    "text": "Observación de aves",
+    "style": "h2",
+    "desktop": "9b4a1598-desktop.svg",
+    "mobile": "9b4a1598-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "9b4a1598-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "9b4a1598-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "9b4a1598-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "aaa6b493"
+  },
+  "e19bb084": {
+    "text": "Sendero de la presencia: caminata por la naturaleza",
+    "style": "h2",
+    "desktop": "e19bb084-desktop.svg",
+    "mobile": "e19bb084-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 176.03999999999996,
+    "responsive": {
+      "small": {
+        "file": "e19bb084-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 176.03999999999996
+      },
+      "medium": {
+        "file": "e19bb084-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 156.66
+      },
+      "large": {
+        "file": "e19bb084-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "ee453123"
+  },
+  "b4b88aa4": {
+    "text": "Parque Nacional Volcán Arenal",
+    "style": "h2",
+    "desktop": "b4b88aa4-desktop.svg",
+    "mobile": "b4b88aa4-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "b4b88aa4-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 134.27999999999997
+      },
+      "medium": {
+        "file": "b4b88aa4-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "b4b88aa4-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "4ae1fdc8"
+  },
+  "e3ba7c4e": {
+    "text": "DESCRIPCIÓN GENERAL",
+    "style": "h2",
+    "desktop": "e3ba7c4e-desktop.svg",
+    "mobile": "e3ba7c4e-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "e3ba7c4e-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "e3ba7c4e-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "e3ba7c4e-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "b1cbc3de"
+  },
+  "616c557": {
+    "text": "DATOS CLAVE",
+    "style": "h2",
+    "desktop": "616c557-desktop.svg",
+    "mobile": "616c557-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "616c557-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "616c557-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "616c557-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "ff070f27"
+  },
+  "fc04e236": {
+    "text": "Galería",
+    "style": "h2",
+    "desktop": "fc04e236-desktop.svg",
+    "mobile": "fc04e236-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "fc04e236-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "fc04e236-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "fc04e236-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "dfa72b79"
+  },
+  "561c322c": {
+    "text": "Sesión Quantum Soul",
+    "style": "h2",
+    "desktop": "561c322c-desktop.svg",
+    "mobile": "561c322c-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "561c322c-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "561c322c-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "561c322c-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "70203851"
+  },
+  "7f10465b": {
+    "text": "Numerología",
+    "style": "h2",
+    "desktop": "7f10465b-desktop.svg",
+    "mobile": "7f10465b-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "7f10465b-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "7f10465b-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "7f10465b-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "8bfe1b74"
+  },
+  "24375d55": {
+    "text": "Prácticas de respiración",
+    "style": "h2",
+    "desktop": "24375d55-desktop.svg",
+    "mobile": "24375d55-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "24375d55-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "24375d55-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "24375d55-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "63295dd6"
+  },
+  "a6a9a156": {
+    "text": "Fractales",
+    "style": "h2",
+    "desktop": "a6a9a156-desktop.svg",
+    "mobile": "a6a9a156-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "a6a9a156-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "a6a9a156-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "a6a9a156-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "7f77157"
+  },
+  "f325d5c9": {
+    "text": "Voces en la oscuridad",
+    "style": "h2",
+    "desktop": "f325d5c9-desktop.svg",
+    "mobile": "f325d5c9-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "f325d5c9-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "f325d5c9-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "f325d5c9-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "8211d09e"
+  },
+  "6b7ca784": {
+    "text": "Tiempo de introspección",
+    "style": "h2",
+    "desktop": "6b7ca784-desktop.svg",
+    "mobile": "6b7ca784-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "6b7ca784-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "6b7ca784-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "6b7ca784-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "434af9d9"
+  },
+  "ff7a5c45": {
+    "text": "Yoga vibratorio",
+    "style": "h3",
+    "desktop": "ff7a5c45-desktop.svg",
+    "mobile": "ff7a5c45-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "ff7a5c45-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 39.47999999999999
+      },
+      "medium": {
+        "file": "ff7a5c45-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "ff7a5c45-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "8f34c2b9"
+  },
+  "d605440c": {
+    "text": "Movilidad, meditación y atención plena",
+    "style": "h3",
+    "desktop": "d605440c-desktop.svg",
+    "mobile": "d605440c-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 92.51999999999998,
+    "mobileWidth": 340,
+    "mobileHeight": 71.96,
+    "responsive": {
+      "small": {
+        "file": "d605440c-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 104.43999999999998
+      },
+      "medium": {
+        "file": "d605440c-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 92.51999999999998
+      },
+      "large": {
+        "file": "d605440c-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "95768995"
+  },
+  "8d7bd0e8": {
+    "text": "Tratamientos de sonido y trabajo corporal",
+    "style": "h3",
+    "desktop": "8d7bd0e8-desktop.svg",
+    "mobile": "8d7bd0e8-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 134.27999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 71.96,
+    "responsive": {
+      "small": {
+        "file": "8d7bd0e8-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 104.43999999999998
+      },
+      "medium": {
+        "file": "8d7bd0e8-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 92.51999999999998
+      },
+      "large": {
+        "file": "8d7bd0e8-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 92.51999999999998
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "6a5f4e2c"
+  },
+  "40b0b182": {
+    "text": "Viajes por los chakras",
+    "style": "h3",
+    "desktop": "40b0b182-desktop.svg",
+    "mobile": "40b0b182-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "40b0b182-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 71.96
+      },
+      "medium": {
+        "file": "40b0b182-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "40b0b182-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "544fc607"
+  },
+  "323485f0": {
+    "text": "Viajes planetarios",
+    "style": "h3",
+    "desktop": "323485f0-desktop.svg",
+    "mobile": "323485f0-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "323485f0-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 39.47999999999999
+      },
+      "medium": {
+        "file": "323485f0-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "323485f0-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "55b3a47f"
+  },
+  "dce80603": {
+    "text": "Mundos más allá de la Tierra + Voces en la oscuridad",
+    "style": "h3",
+    "desktop": "dce80603-desktop.svg",
+    "mobile": "dce80603-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 134.27999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 104.43999999999998,
+    "responsive": {
+      "small": {
+        "file": "dce80603-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 104.43999999999998
+      },
+      "medium": {
+        "file": "dce80603-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 134.27999999999997
+      },
+      "large": {
+        "file": "dce80603-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 92.51999999999998
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "71008f64"
+  },
+  "bd32812": {
+    "text": "En auto desde San José",
+    "style": "h3",
+    "desktop": "bd32812-desktop.svg",
+    "mobile": "bd32812-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "bd32812-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 71.96
+      },
+      "medium": {
+        "file": "bd32812-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "bd32812-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "dd2feaf2"
+  },
+  "3f2b7c57": {
+    "text": "En auto desde Liberia",
+    "style": "h3",
+    "desktop": "3f2b7c57-desktop.svg",
+    "mobile": "3f2b7c57-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "3f2b7c57-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 71.96
+      },
+      "medium": {
+        "file": "3f2b7c57-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "3f2b7c57-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "5aa75df7"
+  },
+  "398ceb8": {
+    "text": "Habitaciones",
+    "style": "h3",
+    "desktop": "398ceb8-desktop.svg",
+    "mobile": "398ceb8-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "398ceb8-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 39.47999999999999
+      },
+      "medium": {
+        "file": "398ceb8-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "398ceb8-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "d405a520"
+  },
+  "612d713c": {
+    "text": "El Dome",
+    "style": "h3",
+    "desktop": "612d713c-desktop.svg",
+    "mobile": "612d713c-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "612d713c-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 39.47999999999999
+      },
+      "medium": {
+        "file": "612d713c-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "612d713c-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "18617bb6"
+  },
+  "ba0c6acd": {
+    "text": "Caballos y naturaleza",
+    "style": "h3",
+    "desktop": "ba0c6acd-desktop.svg",
+    "mobile": "ba0c6acd-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "ba0c6acd-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 71.96
+      },
+      "medium": {
+        "file": "ba0c6acd-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "ba0c6acd-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "865902ba"
+  },
+  "7a21d503": {
+    "text": "Sesión Quantum Soul",
+    "style": "h3",
+    "desktop": "7a21d503-desktop.svg",
+    "mobile": "7a21d503-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "7a21d503-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 71.96
+      },
+      "medium": {
+        "file": "7a21d503-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "7a21d503-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "d594fc4"
+  },
+  "cdcc1e4c": {
+    "text": "Numerología",
+    "style": "h3",
+    "desktop": "cdcc1e4c-desktop.svg",
+    "mobile": "cdcc1e4c-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "cdcc1e4c-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 39.47999999999999
+      },
+      "medium": {
+        "file": "cdcc1e4c-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "cdcc1e4c-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "90f364c9"
+  },
+  "972bdb70": {
+    "text": "Prácticas de respiración",
+    "style": "h3",
+    "desktop": "972bdb70-desktop.svg",
+    "mobile": "972bdb70-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 92.51999999999998,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "972bdb70-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 71.96
+      },
+      "medium": {
+        "file": "972bdb70-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "972bdb70-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "727f8527"
+  },
+  "dac22603": {
+    "text": "Sendero de la presencia: caminata por la naturaleza",
+    "style": "h3",
+    "desktop": "dac22603-desktop.svg",
+    "mobile": "dac22603-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 134.27999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 104.43999999999998,
+    "responsive": {
+      "small": {
+        "file": "dac22603-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 104.43999999999998
+      },
+      "medium": {
+        "file": "dac22603-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 92.51999999999998
+      },
+      "large": {
+        "file": "dac22603-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 92.51999999999998
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "a3328fd2"
+  },
+  "8416ba5d": {
+    "text": "Fractales",
+    "style": "h3",
+    "desktop": "8416ba5d-desktop.svg",
+    "mobile": "8416ba5d-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "8416ba5d-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 39.47999999999999
+      },
+      "medium": {
+        "file": "8416ba5d-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "8416ba5d-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "c2ef6de6"
+  },
+  "b88dfb22": {
+    "text": "Voces en la oscuridad",
+    "style": "h3",
+    "desktop": "b88dfb22-desktop.svg",
+    "mobile": "b88dfb22-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "responsive": {
+      "small": {
+        "file": "b88dfb22-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 71.96
+      },
+      "medium": {
+        "file": "b88dfb22-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "b88dfb22-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "3836680f"
+  },
+  "9c297a63": {
+    "text": "Tiempo de introspección",
+    "style": "h3",
+    "desktop": "9c297a63-desktop.svg",
+    "mobile": "9c297a63-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 92.51999999999998,
+    "mobileWidth": 340,
+    "mobileHeight": 71.96,
+    "responsive": {
+      "small": {
+        "file": "9c297a63-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 71.96
+      },
+      "medium": {
+        "file": "9c297a63-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "9c297a63-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "89f3b484"
+  },
+  "bb566e5b": {
+    "text": "Sanar debería ser una experiencia llena de vida. Debería sentirse como la música, la risa, la aventura, la naturaleza y la compañía de otras personas. No buscamos ayudar a las personas a escapar de sus vidas. Buscamos ayudarlas a reconectar con sus vidas.",
+    "style": "quote",
+    "desktop": "bb566e5b-desktop.svg",
+    "mobile": "bb566e5b-mobile.svg",
+    "desktopWidth": 1050,
+    "desktopHeight": 302.82,
+    "mobileWidth": 340,
+    "mobileHeight": 444.5699999999998,
+    "responsive": {
+      "small": {
+        "file": "bb566e5b-small.svg",
+        "size": 29,
+        "width": 280,
+        "height": 545.4899999999998
+      },
+      "medium": {
+        "file": "bb566e5b-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 426.59999999999997
+      },
+      "large": {
+        "file": "bb566e5b-large.svg",
+        "size": 40,
+        "width": 720,
+        "height": 381.19999999999993
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "dedb2ca7"
+  },
+  "4cec59f6": {
+    "text": "El mundo se volvió más ruidoso. Aquí encuentra la calma.",
+    "style": "h2",
+    "desktop": "4cec59f6-desktop.svg",
+    "mobile": "4cec59f6-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 223.79999999999995,
+    "mobileWidth": 340,
+    "mobileHeight": 134.27999999999997,
+    "responsive": {
+      "small": {
+        "file": "4cec59f6-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 217.79999999999995
+      },
+      "medium": {
+        "file": "4cec59f6-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 156.66
+      },
+      "large": {
+        "file": "4cec59f6-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 193.95999999999998
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "9a387b2b"
+  },
+  "252cfa5b": {
+    "text": "Tecnología",
+    "style": "h1",
+    "desktop": "252cfa5b-desktop.svg",
+    "mobile": "252cfa5b-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "locale": "es-LA",
+    "sourceHeading": "f5d36448"
+  },
+  "1e023e30": {
+    "text": "Tecnología",
+    "style": "h2",
+    "desktop": "1e023e30-desktop.svg",
+    "mobile": "1e023e30-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "1e023e30-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "1e023e30-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "1e023e30-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "8e08b08b"
+  },
+  "34ec2bac": {
+    "text": "Piso vibrotáctil de Clark Synthesis",
+    "style": "h1",
+    "desktop": "34ec2bac-desktop.svg",
+    "mobile": "34ec2bac-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "bcc61f7f"
+  },
+  "2ec4bcc1": {
+    "text": "Piso vibrotáctil de Clark Synthesis",
+    "style": "h2",
+    "desktop": "2ec4bcc1-desktop.svg",
+    "mobile": "2ec4bcc1-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "2ec4bcc1-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 134.27999999999997
+      },
+      "medium": {
+        "file": "2ec4bcc1-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "2ec4bcc1-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "c3fb8024"
+  },
+  "3191381d": {
+    "text": "El estudio de grabación",
+    "style": "h1",
+    "desktop": "3191381d-desktop.svg",
+    "mobile": "3191381d-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "f78daad0"
+  },
+  "b995b9ca": {
+    "text": "Prácticas de respiración",
+    "style": "h1",
+    "desktop": "b995b9ca-desktop.svg",
+    "mobile": "b995b9ca-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "9e701be9"
+  },
+  "dd663bac": {
+    "text": "Conexión con los caballos",
+    "style": "h1",
+    "desktop": "dd663bac-desktop.svg",
+    "mobile": "dd663bac-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "ede25c7c"
+  },
+  "47dcf593": {
+    "text": "Cabalgata y río",
+    "style": "h1",
+    "desktop": "47dcf593-desktop.svg",
+    "mobile": "47dcf593-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "locale": "es-LA",
+    "sourceHeading": "d4c596f8"
+  },
+  "7f24d949": {
+    "text": "Observación de aves",
+    "style": "h1",
+    "desktop": "7f24d949-desktop.svg",
+    "mobile": "7f24d949-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "935b6060"
+  },
+  "7f2303e1": {
+    "text": "Sendero de la presencia: caminata por la naturaleza",
+    "style": "h1",
+    "desktop": "7f2303e1-desktop.svg",
+    "mobile": "7f2303e1-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 358.08000000000004,
+    "mobileWidth": 340,
+    "mobileHeight": 215.15999999999997,
+    "locale": "es-LA",
+    "sourceHeading": "11708084"
+  },
+  "b3ec5e7e": {
+    "text": "Numerología",
+    "style": "h1",
+    "desktop": "b3ec5e7e-desktop.svg",
+    "mobile": "b3ec5e7e-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "locale": "es-LA",
+    "sourceHeading": "f7ff9727"
+  },
+  "9912ab3e": {
+    "text": "Habitaciones",
+    "style": "h1",
+    "desktop": "9912ab3e-desktop.svg",
+    "mobile": "9912ab3e-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "locale": "es-LA",
+    "sourceHeading": "207423ce"
+  },
+  "6e71bf76": {
+    "text": "Concepto de habitación",
+    "style": "h1",
+    "desktop": "6e71bf76-desktop.svg",
+    "mobile": "6e71bf76-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "9f96d76d"
+  },
+  "f4d39995": {
+    "text": "No es un sustituto. Es una puerta.",
+    "style": "h1",
+    "desktop": "f4d39995-desktop.svg",
+    "mobile": "f4d39995-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "4ad3c8a3"
+  },
+  "b201dd03": {
+    "text": "La biblioteca de sesiones",
+    "style": "h1",
+    "desktop": "b201dd03-desktop.svg",
+    "mobile": "b201dd03-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "b94227e9"
+  },
+  "1037a59e": {
+    "text": "Los facilitadores",
+    "style": "h1",
+    "desktop": "1037a59e-desktop.svg",
+    "mobile": "1037a59e-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "fc57cb30"
+  },
+  "916b0957": {
+    "text": "DESCRIPCIÓN GENERAL",
+    "style": "h1",
+    "desktop": "916b0957-desktop.svg",
+    "mobile": "916b0957-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "73f05c09"
+  },
+  "45cc1eaf": {
+    "text": "El fundador",
+    "style": "h1",
+    "desktop": "45cc1eaf-desktop.svg",
+    "mobile": "45cc1eaf-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "5ff6db6b"
+  },
+  "56275609": {
+    "text": "La experiencia Vessyl",
+    "style": "h1",
+    "desktop": "56275609-desktop.svg",
+    "mobile": "56275609-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "ecec28ca"
+  },
+  "98ff5e32": {
+    "text": "Experiencias con caballos y en la naturaleza",
+    "style": "h1",
+    "desktop": "98ff5e32-desktop.svg",
+    "mobile": "98ff5e32-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 358.08000000000004,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "2f684e29"
+  },
+  "74edd840": {
+    "text": "Sesiones personales",
+    "style": "h1",
+    "desktop": "74edd840-desktop.svg",
+    "mobile": "74edd840-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "17c0264a"
+  },
+  "900ada81": {
+    "text": "Sesiones cuánticas",
+    "style": "h1",
+    "desktop": "900ada81-desktop.svg",
+    "mobile": "900ada81-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "756be7af"
+  },
+  "994e6e3e": {
+    "text": "Sesiones de bienestar",
+    "style": "h1",
+    "desktop": "994e6e3e-desktop.svg",
+    "mobile": "994e6e3e-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "ec4261bb"
+  },
+  "e3d6d6d9": {
+    "text": "Facilitadores",
+    "style": "h1",
+    "desktop": "e3d6d6d9-desktop.svg",
+    "mobile": "e3d6d6d9-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "a1cd3dc2"
+  },
+  "c4db916b": {
+    "text": "Sello discográfico",
+    "style": "h1",
+    "desktop": "c4db916b-desktop.svg",
+    "mobile": "c4db916b-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "7e92740e"
+  },
+  "e6df99c6": {
+    "text": "Sala de prensa",
+    "style": "h1",
+    "desktop": "e6df99c6-desktop.svg",
+    "mobile": "e6df99c6-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "f82274eb"
+  },
+  "cfc2d084": {
+    "text": "Contáctenos / Haga una reserva",
+    "style": "h1",
+    "desktop": "cfc2d084-desktop.svg",
+    "mobile": "cfc2d084-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "da81a56b"
+  },
+  "329d0a88": {
+    "text": "Preguntas frecuentes",
+    "style": "h1",
+    "desktop": "329d0a88-desktop.svg",
+    "mobile": "329d0a88-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "4260b1f4"
+  },
+  "6900b5b6": {
+    "text": "El mundo se volvió más ruidoso. Aquí encuentra la calma.",
+    "style": "h1",
+    "desktop": "6900b5b6-desktop.svg",
+    "mobile": "6900b5b6-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 358.08000000000004,
+    "mobileWidth": 340,
+    "mobileHeight": 266.19999999999993,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "bc71d6eb"
+  },
+  "d79c7dc3": {
+    "text": "The Vessyl, dondequiera que esté.",
+    "style": "h1",
+    "desktop": "d79c7dc3-desktop.svg",
+    "mobile": "d79c7dc3-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998,
+    "weight": 400,
+    "locale": "es-LA",
+    "sourceHeading": "2d26f42b"
+  },
+  "d313da2": {
+    "text": "El mundo se volvió más ruidoso. Aquí encuentra la calma.",
+    "style": "h1",
+    "desktop": "d313da2-desktop.svg",
+    "mobile": "d313da2-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 185.03999999999996,
+    "mobileWidth": 340,
+    "mobileHeight": 266.19999999999993,
+    "weight": 400,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 72,
+        "width": 1100
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "ee612fff"
+  },
+  "5ec81db3": {
+    "text": "El fundador",
+    "style": "h1",
+    "desktop": "5ec81db3-desktop.svg",
+    "mobile": "5ec81db3-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "weight": 400,
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "37d1d82f"
+  },
+  "6868b3fd": {
+    "text": "La experiencia Vessyl",
+    "style": "h1",
+    "desktop": "6868b3fd-desktop.svg",
+    "mobile": "6868b3fd-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "weight": 400,
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "8d2fe29e"
+  },
+  "c91192ff": {
+    "text": "Sello discográfico",
+    "style": "h1",
+    "desktop": "c91192ff-desktop.svg",
+    "mobile": "c91192ff-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "weight": 400,
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "5f34736a"
+  },
+  "c7926637": {
+    "text": "The Vessyl, dondequiera que esté.",
+    "style": "h1",
+    "desktop": "c7926637-desktop.svg",
+    "mobile": "c7926637-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998,
+    "weight": 400,
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "667b4187"
+  },
+  "66ef5a00": {
+    "text": "Contáctenos / Haga una reserva",
+    "style": "h1",
+    "desktop": "66ef5a00-desktop.svg",
+    "mobile": "66ef5a00-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998,
+    "weight": 400,
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "5874f88f"
+  },
+  "2de22c54": {
+    "text": "Preguntas frecuentes",
+    "style": "h1",
+    "desktop": "2de22c54-desktop.svg",
+    "mobile": "2de22c54-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "weight": 400,
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "6cd8c518"
+  },
+  "d086c06a": {
+    "text": "Sala de prensa",
+    "style": "h1",
+    "desktop": "d086c06a-desktop.svg",
+    "mobile": "d086c06a-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985,
+    "weight": 400,
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "bfd94867"
+  },
+  "b5e9c53d": {
+    "text": "La experiencia Vessyl",
+    "style": "h2",
+    "desktop": "b5e9c53d-desktop.svg",
+    "mobile": "b5e9c53d-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "b5e9c53d-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "b5e9c53d-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "b5e9c53d-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "da8765de"
+  },
+  "c80bfb46": {
+    "text": "Cabalgata y río",
+    "style": "h2",
+    "desktop": "c80bfb46-desktop.svg",
+    "mobile": "c80bfb46-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "c80bfb46-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "c80bfb46-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "c80bfb46-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "e7429fd5"
+  },
+  "60fa7a00": {
+    "text": "Parque Nacional Volcán Arenal",
+    "style": "h2",
+    "desktop": "60fa7a00-desktop.svg",
+    "mobile": "60fa7a00-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "60fa7a00-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 134.27999999999997
+      },
+      "medium": {
+        "file": "60fa7a00-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "60fa7a00-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "429d626c"
+  },
+  "328c88bc": {
+    "text": "Sesiones personales",
+    "style": "h2",
+    "desktop": "328c88bc-desktop.svg",
+    "mobile": "328c88bc-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "328c88bc-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "328c88bc-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "328c88bc-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "76fc08d6"
+  },
+  "2b645b51": {
+    "text": "Habitaciones",
+    "style": "h2",
+    "desktop": "2b645b51-desktop.svg",
+    "mobile": "2b645b51-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "2b645b51-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "2b645b51-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "2b645b51-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "4612d0cb"
+  },
+  "5f90a31e": {
+    "text": "No es un sustituto. Es una puerta.",
+    "style": "h2",
+    "desktop": "5f90a31e-desktop.svg",
+    "mobile": "5f90a31e-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "5f90a31e-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 134.27999999999997
+      },
+      "medium": {
+        "file": "5f90a31e-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "5f90a31e-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "1e464d14"
+  },
+  "a7d56dbc": {
+    "text": "El estudio de grabación",
+    "style": "h2",
+    "desktop": "a7d56dbc-desktop.svg",
+    "mobile": "a7d56dbc-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "a7d56dbc-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "a7d56dbc-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "a7d56dbc-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "346eb52b"
+  },
+  "e3b32512": {
+    "text": "DESCRIPCIÓN GENERAL",
+    "style": "h2",
+    "desktop": "e3b32512-desktop.svg",
+    "mobile": "e3b32512-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "e3b32512-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "e3b32512-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "e3b32512-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "55be60da"
+  },
+  "db9cbc77": {
+    "text": "The Vessyl, dondequiera que esté.",
+    "style": "h2",
+    "desktop": "db9cbc77-desktop.svg",
+    "mobile": "db9cbc77-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 134.27999999999997,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "db9cbc77-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 134.27999999999997
+      },
+      "medium": {
+        "file": "db9cbc77-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "db9cbc77-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "9f3528c7"
+  },
+  "6158a632": {
+    "text": "La biblioteca de sesiones",
+    "style": "h2",
+    "desktop": "6158a632-desktop.svg",
+    "mobile": "6158a632-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "6158a632-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "6158a632-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "6158a632-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "54ae6cee"
+  },
+  "7df8ed37": {
+    "text": "Los facilitadores",
+    "style": "h2",
+    "desktop": "7df8ed37-desktop.svg",
+    "mobile": "7df8ed37-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "7df8ed37-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "7df8ed37-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "7df8ed37-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "6a202e1f"
+  },
+  "be9f7a53": {
+    "text": "The Vessyl se encuentra cerca de La Fortuna, Costa Rica, al pie del volcán Arenal.",
+    "style": "h2",
+    "desktop": "be9f7a53-desktop.svg",
+    "mobile": "be9f7a53-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 293.4,
+    "mobileWidth": 340,
+    "mobileHeight": 217.79999999999995,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "be9f7a53-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 259.56
+      },
+      "medium": {
+        "file": "be9f7a53-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 205.38
+      },
+      "large": {
+        "file": "be9f7a53-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 193.95999999999998
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "34bb76b4"
+  },
+  "ac07b940": {
+    "text": "En auto desde San José",
+    "style": "h3",
+    "desktop": "ac07b940-desktop.svg",
+    "mobile": "ac07b940-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "ac07b940-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 71.96
+      },
+      "medium": {
+        "file": "ac07b940-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "ac07b940-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "a4e9c3b4"
+  },
+  "caba5bc5": {
+    "text": "En auto desde Liberia",
+    "style": "h3",
+    "desktop": "caba5bc5-desktop.svg",
+    "mobile": "caba5bc5-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "caba5bc5-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 71.96
+      },
+      "medium": {
+        "file": "caba5bc5-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "caba5bc5-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "11e19f91"
+  },
+  "1025fa57": {
+    "text": "Sanar debería ser una experiencia llena de vida. Debería sentirse como la música, la risa, la aventura, la naturaleza y la compañía de otras personas. No buscamos ayudar a las personas a escapar de sus vidas. Buscamos ayudarlas a reconectar con sus vidas.",
+    "style": "quote",
+    "desktop": "1025fa57-desktop.svg",
+    "mobile": "1025fa57-mobile.svg",
+    "desktopWidth": 1050,
+    "desktopHeight": 302.82,
+    "mobileWidth": 340,
+    "mobileHeight": 444.5699999999998,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "1025fa57-small.svg",
+        "size": 29,
+        "width": 280,
+        "height": 545.4899999999998
+      },
+      "medium": {
+        "file": "1025fa57-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 426.59999999999997
+      },
+      "large": {
+        "file": "1025fa57-large.svg",
+        "size": 40,
+        "width": 720,
+        "height": 381.19999999999993
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "b84ef043"
+  },
+  "7dfd585d": {
+    "text": "Experiencias con caballos y en la naturaleza",
+    "style": "h1",
+    "desktop": "7dfd585d-desktop.svg",
+    "mobile": "7dfd585d-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 343.16,
+    "mobileWidth": 340,
+    "mobileHeight": 149.20000000000002,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "e1b03520"
+  },
+  "c6cd1cd": {
+    "text": "Sesiones personales",
+    "style": "h1",
+    "desktop": "c6cd1cd-desktop.svg",
+    "mobile": "c6cd1cd-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "a50e680f"
+  },
+  "bd32b99a": {
+    "text": "Sesiones cuánticas",
+    "style": "h1",
+    "desktop": "bd32b99a-desktop.svg",
+    "mobile": "bd32b99a-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "1565fcd0"
+  },
+  "3424597": {
+    "text": "Sesiones de bienestar",
+    "style": "h1",
+    "desktop": "3424597-desktop.svg",
+    "mobile": "3424597-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "3ed33a92"
+  },
+  "6aa95b10": {
+    "text": "Facilitadores",
+    "style": "h1",
+    "desktop": "6aa95b10-desktop.svg",
+    "mobile": "6aa95b10-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 56.400000000000006,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "ea757fb5"
+  },
+  "9056993": {
+    "text": "El mundo se volvió más ruidoso. Aquí encuentra la calma.",
+    "style": "h1",
+    "desktop": "9056993-desktop.svg",
+    "mobile": "9056993-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 174.76,
+    "mobileWidth": 340,
+    "mobileHeight": 242,
+    "weight": 700,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 68,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "3caf548a"
+  },
+  "2fd618cc": {
+    "text": "El fundador",
+    "style": "h1",
+    "desktop": "2fd618cc-desktop.svg",
+    "mobile": "2fd618cc-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 56.400000000000006,
+    "weight": 700,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "ab66bafc"
+  },
+  "bd633f6": {
+    "text": "La experiencia Vessyl",
+    "style": "h1",
+    "desktop": "bd633f6-desktop.svg",
+    "mobile": "bd633f6-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "weight": 700,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "a4f87901"
+  },
+  "b4b7856e": {
+    "text": "Sello discográfico",
+    "style": "h1",
+    "desktop": "b4b7856e-desktop.svg",
+    "mobile": "b4b7856e-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "weight": 700,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "7ffdda3d"
+  },
+  "79e9e04": {
+    "text": "The Vessyl, dondequiera que esté.",
+    "style": "h1",
+    "desktop": "79e9e04-desktop.svg",
+    "mobile": "79e9e04-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 236.44,
+    "mobileWidth": 340,
+    "mobileHeight": 149.20000000000002,
+    "weight": 700,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "1a515e14"
+  },
+  "ca26071": {
+    "text": "Contáctenos / Haga una reserva",
+    "style": "h1",
+    "desktop": "ca26071-desktop.svg",
+    "mobile": "ca26071-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 236.44,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "weight": 700,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "aabeb8fc"
+  },
+  "3ca6c429": {
+    "text": "Preguntas frecuentes",
+    "style": "h1",
+    "desktop": "3ca6c429-desktop.svg",
+    "mobile": "3ca6c429-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "weight": 700,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "d3441df5"
+  },
+  "90736587": {
+    "text": "Sala de prensa",
+    "style": "h1",
+    "desktop": "90736587-desktop.svg",
+    "mobile": "90736587-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 56.400000000000006,
+    "weight": 700,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "a0ddfe66"
+  },
+  "6c08a4ce": {
+    "text": "Hospédese con nosotros",
+    "style": "h2",
+    "desktop": "6c08a4ce-desktop.svg",
+    "mobile": "6c08a4ce-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "6c08a4ce-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "6c08a4ce-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "6c08a4ce-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "51c1a5f0"
+  },
+  "fccde87d": {
+    "text": "La ubicación",
+    "style": "h2",
+    "desktop": "fccde87d-desktop.svg",
+    "mobile": "fccde87d-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "fccde87d-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "fccde87d-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "fccde87d-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "7ba3cd9f"
+  },
+  "79519be7": {
+    "text": "Sesiones en el Dome",
+    "style": "h2",
+    "desktop": "79519be7-desktop.svg",
+    "mobile": "79519be7-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "79519be7-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "79519be7-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "79519be7-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "5a55b457"
+  },
+  "56e910ba": {
+    "text": "Sesiones en Harmonic Hearth",
+    "style": "h2",
+    "desktop": "56e910ba-desktop.svg",
+    "mobile": "56e910ba-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "56e910ba-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 134.27999999999997
+      },
+      "medium": {
+        "file": "56e910ba-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "56e910ba-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "ec2cb5e7"
+  },
+  "4edbdafe": {
+    "text": "Experiencia culinaria",
+    "style": "h2",
+    "desktop": "4edbdafe-desktop.svg",
+    "mobile": "4edbdafe-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "4edbdafe-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "4edbdafe-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "4edbdafe-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "7c51e16e"
+  },
+  "beb8660f": {
+    "text": "Experiencia culinaria",
+    "style": "h1",
+    "desktop": "beb8660f-desktop.svg",
+    "mobile": "beb8660f-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998,
+    "locale": "es-LA",
+    "sourceHeading": "44bbf303"
+  },
+  "dcd97c3a": {
+    "text": "Experiencia culinaria",
+    "style": "h2",
+    "desktop": "dcd97c3a-desktop.svg",
+    "mobile": "dcd97c3a-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "dcd97c3a-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "dcd97c3a-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "dcd97c3a-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "c6504632"
+  },
+  "a4f1e2d2": {
+    "text": "Hospédese con nosotros",
+    "style": "h2",
+    "desktop": "a4f1e2d2-desktop.svg",
+    "mobile": "a4f1e2d2-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "align": "center",
+    "responsive": {
+      "small": {
+        "file": "a4f1e2d2-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "a4f1e2d2-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "a4f1e2d2-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "b679eebc"
+  },
+  "572160ee": {
+    "text": "Dos puertas, una experiencia",
+    "style": "h2",
+    "weight": 400,
+    "align": "left",
+    "layout": {
+      "desktop": {
+        "size": 42,
+        "width": 702
+      },
+      "mobile": {
+        "size": 36,
+        "width": 340
+      }
+    },
+    "desktop": "572160ee-desktop.svg",
+    "mobile": "572160ee-mobile.svg",
+    "desktopWidth": 702,
+    "desktopHeight": 59.21999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "572160ee-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "572160ee-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "572160ee-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "62279fc8"
+  },
+  "186629db": {
+    "text": "Hospédese con nosotros en Costa Rica",
+    "style": "h3",
+    "weight": 400,
+    "align": "left",
+    "layout": {
+      "desktop": {
+        "size": 28,
+        "width": 402
+      },
+      "mobile": {
+        "size": 28,
+        "width": 340
+      }
+    },
+    "desktop": "186629db-desktop.svg",
+    "mobile": "186629db-mobile.svg",
+    "desktopWidth": 402,
+    "desktopHeight": 71.96,
+    "mobileWidth": 340,
+    "mobileHeight": 71.96,
+    "responsive": {
+      "small": {
+        "file": "186629db-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 104.43999999999998
+      },
+      "medium": {
+        "file": "186629db-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 92.51999999999998
+      },
+      "large": {
+        "file": "186629db-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "cf40a879"
+  },
+  "6e25544a": {
+    "text": "Las sesiones, en su bolsillo.",
+    "style": "h3",
+    "weight": 400,
+    "align": "left",
+    "layout": {
+      "desktop": {
+        "size": 28,
+        "width": 402
+      },
+      "mobile": {
+        "size": 28,
+        "width": 340
+      }
+    },
+    "desktop": "6e25544a-desktop.svg",
+    "mobile": "6e25544a-mobile.svg",
+    "desktopWidth": 402,
+    "desktopHeight": 39.47999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 71.96,
+    "responsive": {
+      "small": {
+        "file": "6e25544a-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 71.96
+      },
+      "medium": {
+        "file": "6e25544a-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 50.76
+      },
+      "large": {
+        "file": "6e25544a-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 50.76
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "21f71702"
+  },
+  "8b94549a": {
+    "text": "Sonido, frecuencia y presencia, en un volcán de Costa Rica.",
+    "style": "h2",
+    "weight": 400,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 32,
+        "width": 522
+      },
+      "mobile": {
+        "size": 29,
+        "width": 340
+      }
+    },
+    "desktop": "8b94549a-desktop.svg",
+    "mobile": "8b94549a-mobile.svg",
+    "desktopWidth": 522,
+    "desktopHeight": 82.24,
+    "mobileWidth": 340,
+    "mobileHeight": 108.16999999999999,
+    "responsive": {
+      "small": {
+        "file": "8b94549a-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 217.79999999999995
+      },
+      "medium": {
+        "file": "8b94549a-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 156.66
+      },
+      "large": {
+        "file": "8b94549a-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 193.95999999999998
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "72b1a6ea"
+  },
+  "1857344f": {
+    "text": "The Vessyl es un destino de bienestar inmersivo ubicado en 118 acres de selva tropical cerca del volcán Arenal, en La Fortuna, Costa Rica.",
+    "style": "h3",
+    "weight": 400,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 36,
+        "width": 900
+      },
+      "mobile": {
+        "size": 28,
+        "width": 340
+      }
+    },
+    "desktop": "1857344f-desktop.svg",
+    "mobile": "1857344f-mobile.svg",
+    "desktopWidth": 900,
+    "desktopHeight": 134.27999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 201.87999999999997,
+    "responsive": {
+      "small": {
+        "file": "1857344f-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 266.84
+      },
+      "medium": {
+        "file": "1857344f-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 259.56
+      },
+      "large": {
+        "file": "1857344f-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 176.03999999999996
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "b82a63e9"
+  },
+  "ced13a22": {
+    "text": "Josh Stanley es emprendedor, innovador en el ámbito del bienestar y cofundador de Charlotte’s Web, la empresa pionera ampliamente reconocida por contribuir a que el CBD entrara en la conversación pública en Estados Unidos.",
+    "style": "h3",
+    "weight": 400,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 36,
+        "width": 900
+      },
+      "mobile": {
+        "size": 28,
+        "width": 340
+      }
+    },
+    "desktop": "ced13a22-desktop.svg",
+    "mobile": "ced13a22-mobile.svg",
+    "desktopWidth": 900,
+    "desktopHeight": 217.79999999999995,
+    "mobileWidth": 340,
+    "mobileHeight": 429.24000000000007,
+    "responsive": {
+      "small": {
+        "file": "ced13a22-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 494.2000000000001
+      },
+      "medium": {
+        "file": "ced13a22-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 384.84
+      },
+      "large": {
+        "file": "ced13a22-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 259.56
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "5d0ad97a"
+  },
+  "10517d90": {
+    "text": "Las personas se sienten abrumadas, desconectadas, ansiosas y anhelan algo real. The Vessyl se creó para que pudieran volver a la naturaleza, a la comunidad, al presente y a sí mismas.",
+    "style": "quote",
+    "align": "center",
+    "desktop": "10517d90-desktop.svg",
+    "mobile": "10517d90-mobile.svg",
+    "desktopWidth": 1050,
+    "desktopHeight": 205.38,
+    "mobileWidth": 340,
+    "mobileHeight": 310.0099999999999,
+    "responsive": {
+      "small": {
+        "file": "10517d90-small.svg",
+        "size": 29,
+        "width": 280,
+        "height": 410.92999999999984
+      },
+      "medium": {
+        "file": "10517d90-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 343.08
+      },
+      "large": {
+        "file": "10517d90-large.svg",
+        "size": 40,
+        "width": 720,
+        "height": 242
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "babbeeb4"
+  },
+  "a552c06f": {
+    "text": "A lo largo de sus años de trabajo en los ámbitos de la salud, el emprendimiento y el potencial humano, Stanley se interesó cada vez más por una pregunta de mayor alcance:",
+    "style": "h3",
+    "weight": 400,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 36,
+        "width": 900
+      },
+      "mobile": {
+        "size": 28,
+        "width": 340
+      }
+    },
+    "desktop": "a552c06f-desktop.svg",
+    "mobile": "a552c06f-mobile.svg",
+    "desktopWidth": 900,
+    "desktopHeight": 176.03999999999996,
+    "mobileWidth": 340,
+    "mobileHeight": 299.32,
+    "responsive": {
+      "small": {
+        "file": "a552c06f-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 364.28000000000003
+      },
+      "medium": {
+        "file": "a552c06f-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 301.32
+      },
+      "large": {
+        "file": "a552c06f-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 217.79999999999995
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "7d90ebb1"
+  },
+  "ac3ed5f": {
+    "text": "Sesiones personales",
+    "style": "h1",
+    "weight": 700,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "desktop": "ac3ed5f-desktop.svg",
+    "mobile": "ac3ed5f-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "locale": "es-LA",
+    "sourceHeading": "56c30099"
+  },
+  "a90266ca": {
+    "text": "Los huéspedes pueden personalizar su experiencia y elegir las propuestas con las que más se identifiquen.",
+    "style": "h3",
+    "weight": 400,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 36,
+        "width": 900
+      },
+      "mobile": {
+        "size": 28,
+        "width": 340
+      }
+    },
+    "desktop": "a90266ca-desktop.svg",
+    "mobile": "a90266ca-mobile.svg",
+    "desktopWidth": 900,
+    "desktopHeight": 134.27999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 169.39999999999998,
+    "responsive": {
+      "small": {
+        "file": "a90266ca-small.svg",
+        "size": 28,
+        "width": 280,
+        "height": 234.35999999999996
+      },
+      "medium": {
+        "file": "a90266ca-medium.svg",
+        "size": 36,
+        "width": 480,
+        "height": 176.03999999999996
+      },
+      "large": {
+        "file": "a90266ca-large.svg",
+        "size": 36,
+        "width": 720,
+        "height": 134.27999999999997
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "a4a2c1df"
+  },
+  "86de13ba": {
+    "text": "Dos puertas, una experiencia",
+    "style": "h2",
+    "weight": 400,
+    "align": "center",
+    "layout": {
+      "desktop": {
+        "size": 42,
+        "width": 702
+      },
+      "mobile": {
+        "size": 36,
+        "width": 340
+      }
+    },
+    "desktop": "86de13ba-desktop.svg",
+    "mobile": "86de13ba-mobile.svg",
+    "desktopWidth": 702,
+    "desktopHeight": 59.21999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "86de13ba-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "86de13ba-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 107.94
+      },
+      "large": {
+        "file": "86de13ba-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "locale": "es-LA",
+    "sourceHeading": "645546f4"
+  },
+  "69f4ea71": {
+    "text": "La ubicación",
+    "style": "h2",
+    "desktop": "69f4ea71-desktop.svg",
+    "mobile": "69f4ea71-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76,
+    "responsive": {
+      "small": {
+        "file": "69f4ea71-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 50.76
+      },
+      "medium": {
+        "file": "69f4ea71-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "69f4ea71-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "6cee48a3"
+  },
+  "786b9c14": {
+    "text": "Preguntas frecuentes",
+    "style": "h2",
+    "desktop": "786b9c14-desktop.svg",
+    "mobile": "786b9c14-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "786b9c14-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "786b9c14-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "786b9c14-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "24e44558"
+  },
+  "bbca71e5": {
+    "text": "Sesiones de bienestar",
+    "style": "h1",
+    "desktop": "bbca71e5-desktop.svg",
+    "mobile": "bbca71e5-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "ffbd2b54"
+  },
+  "973f44df": {
+    "text": "Experiencias con caballos y en la naturaleza",
+    "style": "h1",
+    "desktop": "973f44df-desktop.svg",
+    "mobile": "973f44df-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 343.16,
+    "mobileWidth": 340,
+    "mobileHeight": 149.20000000000002,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "998c53d6"
+  },
+  "8378ed80": {
+    "text": "Sendero de la presencia: caminata por la naturaleza",
+    "style": "h2",
+    "desktop": "8378ed80-desktop.svg",
+    "mobile": "8378ed80-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 176.03999999999996,
+    "responsive": {
+      "small": {
+        "file": "8378ed80-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 176.03999999999996
+      },
+      "medium": {
+        "file": "8378ed80-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 156.66
+      },
+      "large": {
+        "file": "8378ed80-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 133.64
+      }
+    },
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "66b3e73f"
+  },
+  "7901d9f6": {
+    "text": "Facilitadores",
+    "style": "h1",
+    "desktop": "7901d9f6-desktop.svg",
+    "mobile": "7901d9f6-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 56.400000000000006,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "5e1eebe7"
+  },
+  "e957b7db": {
+    "text": "Sesiones en el Dome",
+    "style": "h2",
+    "desktop": "e957b7db-desktop.svg",
+    "mobile": "e957b7db-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998,
+    "responsive": {
+      "small": {
+        "file": "e957b7db-small.svg",
+        "size": 36,
+        "width": 280,
+        "height": 92.51999999999998
+      },
+      "medium": {
+        "file": "e957b7db-medium.svg",
+        "size": 42,
+        "width": 480,
+        "height": 59.21999999999999
+      },
+      "large": {
+        "file": "e957b7db-large.svg",
+        "size": 52,
+        "width": 720,
+        "height": 73.32
+      }
+    },
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "775c7bc3"
+  },
+  "e7beb654": {
+    "text": "Sesiones cuánticas",
+    "style": "h1",
+    "desktop": "e7beb654-desktop.svg",
+    "mobile": "e7beb654-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 129.71999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 102.80000000000001,
+    "weight": 700,
+    "layout": {
+      "desktop": {
+        "size": 92,
+        "width": 1100
+      },
+      "mobile": {
+        "size": 40,
+        "width": 340
+      }
+    },
+    "align": "center",
+    "locale": "es-LA",
+    "sourceHeading": "3b3d3e92"
   }
 }

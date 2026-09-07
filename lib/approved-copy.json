@@ -1299,7 +1299,9 @@
     "source": "user:2026-09-07:founder-editorial-sequence",
     "kind": "user-approved-copy",
     "sourceSha256": "6149a52a9ad282a3d3847de26da851066400d60980399f279275e19702e81837",
-    "derivedFrom": ["69:340"],
+    "derivedFrom": [
+      "69:340"
+    ],
     "authority": "Verbatim user-supplied copy and order, superseding earlier Founder wording and placement."
   },
   "founderProfileLead": {
@@ -1307,7 +1309,9 @@
     "source": "user:2026-09-07:founder-editorial-sequence",
     "kind": "user-approved-copy",
     "sourceSha256": "6149a52a9ad282a3d3847de26da851066400d60980399f279275e19702e81837",
-    "derivedFrom": ["69:340"],
+    "derivedFrom": [
+      "69:340"
+    ],
     "authority": "Verbatim user-supplied copy and order, superseding earlier Founder wording and placement."
   },
   "founderExplorationIntro": {
@@ -1315,7 +1319,9 @@
     "source": "user:2026-09-07:founder-editorial-sequence",
     "kind": "user-approved-copy",
     "sourceSha256": "6149a52a9ad282a3d3847de26da851066400d60980399f279275e19702e81837",
-    "derivedFrom": ["69:340"],
+    "derivedFrom": [
+      "69:340"
+    ],
     "authority": "Verbatim user-supplied copy and order, superseding earlier Founder wording and placement."
   },
   "founderExplorationQuestion": {
@@ -1323,7 +1329,9 @@
     "source": "user:2026-09-07:founder-editorial-sequence",
     "kind": "user-approved-copy",
     "sourceSha256": "6149a52a9ad282a3d3847de26da851066400d60980399f279275e19702e81837",
-    "derivedFrom": ["69:340"],
+    "derivedFrom": [
+      "69:340"
+    ],
     "authority": "Verbatim user-supplied copy and order, superseding earlier Founder wording and placement."
   },
   "founderDestination": {
@@ -1331,7 +1339,9 @@
     "source": "user:2026-09-07:founder-editorial-sequence",
     "kind": "user-approved-copy",
     "sourceSha256": "6149a52a9ad282a3d3847de26da851066400d60980399f279275e19702e81837",
-    "derivedFrom": ["69:340"],
+    "derivedFrom": [
+      "69:340"
+    ],
     "authority": "Verbatim user-supplied copy and order, superseding earlier Founder wording and placement."
   },
   "guidesExpertiseIntro": {
@@ -1359,5 +1369,119 @@
     "source": "66:341",
     "kind": "verbatim-excerpt",
     "sourceSha256": "87c083093a7afcd2bbf82469fa4df35062595197786269eb8f2e0b5171f62cef"
+  },
+  "quantumOpening": {
+    "text": "Quantum Soul Sessions are guided experiences led by trained practitioners and healers designed to encourage reflection, self-discovery, personal insight, and a deeper connection to oneself.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f",
+    "parentKey": "quantumIntro"
+  },
+  "quantumMethods": {
+    "text": "We use a blend of ancient systems such as numerology, astrology, human design and more to give guests a deep look into themselves.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f",
+    "parentKey": "quantumIntro"
+  },
+  "ui.language": {
+    "text": "Language",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.chooseLanguage": {
+    "text": "Choose language",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.overview": {
+    "text": "Overview",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.homeLink": {
+    "text": "Vessyl home",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.mainNavigation": {
+    "text": "Main navigation",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.mobileNavigation": {
+    "text": "Mobile navigation",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.navigationTitle": {
+    "text": "Vessyl navigation",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.navigationDescription": {
+    "text": "Choose a page to explore.",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.filmControls": {
+    "text": "Film controls",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.watchFilm": {
+    "text": "Watch film with sound",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.filmFromStart": {
+    "text": "Play film from the beginning with sound",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.resumeFilm": {
+    "text": "Resume film",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.muteFilm": {
+    "text": "Mute film",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.unmuteFilm": {
+    "text": "Unmute film",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.playVessylFilm": {
+    "text": "Play Vessyl film",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.pauseVessylFilm": {
+    "text": "Pause Vessyl film",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.english": {
+    "text": "English",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.spanish": {
+    "text": "Español",
+    "kind": "functional-ui",
+    "source": "interface-behavior: website language selection and accessible controls"
+  },
+  "ui.galleryDescription": {
+    "text": "Use the left and right arrow keys, tap the photo edges, or swipe to browse. Press Escape to close.",
+    "kind": "functional-ui",
+    "source": "interface-behavior: gallery accessibility"
+  },
+  "ui.photoCarousel": {
+    "text": "Photo carousel",
+    "kind": "functional-ui",
+    "source": "interface-behavior: keyboard, edge and swipe photo navigation"
   }
 }

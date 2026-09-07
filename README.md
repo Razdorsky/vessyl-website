@@ -1,6 +1,6 @@
 # Vessyl — two website editions
 
-An editorial website for Vessyl in Arenal, Costa Rica. Both editions share 17 routes, approved content, original photography and enquiry destinations.
+An editorial website for Vessyl in Arenal, Costa Rica. Both editions share 17 pages in English and Latin American Spanish, approved content, original photography and enquiry destinations.
 
 - **Classic 2D:** https://razdorsky.github.io/vessyl-website/classic/
 - **Immersive 3D:** https://razdorsky.github.io/vessyl-website/immersive/
@@ -43,13 +43,15 @@ The artifact includes `.nojekyll`, both editions, bundled scripts, fonts and med
 
 Home; Founder; Experience; Frequency Dome; Harmonic Hearth; Equine & Nature; Personal Sessions; Quantum; Wellness; Facilitators; AKEN Soul; El Rancho; App; Music; Press; Contact; FAQ.
 
-Session filters, detail dialogs, room tabs, galleries and FAQ use keyboard-accessible controls. Menus and dialogs support Escape and focus restoration. The Founder film loops silently on view and respects manual pause and reduced motion. The 3D renderer pauses offscreen and in hidden tabs. If WebGL fails, the complete journey remains available as text and full photographs.
+Session filters, detail dialogs, room carousels, galleries and FAQ use keyboard-accessible controls. Galleries show a stacked preview and support keyboard arrows, image-edge clicks, drag/swipe and thumbnails. Menus and dialogs support Escape and focus restoration. All films use one player: silent looping playback on view, restart with sound and looping disabled on first activation, then shared sound and playback controls. Automatic playback respects reduced motion. The 3D renderer pauses offscreen and in hidden tabs. If WebGL fails, the complete journey remains available as text and full photographs.
+
+The globe language selector preserves the page and edition. Spanish routes use `/classic/es-LA/` and `/immersive/es-LA/`, with `es-419` as the document language and formal usted address.
 
 Booking opens the existing AKEN partner. App downloads remain disabled until release destinations are available; the app page links to the existing waitlist. Personal sessions use email enquiries. No booking, payment or form success is simulated.
 
 ## Content and typography
 
-`lib/approved-copy.json` records approved wording and its source attribution. `npm run check` validates all 34 pages, internal resources, source copy, display-heading artwork and independent renderers. Generated QA reports are local and ignored by Git.
+`lib/approved-copy.json` records approved wording and its source attribution. Spanish copy and image descriptions live in `lib/locales/`. `npm run check` validates all 68 edition/language routes, internal resources, source copy, translations, display-heading artwork and independent renderers. Generated QA reports are local and ignored by Git.
 
 Fixed headings use Telugu MN glyph outlines and accessible HTML text. Body and interface text use bundled Roboto. Normal builds use the committed SVG artwork and do not require macOS fonts. See [typography generation](scripts/typography/README.md). The Roboto license is in `public/licenses`.
 

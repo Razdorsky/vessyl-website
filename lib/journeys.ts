@@ -1,4 +1,5 @@
 import type { CopyKey } from './copy';
+import { classicPhoto } from './classic-photography';
 export type World =
   | 'arrival'
   | 'dome'
@@ -13,20 +14,11 @@ export type Chapter = {
   world: World;
   to?: string;
   action?: CopyKey;
+  heading?: 'h3';
+  contained?: boolean;
 };
 export const containedChapter = (ch: Chapter) =>
-  ch.world === 'portrait' ||
-  ch.world === 'gallery' ||
-  [
-    'equine',
-    'equine-bond',
-    'pool',
-    'table',
-    'dining',
-    'meditation',
-    'yoga',
-    'dome-practice',
-  ].includes(ch.image);
+  ch.contained ?? (ch.world === 'portrait' || ch.world === 'gallery');
 const chapter = (
   title: CopyKey,
   body: CopyKey[],
@@ -35,150 +27,288 @@ const chapter = (
   to?: string,
   action: CopyKey = 'learn',
 ): Chapter => ({ title, body, image, world, to, action });
+const photo = classicPhoto;
+// The camera journeys have their own composition, but use the current approved copy and photo selections.
 export const journeys: Record<string, Chapter[]> = {
   home: [
     chapter(
       'homeHeadline',
-      ['homeShort'],
-      'hero-arenal',
+      ['homeApproach'],
+      photo('home', 'hero', 'hero-design-direction'),
       'arrival',
       'experience',
       'discover',
     ),
+    {
+      ...chapter('homeShort', ['homeOrigins'], 'dome-exterior', 'forest'),
+      heading: 'h3',
+    },
     chapter(
       'founder',
-      ['founderIntro', 'founderWhy'],
-      'founder',
+      ['founderWhy'],
+      photo('home', 'portrait', 'founder'),
       'portrait',
       'founder',
       'founderCta',
     ),
-    chapter('dome', ['domeIntro'], 'dome-exterior', 'dome', 'dome'),
-    chapter('hearth', ['hearthIntro'], 'hearth', 'hearth', 'hearth'),
-    chapter('nature', ['natureIntro'], 'equine', 'forest', 'nature'),
-    chapter('stay', ['stayIntro'], 'pool', 'arrival', 'stay', 'bookStay'),
     chapter(
-      'appHeadline',
-      ['appIntro'],
-      'dome-practice',
+      'dome',
+      ['domeIntro'],
+      photo('home', 'dome-feature', 'dome-design-direction'),
+      'dome',
+      'dome',
+    ),
+    chapter(
+      'hearth',
+      ['hearthIntro'],
+      photo('home', 'experience:hearth', 'hearth'),
+      'hearth',
+      'hearth',
+    ),
+    chapter(
+      'nature',
+      ['natureIntro'],
+      photo('home', 'experience:nature', 'equine'),
+      'portrait',
+      'nature',
+    ),
+    chapter(
+      'stay',
+      ['stayAccommodation'],
+      photo('home', 'experience:stay', 'pool'),
       'gallery',
-      'app',
-      'download',
+      'stay',
+    ),
+    chapter(
+      'rancho',
+      ['ranchoIntro'],
+      photo('home', 'story:rancho', 'food'),
+      'gallery',
+      'rancho',
     ),
   ],
   founder: [
-    chapter('founder', ['founderIntro'], 'founder', 'portrait'),
     chapter(
-      'quoteAuthor',
-      ['founderStory', 'founderQuestion'],
-      'nature',
+      'founder',
+      ['founderOpening'],
+      photo('founder', 'hero', 'nature'),
       'forest',
     ),
     chapter(
-      'home',
-      ['founderNext'],
-      'dome-exterior',
-      'dome',
-      'experience',
-      'discover',
+      'quoteAuthor',
+      ['founderProfileLead', 'founderBrothers'],
+      'founder',
+      'portrait',
     ),
   ],
   experience: [
-    chapter('experience', ['homeShort'], 'hero-arenal', 'arrival'),
-    chapter('dome', ['domeIntro'], 'dome-interior', 'dome', 'dome'),
-    chapter('hearth', ['hearthIntro'], 'hearth', 'hearth', 'hearth'),
-    chapter('nature', ['natureIntro'], 'equine', 'forest', 'nature'),
-    chapter('stay', ['stayIntro'], 'pool', 'arrival', 'stay'),
+    chapter(
+      'experience',
+      ['homeShort'],
+      photo('experience', 'hero', 'hero-arenal'),
+      'arrival',
+    ),
+    chapter(
+      'dome',
+      ['domeIntro'],
+      photo('experience', 'experience:dome', 'dome-exterior'),
+      'dome',
+      'dome',
+    ),
+    chapter(
+      'hearth',
+      ['hearthIntro'],
+      photo('experience', 'experience:hearth', 'hearth'),
+      'hearth',
+      'hearth',
+    ),
+    chapter(
+      'nature',
+      ['natureIntro'],
+      photo('experience', 'experience:nature', 'equine'),
+      'portrait',
+      'nature',
+    ),
+    chapter(
+      'stay',
+      ['stayIntro'],
+      photo('experience', 'experience:stay', 'pool'),
+      'gallery',
+      'stay',
+    ),
+    chapter(
+      'rancho',
+      ['ranchoSoul'],
+      photo('experience', 'story:rancho', 'table'),
+      'gallery',
+      'rancho',
+    ),
   ],
   dome: [
-    chapter('dome', ['domeIntro'], 'dome-exterior', 'arrival'),
-    chapter('technology', ['soundIntro'], 'dome-interior', 'dome'),
-    chapter('video', ['videoIntro'], 'dome-practice', 'dome'),
-    chapter('floor', ['floorIntro'], 'dome-interior', 'dome'),
     chapter(
-      'studio',
-      ['studioIntro', 'studioDetail'],
-      'dome-detail',
+      'dome',
+      ['domeIntro'],
+      photo('dome', 'hero', 'dome-exterior'),
+      'dome',
+    ),
+    chapter(
+      'technology',
+      ['soundIntro', 'videoIntro', 'floorIntro'],
+      photo('dome', 'technology', 'dome-detail'),
       'gallery',
-      'music',
-      'musicCta',
     ),
   ],
   hearth: [
-    chapter('hearth', ['hearthIntro'], 'hearth', 'hearth'),
-    chapter('hydro', ['hydroIntro'], 'nature-waterfall', 'hearth'),
     chapter(
-      'breathwork',
-      ['breathworkIntro'],
-      'yoga',
-      'gallery',
-      'sessions',
-      'sessionCta',
+      'hearth',
+      ['hearthIntro'],
+      photo('hearth', 'hero', 'hearth'),
+      'hearth',
+    ),
+    chapter(
+      'hydro',
+      ['hydroIntro'],
+      photo('hearth', 'hydro', 'nature-waterfall'),
+      'hearth',
     ),
   ],
   nature: [
-    chapter('nature', ['natureIntro'], 'equine-bond', 'forest'),
-    chapter('horseBond', ['bondIntro', 'enriqueIntro'], 'equine', 'gallery'),
-    chapter('river', ['riverIntro'], 'equine-bond', 'forest'),
-    chapter('birdwatching', ['birdIntro'], 'nature', 'forest'),
-    chapter('natureWalk', ['pathIntro'], 'nature', 'forest'),
+    chapter(
+      'nature',
+      ['natureIntro'],
+      photo('nature', 'hero', 'equine-bond'),
+      'portrait',
+    ),
+    chapter(
+      'horseBond',
+      ['bondIntro', 'enriqueIntro'],
+      photo('nature', 'story:horseBond', 'equine'),
+      'portrait',
+    ),
+    chapter(
+      'river',
+      ['riverIntro'],
+      photo('nature', 'gallery:1', 'nature-waterfall'),
+      'forest',
+    ),
+    chapter(
+      'birdwatching',
+      ['birdIntro'],
+      photo('nature', 'story:birdwatching', 'nature'),
+      'gallery',
+    ),
+    chapter(
+      'natureWalk',
+      ['pathIntro'],
+      photo('nature', 'story:natureWalk', 'nature'),
+      'forest',
+    ),
   ],
   sessions: [
-    chapter('sessions', ['guidesIntro'], 'massage', 'gallery'),
-    chapter('quantum', ['quantumIntro'], 'session', 'gallery', 'quantum'),
-    chapter('wellness', ['breathworkIntro'], 'yoga', 'dome', 'wellness'),
+    {
+      ...chapter(
+        'sessions',
+        ['guidesIntro'],
+        photo('sessions', 'hero', 'massage'),
+        'gallery',
+      ),
+      contained: false,
+    },
   ],
   quantum: [
-    chapter('quantum', ['quantumIntro'], 'session', 'gallery'),
-    chapter('numerology', ['numerologyIntro'], 'meditation', 'dome'),
+    chapter(
+      'quantum',
+      ['quantumOpening'],
+      photo('quantum', 'hero', 'session'),
+      'gallery',
+    ),
   ],
   wellness: [
-    chapter('wellness', ['guidesIntro'], 'massage', 'gallery'),
-    chapter('breathwork', ['breathworkIntro'], 'yoga', 'dome'),
-    chapter('hearth', ['hearthIntro'], 'hearth', 'hearth'),
+    chapter(
+      'wellness',
+      ['guidesIntro'],
+      photo('wellness', 'hero', 'massage'),
+      'gallery',
+    ),
   ],
   facilitators: [
-    chapter('facilitators', ['guidesIntro'], 'session', 'gallery'),
-    chapter('enrique', ['enriqueIntro'], 'equine', 'forest'),
-    chapter('oscar', ['birdIntro'], 'nature', 'forest'),
+    chapter(
+      'facilitators',
+      ['guidesIntro'],
+      photo('facilitators', 'hero', 'session'),
+      'gallery',
+    ),
+    chapter(
+      'enrique',
+      ['enriqueIntro'],
+      photo('facilitators', 'guide:Enrique Molina', 'equine'),
+      'portrait',
+    ),
+    chapter(
+      'oscar',
+      ['birdIntro'],
+      photo('facilitators', 'guide:Oscar', 'nature'),
+      'forest',
+    ),
   ],
   stay: [
-    chapter('stay', ['stayIntro'], 'pool', 'arrival'),
-    chapter('rooms', [], 'suite', 'gallery'),
-    chapter('roomConcept', [], 'villa', 'gallery'),
-    chapter('rancho', ['ranchoIntro'], 'table', 'forest', 'rancho'),
+    chapter('stay', ['stayIntro'], photo('stay', 'hero', 'pool'), 'arrival'),
+    chapter(
+      'rooms',
+      ['stayAccommodation'],
+      photo('stay', 'room:suite', 'suite'),
+      'gallery',
+    ),
+    chapter(
+      'rancho',
+      ['ranchoIntro'],
+      photo('stay', 'story:rancho', 'table'),
+      'gallery',
+      'rancho',
+    ),
   ],
   rancho: [
-    chapter('rancho', ['ranchoSoul'], 'dining', 'gallery'),
-    chapter('culinary', ['ranchoIntro', 'chefIntro'], 'food', 'gallery'),
-    chapter('rancho', ['tableIntro', 'ranchoRitual'], 'table', 'forest'),
+    chapter(
+      'rancho',
+      ['ranchoSoul'],
+      photo('rancho', 'hero', 'dining'),
+      'gallery',
+    ),
+    chapter(
+      'culinary',
+      ['ranchoIntro', 'chefIntro'],
+      photo('rancho', 'story:rancho', 'food'),
+      'gallery',
+    ),
   ],
   app: [
     chapter('appHeadline', ['appIntro'], 'dome-practice', 'dome'),
     chapter('appDoor', ['appStory'], 'nature', 'forest'),
-    chapter('appLibrary', ['appLibraryIntro'], 'meditation', 'gallery'),
-    chapter(
-      'appGuides',
-      ['appGuidesIntro'],
-      'session',
-      'gallery',
-      'facilitators',
-      'guidesCta',
-    ),
   ],
   music: [
-    chapter('music', ['musicIntro'], 'dome-interior', 'dome'),
+    chapter(
+      'music',
+      ['musicIntro'],
+      photo('music', 'hero', 'dome-interior'),
+      'dome',
+    ),
     chapter(
       'studio',
       ['studioIntro', 'studioDetail'],
-      'dome-detail',
+      photo('music', 'story:dome', 'dome-detail'),
       'gallery',
     ),
   ],
   press: [
-    chapter('press', ['homeShort'], 'hero-arenal', 'arrival'),
-    chapter('overview', ['homeIntro', 'founderIntro'], 'founder', 'portrait'),
+    chapter('press', ['homeShort', 'homeOrigins'], 'hero-arenal', 'arrival'),
   ],
-  contact: [chapter('contact', ['locationIntro'], 'hero-arenal', 'arrival')],
-  faq: [chapter('faq', ['homeShort'], 'nature', 'forest')],
+  contact: [
+    chapter(
+      'contact',
+      ['locationIntro'],
+      photo('contact', 'aside', 'hero-arenal'),
+      'arrival',
+    ),
+  ],
+  faq: [chapter('faq', [], 'nature', 'forest')],
 };

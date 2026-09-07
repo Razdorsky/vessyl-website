@@ -1,5 +1,6 @@
+'use client';
 import { asset } from '../../lib/paths';
-import { copy } from '../../lib/copy';
+import { useLocale } from './LocaleProvider';
 const marks = [
   ['wallpaper.svg', 'Wallpaper*', 100, 23],
   ['forbes.svg', 'Forbes Travel Guide', 100, 29],
@@ -11,6 +12,7 @@ const marks = [
   ['skimm.png', 'theSkimm', 70, 36],
 ] as const;
 export function PressMarks() {
+  const { c: copy } = useLocale();
   return (
     <section className="press-marks" aria-label={copy('asSeenIn')}>
       <p className="eyebrow">{copy('asSeenIn')}</p>

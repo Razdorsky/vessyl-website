@@ -1,0 +1,337 @@
+/* Classic vertical rhythm. Values are shared boundaries, never two added gaps.
+   820px and below: 24 / 32 / 48 / 64. 1200px and above: 32 / 64 / 96 / 128.
+   Between those widths, all section intervals interpolate continuously. */
+.classic {
+  --space-rhythm: clamp(8px, calc(2.105263vw - 9.263158px), 16px);
+  --space-support: clamp(24px, calc(2.105263vw + 6.736842px), 32px);
+  --space-related: calc(var(--space-rhythm) * 4);
+  --space-section: calc(var(--space-rhythm) * 6);
+  --space-accent: calc(var(--space-rhythm) * 8);
+  --space-copy: 28px;
+  --space-stack: calc(var(--space-rhythm) * 2 + 16px);
+  --photo-overlap: var(--space-related);
+  --photo-clearance: var(--space-support);
+}
+
+/* Paper sections own the incoming interval. Their outgoing interval is zero
+   until a change of surface explicitly requires an inset before that edge. */
+.classic #content :is(.section, .intro-section, .press-marks, .quote-section) {
+  --block-start: var(--space-section);
+  --block-end: 0px;
+  margin-block: 0;
+  padding-block: var(--block-start) var(--block-end);
+}
+
+.classic
+  #content
+  :is(
+    .sensory-section,
+    .hearth-section,
+    .music-strip,
+    .arrival-section,
+    .facilitators-pattern,
+    .two-doors,
+    .quote-section
+  ) {
+  --block-end: var(--space-section);
+}
+
+/* Touching surfaces have no margin between them. Only the preceding paper
+   content needs an outgoing inset; the next surface owns its own inner inset. */
+.classic
+  #content
+  :is(.section, .intro-section, .press-marks):has(
+    + :is(
+      .sensory-section,
+      .hearth-section,
+      .music-strip,
+      .arrival-section,
+      .facilitators-pattern,
+      .two-doors,
+      .quote-section,
+      .closing-invitation,
+      .dome-feature
+    )
+  ) {
+  --block-end: var(--space-section);
+}
+
+/* Wrapper elements are compositional groups, not extra padded sections. */
+.classic #content :is(#introduction, .founder-bridge, .home-quote-sequence) {
+  margin-block: 0;
+  padding-block: 0;
+}
+.classic #content #introduction .intro-section {
+  --block-end: calc(var(--photo-overlap) + var(--photo-clearance));
+}
+
+/* Reset historical shifts on ordinary paper-to-paper stories. A photograph
+   bridges only an explicitly composed surface transition below. */
+.classic #content .photo-bridge > img {
+  transform: none;
+  margin-block: 0;
+}
+.classic #content .photo-bridge > div {
+  padding-block: 0;
+}
+.classic
+  #content
+  :is(.split-editorial, .session-cta, .sensory-section, .hearth-section) {
+  row-gap: var(--space-stack);
+}
+
+/* Founder portrait and its media marks are one story. The portrait extends
+   above the surface, while the copy has an independent positive clearance. */
+.classic #content .founder-bridge .photo-bridge {
+  --block-start: 0px;
+  --block-end: 0px;
+  row-gap: var(--space-stack);
+}
+.classic #content .founder-bridge .photo-bridge > img {
+  align-self: start;
+  margin-top: calc(-1 * var(--photo-overlap));
+}
+.classic #content .founder-bridge .photo-bridge > div {
+  padding-top: var(--photo-clearance);
+}
+.classic #content .press-marks {
+  --block-start: var(--space-support);
+}
+.classic #content .press-marks > p {
+  margin: 0 0 var(--space-support);
+}
+
+/* The tall Home quotation retains its two deliberate photographic bridges. */
+.classic #content .quote-section {
+  --block-start: var(--space-accent);
+  --block-end: var(--space-accent);
+}
+.classic #content .quote-section > .eyebrow {
+  margin-top: var(--space-support);
+}
+.classic #content .home-quote-sequence > .split-editorial {
+  --block-end: 0px;
+}
+.classic #content .home-quote-sequence > .split-editorial > img {
+  align-self: end;
+  margin-bottom: calc(-1 * var(--photo-overlap));
+}
+.classic #content .home-quote-sequence > .split-editorial > div {
+  padding-bottom: calc(var(--photo-overlap) + var(--photo-clearance));
+}
+.classic #content .home-quote-sequence > .quote-section {
+  --block-start: calc(var(--space-accent) + var(--photo-clearance));
+  --block-end: var(--block-start);
+}
+.classic #content .home-quote-sequence > .session-cta {
+  --block-start: 0px;
+}
+.classic #content .home-quote-sequence .session-cta-image {
+  align-self: start;
+  margin-top: calc(-1 * var(--photo-overlap));
+}
+.classic #content .home-quote-sequence > .session-cta > div:first-child {
+  padding-top: var(--photo-clearance);
+}
+
+/* Other authored photo stories may bridge a quotation or neutral pattern.
+   The donor surface reserves both the overlap and the text clearance. */
+.classic
+  #content
+  :is(.quote-section, .facilitators-pattern):has(+ .photo-bridge) {
+  --block-end: max(
+    var(--space-section),
+    calc(var(--photo-overlap) + var(--photo-clearance))
+  );
+}
+.classic #content :is(.quote-section, .facilitators-pattern) + .photo-bridge {
+  --block-start: 0px;
+}
+.classic
+  #content
+  :is(.quote-section, .facilitators-pattern)
+  + .photo-bridge
+  > img {
+  align-self: start;
+  margin-top: calc(-1 * var(--photo-overlap));
+}
+.classic
+  #content
+  :is(.quote-section, .facilitators-pattern)
+  + .photo-bridge
+  > div {
+  padding-top: var(--photo-clearance);
+}
+
+/* Films are media frames, not padded text sections. Their margins provide
+   exactly one interval; photographs after a film never overlap its frame. */
+.classic #content :is(.editorial-film, .film) {
+  margin-block: var(--space-section) 0;
+}
+.classic
+  #content
+  :is(.editorial-film, .film):has(
+    + :is(.quote-section, .two-doors, .closing-invitation)
+  ) {
+  margin-bottom: var(--space-section);
+}
+.classic #content :is(.editorial-film, .film) + .photo-bridge {
+  --block-start: var(--space-section);
+}
+.classic #content :is(.editorial-film, .film) + .photo-bridge > img {
+  margin-block: 0;
+  transform: none;
+}
+
+/* Heading, introduction, filters and cards share a single collection. */
+.classic #content .choice-section {
+  --block-start: var(--space-related);
+}
+.classic #content .choice-section > .brand-heading-h3 {
+  margin: 0 auto var(--space-copy);
+}
+.classic #content .section-heading {
+  margin-block: 0 var(--space-stack);
+  row-gap: var(--space-support);
+}
+.classic #content .session-filter {
+  margin-block: 0 var(--space-copy);
+}
+.classic #content :is(.experience-grid, .practice-grid, .gallery-grid) {
+  row-gap: var(--space-stack);
+}
+.classic #content .people-list article {
+  margin-block: 0;
+  row-gap: var(--space-stack);
+}
+.classic #content .people-list article + article {
+  margin-top: var(--space-section);
+}
+
+/* Preserve the approved H3/paragraph separation; eliminate trailing prose
+   margins so the section boundary is measured from the actual last element. */
+.classic #content .intro-section .intro-body {
+  margin-block: var(--space-copy) 0;
+}
+.classic #content .intro-section .intro-body:first-child {
+  margin-top: 0;
+}
+.classic #content .intro-body p {
+  margin-block: 0;
+}
+.classic #content .intro-body p + p {
+  margin-top: var(--space-copy);
+}
+.classic #content :is(.split-editorial, .session-cta) > div > p {
+  margin-block: var(--space-copy) 0;
+}
+.classic #content :is(.split-editorial, .session-cta) > div > p + .text-link {
+  margin-top: var(--space-copy);
+}
+.classic
+  #content
+  :is(.music-strip, .app-features article, .people-list article > div)
+  > :last-child {
+  margin-bottom: 0;
+}
+
+/* Utility openings remain compact. Press title and both opening paragraphs
+   form one introduction even though they occupy two existing DOM sections. */
+.classic #content .plain-hero {
+  --block-start: clamp(124px, 11vw, 144px);
+  --block-end: 0px;
+}
+.classic #content .plain-hero > .brand-heading {
+  margin-top: 0;
+}
+.classic #content .plain-hero > p {
+  margin-top: var(--space-copy);
+}
+.classic #content .plain-hero + :is(.intro-section, .faq-page) {
+  --block-start: var(--space-copy);
+}
+.classic #content :is(.contact-grid, .press-resources) {
+  --block-start: var(--space-related);
+}
+.classic #content .press-resources > .brand-heading {
+  margin-block: 0 var(--space-stack);
+}
+.classic #content .contact-links {
+  margin-top: 0;
+}
+.classic #content .arrival-section > .brand-heading {
+  max-width: 1000px;
+  margin: var(--space-copy) auto 0;
+}
+.classic #content .travel-columns {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 960px;
+  margin: var(--space-related) auto 0;
+  gap: var(--space-stack);
+  text-align: center;
+}
+.classic #content .travel-columns .brand-heading {
+  margin: 0 auto var(--space-support);
+}
+.classic #content .travel-columns p {
+  margin: 0 auto;
+}
+.classic #content .arrival-section > .travel-flights {
+  max-width: 680px;
+  margin: var(--space-stack) auto;
+}
+.classic #content .faq-preview > div > .brand-heading {
+  margin-top: 0;
+}
+
+/* Opening photography and the optically aligned Dome keep their composition.
+   The digital opening needs header clearance rather than ordinary section padding. */
+.classic #content .digital-hero {
+  --block-start: clamp(144px, 12.5vw, 180px);
+  --block-end: var(--space-section);
+}
+.classic #content .two-doors {
+  min-height: 0;
+}
+.classic #content .two-doors-options {
+  margin-top: var(--space-related);
+  row-gap: var(--space-related);
+}
+.classic #content .two-doors-option .brand-heading {
+  margin-bottom: var(--space-stack);
+}
+.classic #content .closing-invitation {
+  margin-block: 0;
+  padding-block: var(--space-section);
+}
+
+/* The closing photograph touches the footer. Its navigation is one compact
+   information group, without the old doubled outer/inner top padding. */
+.classic > .site-footer {
+  padding-block: var(--space-related);
+}
+.classic .site-footer .footer-grid {
+  padding-block: 0 var(--space-related);
+  row-gap: var(--space-stack);
+}
+.classic .site-footer .footer-bottom {
+  padding-top: var(--space-support);
+}
+
+@media (max-width: 560px) {
+  .classic #content .travel-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .classic #content .founder-bridge .photo-bridge > div,
+  .classic
+    #content
+    :is(.quote-section, .facilitators-pattern)
+    + .photo-bridge
+    > div,
+  .classic #content .home-quote-sequence > .session-cta > div:first-child {
+    padding-top: 0;
+  }
+  .classic #content .home-quote-sequence > .split-editorial > div {
+    padding-bottom: 0;
+  }
+}

@@ -1,3 +1,5 @@
+'use client';
+import { useLocale } from './LocaleProvider';
 import art from '../../lib/typography-art.json';
 import type { CSSProperties } from 'react';
 import { asset } from '../../lib/paths';
@@ -31,6 +33,8 @@ export function Heading({
   align?: 'center';
   visualStyle?: 'h2' | 'h3';
 }) {
+  const { t } = useLocale();
+  text = t(text);
   const style =
     visualStyle ?? (as === 'blockquote' ? 'quote' : as === 'span' ? 'h2' : as);
   const variant =

@@ -1,5 +1,9 @@
 import './globals.css';
 import './motion.css';
+import './classic-spacing.css';
+import './immersive.css';
+import './localization.css';
+import './photography.css';
 import { PageMotion } from './components/PageMotion';
 import { asset } from '../lib/paths';
 import { copy } from '../lib/copy';
@@ -14,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
         <PageMotion />
         {children}

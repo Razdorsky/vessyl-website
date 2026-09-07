@@ -91,6 +91,7 @@ export default function ScrollWorld({
       ratio: number;
       portrait: boolean;
       chapter: number;
+      image: string;
     }[] = [];
     const waterMaterials: THREE.ShaderMaterial[] = [];
     const loading: Promise<void>[] = [];
@@ -152,7 +153,8 @@ export default function ScrollWorld({
           float lowerEdge = smoothstep(0.0, 0.075, vMapUv.y);
           float sideEdge = smoothstep(0.0, 0.045, vMapUv.x)
             * (1.0 - smoothstep(0.955, 1.0, vMapUv.x));
-          diffuseColor.a *= lowerEdge * sideEdge;
+          float upperEdge = 1.0 - smoothstep(0.89, 1.0, vMapUv.y);
+          diffuseColor.a *= lowerEdge * upperEdge * sideEdge;
           #endif`,
           );
         };
@@ -178,7 +180,7 @@ export default function ScrollWorld({
       }
       mesh.position.set(x, curved ? 7 : y, curved ? -6 : z);
       parent.add(mesh);
-      const item = { mesh, material, ratio: w / h, portrait, chapter };
+      const item = { mesh, material, ratio: w / h, portrait, chapter, image };
       photographs.push(item);
       loading.push(
         new Promise((resolve) => {
@@ -234,15 +236,28 @@ export default function ScrollWorld({
           world,
           false,
           i,
-          ch.world === 'dome' || ch.world === 'hearth',
+          (ch.world === 'dome' || ch.world === 'hearth') &&
+            ch.image !== 'dome-design-direction',
         );
       }
+      // The brand's concentric ellipses become a spatial passage through the Dome.
+      if (ch.world === 'dome') {
+        for (let ring = 0; ring < 6; ring++) {
+          const ellipse = new THREE.Mesh(
+            new THREE.TorusGeometry(13, 0.035, 6, 192),
+            copper,
+          );
+          ellipse.scale.y = 5.8 / 13;
+          ellipse.position.set(0, 2, -ring * 5);
+          world.add(ellipse);
+        }
+      }
       // Monumental architectural ribs surround the visitor, rather than a floating object in a card.
-      if (['arrival', 'dome'].includes(ch.world)) {
+      if (ch.world === 'arrival') {
         const count = 3;
         for (let j = 0; j < count; j++) {
           const points = [];
-          const radius = ch.world === 'dome' ? 11 : 13;
+          const radius = 13;
           for (let n = 0; n <= 48; n++) {
             const a = (Math.PI * n) / 48;
             points.push(
@@ -253,13 +268,7 @@ export default function ScrollWorld({
               ),
             );
           }
-          world.add(
-            tube(
-              points,
-              ch.world === 'dome' ? 0.14 : 0.09,
-              j % 3 === 0 ? glow : copper,
-            ),
-          );
+          world.add(tube(points, 0.09, j % 3 === 0 ? glow : copper));
         }
       }
       if (ch.world === 'forest') {
@@ -383,10 +392,18 @@ export default function ScrollWorld({
         ? THREE.MathUtils.damp(progress, target, 8.5, dt)
         : Math.round(target);
       if (moving) time += dt;
-      const mobile = camera.aspect < 0.9;
+      const mobile = el.clientWidth <= 820;
       const rail = moving ? progress : Math.round(progress);
+      const nearest = Math.round(progress);
+      const domeFocus =
+        chapters[nearest]?.world === 'dome'
+          ? 1 -
+            THREE.MathUtils.smoothstep(Math.abs(progress - nearest), 0.12, 0.5)
+          : 0;
       currentPosition.set(
-        moving ? Math.sin(progress * 0.8) * 0.9 + px * 0.28 : 0,
+        moving
+          ? (Math.sin(progress * 0.8) * 0.9 + px * 0.28) * (1 - domeFocus)
+          : 0,
         2.3 + (moving ? Math.sin(progress * 1.4) * 0.45 + py * 0.12 : 0),
         12 - rail * 34,
       );
@@ -409,9 +426,52 @@ export default function ScrollWorld({
         const local = progress - item.chapter;
         const opacity =
           local >= 0
-            ? 1 - THREE.MathUtils.smoothstep(local, 0.48, 0.84)
-            : THREE.MathUtils.smoothstep(local, -0.52, -0.16);
+            ? 1 - THREE.MathUtils.smoothstep(local, 0.28, 0.68)
+            : THREE.MathUtils.smoothstep(local, -0.72, -0.32);
         item.material.opacity = item.material.map ? opacity : 0;
+        if (item.image === 'dome-design-direction') {
+          if (mobile) {
+            item.material.opacity = 0;
+            return;
+          }
+          // Frame the complete silhouette, level it, and place its actual visual
+          // axis at the viewport center shared by the logo and spatial ellipses.
+          const depth = 36;
+          const viewH =
+            2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * depth;
+          const w = viewH * camera.aspect * 1.14;
+          const h = w / item.ratio;
+          item.mesh.scale.set(w / 60, h / 36, 1);
+          item.mesh.quaternion.copy(camera.quaternion);
+          item.mesh.rotateZ(Math.PI / 180);
+          item.mesh.position
+            .set(-w * 0.065, -viewH * 0.1, -depth)
+            .applyQuaternion(camera.quaternion)
+            .add(camera.position);
+          item.mesh.position.z += item.chapter * 34;
+        }
+        if (item.image === 'massage') {
+          // Preserve the therapist's face: a camera-aligned background with the
+          // original aspect ratio, instead of an oversized scenic projection.
+          const depth = 36;
+          const viewH =
+            2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * depth;
+          const viewW = viewH * camera.aspect;
+          const w = Math.max(viewW, viewH * item.ratio);
+          const h = w / item.ratio;
+          item.mesh.scale.set(w / 60, h / 36, 1);
+          item.mesh.quaternion.copy(camera.quaternion);
+          item.mesh.position
+            .set((w - viewW) * 0.13, -(h - viewH) / 2, -depth)
+            .applyQuaternion(camera.quaternion)
+            .add(camera.position);
+          item.mesh.position.z += item.chapter * 34;
+        }
+        if (item.portrait && mobile) {
+          // Mobile uses the full, uncropped HTML photograph beneath its copy.
+          item.material.opacity = 0;
+          return;
+        }
         if (item.portrait) {
           const depth = 22;
           const viewH =

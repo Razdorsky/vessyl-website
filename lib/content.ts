@@ -1,4 +1,4 @@
-import { copy, type CopyKey } from './copy';
+import { copy, translateText, type CopyKey, type Locale } from './copy';
 import faqKeys from './approved-faq.json';
 export const BOOKING = 'https://akenhotels.com/en/vessyl-home/';
 export const WAITLIST = 'https://thevessyl.com/waitlist';
@@ -133,3 +133,23 @@ export const faqs = faqKeys.map(([q, a]) => [
   copy(q as CopyKey),
   copy(a as CopyKey),
 ]);
+export const getContent = (locale: Locale) => {
+  const t = (text: string) => translateText(text, locale);
+  return {
+    pageTitles: Object.fromEntries(
+      Object.entries(pageTitles).map(([key, title]) => [key, t(title)]),
+    ),
+    experiences: experiences.map((e) => ({
+      ...e,
+      name: t(e.name),
+      body: t(e.body),
+    })),
+    practices: practices.map((p) => ({
+      ...p,
+      title: t(p.title),
+      intro: t(p.intro),
+      body: t(p.body),
+    })),
+    faqs: faqs.map((pair) => pair.map(t)),
+  };
+};

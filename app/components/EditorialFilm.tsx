@@ -3,16 +3,16 @@
 import { useEffect, useRef, useState } from 'react';
 import { Pause, Play, Volume2, VolumeX } from 'lucide-react';
 import { asset } from '../../lib/paths';
+import { useLocale } from './LocaleProvider';
 import filmVersions from '../../lib/film-versions.json';
+import { films } from '../../lib/films';
 
-/** Approved, full-length films: a silent ambient loop until explicitly opened. */
-export function EditorialFilm({
-  name,
-}: {
-  name: 'main' | 'sessions' | 'founder';
-}) {
+/** Every website film starts as a silent loop, then uses explicit playback. */
+export function EditorialFilm({ name }: { name: keyof typeof films }) {
+  const { c } = useLocale();
+  const film = films[name];
   const video = useRef<HTMLVideoElement>(null);
-  const requestedSound = useRef(false);
+  const opened = useRef(false);
   const [activated, setActivated] = useState(false);
   const [playing, setPlaying] = useState(false);
   const [muted, setMuted] = useState(true);
@@ -24,8 +24,8 @@ export function EditorialFilm({
     const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
     const syncPlayback = () => {
       if (!visible || document.hidden) el.pause();
-      // Once opened with sound, playback resumes only on another explicit tap.
-      else if (!requestedSound.current) {
+      // Once opened, playback resumes only on another explicit tap.
+      else if (!opened.current) {
         if (reducedMotion.matches) el.pause();
         else el.play().catch(() => {});
       }
@@ -51,9 +51,10 @@ export function EditorialFilm({
   const playFromStart = () => {
     const el = video.current;
     if (!el) return;
-    requestedSound.current = true;
+    opened.current = true;
     setActivated(true);
     el.muted = false;
+    setMuted(false);
     el.loop = false;
     el.currentTime = 0;
     el.play().catch(() => {});
@@ -74,9 +75,9 @@ export function EditorialFilm({
         ref={video}
         width="1920"
         height="1080"
-        poster={asset(`/videos/${name}-poster.webp?v=${filmVersions[name]}`)}
+        poster={asset(`${film.poster}?v=${filmVersions[name]}`)}
         muted
-        loop
+        loop={!activated}
         playsInline
         preload="none"
         onPlay={() => setPlaying(true)}
@@ -85,24 +86,30 @@ export function EditorialFilm({
         onVolumeChange={() => setMuted(video.current?.muted ?? true)}
       >
         <source
-          src={asset(`/videos/${name}.mp4?v=${filmVersions[name]}`)}
+          src={asset(`${film.source}?v=${filmVersions[name]}`)}
           type="video/mp4"
         />
       </video>
       <button
         type="button"
         className="editorial-film-action"
-        aria-label="Play film from the beginning with sound"
-        onClick={playFromStart}
+        aria-label={
+          activated
+            ? playing
+              ? c('ui.pauseFilm')
+              : c('ui.resumeFilm')
+            : c('ui.filmFromStart')
+        }
+        onClick={activated ? togglePlayback : playFromStart}
       />
       {activated && (
         <fieldset
           className="editorial-film-controls"
-          aria-label="Film controls"
+          aria-label={c('ui.filmControls')}
         >
           <button
             type="button"
-            aria-label={muted ? 'Unmute film' : 'Mute film'}
+            aria-label={muted ? c('ui.unmuteFilm') : c('ui.muteFilm')}
             onClick={() => {
               const el = video.current;
               if (el) el.muted = !el.muted;
@@ -116,7 +123,7 @@ export function EditorialFilm({
           </button>
           <button
             type="button"
-            aria-label={playing ? 'Pause film' : 'Play film'}
+            aria-label={playing ? c('ui.pauseFilm') : c('ui.film')}
             onClick={togglePlayback}
           >
             {playing ? (
