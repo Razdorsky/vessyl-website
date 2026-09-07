@@ -1,0 +1,1166 @@
+{
+  "home": {
+    "text": "The Vessyl",
+    "source": "162:522",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "66144dfa4c9d5a1d71e0c12b66d75c97837dc6782b56bc362c2100bc3976824e"
+  },
+  "founder": {
+    "text": "The Founder",
+    "source": "162:521",
+    "kind": "exact-node",
+    "sourceSha256": "93e66818c53f8aac2cf8989880bacd638e72545a5301ec4d42a9e13360e4f982"
+  },
+  "experience": {
+    "text": "The Vessyl Experience",
+    "source": "162:522",
+    "kind": "exact-node",
+    "sourceSha256": "66144dfa4c9d5a1d71e0c12b66d75c97837dc6782b56bc362c2100bc3976824e"
+  },
+  "dome": {
+    "text": "Frequency Dome",
+    "source": "156:214",
+    "kind": "exact-node",
+    "sourceSha256": "0bd588a96e4583582594ce47c7910b70d7e4f030433742fdeead60c9191de7f6"
+  },
+  "hearth": {
+    "text": "Harmonic Hearth",
+    "source": "156:299",
+    "kind": "exact-node",
+    "sourceSha256": "3008d4be03e8c23f6008d60db9d87f9a4c81d2b8b78b5cac5f97b638134bd5cf"
+  },
+  "nature": {
+    "text": "Equine & Natural Experience",
+    "source": "157:637",
+    "kind": "exact-node",
+    "sourceSha256": "d49625f526ce83a3c3c79aaf26f67acfc5b2276c44a1aa5be073263534a8a503"
+  },
+  "sessions": {
+    "text": "Personal Sessions",
+    "source": "162:634",
+    "kind": "exact-node",
+    "sourceSha256": "927b50b41ee8071a72efc043cec87caab2c47328f09f2b9c939f7ff5e930ea44"
+  },
+  "quantum": {
+    "text": "Quantum Sessions",
+    "source": "156:460",
+    "kind": "exact-node",
+    "sourceSha256": "c90903b54f7e81714bbb2d6360e728296db4b0ed1a16dbbce05e7618d736d1d7"
+  },
+  "wellness": {
+    "text": "Wellness Sessions",
+    "source": "156:465",
+    "kind": "exact-node",
+    "sourceSha256": "74cd6498f85c00a5813b06170b0fdef4b64406d6fe4024e5fdf8e76bb8f60ae4"
+  },
+  "facilitators": {
+    "text": "Facilitators",
+    "source": "165:2425",
+    "kind": "exact-node",
+    "sourceSha256": "1cdd53ff13eac09b95b81863d6b86e26670c2a6ab1cc65d6ecfb10262c97a9d0"
+  },
+  "stay": {
+    "text": "AKEN Soul",
+    "source": "165:2091",
+    "kind": "exact-node",
+    "sourceSha256": "9507db206a6974fdb63eb0e01ac98d105e73dc0bc7d7e31bc241a8d1715d87ea"
+  },
+  "rancho": {
+    "text": "El Rancho",
+    "source": "156:341",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "878d1b456e0646b5facaa6c4a2c5a3f28e7e84677c1b4cb141a57739faf947fc"
+  },
+  "app": {
+    "text": "The App",
+    "source": "157:856",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "35474adb4bbe16d6a3e3254016fb0aca1afc743138277a34413b3b30e19bea4f"
+  },
+  "music": {
+    "text": "Music Label",
+    "source": "157:851",
+    "kind": "exact-node",
+    "sourceSha256": "09afc0fe188a282e27f8032a818ffa31578664e8c5f911439e429f56e996d094"
+  },
+  "press": {
+    "text": "Press Room",
+    "source": "157:624",
+    "kind": "exact-node",
+    "sourceSha256": "ca903714a83349aa331fa18e2ff72ef3481d840c1bb99d95ff6d391fd7474256"
+  },
+  "contact": {
+    "text": "Contact Us / Make a Reservation",
+    "source": "72:484",
+    "kind": "exact-node",
+    "sourceSha256": "a0295c4564ebc9188dae872b61883d1253a085d51654876b59f637350d738da1"
+  },
+  "faq": {
+    "text": "FAQs",
+    "source": "72:483",
+    "kind": "exact-node",
+    "sourceSha256": "9856b7433f842da2093b956811286d51860e05ae3904dc40b36dc709ea298884"
+  },
+  "learn": {
+    "text": "Learn More",
+    "source": "157:1684",
+    "kind": "exact-node",
+    "sourceSha256": "8d8cd546b58d91c300d3149ef40b8d98d3061dc38f15ea937d2ed785a3f25771"
+  },
+  "discover": {
+    "text": "Discover the Vessyl",
+    "source": "157:2428",
+    "kind": "exact-node",
+    "sourceSha256": "e7209a82bc03a0e461ea8fbd00b83164d6165b48d7f0969037714269f3a0db5e"
+  },
+  "founderCta": {
+    "text": "the story behind the vessyl",
+    "source": "157:2509",
+    "kind": "exact-node",
+    "sourceSha256": "242cb886d752e2892cb01554faf81a9294b6d1964f5b46903a18876a79271a33"
+  },
+  "stayCta": {
+    "text": "stay with us",
+    "source": "162:412",
+    "kind": "exact-node",
+    "sourceSha256": "8645ca2778e12050cd127ed4187e618e77bc04cc5be14783b4f85f9e72b366d2"
+  },
+  "book": {
+    "text": "Book Now",
+    "source": "157:513",
+    "kind": "exact-node",
+    "sourceSha256": "67be79359de4aa3f0b20dd68dd9927e1e4051d8865c06d36f039287f97c0959a"
+  },
+  "guidesCta": {
+    "text": "Meet the facilitators",
+    "source": "157:1903",
+    "kind": "exact-node",
+    "sourceSha256": "4c51d7199a4a9b4a91774838039906835092b6289b3716fad4adc3018108c068"
+  },
+  "sessionCta": {
+    "text": "Explore our sessions",
+    "source": "157:2684",
+    "kind": "exact-node",
+    "sourceSha256": "15733b62d9617f75efd3ebf0f13cce4b60e175a07c84fde2c7c817f28a0dc64b"
+  },
+  "personalBook": {
+    "text": "book a personal session",
+    "source": "165:2360",
+    "kind": "exact-node",
+    "sourceSha256": "1705aa0d52af742cbc1302bc77897d684187657414ffa6352eff435ea8f785d6"
+  },
+  "musicCta": {
+    "text": "explore the vessyl music label",
+    "source": "157:1637",
+    "kind": "exact-node",
+    "sourceSha256": "8454ef6b6cd1c97da30d50b49e650a2fe414c5147a59e4401c668f2743d53919"
+  },
+  "hospitality": {
+    "text": "Hospitality",
+    "source": "156:326",
+    "kind": "exact-node",
+    "sourceSha256": "fb6cd373360f7179eae047a92301edadfe01b9cdf64f037344702bc3b3d0ef4f"
+  },
+  "culinary": {
+    "text": "culinary experience",
+    "source": "165:1999",
+    "kind": "exact-node",
+    "sourceSha256": "3b5755f8c6e3da48dac4e54365bbfcd8e3fa57f85d19eacf9ba238ccc04baf12"
+  },
+  "quoteAuthor": {
+    "text": "Josh Stanley",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "gallery": {
+    "text": "Gallery",
+    "source": "165:2429",
+    "kind": "exact-node",
+    "sourceSha256": "352cfc749e55222e135ee48e67631ba33f834d936c137560fd39063d2e57e5cb"
+  },
+  "domeSession": {
+    "text": "dome sessions",
+    "source": "157:1689",
+    "kind": "exact-node",
+    "sourceSha256": "6964706494f8562893906fd32166e2dadc7e9e96e2f11b2bacf1eb0ab784caf6"
+  },
+  "hearthSession": {
+    "text": "harmonic hearth sessions",
+    "source": "157:2130",
+    "kind": "exact-node",
+    "sourceSha256": "bec5973500eaffb85806b932b08393c4871d853e68976265876c40812fecaf49"
+  },
+  "studio": {
+    "text": "The Recording Studio",
+    "source": "157:975",
+    "kind": "exact-node",
+    "sourceSha256": "17c32d3535cae718e668c61ce7e54ac349670a425b41bcc6b8076bf4d8228df7"
+  },
+  "technology": {
+    "text": "Technology",
+    "source": "157:476",
+    "kind": "exact-node",
+    "sourceSha256": "3169ce6442acdc8192ea935cfc09f6110dc31899379717f3b43c3b9045a27dd2"
+  },
+  "natureWalk": {
+    "text": "Path of Presence - Nature Walk",
+    "source": "162:424",
+    "kind": "exact-node",
+    "sourceSha256": "c67a8089be29d3e1bd56222a22606cfd1110efa9858ca910f756b9147a8046e9"
+  },
+  "birdwatching": {
+    "text": "Birdwatching",
+    "source": "162:408",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "6bbdb2407664a1a8afadb1206bc63f34b81c37fe3a08ea5a52aeb3c9d7603e04"
+  },
+  "horseBond": {
+    "text": "Horse Bonding",
+    "source": "159:59",
+    "kind": "exact-node",
+    "sourceSha256": "7d67307c325a4a38cae1156bb41454ce57ff7b99b3ff30b50270179a9fafb50a"
+  },
+  "river": {
+    "text": "Equine Horse Ride & River",
+    "source": "159:80",
+    "kind": "exact-node",
+    "sourceSha256": "1b4cb68e4fe68e2ed0443ed4a90ab065272d9ea6b847fd876aab184f8a81ec2d"
+  },
+  "rooms": {
+    "text": "Rooms",
+    "source": "157:834",
+    "kind": "exact-node",
+    "sourceSha256": "bd32f6cedb5fb7ae9ca306b5655720b565a5c63c43353e1e18e4df8ca6c972ea"
+  },
+  "roomConcept": {
+    "text": "Room concept",
+    "source": "165:2019",
+    "kind": "exact-node",
+    "sourceSha256": "a6fba74c512b92808073bac4c0aec6c754137fae35b825ceff06bd0419d2c2c4"
+  },
+  "arrival": {
+    "text": "the location",
+    "source": "157:1179",
+    "kind": "exact-node",
+    "sourceSha256": "bc7d0b4a032ac98ead4d1700b4cfd23876bb3993e2482b1107c45c4ccee93783"
+  },
+  "digital": {
+    "text": "digital experience",
+    "source": "157:1160",
+    "kind": "exact-node",
+    "sourceSha256": "aa82de93b6ec718db2413478a5283242272b1132b76f92519e63774eaf97930c"
+  },
+  "soul": {
+    "text": "Quantum Soul Session",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "numerology": {
+    "text": "Numerology",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "breathwork": {
+    "text": "Breathwork",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "nidra": {
+    "text": "Yoga Nidra",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "qi": {
+    "text": "Qi & Chai",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "hydro": {
+    "text": "HydroChallenge",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "fractals": {
+    "text": "Fractals",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "voices": {
+    "text": "Voices in the Dark",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "introspection": {
+    "text": "Introspection Time",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "drivingSjo": {
+    "text": "Driving from San José",
+    "source": "157:1174",
+    "kind": "exact-node",
+    "sourceSha256": "930c9ef8807d4f270371b5a1e02c26bc3bb0aaba6fe9183a15a97ba4e76cfb3d"
+  },
+  "drivingLir": {
+    "text": "Driving from Liberia",
+    "source": "157:1190",
+    "kind": "exact-node",
+    "sourceSha256": "176f18d6b9fb03d435cdef7ff815c3e38269c3d9db7464302dad0fe77a0af16b"
+  },
+  "news": {
+    "text": "News and Articles",
+    "source": "157:2693",
+    "kind": "exact-node",
+    "sourceSha256": "950acddde4eef161bc61e8aa983ff333c4453ab2d4a5b52a00bdd5e9954e9fd7"
+  },
+  "audio": {
+    "text": "Audio",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "video": {
+    "text": "Video",
+    "source": "69:341",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9998d0d81a5c5f028c4203b8580f2bc4aef23582ebf85db0a4ebd4b5af8d1d20"
+  },
+  "floor": {
+    "text": "Vibro-Tactile floor by Clark Synthesis",
+    "source": "69:341",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9998d0d81a5c5f028c4203b8580f2bc4aef23582ebf85db0a4ebd4b5af8d1d20"
+  },
+  "appApple": {
+    "text": "Download apple",
+    "source": "165:1946",
+    "kind": "exact-node",
+    "sourceSha256": "ebee5fcf2685faff8912b366d080821361bee1d4486e5d83143d84e5630f83b8"
+  },
+  "appGoogle": {
+    "text": "download google",
+    "source": "165:1949",
+    "kind": "exact-node",
+    "sourceSha256": "fc4d1928566f828e6686196241b2d843f8743f3432809408eab8d51aaec79737"
+  },
+  "homeIntro": {
+    "text": "The Vessyl is an immersive wellness destination located on 118 acres of tropical rainforest near the Arenal Volcano in La Fortuna, Costa Rica. Founded by Charlotte's Web co-founder Josh Stanley and developed in partnership with AKEN Hotels & Resorts, The Vessyl combines sound, nature, restorative experiences, and intentional community to support presence, recovery, and meaningful human connection.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "homeShort": {
+    "text": "The Vessyl is an immersive wellness destination located on 118 acres of tropical rainforest near the Arenal Volcano in La Fortuna, Costa Rica.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "domeIntro": {
+    "text": "At the heart of The Vessyl is the Frequency Dome, an immersive sound sanctuary designed to support relaxation and restoration.",
+    "source": "157:1540",
+    "kind": "exact-node",
+    "sourceSha256": "f3ca9dd230bbc035b187c429d20f04218a3e71ea6d895f0a97624a027381fa65"
+  },
+  "resortChoice": {
+    "text": "No. Guests can customize their experience and choose the offerings that resonate most with them.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "founderIntro": {
+    "text": "Vessyl was founded by entrepreneur Josh Stanley, co-founder of Charlotte's Web.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "founderWhy": {
+    "text": "After years of working at the intersection of health and entrepreneurship, Stanley became interested in how sound, nature, community, and immersive experiences could support restoration and human connection in today's increasingly overstimulated world.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "founderStory": {
+    "text": "Josh Stanley is an entrepreneur, wellness innovator, and co-founder of Charlotte's Web, the pioneering company widely recognized for helping bring CBD into the mainstream conversation in the United States. Alongside his brothers, Stanley helped break open the CBD industry, transforming a once misunderstood category into one of the fastest-growing sectors in modern wellness.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "founderQuestion": {
+    "text": "Through years of work at the intersection of health, entrepreneurship, and human potential, Stanley became increasingly interested in a broader question: How do people cultivate resilience, presence, and meaningful connection in a rapidly changing world? That exploration ultimately led to the creation of Vessyl.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "founderNext": {
+    "text": "Set beneath Costa Rica's Arenal Volcano, Vessyl represents Stanley's next chapter—one focused on the role that sound, nature, music, community, and immersive experiences can play in supporting restoration and self-discovery. At the center of the experience is the Frequency Dome, reflecting Stanley's belief that sound and vibration have the power to create moments of reflection, creativity, and connection.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "quote": {
+    "text": "Healing should feel alive. It should feel like music, laughter, adventure, nature, and being with other people. We are not trying to help people escape their lives. We are trying to help them reconnect to them.",
+    "source": "74:535",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "fe954b67ceb0dcd5f73442f8e0ef2eb7e1734eaa47c500c6ad645f3e52d5b52b"
+  },
+  "guidesIntro": {
+    "text": "The Vessyl's experiences are supported by trained practitioners, facilitators, and wellness guides who help guests engage more deeply with the resort's offerings through experiences designed to encourage reflection, presence, and self-discovery.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "quantumIntro": {
+    "text": "Quantum Soul Sessions are guided experiences led by trained practitioners and healers designed to encourage reflection, self-discovery, personal insight, and a deeper connection to oneself. We use a blend of ancient systems such as numerology, astrology, human design and more to give guests a deep look into themselves.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "numerologyIntro": {
+    "text": "Numerology is an intuitive practice that explores themes of timing, personality, purpose, and self-awareness through the symbolism of numbers.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "breathworkIntro": {
+    "text": "Breathwork encompasses guided breathing practices designed to support relaxation, mindfulness, and intentional awareness.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "hearthIntro": {
+    "text": "Heated stones, surround sound, vibrating benches, and powerful transducers create a deeply immersive experience designed to either relax, reset, or recharge you depending on the time of day.",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "hydroIntro": {
+    "text": "Work with our world-class facilitator to learn how to regulate your body and mind through breath, awareness, and intention as you move between the heat of the sauna and the cold plunge.",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "nidraIntro": {
+    "text": "Journey into a profound state of conscious rest through this 90-minute immersive Yoga Nidra experience in the Dome, enhanced by stunning visuals, surround sound, and our state-of-the-art vibratory floating floor.",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "qiIntro": {
+    "text": "Begin your day with a gentle yet energizing blend of guided Qigong and locally sourced chai tea, led by one of our experienced facilitators.",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "birdIntro": {
+    "text": "Spend the morning with Oscar, who has called this land home for more than a decade and knows its forests, wildlife, and birdlife intimately.",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "pathIntro": {
+    "text": "What if walking could become a meditation? Guided by experienced facilitators, the Path of Presence is a moving meditation through the jungle that invites you to slow down, awaken your senses, and experience the present moment in a deeper way.",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "fractalsIntro": {
+    "text": "these immersive journeys combine mesmerizing fractal worlds with surround sound and vibration to create a deeply meditative, trance-like experience.",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "voicesIntro": {
+    "text": "Voices in the Dark immerses you in a pitch-black journey featuring indigenous songs, prayers, chants, and sacred vocal traditions from cultures around the world, enhanced by surround sound and full-body vibration.",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "introspectionIntro": {
+    "text": "Take time for yourself anywhere on the property that calls to you - whether journaling, walking in nature, sitting quietly, or connecting with a facilitator.",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "natureIntro": {
+    "text": "Vessyl offers horse-assisted experiences designed to encourage presence, awareness, trust, and connection, as well as traditional horseback riding excursions.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "bondIntro": {
+    "text": "Horse-bonding experiences involve guided interactions with horses that encourage self-awareness, emotional regulation, communication, and presence.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "riverIntro": {
+    "text": "One of The Vessyl's signature experiences includes guided horseback rides to the Arenal River, where guests may have the opportunity to swim alongside the horses.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "enriqueIntro": {
+    "text": "Led by Enrique Molina, whose family has worked with horses in La Fortuna for generations, The Vessyl's equine experiences are designed to encourage presence, awareness, trust, and connection.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "destinationIntro": {
+    "text": "Located in Costa Rica's Arenal region, Vessyl is surrounded by one of the world's most biodiverse landscapes, where rainforest, rivers, wildlife, and volcanic terrain create an extraordinary setting for exploration and renewal.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "locationIntro": {
+    "text": "The Vessyl is located near La Fortuna, Costa Rica, in the shadow of the Arenal Volcano.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "ranchoIntro": {
+    "text": "At Rancho, The Vessyl's signature poolside restaurant, guests gather beneath the shadow of Volcano Arenal to experience the flavors, ingredients, and traditions that define Costa Rica.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "chefIntro": {
+    "text": "Led by Nicaraguan-born Chef Devli Saul Mendoza, the kitchen draws inspiration from the surrounding region, working closely with local farmers, producers, and artisans to showcase fresh ingredients at their peak.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "tableIntro": {
+    "text": "More than a restaurant, Rancho reflects the spirit of the traditional Costa Rican rancho, a place where people come together to share meals, conversation, and community. Morning begins with café chorreado and gallo pinto, while evenings unfold over thoughtfully prepared dinners that celebrate the richness of the land and the people who cultivate it.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "ranchoRitual": {
+    "text": "Our menu seamlessly weaves traditional methods and ancient principles with modern culinary artistry. We offer daily rituals that range from the soul-warming café chorreado and artisanal Gallo Pinto at sunrise, to curated multi-course dinners showcasing the richness of pejibaye, achiote, and pure cacao.",
+    "source": "66:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "21532027296678cca38e9428b7d8245c695f8a2d221b7e7c85d2b7cea9e0bc1d"
+  },
+  "ranchoSoul": {
+    "text": "It is a generous, open space where the hearth is always warm, coffee is shared without haste, and conversation flows in harmony with the rhythm of nature.",
+    "source": "66:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "21532027296678cca38e9428b7d8245c695f8a2d221b7e7c85d2b7cea9e0bc1d"
+  },
+  "stayIntro": {
+    "text": "Developed in partnership with AKEN Hotels & Resorts, Vessyl offers a contemporary approach to wellbeing rooted in the belief that healing should feel alive.",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "studioIntro": {
+    "text": "It also houses an additional recording studio equipped with state-of-the-art equipment that serves as VESSYL’s multimedia production hub.",
+    "source": "69:341",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9998d0d81a5c5f028c4203b8580f2bc4aef23582ebf85db0a4ebd4b5af8d1d20"
+  },
+  "studioDetail": {
+    "text": "The studio can be utilized by artists, sound therapists, and other creative professionals to upmix their program material to the immersive audiovisual format of the dome.",
+    "source": "69:341",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9998d0d81a5c5f028c4203b8580f2bc4aef23582ebf85db0a4ebd4b5af8d1d20"
+  },
+  "musicIntro": {
+    "text": "Music is central to the Vessyl philosophy. Programming may include intimate performances and immersive experiences designed to foster creativity, presence, and connection.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "soundIntro": {
+    "text": "The Dome features acoustics masterfully designed by Grammy-winning engineer George Augspurger (Electric Lady, Sunset Sound).",
+    "source": "69:341",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9998d0d81a5c5f028c4203b8580f2bc4aef23582ebf85db0a4ebd4b5af8d1d20"
+  },
+  "videoIntro": {
+    "text": "The video system features a 4K cross-cove projection system, utilizing 2 Panasonic REQ12 laser projectors and is designed by The Elumenati.",
+    "source": "69:341",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9998d0d81a5c5f028c4203b8580f2bc4aef23582ebf85db0a4ebd4b5af8d1d20"
+  },
+  "floorIntro": {
+    "text": "The Dome features a custom Vibro-Tactile floating floor embedded with 24 platinum transducers by Clark Synthesis, which translate sound into vibration to create an immersive multi-sensory experience.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "medical": {
+    "text": "No. Experiences within the Frequency Dome are designed to support relaxation, reflection, creativity, and connection. They are not intended to diagnose, treat, cure, or prevent any disease.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "travelSjo": {
+    "text": "Approximately 3 hours by car.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "travelLir": {
+    "text": "Approximately 2.5 hours by car.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "flights": {
+    "text": "Yes. Sansa Airlines offers flights from San José to nearby La Fortuna.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "villas": {
+    "text": "Private Villas",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "treehouse": {
+    "text": "Signature Treehouse accommodations",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "glamping": {
+    "text": "Glamping Tents",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "mediaName": {
+    "text": "Dara Kaplan",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "mediaOrg": {
+    "text": "Wunderlich Kaplan Communications",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "mediaEmail": {
+    "text": "dara@wkc.global",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "roster": {
+    "text": "PRACTITIONERS & GUIDES",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "overview": {
+    "text": "OVERVIEW",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "facts": {
+    "text": "QUICK FACTS",
+    "source": "69:340",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "658e84e182aa5630e264d7a9dafaac70287c0de9112852efcdf2268495d6df87"
+  },
+  "park": {
+    "text": "Arenal Volcano National Park",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "springs": {
+    "text": "Thermal hot springs",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "waterfalls": {
+    "text": "Waterfalls",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "trails": {
+    "text": "Hiking trails",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "wildlife": {
+    "text": "Wildlife viewing opportunities",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "culture": {
+    "text": "Local cultural experiences",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "homeHeadline": {
+    "text": "The world got louder. This is where it goes quiet.",
+    "source": "548:978",
+    "kind": "visually-verified-raster"
+  },
+  "appHeadline": {
+    "text": "The Vessyl, wherever you are.",
+    "source": "548:987",
+    "kind": "visually-verified-raster"
+  },
+  "appIntro": {
+    "text": "Guided Quantum and Wellness sessions, and the people who lead them, before you ever arrive and long after you leave.",
+    "source": "548:987",
+    "kind": "visually-verified-raster"
+  },
+  "appStory": {
+    "text": "The Vessyl is built around presence: the Dome, the Hearth, the grounds. Not everyone can be on the property today. The app carries the same Quantum and Wellness programming into guided audio and video sessions, so the practice travels with you, before your stay and long after it.",
+    "source": "548:987",
+    "kind": "visually-verified-raster"
+  },
+  "appDoor": {
+    "text": "Not a replacement. A door.",
+    "source": "548:987",
+    "kind": "visually-verified-raster"
+  },
+  "appLibrary": {
+    "text": "The sessions library",
+    "source": "548:987",
+    "kind": "visually-verified-raster"
+  },
+  "appLibraryIntro": {
+    "text": "Guided Quantum and Wellness sessions, the same programming that lives on the grounds, recorded and guided so it travels with you.",
+    "source": "548:987",
+    "kind": "visually-verified-raster"
+  },
+  "appGuides": {
+    "text": "The facilitators",
+    "source": "548:987",
+    "kind": "visually-verified-raster"
+  },
+  "appGuidesIntro": {
+    "text": "Profiles of the people who lead the work, including Enrique Molina and the practitioners behind the Quantum and Wellness sessions.",
+    "source": "548:987",
+    "kind": "visually-verified-raster"
+  },
+  "download": {
+    "text": "Download App",
+    "source": "548:977",
+    "kind": "visually-verified-raster"
+  },
+  "bookStay": {
+    "text": "Book a stay",
+    "source": "548:977",
+    "kind": "visually-verified-raster"
+  },
+  "navExperience": {
+    "text": "The Experience",
+    "source": "548:977",
+    "kind": "visually-verified-raster"
+  },
+  "navSessions": {
+    "text": "Sessions",
+    "source": "548:977",
+    "kind": "visually-verified-raster"
+  },
+  "navPress": {
+    "text": "Press",
+    "source": "548:977",
+    "kind": "visually-verified-raster"
+  },
+  "navDome": {
+    "text": "The Dome",
+    "source": "548:977",
+    "kind": "visually-verified-raster"
+  },
+  "navNature": {
+    "text": "Equine & Nature",
+    "source": "548:977",
+    "kind": "visually-verified-raster"
+  },
+  "allFour": {
+    "text": "See all four",
+    "source": "548:977",
+    "kind": "visually-verified-raster"
+  },
+  "appStore": {
+    "text": "App Store",
+    "source": "548:987",
+    "kind": "visually-verified-raster"
+  },
+  "googlePlay": {
+    "text": "Google Play",
+    "source": "548:987",
+    "kind": "visually-verified-raster"
+  },
+  "question0": {
+    "text": "What is The Vessyl Wellness Resort?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "question1": {
+    "text": "Do I have to participate in all activities?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "question2": {
+    "text": "What is a Quantum Soul Session?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "question3": {
+    "text": "What is Numerology?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "question4": {
+    "text": "What is breathwork?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "question5": {
+    "text": "What equine experiences are available?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "question6": {
+    "text": "What are horse-bonding experiences?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "question7": {
+    "text": "Can I swim with the horses?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "question8": {
+    "text": "Where is The Vessyl located?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "question9": {
+    "text": "Who founded The Vessyl?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "question10": {
+    "text": "Why did Josh Stanley create The Vessyl?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "question11": {
+    "text": "What role does music play at The Vessyl?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "question12": {
+    "text": "Is the Frequency Dome intended to treat medical conditions?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "ridingQuestion": {
+    "text": "Do I need horseback riding experience?",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "ridingAnswer": {
+    "text": "No prior riding experience is required. Experiences are designed to accommodate varying levels of comfort and experience.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "ui.all": {
+    "text": "All sessions",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.allCategory": {
+    "text": "All",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.quantumCategory": {
+    "text": "Quantum",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.wellnessCategory": {
+    "text": "Wellness",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.close": {
+    "text": "Close",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.previous": {
+    "text": "Previous photograph",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.next": {
+    "text": "Next photograph",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.play": {
+    "text": "Play",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.pause": {
+    "text": "Pause",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.film": {
+    "text": "Play film",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.pauseFilm": {
+    "text": "Pause film",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.photo": {
+    "text": "View photograph",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.scroll": {
+    "text": "Scroll to discover",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.edition": {
+    "text": "Website edition",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.classic": {
+    "text": "Classic",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.immersive": {
+    "text": "Immersive 3D",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.menu": {
+    "text": "Open navigation",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.skip": {
+    "text": "Skip to content",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.notConnected": {
+    "text": "Download unavailable",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.waitlist": {
+    "text": "Join the waitlist",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.enquiry": {
+    "text": "Email enquiry",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.sceneNote": {
+    "text": "Interactive interpretation",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.contactGuest": {
+    "text": "Guest services",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.contactReservation": {
+    "text": "Reservations",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.back": {
+    "text": "Back",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.loading": {
+    "text": "Loading",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.enquiryNote": {
+    "text": "Send an enquiry to confirm availability.",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.filmSound": {
+    "text": "Sound off",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.pressDownload": {
+    "text": "Download overview",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.copyright": {
+    "text": "Vessyl",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.brandAlt": {
+    "text": "Vessyl",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "choiceIntro": {
+    "text": "Guests can customize their experience and choose the offerings that resonate most with them.",
+    "source": "69:339",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "9e4680a47754442d3e476bf7af6f3a4b2f8b5f504899e9b85ab0eb73ad214e1f"
+  },
+  "enrique": {
+    "text": "Enrique Molina",
+    "source": "69:340",
+    "kind": "verbatim-excerpt"
+  },
+  "oscar": {
+    "text": "Oscar",
+    "source": "69:342",
+    "kind": "verbatim-excerpt"
+  },
+  "ui.unavailable": {
+    "text": "3D unavailable",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.notFound": {
+    "text": "Page not found",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.view": {
+    "text": "View",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.play3d": {
+    "text": "Play 3D motion",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "ui.pause3d": {
+    "text": "Pause 3D motion",
+    "source": "interface-behavior",
+    "kind": "functional-ui"
+  },
+  "vibrational": {
+    "text": "Vibrational Yoga",
+    "source": "71:471",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "2bf0a6d9e4f93ef64ce75afa60727c74c2fa42dd5d125b175b211bca9de6459a"
+  },
+  "mobility": {
+    "text": "Mobility - Meditation - Mindfulness",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "mobilityIntro": {
+    "text": "dynamic mobility exercises and active meditation techniques, completely enveloped by immersive 4K visuals, ambient surround sound, and a vibrating floor that anchors your awareness into the body.",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "worlds": {
+    "text": "Worlds Beyond Earth + Voices in the Dark",
+    "source": "69:342",
+    "kind": "verbatim-excerpt",
+    "sourceSha256": "b07e49e9bb51dc01917d31d08688441b878990c95114aac2a4452c5713749720"
+  },
+  "vibrationalIntro": {
+    "text": "Yoga on the Dome's floating floor, so every posture is met by sound and vibration.",
+    "source": "548:983",
+    "kind": "visually-verified-raster"
+  },
+  "bodyTreatments": {
+    "text": "Sound & Body Treatments",
+    "source": "548:983",
+    "kind": "visually-verified-raster"
+  },
+  "bodyTreatmentsIntro": {
+    "text": "Sound bowls, tuning forks, and bodywork.",
+    "source": "548:983",
+    "kind": "visually-verified-raster"
+  },
+  "chakra": {
+    "text": "Chakra Journeys",
+    "source": "548:982",
+    "kind": "visually-verified-raster"
+  },
+  "chakraIntro": {
+    "text": "An immersive journey of color, frequency, and full-body vibration, tuned to a single energy center: Root for grounding, Heart for connection, and more.",
+    "source": "548:982",
+    "kind": "visually-verified-raster"
+  },
+  "planet": {
+    "text": "Planet Journeys",
+    "source": "548:982",
+    "kind": "visually-verified-raster"
+  },
+  "planetIntro": {
+    "text": "The qualities a planet has carried through human history, felt through the floor.",
+    "source": "548:982",
+    "kind": "visually-verified-raster"
+  },
+  "worldsIntro": {
+    "text": "A licensed cosmic film in 4K, then the projectors shut off and you fall into Voices in the Dark.",
+    "source": "548:982",
+    "kind": "visually-verified-raster"
+  },
+  "asSeenIn": {
+    "text": "As seen in",
+    "source": "548:515",
+    "kind": "exact-node"
+  }
+}

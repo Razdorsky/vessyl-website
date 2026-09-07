@@ -1,0 +1,1 @@
+Original Vessyl Figma vector exports. File jffWZI4wjsACjN5DzLlBGk, Patterns page 33:311. lattice.svg: node 40:478; fans.svg: node 40:479; wave.svg: node 43:764. Exported 2026-09-07. Geometry preserved; website applies these as CSS masks.

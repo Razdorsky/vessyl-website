@@ -1,0 +1,16 @@
+[
+  ["question0", "homeIntro"],
+  ["question1", "resortChoice"],
+  ["question2", "quantumIntro"],
+  ["question3", "numerologyIntro"],
+  ["question4", "breathworkIntro"],
+  ["question5", "natureIntro"],
+  ["question6", "bondIntro"],
+  ["question7", "riverIntro"],
+  ["question8", "locationIntro"],
+  ["question9", "founderIntro"],
+  ["question10", "founderWhy"],
+  ["question11", "musicIntro"],
+  ["question12", "medical"],
+  ["ridingQuestion", "ridingAnswer"]
+]

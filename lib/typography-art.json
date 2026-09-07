@@ -1,0 +1,1282 @@
+{
+  "6832b361": {
+    "text": "The Vessyl",
+    "style": "h1",
+    "desktop": "6832b361-desktop.svg",
+    "mobile": "6832b361-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "c86cd26e": {
+    "text": "The Founder",
+    "style": "h1",
+    "desktop": "c86cd26e-desktop.svg",
+    "mobile": "c86cd26e-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "90395aa3": {
+    "text": "The Vessyl Experience",
+    "style": "h1",
+    "desktop": "90395aa3-desktop.svg",
+    "mobile": "90395aa3-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998
+  },
+  "94605ef": {
+    "text": "Frequency Dome",
+    "style": "h1",
+    "desktop": "94605ef-desktop.svg",
+    "mobile": "94605ef-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998
+  },
+  "ada4baeb": {
+    "text": "Harmonic Hearth",
+    "style": "h1",
+    "desktop": "ada4baeb-desktop.svg",
+    "mobile": "ada4baeb-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998
+  },
+  "c21e756c": {
+    "text": "Equine & Natural Experience",
+    "style": "h1",
+    "desktop": "c21e756c-desktop.svg",
+    "mobile": "c21e756c-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998
+  },
+  "7928e753": {
+    "text": "Personal Sessions",
+    "style": "h1",
+    "desktop": "7928e753-desktop.svg",
+    "mobile": "7928e753-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998
+  },
+  "c8dc9fc4": {
+    "text": "Quantum Sessions",
+    "style": "h1",
+    "desktop": "c8dc9fc4-desktop.svg",
+    "mobile": "c8dc9fc4-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998
+  },
+  "fac076b6": {
+    "text": "Wellness Sessions",
+    "style": "h1",
+    "desktop": "fac076b6-desktop.svg",
+    "mobile": "fac076b6-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998
+  },
+  "530ab981": {
+    "text": "Facilitators",
+    "style": "h1",
+    "desktop": "530ab981-desktop.svg",
+    "mobile": "530ab981-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "4d4b95f8": {
+    "text": "AKEN Soul",
+    "style": "h1",
+    "desktop": "4d4b95f8-desktop.svg",
+    "mobile": "4d4b95f8-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "927762f2": {
+    "text": "El Rancho",
+    "style": "h1",
+    "desktop": "927762f2-desktop.svg",
+    "mobile": "927762f2-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "3a20f5ee": {
+    "text": "The App",
+    "style": "h1",
+    "desktop": "3a20f5ee-desktop.svg",
+    "mobile": "3a20f5ee-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "f8f2b063": {
+    "text": "Music Label",
+    "style": "h1",
+    "desktop": "f8f2b063-desktop.svg",
+    "mobile": "f8f2b063-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "22d3ab7c": {
+    "text": "Press Room",
+    "style": "h1",
+    "desktop": "22d3ab7c-desktop.svg",
+    "mobile": "22d3ab7c-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "bf90b0f2": {
+    "text": "Contact Us / Make a Reservation",
+    "style": "h1",
+    "desktop": "bf90b0f2-desktop.svg",
+    "mobile": "bf90b0f2-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998
+  },
+  "18c13d3b": {
+    "text": "FAQs",
+    "style": "h1",
+    "desktop": "18c13d3b-desktop.svg",
+    "mobile": "18c13d3b-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "66c77ac8": {
+    "text": "The world got louder. This is where it goes quiet.",
+    "style": "h1",
+    "desktop": "66c77ac8-desktop.svg",
+    "mobile": "66c77ac8-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 358.08000000000004,
+    "mobileWidth": 340,
+    "mobileHeight": 215.15999999999997
+  },
+  "ed065ade": {
+    "text": "The Vessyl, wherever you are.",
+    "style": "h1",
+    "desktop": "ed065ade-desktop.svg",
+    "mobile": "ed065ade-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998
+  },
+  "551d6a70": {
+    "text": "Page not found",
+    "style": "h1",
+    "desktop": "551d6a70-desktop.svg",
+    "mobile": "551d6a70-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "e4a72d40": {
+    "text": "Vibrational Yoga",
+    "style": "h2",
+    "desktop": "e4a72d40-desktop.svg",
+    "mobile": "e4a72d40-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "34791db2": {
+    "text": "Mobility - Meditation - Mindfulness",
+    "style": "h2",
+    "desktop": "34791db2-desktop.svg",
+    "mobile": "34791db2-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 134.27999999999997
+  },
+  "de6a9acf": {
+    "text": "Sound & Body Treatments",
+    "style": "h2",
+    "desktop": "de6a9acf-desktop.svg",
+    "mobile": "de6a9acf-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "88bb2120": {
+    "text": "Chakra Journeys",
+    "style": "h2",
+    "desktop": "88bb2120-desktop.svg",
+    "mobile": "88bb2120-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "916963d0": {
+    "text": "Planet Journeys",
+    "style": "h2",
+    "desktop": "916963d0-desktop.svg",
+    "mobile": "916963d0-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "a5597fed": {
+    "text": "Worlds Beyond Earth + Voices in the Dark",
+    "style": "h2",
+    "desktop": "a5597fed-desktop.svg",
+    "mobile": "a5597fed-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 134.27999999999997
+  },
+  "6ed4d90": {
+    "text": "stay with us",
+    "style": "h2",
+    "desktop": "6ed4d90-desktop.svg",
+    "mobile": "6ed4d90-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "ccbcd70e": {
+    "text": "The Vessyl",
+    "style": "h2",
+    "desktop": "ccbcd70e-desktop.svg",
+    "mobile": "ccbcd70e-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "f98b81ab": {
+    "text": "The Founder",
+    "style": "h2",
+    "desktop": "f98b81ab-desktop.svg",
+    "mobile": "f98b81ab-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "b5cc138a": {
+    "text": "The Vessyl Experience",
+    "style": "h2",
+    "desktop": "b5cc138a-desktop.svg",
+    "mobile": "b5cc138a-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "65d79e30": {
+    "text": "Frequency Dome",
+    "style": "h2",
+    "desktop": "65d79e30-desktop.svg",
+    "mobile": "65d79e30-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "bc734bce": {
+    "text": "Harmonic Hearth",
+    "style": "h2",
+    "desktop": "bc734bce-desktop.svg",
+    "mobile": "bc734bce-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "c18337e9": {
+    "text": "Equine & Natural Experience",
+    "style": "h2",
+    "desktop": "c18337e9-desktop.svg",
+    "mobile": "c18337e9-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "4219368a": {
+    "text": "Personal Sessions",
+    "style": "h2",
+    "desktop": "4219368a-desktop.svg",
+    "mobile": "4219368a-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "1fed98ef": {
+    "text": "Quantum Sessions",
+    "style": "h2",
+    "desktop": "1fed98ef-desktop.svg",
+    "mobile": "1fed98ef-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "2bf4ffb": {
+    "text": "Wellness Sessions",
+    "style": "h2",
+    "desktop": "2bf4ffb-desktop.svg",
+    "mobile": "2bf4ffb-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "9c50682": {
+    "text": "Facilitators",
+    "style": "h2",
+    "desktop": "9c50682-desktop.svg",
+    "mobile": "9c50682-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "5c809d25": {
+    "text": "AKEN Soul",
+    "style": "h2",
+    "desktop": "5c809d25-desktop.svg",
+    "mobile": "5c809d25-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "b33daae7": {
+    "text": "El Rancho",
+    "style": "h2",
+    "desktop": "b33daae7-desktop.svg",
+    "mobile": "b33daae7-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "1c99d4c3": {
+    "text": "The App",
+    "style": "h2",
+    "desktop": "1c99d4c3-desktop.svg",
+    "mobile": "1c99d4c3-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "5f4fff4e": {
+    "text": "Music Label",
+    "style": "h2",
+    "desktop": "5f4fff4e-desktop.svg",
+    "mobile": "5f4fff4e-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "52902b2b": {
+    "text": "Press Room",
+    "style": "h2",
+    "desktop": "52902b2b-desktop.svg",
+    "mobile": "52902b2b-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "d0f37a2b": {
+    "text": "Contact Us / Make a Reservation",
+    "style": "h2",
+    "desktop": "d0f37a2b-desktop.svg",
+    "mobile": "d0f37a2b-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "57e87cb4": {
+    "text": "FAQs",
+    "style": "h2",
+    "desktop": "57e87cb4-desktop.svg",
+    "mobile": "57e87cb4-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "381ab85b": {
+    "text": "Josh Stanley",
+    "style": "h2",
+    "desktop": "381ab85b-desktop.svg",
+    "mobile": "381ab85b-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "7a1178e2": {
+    "text": "Room concept",
+    "style": "h2",
+    "desktop": "7a1178e2-desktop.svg",
+    "mobile": "7a1178e2-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "af01242f": {
+    "text": "Rooms",
+    "style": "h2",
+    "desktop": "af01242f-desktop.svg",
+    "mobile": "af01242f-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "edd6f4bf": {
+    "text": "the location",
+    "style": "h2",
+    "desktop": "edd6f4bf-desktop.svg",
+    "mobile": "edd6f4bf-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "f3a24ff8": {
+    "text": "The Vessyl is located near La Fortuna, Costa Rica, in the shadow of the Arenal Volcano.",
+    "style": "h2",
+    "desktop": "f3a24ff8-desktop.svg",
+    "mobile": "f3a24ff8-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 293.4,
+    "mobileWidth": 340,
+    "mobileHeight": 259.56
+  },
+  "9f2580eb": {
+    "text": "The Vessyl, wherever you are.",
+    "style": "h2",
+    "desktop": "9f2580eb-desktop.svg",
+    "mobile": "9f2580eb-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "492c4320": {
+    "text": "Not a replacement. A door.",
+    "style": "h2",
+    "desktop": "492c4320-desktop.svg",
+    "mobile": "492c4320-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "f2e19e22": {
+    "text": "The sessions library",
+    "style": "h2",
+    "desktop": "f2e19e22-desktop.svg",
+    "mobile": "f2e19e22-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "f70d264b": {
+    "text": "The facilitators",
+    "style": "h2",
+    "desktop": "f70d264b-desktop.svg",
+    "mobile": "f70d264b-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "8e90d94c": {
+    "text": "Meet the facilitators",
+    "style": "h2",
+    "desktop": "8e90d94c-desktop.svg",
+    "mobile": "8e90d94c-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "f5bc55a7": {
+    "text": "The Recording Studio",
+    "style": "h2",
+    "desktop": "f5bc55a7-desktop.svg",
+    "mobile": "f5bc55a7-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "72e0d8f7": {
+    "text": "dome sessions",
+    "style": "h2",
+    "desktop": "72e0d8f7-desktop.svg",
+    "mobile": "72e0d8f7-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "af015567": {
+    "text": "harmonic hearth sessions",
+    "style": "h2",
+    "desktop": "af015567-desktop.svg",
+    "mobile": "af015567-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "78187f02": {
+    "text": "HydroChallenge",
+    "style": "h2",
+    "desktop": "78187f02-desktop.svg",
+    "mobile": "78187f02-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "e1d13885": {
+    "text": "Horse Bonding",
+    "style": "h2",
+    "desktop": "e1d13885-desktop.svg",
+    "mobile": "e1d13885-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "c544a129": {
+    "text": "Equine Horse Ride & River",
+    "style": "h2",
+    "desktop": "c544a129-desktop.svg",
+    "mobile": "c544a129-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "aaa6b493": {
+    "text": "Birdwatching",
+    "style": "h2",
+    "desktop": "aaa6b493-desktop.svg",
+    "mobile": "aaa6b493-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "ee453123": {
+    "text": "Path of Presence - Nature Walk",
+    "style": "h2",
+    "desktop": "ee453123-desktop.svg",
+    "mobile": "ee453123-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "4ae1fdc8": {
+    "text": "Arenal Volcano National Park",
+    "style": "h2",
+    "desktop": "4ae1fdc8-desktop.svg",
+    "mobile": "4ae1fdc8-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "9086420e": {
+    "text": "culinary experience",
+    "style": "h2",
+    "desktop": "9086420e-desktop.svg",
+    "mobile": "9086420e-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "b1cbc3de": {
+    "text": "OVERVIEW",
+    "style": "h2",
+    "desktop": "b1cbc3de-desktop.svg",
+    "mobile": "b1cbc3de-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "ff070f27": {
+    "text": "QUICK FACTS",
+    "style": "h2",
+    "desktop": "ff070f27-desktop.svg",
+    "mobile": "ff070f27-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "dfa72b79": {
+    "text": "Gallery",
+    "style": "h2",
+    "desktop": "dfa72b79-desktop.svg",
+    "mobile": "dfa72b79-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "70203851": {
+    "text": "Quantum Soul Session",
+    "style": "h2",
+    "desktop": "70203851-desktop.svg",
+    "mobile": "70203851-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "8bfe1b74": {
+    "text": "Numerology",
+    "style": "h2",
+    "desktop": "8bfe1b74-desktop.svg",
+    "mobile": "8bfe1b74-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "63295dd6": {
+    "text": "Breathwork",
+    "style": "h2",
+    "desktop": "63295dd6-desktop.svg",
+    "mobile": "63295dd6-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "77e3f4c7": {
+    "text": "Yoga Nidra",
+    "style": "h2",
+    "desktop": "77e3f4c7-desktop.svg",
+    "mobile": "77e3f4c7-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "2b75422a": {
+    "text": "Qi & Chai",
+    "style": "h2",
+    "desktop": "2b75422a-desktop.svg",
+    "mobile": "2b75422a-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "7f77157": {
+    "text": "Fractals",
+    "style": "h2",
+    "desktop": "7f77157-desktop.svg",
+    "mobile": "7f77157-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "8211d09e": {
+    "text": "Voices in the Dark",
+    "style": "h2",
+    "desktop": "8211d09e-desktop.svg",
+    "mobile": "8211d09e-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "434af9d9": {
+    "text": "Introspection Time",
+    "style": "h2",
+    "desktop": "434af9d9-desktop.svg",
+    "mobile": "434af9d9-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "77a302f6": {
+    "text": "Enrique Molina",
+    "style": "h2",
+    "desktop": "77a302f6-desktop.svg",
+    "mobile": "77a302f6-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "14883213": {
+    "text": "Oscar",
+    "style": "h2",
+    "desktop": "14883213-desktop.svg",
+    "mobile": "14883213-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "8f34c2b9": {
+    "text": "Vibrational Yoga",
+    "style": "h3",
+    "desktop": "8f34c2b9-desktop.svg",
+    "mobile": "8f34c2b9-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "95768995": {
+    "text": "Mobility - Meditation - Mindfulness",
+    "style": "h3",
+    "desktop": "95768995-desktop.svg",
+    "mobile": "95768995-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 92.51999999999998,
+    "mobileWidth": 340,
+    "mobileHeight": 71.96
+  },
+  "6a5f4e2c": {
+    "text": "Sound & Body Treatments",
+    "style": "h3",
+    "desktop": "6a5f4e2c-desktop.svg",
+    "mobile": "6a5f4e2c-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 92.51999999999998,
+    "mobileWidth": 340,
+    "mobileHeight": 71.96
+  },
+  "544fc607": {
+    "text": "Chakra Journeys",
+    "style": "h3",
+    "desktop": "544fc607-desktop.svg",
+    "mobile": "544fc607-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "55b3a47f": {
+    "text": "Planet Journeys",
+    "style": "h3",
+    "desktop": "55b3a47f-desktop.svg",
+    "mobile": "55b3a47f-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "71008f64": {
+    "text": "Worlds Beyond Earth + Voices in the Dark",
+    "style": "h3",
+    "desktop": "71008f64-desktop.svg",
+    "mobile": "71008f64-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 92.51999999999998,
+    "mobileWidth": 340,
+    "mobileHeight": 71.96
+  },
+  "dd2feaf2": {
+    "text": "Driving from San José",
+    "style": "h3",
+    "desktop": "dd2feaf2-desktop.svg",
+    "mobile": "dd2feaf2-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "5aa75df7": {
+    "text": "Driving from Liberia",
+    "style": "h3",
+    "desktop": "5aa75df7-desktop.svg",
+    "mobile": "5aa75df7-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "d405a520": {
+    "text": "Rooms",
+    "style": "h3",
+    "desktop": "d405a520-desktop.svg",
+    "mobile": "d405a520-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "18617bb6": {
+    "text": "The Dome",
+    "style": "h3",
+    "desktop": "18617bb6-desktop.svg",
+    "mobile": "18617bb6-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "7aa20029": {
+    "text": "Harmonic Hearth",
+    "style": "h3",
+    "desktop": "7aa20029-desktop.svg",
+    "mobile": "7aa20029-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "865902ba": {
+    "text": "Equine & Nature",
+    "style": "h3",
+    "desktop": "865902ba-desktop.svg",
+    "mobile": "865902ba-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "b808f922": {
+    "text": "AKEN Soul",
+    "style": "h3",
+    "desktop": "b808f922-desktop.svg",
+    "mobile": "b808f922-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "d594fc4": {
+    "text": "Quantum Soul Session",
+    "style": "h3",
+    "desktop": "d594fc4-desktop.svg",
+    "mobile": "d594fc4-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "90f364c9": {
+    "text": "Numerology",
+    "style": "h3",
+    "desktop": "90f364c9-desktop.svg",
+    "mobile": "90f364c9-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "727f8527": {
+    "text": "Breathwork",
+    "style": "h3",
+    "desktop": "727f8527-desktop.svg",
+    "mobile": "727f8527-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "c3412fda": {
+    "text": "Yoga Nidra",
+    "style": "h3",
+    "desktop": "c3412fda-desktop.svg",
+    "mobile": "c3412fda-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "e55815f9": {
+    "text": "Qi & Chai",
+    "style": "h3",
+    "desktop": "e55815f9-desktop.svg",
+    "mobile": "e55815f9-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "387362e7": {
+    "text": "HydroChallenge",
+    "style": "h3",
+    "desktop": "387362e7-desktop.svg",
+    "mobile": "387362e7-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "a3328fd2": {
+    "text": "Path of Presence - Nature Walk",
+    "style": "h3",
+    "desktop": "a3328fd2-desktop.svg",
+    "mobile": "a3328fd2-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 92.51999999999998,
+    "mobileWidth": 340,
+    "mobileHeight": 71.96
+  },
+  "c2ef6de6": {
+    "text": "Fractals",
+    "style": "h3",
+    "desktop": "c2ef6de6-desktop.svg",
+    "mobile": "c2ef6de6-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "3836680f": {
+    "text": "Voices in the Dark",
+    "style": "h3",
+    "desktop": "3836680f-desktop.svg",
+    "mobile": "3836680f-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "89f3b484": {
+    "text": "Introspection Time",
+    "style": "h3",
+    "desktop": "89f3b484-desktop.svg",
+    "mobile": "89f3b484-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "e60f0675": {
+    "text": "Pulse Suite",
+    "style": "h3",
+    "desktop": "e60f0675-desktop.svg",
+    "mobile": "e60f0675-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "dab1d5a9": {
+    "text": "Pulse Villa",
+    "style": "h3",
+    "desktop": "dab1d5a9-desktop.svg",
+    "mobile": "dab1d5a9-mobile.svg",
+    "desktopWidth": 400,
+    "desktopHeight": 50.76,
+    "mobileWidth": 340,
+    "mobileHeight": 39.47999999999999
+  },
+  "dedb2ca7": {
+    "text": "Healing should feel alive. It should feel like music, laughter, adventure, nature, and being with other people. We are not trying to help people escape their lives. We are trying to help them reconnect to them.",
+    "style": "quote",
+    "desktop": "dedb2ca7-desktop.svg",
+    "mobile": "dedb2ca7-mobile.svg",
+    "desktopWidth": 1050,
+    "desktopHeight": 254.09999999999997,
+    "mobileWidth": 340,
+    "mobileHeight": 343.64999999999986
+  },
+  "9a387b2b": {
+    "text": "The world got louder. This is where it goes quiet.",
+    "style": "h2",
+    "desktop": "9a387b2b-desktop.svg",
+    "mobile": "9a387b2b-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 176.03999999999996
+  },
+  "87303368": {
+    "text": "Josh Stanley",
+    "style": "h1",
+    "desktop": "87303368-desktop.svg",
+    "mobile": "87303368-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "f5d36448": {
+    "text": "Technology",
+    "style": "h1",
+    "desktop": "f5d36448-desktop.svg",
+    "mobile": "f5d36448-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "8e08b08b": {
+    "text": "Technology",
+    "style": "h2",
+    "desktop": "8e08b08b-desktop.svg",
+    "mobile": "8e08b08b-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "9a89b861": {
+    "text": "Video",
+    "style": "h1",
+    "desktop": "9a89b861-desktop.svg",
+    "mobile": "9a89b861-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "da40cd68": {
+    "text": "Video",
+    "style": "h2",
+    "desktop": "da40cd68-desktop.svg",
+    "mobile": "da40cd68-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 84.6,
+    "mobileWidth": 340,
+    "mobileHeight": 50.76
+  },
+  "bcc61f7f": {
+    "text": "Vibro-Tactile floor by Clark Synthesis",
+    "style": "h1",
+    "desktop": "bcc61f7f-desktop.svg",
+    "mobile": "bcc61f7f-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998
+  },
+  "c3fb8024": {
+    "text": "Vibro-Tactile floor by Clark Synthesis",
+    "style": "h2",
+    "desktop": "c3fb8024-desktop.svg",
+    "mobile": "c3fb8024-mobile.svg",
+    "desktopWidth": 760,
+    "desktopHeight": 154.2,
+    "mobileWidth": 340,
+    "mobileHeight": 92.51999999999998
+  },
+  "f78daad0": {
+    "text": "The Recording Studio",
+    "style": "h1",
+    "desktop": "f78daad0-desktop.svg",
+    "mobile": "f78daad0-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998
+  },
+  "4d86143d": {
+    "text": "HydroChallenge",
+    "style": "h1",
+    "desktop": "4d86143d-desktop.svg",
+    "mobile": "4d86143d-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998
+  },
+  "9e701be9": {
+    "text": "Breathwork",
+    "style": "h1",
+    "desktop": "9e701be9-desktop.svg",
+    "mobile": "9e701be9-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "ede25c7c": {
+    "text": "Horse Bonding",
+    "style": "h1",
+    "desktop": "ede25c7c-desktop.svg",
+    "mobile": "ede25c7c-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "d4c596f8": {
+    "text": "Equine Horse Ride & River",
+    "style": "h1",
+    "desktop": "d4c596f8-desktop.svg",
+    "mobile": "d4c596f8-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998
+  },
+  "935b6060": {
+    "text": "Birdwatching",
+    "style": "h1",
+    "desktop": "935b6060-desktop.svg",
+    "mobile": "935b6060-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "11708084": {
+    "text": "Path of Presence - Nature Walk",
+    "style": "h1",
+    "desktop": "11708084-desktop.svg",
+    "mobile": "11708084-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998
+  },
+  "f7ff9727": {
+    "text": "Numerology",
+    "style": "h1",
+    "desktop": "f7ff9727-desktop.svg",
+    "mobile": "f7ff9727-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "b4afff65": {
+    "text": "Enrique Molina",
+    "style": "h1",
+    "desktop": "b4afff65-desktop.svg",
+    "mobile": "b4afff65-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "d26f1bba": {
+    "text": "Oscar",
+    "style": "h1",
+    "desktop": "d26f1bba-desktop.svg",
+    "mobile": "d26f1bba-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "207423ce": {
+    "text": "Rooms",
+    "style": "h1",
+    "desktop": "207423ce-desktop.svg",
+    "mobile": "207423ce-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "9f96d76d": {
+    "text": "Room concept",
+    "style": "h1",
+    "desktop": "9f96d76d-desktop.svg",
+    "mobile": "9f96d76d-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "3f890123": {
+    "text": "culinary experience",
+    "style": "h1",
+    "desktop": "3f890123-desktop.svg",
+    "mobile": "3f890123-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998
+  },
+  "4ad3c8a3": {
+    "text": "Not a replacement. A door.",
+    "style": "h1",
+    "desktop": "4ad3c8a3-desktop.svg",
+    "mobile": "4ad3c8a3-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 246.72,
+    "mobileWidth": 340,
+    "mobileHeight": 164.11999999999998
+  },
+  "b94227e9": {
+    "text": "The sessions library",
+    "style": "h1",
+    "desktop": "b94227e9-desktop.svg",
+    "mobile": "b94227e9-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 113.07999999999998
+  },
+  "fc57cb30": {
+    "text": "The facilitators",
+    "style": "h1",
+    "desktop": "fc57cb30-desktop.svg",
+    "mobile": "fc57cb30-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  },
+  "73f05c09": {
+    "text": "OVERVIEW",
+    "style": "h1",
+    "desktop": "73f05c09-desktop.svg",
+    "mobile": "73f05c09-mobile.svg",
+    "desktopWidth": 1100,
+    "desktopHeight": 135.35999999999999,
+    "mobileWidth": 340,
+    "mobileHeight": 62.039999999999985
+  }
+}

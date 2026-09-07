@@ -1,0 +1,127 @@
+{
+  "dining": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "dome-detail": {
+    "width": 1067,
+    "height": 1600,
+    "thumbnailWidth": 533
+  },
+  "dome-exterior": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "dome-interior": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "dome-practice": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "equine-bond": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "equine": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "food": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "founder": {
+    "width": 800,
+    "height": 800,
+    "thumbnailWidth": 800
+  },
+  "hearth": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "hero-ambient-poster": {
+    "width": 1280,
+    "height": 720,
+    "thumbnailWidth": 0
+  },
+  "hero-arenal": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "massage": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "meditation": {
+    "width": 1067,
+    "height": 1600,
+    "thumbnailWidth": 533
+  },
+  "nature-waterfall": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "nature": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "pool": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "session": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "suite-view": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "suite": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "table": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "villa-kitchen": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "villa-living": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "villa": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "yoga": {
+    "width": 1600,
+    "height": 1067,
+    "thumbnailWidth": 800
+  }
+}
