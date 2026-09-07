@@ -1,0 +1,626 @@
+{
+  "pages": {
+    "home": {
+      "hero": "hero-design-direction",
+      "portrait": "founder",
+      "dome-feature": "dome-design-direction",
+      "experience:dome": "dome-exterior",
+      "experience:hearth": "still-hero-058",
+      "experience:nature": "equine",
+      "experience:stay": "pool",
+      "story:rancho": "food",
+      "facilitators-cta": "photo-z92-7550",
+      "closing": "closing-design-direction"
+    },
+    "founder": {
+      "hero": "nature",
+      "portrait": "founder",
+      "story:press": "photo-pr9-1558",
+      "closing": "still-hero-022"
+    },
+    "experience": {
+      "hero": "hero-arenal",
+      "experience:dome": "photo-z92-9088",
+      "experience:hearth": "still-program-054",
+      "experience:nature": "photo-z92-6649",
+      "experience:stay": "photo-z92-7748",
+      "story:rancho": "table",
+      "facilitators-cta": "photo-pr9-1276",
+      "story:music": "photo-pr9-1446",
+      "closing": "nature-waterfall"
+    },
+    "dome": {
+      "hero": "still-program-074",
+      "technology": "dome-detail",
+      "practice:yoga-nidra": "still-events-018",
+      "practice:fractals": "dome-practice",
+      "practice:voices": "still-events-046",
+      "gallery:0": "still-hero-098",
+      "gallery:1": "photo-pr9-1797",
+      "gallery:2": "photo-z92-9267",
+      "closing": "still-hero-026"
+    },
+    "hearth": {
+      "hero": "hearth",
+      "hydro": "still-program-062",
+      "practice:breathwork": "photo-pr9-0671",
+      "practice:vibrational-yoga": "photo-pr9-0495",
+      "practice:qi-chai": "photo-z92-8127",
+      "gallery:0": "still-program-050",
+      "gallery:1": "photo-z92-8033",
+      "gallery:2": "photo-pr9-2353",
+      "facilitators-cta": "photo-pr9-1166",
+      "closing": "photo-suite-1"
+    },
+    "nature": {
+      "hero": "equine-bond",
+      "story:horseBond": "still-program-030",
+      "story:birdwatching": "photo-pr9-0201",
+      "story:natureWalk": "still-hero-030",
+      "gallery:0": "photo-z92-6742",
+      "gallery:1": "still-hero-042",
+      "gallery:2": "photo-z92-9237",
+      "closing": "still-events-050"
+    },
+    "sessions": {
+      "hero": "massage",
+      "practice:quantum-self": "session",
+      "practice:numerology": "photo-pr9-1976",
+      "practice:chakra": "photo-pr9-1805",
+      "practice:planet": "photo-z92-5754",
+      "practice:fractals": "still-hero-102",
+      "practice:voices": "still-events-034",
+      "practice:worlds": "still-events-038",
+      "practice:breathwork": "meditation",
+      "practice:vibrational-yoga": "yoga",
+      "practice:yoga-nidra": "photo-pr9-0438",
+      "practice:mobility": "photo-pr9-0429",
+      "practice:qi-chai": "photo-pr9-0342",
+      "practice:hydro": "still-hero-054",
+      "practice:hearth": "hearth",
+      "practice:bodywork": "photo-pr9-2205",
+      "story:facilitators": "photo-z92-7504",
+      "closing": "photo-pr9-2149"
+    },
+    "quantum": {
+      "hero": "photo-z92-7302",
+      "practice:quantum-self": "photo-z92-6182",
+      "practice:numerology": "photo-pr9-1952",
+      "practice:chakra": "photo-pr9-1822",
+      "practice:planet": "photo-pr9-1485",
+      "practice:fractals": "still-events-042",
+      "practice:voices": "still-events-022",
+      "practice:worlds": "photo-pr9-1513",
+      "story:facilitators": "photo-z92-6531",
+      "closing": "photo-pr9-2031",
+      "practice:breathwork": "still-program-078",
+      "practice:vibrational-yoga": "photo-z92-5843",
+      "practice:yoga-nidra": "photo-z92-7127",
+      "practice:mobility": "photo-pr9-0429",
+      "practice:qi-chai": "photo-z92-5083",
+      "practice:hydro": "photo-pr9-2620",
+      "practice:hearth": "hearth",
+      "practice:bodywork": "photo-z92-7262"
+    },
+    "wellness": {
+      "hero": "photo-pr9-2186",
+      "practice:breathwork": "photo-pr9-0396",
+      "practice:vibrational-yoga": "still-program-082",
+      "practice:yoga-nidra": "dome-interior",
+      "practice:mobility": "photo-pr9-2882",
+      "practice:qi-chai": "photo-pr9-2689",
+      "practice:hydro": "photo-pr9-2431",
+      "practice:hearth": "hearth",
+      "practice:bodywork": "photo-pr9-2283",
+      "story:facilitators": "photo-pr9-1125",
+      "closing": "photo-z92-9051",
+      "practice:quantum-self": "photo-pr9-1758",
+      "practice:numerology": "photo-pr9-1976",
+      "practice:chakra": "still-hero-070",
+      "practice:planet": "still-events-014",
+      "practice:fractals": "still-hero-050",
+      "practice:voices": "still-events-026",
+      "practice:worlds": "photo-pr9-2694"
+    },
+    "stay": {
+      "hero": "photo-z92-7838",
+      "room:suite": "suite",
+      "room:villa": "villa",
+      "gallery:0": "suite-view",
+      "gallery:1": "villa-living",
+      "gallery:2": "villa-kitchen",
+      "story:rancho": "photo-z92-5359",
+      "closing": "photo-suite-3"
+    },
+    "rancho": {
+      "hero": "dining",
+      "story:rancho": "photo-z92-5020",
+      "gallery:0": "photo-z92-8256",
+      "gallery:1": "photo-z92-8426",
+      "gallery:2": "photo-pr9-1905",
+      "closing": "photo-z92-8395"
+    },
+    "app": {
+      "practice:quantum-self": "photo-pr9-1697",
+      "practice:chakra": "photo-pr9-1822",
+      "practice:breathwork": "photo-z92-6238",
+      "practice:vibrational-yoga": "still-hero-038",
+      "facilitators-cta": "photo-pr9-0851",
+      "closing": "photo-z92-8707"
+    },
+    "music": {
+      "hero": "still-events-010",
+      "story:dome": "still-program-066",
+      "closing": "photo-suite-7"
+    },
+    "facilitators": {
+      "hero": "photo-z92-7324",
+      "guide:Enrique Molina": "photo-pr9-1236",
+      "guide:Oscar": "still-hero-034",
+      "closing": "photo-pr9-2026"
+    },
+    "contact": {
+      "aside": "still-hero-082",
+      "closing": "still-hero-114"
+    },
+    "faq": {
+      "closing": "still-hero-086"
+    },
+    "press": {
+      "closing": "still-hero-126"
+    }
+  },
+  "navigation": {
+    "dome": "still-program-086",
+    "hearth": "still-program-058",
+    "nature": "still-hero-094",
+    "stay": "photo-villa-3"
+  },
+  "assets": {
+    "photo-pr9-0201": {
+      "alt": "A small yellow bird perched beside the pool",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-0342": {
+      "alt": "A guest drinking from a cup at an outdoor table",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-0396": {
+      "alt": "A seated participant with his eyes closed",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-0429": {
+      "alt": "A group stretching on mats inside the Dome",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-0438": {
+      "alt": "Participants resting on mats inside the Dome",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-0495": {
+      "alt": "A participant stretching with raised arms inside the Dome",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-0671": {
+      "alt": "A seated participant meditating inside the Dome",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-0851": {
+      "alt": "A group listening to a guide at the stables",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-1125": {
+      "alt": "People gathered with a guide beside a horse",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-1166": {
+      "alt": "A group meeting with a guide beside the stables",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-1236": {
+      "alt": "A guide speaking with seated participants at the stables",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-1276": {
+      "alt": "A guide leading a group conversation at the stables",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-1446": {
+      "alt": "Headphones resting on a linen-covered treatment table",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-1485": {
+      "alt": "A seated participant beneath colored light in the Dome",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-1513": {
+      "alt": "A participant sitting with his eyes closed inside the Dome",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-1558": {
+      "alt": "People gathered beside the copper-clad Dome",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-1697": {
+      "alt": "Two people reaching toward each other over the grass",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-1758": {
+      "alt": "A practitioner holding tuning forks beside a participant inside the Dome",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-1797": {
+      "alt": "Participants resting with their eyes closed inside the Dome",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-1805": {
+      "alt": "A participant holding a tuning fork near her face",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-1822": {
+      "alt": "A tuning fork being held beside a participant’s face",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-1905": {
+      "alt": "Guests and staff beside the open-air bar",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-1952": {
+      "alt": "A pair discussing information on a laptop",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-1976": {
+      "alt": "Two people reviewing a laptop together",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-2026": {
+      "alt": "A quiet treatment room with warm wooden details",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-2031": {
+      "alt": "A wooden treatment room with a massage table",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-2149": {
+      "alt": "An outdoor treatment table overlooking the rainforest",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-2186": {
+      "alt": "A practitioner beside an outdoor treatment table",
+      "objectPosition": "50% 20%"
+    },
+    "photo-pr9-2205": {
+      "alt": "A practitioner massaging a participant’s back",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-2283": {
+      "alt": "A practitioner working on a participant’s neck and shoulders",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-2353": {
+      "alt": "A robe hanging in a wooden treatment room",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-2431": {
+      "alt": "Two guests resting in the pool",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-2620": {
+      "alt": "A guest in the infinity pool with Arenal in the distance",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-2689": {
+      "alt": "A cup and small objects arranged on a palm leaf",
+      "objectPosition": "50% 40%"
+    },
+    "photo-pr9-2694": {
+      "alt": "A small singing bowl and mallet",
+      "objectPosition": "50% 25%"
+    },
+    "photo-pr9-2882": {
+      "alt": "A group seated together inside the Dome",
+      "objectPosition": "50% 25%"
+    },
+    "photo-z92-5020": {
+      "alt": "Guests sharing breakfast beside the gardens",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-5083": {
+      "alt": "Guests talking over drinks at an outdoor table",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-5359": {
+      "alt": "A guest enjoying breakfast beside the gardens",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-5754": {
+      "alt": "A participant resting beneath forest projections inside the Dome",
+      "objectPosition": "50% 85%"
+    },
+    "photo-z92-5843": {
+      "alt": "A participant standing beneath forest projections inside the Dome",
+      "objectPosition": "50% 75%"
+    },
+    "photo-z92-6182": {
+      "alt": "A guided conversation inside the Dome",
+      "objectPosition": "50% 25%"
+    },
+    "photo-z92-6238": {
+      "alt": "A guide speaking with a seated participant inside the Dome",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-6531": {
+      "alt": "A participant working with a lead rope at the stables",
+      "objectPosition": "50% 25%"
+    },
+    "photo-z92-6649": {
+      "alt": "A participant beside a horse at the stables",
+      "objectPosition": "50% 0%"
+    },
+    "photo-z92-6742": {
+      "alt": "A participant standing beside a horse",
+      "objectPosition": "50% 0%"
+    },
+    "photo-z92-7127": {
+      "alt": "An eye mask on a treatment table",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-7262": {
+      "alt": "A practitioner attending to a participant lying on a treatment table",
+      "objectPosition": "50% 25%"
+    },
+    "photo-z92-7302": {
+      "alt": "A smiling pair beside an outdoor treatment table",
+      "objectPosition": "50% 0%"
+    },
+    "photo-z92-7324": {
+      "alt": "Practitioners and a participant beside a treatment table",
+      "objectPosition": "50% 10%"
+    },
+    "photo-z92-7504": {
+      "alt": "A practitioner and participant reviewing information together",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-7550": {
+      "alt": "A practitioner and participant in conversation",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-7748": {
+      "alt": "Guests relaxing beside the pool",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-7838": {
+      "alt": "Guests sharing a moment in the resort pool",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-8033": {
+      "alt": "A guest resting in the pool beside a waterfall",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-8127": {
+      "alt": "Breakfast and hot drinks on a garden table",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-8256": {
+      "alt": "A freshly prepared meal on an outdoor table",
+      "objectPosition": "50% 25%"
+    },
+    "photo-z92-8395": {
+      "alt": "A dinner table overlooking the rainforest at sunset",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-8426": {
+      "alt": "An outdoor dining table overlooking the rainforest",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-8707": {
+      "alt": "An open-air terrace and bar overlooking the rainforest",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-9051": {
+      "alt": "A private pool and pavilion among tropical greenery",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-9088": {
+      "alt": "The curved copper exterior of the Frequency Dome",
+      "objectPosition": "50% 40%"
+    },
+    "photo-z92-9237": {
+      "alt": "A small wooden structure surrounded by tropical plants",
+      "objectPosition": "50% 25%"
+    },
+    "photo-z92-9267": {
+      "alt": "Copper tiles on the exterior of the Dome",
+      "objectPosition": "50% 25%"
+    },
+    "photo-suite-1": {
+      "alt": "A Pulse Suite bedroom with warm wood and soft linen",
+      "objectPosition": "50% 40%"
+    },
+    "photo-suite-3": {
+      "alt": "A spacious Pulse Suite opening toward the gardens",
+      "objectPosition": "50% 40%"
+    },
+    "photo-suite-7": {
+      "alt": "An open-air bar and seating area at a Pulse Suite",
+      "objectPosition": "50% 40%"
+    },
+    "still-events-010": {
+      "alt": "Musicians performing beneath purple light inside the Dome",
+      "objectPosition": "50% 40%"
+    },
+    "still-events-014": {
+      "alt": "A musician playing a handpan",
+      "objectPosition": "50% 40%"
+    },
+    "still-events-018": {
+      "alt": "A participant resting while instruments are played nearby",
+      "objectPosition": "50% 40%"
+    },
+    "still-events-022": {
+      "alt": "Two people working with musical instruments in a sunlit studio",
+      "objectPosition": "50% 40%"
+    },
+    "still-events-026": {
+      "alt": "A musician playing a flute beside a microphone",
+      "objectPosition": "50% 40%"
+    },
+    "still-events-034": {
+      "alt": "A musician playing an instrument beside a microphone",
+      "objectPosition": "100% 40%"
+    },
+    "still-events-038": {
+      "alt": "Musical instruments in a sunlit recording space",
+      "objectPosition": "50% 40%"
+    },
+    "still-events-042": {
+      "alt": "A musician performing inside the Dome",
+      "objectPosition": "50% 40%"
+    },
+    "still-events-046": {
+      "alt": "A seated vocal circle inside the Dome",
+      "objectPosition": "50% 40%"
+    },
+    "still-events-050": {
+      "alt": "Open green hills at the edge of the rainforest",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-102": {
+      "alt": "A musical performance beneath colored Dome projections",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-114": {
+      "alt": "The resort buildings set into a green hillside",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-126": {
+      "alt": "The infinity pool overlooking the rainforest and mountains",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-022": {
+      "alt": "Clouds drifting around Arenal Volcano above the rainforest",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-026": {
+      "alt": "Arenal Volcano rising beyond the surrounding hills",
+      "objectPosition": "65% 40%"
+    },
+    "still-hero-030": {
+      "alt": "Sunlight filtering through the rainforest canopy",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-034": {
+      "alt": "A macaw perched among tropical foliage",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-038": {
+      "alt": "A participant stretching beneath the Dome’s forest projections",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-042": {
+      "alt": "A participant and horse in a forest river",
+      "objectPosition": "40% 40%"
+    },
+    "still-hero-050": {
+      "alt": "Forest projections across the curved ceiling of the Dome",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-054": {
+      "alt": "Guests relaxing beside the resort’s infinity pool",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-058": {
+      "alt": "The thermal wellness area surrounded by rainforest",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-070": {
+      "alt": "A participant holding a tuning fork beside her face",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-082": {
+      "alt": "A guest accommodation nestled among the treetops",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-086": {
+      "alt": "A sheltered balcony overlooking tropical greenery",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-094": {
+      "alt": "A rider following a path through the forest",
+      "objectPosition": "50% 40%"
+    },
+    "still-hero-098": {
+      "alt": "An aerial view of the Frequency Dome among the trees",
+      "objectPosition": "50% 40%"
+    },
+    "still-program-030": {
+      "alt": "A participant greeting a horse beside a forest river",
+      "objectPosition": "65% 40%"
+    },
+    "still-program-050": {
+      "alt": "A guest beside the sauna in the thermal wellness area",
+      "objectPosition": "50% 40%"
+    },
+    "still-program-054": {
+      "alt": "The curved exterior of the Harmonic Hearth",
+      "objectPosition": "50% 40%"
+    },
+    "still-program-058": {
+      "alt": "A Vessyl towel inside the warmly lit Harmonic Hearth",
+      "objectPosition": "50% 40%"
+    },
+    "still-program-062": {
+      "alt": "A plunge pool within the thermal wellness area",
+      "objectPosition": "50% 40%"
+    },
+    "still-program-066": {
+      "alt": "The curved copper Dome viewed from above",
+      "objectPosition": "50% 40%"
+    },
+    "still-program-074": {
+      "alt": "Forest projections and instruments inside the Frequency Dome",
+      "objectPosition": "50% 40%"
+    },
+    "still-program-078": {
+      "alt": "Participants practicing a seated breathing exercise inside the Dome",
+      "objectPosition": "50% 40%"
+    },
+    "still-program-082": {
+      "alt": "Participants stretching together inside the Dome",
+      "objectPosition": "50% 40%"
+    },
+    "still-program-086": {
+      "alt": "The Dome and its terrace surrounded by tropical greenery",
+      "objectPosition": "50% 40%"
+    },
+    "photo-villa-3": {
+      "alt": "The living and kitchen area inside a Pulse Villa",
+      "objectPosition": "50% 40%"
+    }
+  },
+  "allowedRepeats": {
+    "founder": ["home:portrait", "founder:portrait"],
+    "hearth": [
+      "hearth:hero",
+      "sessions:practice:hearth",
+      "quantum:practice:hearth",
+      "wellness:practice:hearth"
+    ],
+    "photo-pr9-1976": [
+      "sessions:practice:numerology",
+      "wellness:practice:numerology"
+    ],
+    "photo-pr9-0429": [
+      "sessions:practice:mobility",
+      "quantum:practice:mobility"
+    ],
+    "photo-pr9-1822": ["quantum:practice:chakra", "app:practice:chakra"]
+  },
+  "repeatReasons": {
+    "founder": "The only confirmed original portrait of Josh Stanley; retained on Home and Founder.",
+    "hearth": "The only complete interior photograph of the Harmonic Hearth; retained for the same space in the three session catalogues and Hearth opening.",
+    "photo-pr9-1976": "Only two suitable numerology consultation photographs are available; the third catalogue reuses one instead of depicting a different treatment.",
+    "photo-pr9-0429": "The available full-group floor-stretch photograph is retained for the same mobility practice in a second catalogue.",
+    "photo-pr9-1822": "The available clear tuning-fork photographs and distinct approved video still are already allocated; App reuses a matching Chakra photograph."
+  }
+}

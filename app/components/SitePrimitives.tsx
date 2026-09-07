@@ -24,6 +24,7 @@ import { asset } from '../../lib/paths';
 import { copy as c } from '../../lib/copy';
 import { Heading } from './Typography';
 import imageDimensions from '../../lib/image-dimensions.json';
+import { photoMetadata } from '../../lib/classic-photography';
 const picture = (id: string, small = false) =>
   asset(`/images/${id}${small ? '-thumb' : ''}.webp`);
 // Descriptive image alternatives are interface accessibility copy, not marketing prose.
@@ -72,9 +73,12 @@ export function Photo({
   sizes?: string;
 }) {
   const dimensions = imageDimensions[id as keyof typeof imageDimensions];
+  const metadata = photoMetadata(id);
   return (
     <img
       className={className}
+      data-photo-id={id}
+      style={metadata ? { objectPosition: metadata.objectPosition } : undefined}
       src={picture(id)}
       srcSet={
         dimensions?.thumbnailWidth &&
@@ -90,7 +94,7 @@ export function Photo({
           ? '100vw'
           : '(max-width: 560px) 100vw, (max-width: 1000px) 60vw, 50vw')
       }
-      alt={alt ? imageAlts[id] || alt : ''}
+      alt={alt ? metadata?.alt || imageAlts[id] || alt : ''}
       loading={eager ? 'eager' : 'lazy'}
       decoding="async"
       fetchPriority={eager ? 'high' : undefined}

@@ -5070,3 +5070,18 @@ blockquote {
   transform: none;
   margin-bottom: 0;
 }
+
+/* Keep the established opening height when a replacement source is portrait. */
+@media (min-width: 821px) {
+  .classic:is(
+      [data-page='quantum'],
+      [data-page='wellness'],
+      [data-page='facilitators']
+    )
+    .people-hero
+    .hero-photo {
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+}

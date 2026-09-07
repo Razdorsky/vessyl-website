@@ -1,4 +1,9 @@
 {
+  "closing-design-direction": {
+    "width": 2047,
+    "height": 1098,
+    "thumbnailWidth": 800
+  },
   "dining": {
     "width": 1600,
     "height": 1067,
@@ -89,6 +94,346 @@
     "height": 1067,
     "thumbnailWidth": 800
   },
+  "photo-pr9-0201": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-0342": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-0396": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-0429": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-0438": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-0495": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-0671": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-0851": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-1125": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-1166": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-1236": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-1276": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-1446": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-1485": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-1513": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-1558": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-1697": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-1758": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-1797": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-1805": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-1822": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-1905": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-1952": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-1976": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-2026": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-2031": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-2149": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-2186": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-2205": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-2283": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-2353": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-2431": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-2620": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-2689": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-pr9-2694": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-pr9-2882": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-suite-1": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-suite-3": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-suite-7": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-villa-3": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-5020": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-5083": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-5359": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-5754": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-z92-5843": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-z92-6182": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-z92-6238": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-6531": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-z92-6649": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-z92-6742": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-z92-7127": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-7262": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-z92-7302": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-z92-7324": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-z92-7504": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-7550": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-7748": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-7838": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-8033": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-8127": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-8256": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-z92-8395": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-8426": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-8707": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-9051": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-9088": {
+    "width": 2200,
+    "height": 1467,
+    "thumbnailWidth": 800
+  },
+  "photo-z92-9237": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
+  "photo-z92-9267": {
+    "width": 1467,
+    "height": 2200,
+    "thumbnailWidth": 533
+  },
   "pool": {
     "width": 1600,
     "height": 1067,
@@ -97,6 +442,191 @@
   "session": {
     "width": 1600,
     "height": 1067,
+    "thumbnailWidth": 800
+  },
+  "still-events-010": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-events-014": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-events-018": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-events-022": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-events-026": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-events-034": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-events-038": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-events-042": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-events-046": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-events-050": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-022": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-026": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-030": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-034": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-038": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-042": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-050": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-054": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-058": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-070": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-082": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-086": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-094": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-098": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-102": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-114": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-hero-126": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-program-030": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-program-050": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-program-054": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-program-058": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-program-062": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-program-066": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-program-074": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-program-078": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-program-082": {
+    "width": 1920,
+    "height": 1080,
+    "thumbnailWidth": 800
+  },
+  "still-program-086": {
+    "width": 1920,
+    "height": 1080,
     "thumbnailWidth": 800
   },
   "suite": {
@@ -132,11 +662,6 @@
   "yoga": {
     "width": 1600,
     "height": 1067,
-    "thumbnailWidth": 800
-  },
-  "closing-design-direction": {
-    "width": 2047,
-    "height": 1098,
     "thumbnailWidth": 800
   }
 }

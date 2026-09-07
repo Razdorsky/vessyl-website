@@ -31,6 +31,7 @@ import {
   type Practice,
 } from '../../lib/content';
 import { asset, basePath } from '../../lib/paths';
+import { classicPhoto } from '../../lib/classic-photography';
 import { SiteNavigation } from './SiteNavigation';
 import { copy as c, type CopyKey } from '../../lib/copy';
 import { Heading } from './Typography';
@@ -47,6 +48,8 @@ import {
 } from './SitePrimitives';
 export function ClassicSite({ page }: { page: string }) {
   const edition = 'classic';
+  const photo = (slot: string, fallback: string) =>
+    classicPhoto(page, slot, fallback);
   const href = (p = 'home') =>
     `${basePath}/${edition}/${p === 'home' ? '' : `${p}/`}`;
   useEffect(() => {
@@ -99,7 +102,7 @@ export function ClassicSite({ page }: { page: string }) {
       className={`page-hero ${compact ? 'compact-hero' : ''} ${hasSplitHeroPhoto(image) ? 'people-hero' : ''}`}
     >
       <Photo
-        id={image}
+        id={photo('hero', image)}
         eager
         className="hero-photo"
         alt={pageTitles[page]}
@@ -147,7 +150,7 @@ export function ClassicSite({ page }: { page: string }) {
       {experiences.map((e) => (
         <a className="experience-card" key={e.id} href={href(e.id)}>
           <div className="image-window">
-            <Photo id={e.image} alt={e.name} />
+            <Photo id={photo(`experience:${e.id}`, e.image)} alt={e.name} />
             <span className="image-arrow">
               <ArrowUpRight size={23} />
             </span>
@@ -168,12 +171,15 @@ export function ClassicSite({ page }: { page: string }) {
           className="practice-card"
           key={item.id}
           onClick={() => {
-            setSelected(item);
+            setSelected({
+              ...item,
+              image: photo(`practice:${item.id}`, item.image),
+            });
             setPracticeOpen(true);
           }}
         >
           <div className="image-window">
-            <Photo id={item.image} />
+            <Photo id={photo(`practice:${item.id}`, item.image)} />
             <span className="image-arrow">
               <Plus size={22} />
             </span>
@@ -202,7 +208,7 @@ export function ClassicSite({ page }: { page: string }) {
         <LinkArrow href={href('sessions')}>{c('sessionCta')}</LinkArrow>
       </div>
       <div className="session-cta-image">
-        <Photo id="massage" alt={c('wellness')} />
+        <Photo id={photo('facilitators-cta', 'massage')} alt={c('wellness')} />
       </div>
     </section>
   );
@@ -249,7 +255,10 @@ export function ClassicSite({ page }: { page: string }) {
   const gallery = (images: [string, CopyKey][], title: CopyKey = 'gallery') => (
     <Gallery
       title={c(title)}
-      images={images.map(([id, k]) => ({ id, caption: c(k) }))}
+      images={images.map(([id, k], index) => ({
+        id: photo(`gallery:${index}`, id),
+        caption: c(k),
+      }))}
     />
   );
   const story = (
@@ -259,7 +268,10 @@ export function ClassicSite({ page }: { page: string }) {
     link?: [string, CopyKey],
   ) => (
     <section className="split-editorial section photo-bridge">
-      <Photo id={image} alt={c(title)} />
+      <Photo
+        id={photo(title === 'founder' ? 'portrait' : `story:${title}`, image)}
+        alt={c(title)}
+      />
       <div>
         {title !== page && heading(title)}
         {body && text(body)}
@@ -297,7 +309,7 @@ export function ClassicSite({ page }: { page: string }) {
       <>
         <section className="home-hero">
           <Photo
-            id="hero-design-direction"
+            id={photo('hero', 'hero-design-direction')}
             alt={c('locationIntro')}
             eager
             className="hero-photo"
@@ -337,7 +349,11 @@ export function ClassicSite({ page }: { page: string }) {
         <PressMarks />
         <section className="dome-feature home-dome-feature">
           <div className="dome-feature-image">
-            <Photo id="dome-design-direction" alt={c('dome')} sizes="121vw" />
+            <Photo
+              id={photo('dome-feature', 'dome-design-direction')}
+              alt={c('dome')}
+              sizes="121vw"
+            />
           </div>
           <img
             className="dome-echo"
@@ -385,7 +401,7 @@ export function ClassicSite({ page }: { page: string }) {
         {hero('founder', 'founderOpening', 'nature')}
         <div className="founder-bridge founder-portrait-story">
           <section className="split-editorial section photo-bridge">
-            <Photo id="founder" alt={c('quoteAuthor')} />
+            <Photo id={photo('portrait', 'founder')} alt={c('quoteAuthor')} />
             <div className="founder-profile-copy">
               {heading('quoteAuthor')}
               {text('founderProfileLead')}
@@ -438,7 +454,7 @@ export function ClassicSite({ page }: { page: string }) {
         {hero('dome', 'domeIntro', 'dome-interior')}
         <section className="sensory-section section">
           <div className="sensory-visual">
-            <Photo id="dome-detail" alt={c('dome')} />
+            <Photo id={photo('technology', 'dome-detail')} alt={c('dome')} />
           </div>
           <div className="sensory-copy">
             {heading('technology', true)}
@@ -470,7 +486,7 @@ export function ClassicSite({ page }: { page: string }) {
         {gallery([
           ['dome-exterior', 'dome'],
           ['dome-interior', 'domeSession'],
-          ['dome-practice', 'sessions'],
+          ['dome-practice', 'dome'],
         ])}
         <section className="music-strip section pattern-panel">
           <Pattern />
@@ -493,7 +509,7 @@ export function ClassicSite({ page }: { page: string }) {
             <LinkArrow href={href('facilitators')}>{c('guidesCta')}</LinkArrow>
           </div>
           <div className="hearth-visual">
-            <Photo id="nature-waterfall" alt={c('waterfalls')} />
+            <Photo id={photo('hydro', 'nature-waterfall')} alt={c('hydro')} />
           </div>
         </section>
         <section className="section">
@@ -506,7 +522,7 @@ export function ClassicSite({ page }: { page: string }) {
         {gallery([
           ['hearth', 'hearth'],
           ['nature-waterfall', 'waterfalls'],
-          ['nature', 'natureWalk'],
+          ['nature', 'wellness'],
         ])}
         {sessions}
       </>
@@ -525,8 +541,8 @@ export function ClassicSite({ page }: { page: string }) {
         {intro('park', ['destinationIntro'])}
         {gallery([
           ['equine-bond', 'horseBond'],
-          ['nature', 'natureWalk'],
-          ['nature-waterfall', 'waterfalls'],
+          ['nature', 'river'],
+          ['nature-waterfall', 'natureWalk'],
         ])}
         {location}
       </>
@@ -604,7 +620,7 @@ export function ClassicSite({ page }: { page: string }) {
               ].map(([id, name]) => (
                 <TabsContent value={id} key={id}>
                   <div className="room-feature">
-                    <Photo id={id} alt={name} />
+                    <Photo id={photo(`room:${id}`, id)} alt={name} />
                     <div>
                       {heading('roomConcept')}
                       {text('stayAccommodation')}
@@ -724,7 +740,7 @@ export function ClassicSite({ page }: { page: string }) {
             <article key={name}>
               <figure className="guide-activity">
                 <Photo
-                  id={image}
+                  id={photo(`guide:${name}`, image)}
                   alt={image === 'equine' ? c('horseBond') : c('birdwatching')}
                 />
                 <figcaption>
@@ -786,7 +802,10 @@ export function ClassicSite({ page }: { page: string }) {
             </div>
           </div>
           <div className="contact-aside">
-            <Photo id="dome-exterior" alt={c('dome')} />
+            <Photo
+              id={photo('aside', 'dome-exterior')}
+              alt={c('destinationIntro')}
+            />
             <div>
               {heading('arrival')}
               {text('destinationIntro')}
@@ -862,13 +881,14 @@ export function ClassicSite({ page }: { page: string }) {
           className={`closing-invitation ${hasTwoDoors ? 'closing-signature' : ''} ${page === 'home' ? 'closing-reference' : ''}`}
         >
           <Photo
-            id={
+            id={photo(
+              'closing',
               page === 'home'
                 ? 'closing-design-direction'
                 : page === 'experience'
                   ? 'nature-waterfall'
-                  : 'hero-arenal'
-            }
+                  : 'hero-arenal',
+            )}
             alt=""
             sizes={
               page === 'home' ? '(max-width: 1000px) 1120px, 100vw' : '100vw'

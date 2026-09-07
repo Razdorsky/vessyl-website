@@ -1,4 +1,5 @@
 'use client';
+import { classicNavigationPhoto } from '../../lib/classic-photography';
 import { useEffect, useRef, useState } from 'react';
 import { ChevronDown, Menu, ArrowUpRight } from 'lucide-react';
 import {
@@ -137,7 +138,9 @@ export function SiteNavigation({
             >
               <div className="mega-image">
                 <img
-                  src={asset(`/images/${photo}-thumb.webp`)}
+                  src={asset(
+                    `/images/${edition === 'classic' ? classicNavigationPhoto(id, photo) : photo}-thumb.webp`,
+                  )}
                   alt=""
                   width="800"
                   height="600"
