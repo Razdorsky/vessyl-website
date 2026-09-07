@@ -4980,9 +4980,12 @@ blockquote {
 /* Full-frame approved films retain their original proportions at every width. */
 .classic .editorial-film {
   position: relative;
-  width: 100%;
+  width: 80%;
+  margin: clamp(24px, 4vw, 64px) auto;
   aspect-ratio: 16 / 9;
   background: var(--deep);
+  border-radius: var(--photo-radius);
+  overflow: hidden;
 }
 .editorial-film video {
   display: block;
@@ -5004,6 +5007,60 @@ blockquote {
 .editorial-film-action:focus-visible {
   outline: 2px solid var(--cream);
   outline-offset: -8px;
+}
+.editorial-film-controls {
+  position: absolute;
+  right: clamp(12px, 2vw, 24px);
+  bottom: clamp(12px, 2vw, 24px);
+  display: flex;
+  gap: 8px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  animation: film-controls-enter 240ms ease-out;
+}
+.editorial-film-controls button {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid color-mix(in srgb, var(--cream) 50%, transparent);
+  border-radius: 4px;
+  color: var(--cream);
+  background: color-mix(in srgb, var(--deep) 80%, transparent);
+  cursor: pointer;
+  transition: background 200ms ease;
+}
+.editorial-film-controls button:is(:hover, :focus-visible) {
+  background: var(--deep);
+}
+.editorial-film-controls button:focus-visible {
+  outline: 2px solid var(--cream);
+  outline-offset: 3px;
+}
+.editorial-film-controls svg {
+  width: 20px;
+  height: 20px;
+}
+@keyframes film-controls-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 820px) {
+  .classic .editorial-film {
+    width: 95%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .editorial-film-controls {
+    animation: none;
+  }
 }
 /* A photograph can bridge a color field, but must leave the whole film visible. */
 .classic .editorial-film + .photo-bridge {

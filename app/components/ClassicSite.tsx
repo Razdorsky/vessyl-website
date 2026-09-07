@@ -862,10 +862,16 @@ export function ClassicSite({ page }: { page: string }) {
           className={`closing-invitation ${hasTwoDoors ? 'closing-signature' : ''} ${page === 'home' ? 'closing-reference' : ''}`}
         >
           <Photo
-            id={page === 'home' ? 'closing-design-direction' : 'hero-arenal'}
+            id={
+              page === 'home'
+                ? 'closing-design-direction'
+                : page === 'experience'
+                  ? 'nature-waterfall'
+                  : 'hero-arenal'
+            }
             alt=""
             sizes={
-              page === 'home' ? '(max-width: 1000px) 1120px, 100vw' : undefined
+              page === 'home' ? '(max-width: 1000px) 1120px, 100vw' : '100vw'
             }
           />
           <div />
