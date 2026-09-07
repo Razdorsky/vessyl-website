@@ -152,7 +152,7 @@ function ClassicPage({ page }: { page: string }) {
     </section>
   );
   const cardExperiences = [...experiences];
-  if (page === 'home') {
+  if (page === 'home' || page === 'experience') {
     const domeIndex = cardExperiences.findIndex((item) => item.id === 'dome');
     if (domeIndex !== -1) {
       const [dome] = cardExperiences.splice(domeIndex, 1);
@@ -325,6 +325,11 @@ function ClassicPage({ page }: { page: string }) {
       </LinkArrow>
     </section>
   );
+  const divider = (
+    <div className="section-divider" aria-hidden="true">
+      <span />
+    </div>
+  );
   let content: ReactNode;
   if (page === 'home')
     content = (
@@ -409,10 +414,12 @@ function ClassicPage({ page }: { page: string }) {
           {cards}
         </section>
         <div className="home-quote-sequence">
+          {divider}
           {story('food', 'rancho', 'ranchoIntro', ['rancho', 'learn'])}
           {quote('quote', 'copper')}
           {sessions}
         </div>
+        {divider}
         <EditorialFilm name="main" />
         {twoDoors}
       </>
@@ -432,6 +439,7 @@ function ClassicPage({ page }: { page: string }) {
           </section>
         </div>
         <PressMarks />
+        {divider}
         <section className="intro-section founder-biography">
           <div>
             <Heading
@@ -446,9 +454,13 @@ function ClassicPage({ page }: { page: string }) {
             </div>
           </div>
         </section>
+        {divider}
         <EditorialFilm name="founder" />
         {quote('founderQuote')}
-        {story('dome-exterior', 'press', null, ['press', 'news'])}
+        {story('dome-exterior', 'press', 'ui.pressRoomIntro', [
+          'press',
+          'news',
+        ])}
       </>
     );
   else if (page === 'experience')

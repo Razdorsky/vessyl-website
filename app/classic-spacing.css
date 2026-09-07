@@ -102,6 +102,33 @@
 }
 
 /* The tall Home quotation retains its two deliberate photographic bridges. */
+.classic .section-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: var(--space-related);
+  color: var(--brand-copper-soft);
+  pointer-events: none;
+}
+.classic .section-divider > span {
+  display: flex;
+  align-items: center;
+  width: clamp(300px, 37.5vw, 480px);
+  height: 24px;
+}
+.classic .section-divider > span::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--brand-copper-soft) 25%,
+    var(--brand-accent) 50%,
+    var(--brand-copper-soft) 75%,
+    transparent
+  );
+}
 .classic #content .quote-section {
   --block-start: var(--space-accent);
   --block-end: var(--space-accent);
@@ -110,6 +137,7 @@
   margin-top: var(--space-support);
 }
 .classic #content .home-quote-sequence > .split-editorial {
+  --block-start: 0px;
   --block-end: 0px;
 }
 .classic #content .home-quote-sequence > .split-editorial > img {
@@ -167,6 +195,12 @@
    exactly one interval; photographs after a film never overlap its frame. */
 .classic #content :is(.editorial-film, .film) {
   margin-block: var(--space-section) 0;
+}
+.classic #content .section-divider + .editorial-film {
+  margin-top: 0;
+}
+.classic #content .section-divider + .founder-biography {
+  --block-start: 0px;
 }
 .classic
   #content

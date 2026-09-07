@@ -4656,6 +4656,7 @@ blockquote {
   height: 70px;
   flex-shrink: 0;
   margin-bottom: 36px;
+  transform: scale(2);
 }
 .classic .home-dome-feature .brand-heading-h2 {
   margin-top: 0;

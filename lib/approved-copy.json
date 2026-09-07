@@ -1483,5 +1483,12 @@
     "text": "Photo carousel",
     "kind": "functional-ui",
     "source": "interface-behavior: keyboard, edge and swipe photo navigation"
+  },
+  "ui.pressRoomIntro": {
+    "text": "Explore the story behind The Vessyl, download the project overview, and find contact details for press inquiries.",
+    "kind": "functional-ui",
+    "source": "interface-behavior: existing Press Room founder link, overview download and media contact",
+    "userBriefSha256": "a7624a41ea962ea04f4e3f617f0b5ebf69c839bd00b9b8445c7713737df54408",
+    "note": "Authored at the user’s request to fill the Founder Press Room card. Describes existing page resources; not attributed to Figma."
   }
 }
