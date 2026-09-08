@@ -55,4 +55,14 @@ Booking opens the existing AKEN partner. App downloads remain disabled until rel
 
 Fixed headings use Telugu MN glyph outlines and accessible HTML text. Body and interface text use bundled Roboto. Normal builds use the committed SVG artwork and do not require macOS fonts. See [typography generation](scripts/typography/README.md). The Roboto license is in `public/licenses`.
 
+Classic mobile headings use 16px side gutters and wrap their word outlines to the available width. H1 is 39px Bold; H2/H3 retain their approved sizes. This applies to both languages without changing desktop or Immersive typography, or the insets of paragraphs and photographs.
+
 Only prepared website assets are included. Raw source archives and local research records are excluded from this repository.
+
+## Required page-background contract
+
+The document canvas (`html` and `body`), the opaque top edge of the page header, and the server-rendered `theme-color` must share the color defined in `lib/header-theme.ts`. This applies to both editions, both languages, initial rendering, page transitions and the background exposed by mobile overscroll or unused viewport space. Classic Home and Immersive use the warm header color; other Classic pages use the dark header color. Authored section backgrounds remain separate from this outer canvas.
+
+Keep the browser's automatic safe-area layout and native scrolling; do not introduce `viewport-fit=cover`, disabled zoom or scroll suppression as a background fix. If full-bleed safe-area layout is introduced later, account for all safe-area insets before shipping. Browser-owned controls receive the matching `theme-color` hint; their final appearance remains browser-controlled.
+
+Do not override document backgrounds with white, paper or a separate arbitrary color. Change header colors through the shared palette and validate the route's rendered background and browser theme together. The export check enforces matching header tokens and theme metadata on all routes, including Home and 404; UI changes also require mobile browser inspection.

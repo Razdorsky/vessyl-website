@@ -22,6 +22,17 @@ const pages = [
   'faq',
 ];
 const errors = [];
+function checkPageCanvas(html, file) {
+  const tone =
+    html.match(/<header[^>]*data-header-tone="([^"]+)"/)?.[1] || 'dark';
+  const rootStyle = html.match(/<html[^>]*style="([^"]*)"/)?.[1] || '';
+  const canvas = rootStyle.match(new RegExp(`--header-${tone}:([^;]+)`))?.[1];
+  const themes = [
+    ...html.matchAll(/<meta name="theme-color" content="([^"]+)"/g),
+  ];
+  if (!canvas || themes.length !== 1 || themes[0][1] !== canvas)
+    errors.push('Header/document/browser color contract failed: ' + file);
+}
 let checked = 0;
 const targets = new Set();
 for (const edition of ['classic', 'immersive'])
@@ -36,6 +47,7 @@ for (const edition of ['classic', 'immersive'])
         continue;
       }
       checked++;
+      checkPageCanvas(html, file);
       if (!html.includes(`<html lang="${locale ? 'es-419' : 'en'}"`))
         errors.push('Incorrect document language: ' + file);
       if ((html.match(/<h1[ >]/g) || []).length !== 1)
@@ -65,6 +77,11 @@ for (const edition of ['classic', 'immersive'])
         targets.add(value.split(/[?#]/)[0]);
       }
     }
+for (const file of [
+  path.join(root, base, 'index.html'),
+  path.join(root, '404.html'),
+])
+  checkPageCanvas(await readFile(file, 'utf8'), file);
 for (const target of targets) {
   const f = path.join(root, target);
   try {

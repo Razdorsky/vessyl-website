@@ -6,9 +6,6 @@
   --motion-panel: 440ms;
   --motion-page: 520ms;
 }
-html:has(.immersive-journey) {
-  background: var(--deep);
-}
 @view-transition {
   navigation: auto;
 }

@@ -58,17 +58,27 @@
   box-sizing: border-box;
 }
 html {
+  --header-background: var(--header-dark);
+  min-height: 100%;
+  background-color: var(--header-background);
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
 }
+html:has(.site-header[data-header-tone='warm']) {
+  --header-background: var(--header-warm);
+}
+.classic {
+  background: var(--paper);
+}
 body {
   margin: 0;
+  min-height: 100svh;
   font-family: var(--body-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
   color: var(--ink);
-  background: var(--paper);
+  background: var(--header-background);
   -webkit-font-smoothing: antialiased;
 }
 a {
@@ -2928,7 +2938,7 @@ blockquote {
   }
 }
 .site-header {
-  background: var(--deep);
+  background: var(--header-background);
 }
 
 /* Navigation from Figma 548:977. These override the earlier flat-header prototype. */
@@ -4261,7 +4271,7 @@ blockquote {
 }
 /* Design direction 548:282/548:418: shared header/hero gradient at every width. */
 .classic[data-page='home'] {
-  --classic-hero-shade: #311500;
+  --classic-hero-shade: var(--header-background);
 }
 .classic[data-page='home'] .site-header {
   background: transparent;
@@ -4877,8 +4887,8 @@ blockquote {
 .classic:has(.page-hero:not(.people-hero), .digital-hero) .site-header {
   background: linear-gradient(
     180deg,
-    rgb(17 17 17 / 94%),
-    rgb(17 17 17 / 60%) 42%,
+    var(--header-background),
+    color-mix(in srgb, var(--header-background) 60%, transparent) 42%,
     transparent
   );
   border-bottom: 0;

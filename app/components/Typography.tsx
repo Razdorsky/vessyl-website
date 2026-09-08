@@ -1,7 +1,12 @@
 'use client';
 import { useLocale } from './LocaleProvider';
 import art from '../../lib/typography-art.json';
-import type { CSSProperties } from 'react';
+import {
+  createContext,
+  useContext,
+  type CSSProperties,
+  type ReactNode,
+} from 'react';
 import { asset } from '../../lib/paths';
 const catalog = art as Record<
   string,
@@ -12,12 +17,27 @@ const catalog = art as Record<
     desktopHeight: number;
     mobileWidth: number;
     mobileHeight: number;
+    mobileFlow?: {
+      file: string;
+      size: number;
+      lineHeight: number;
+      spaceWidth: number;
+      words: { width: number }[];
+    };
     responsive?: Record<
       'small' | 'medium' | 'large',
       { file: string; width: number; height: number }
     >;
   }
 >;
+const FlowingHeadingsContext = createContext(false);
+export function FluidMobileHeadings({ children }: { children: ReactNode }) {
+  return (
+    <FlowingHeadingsContext.Provider value>
+      {children}
+    </FlowingHeadingsContext.Provider>
+  );
+}
 export function Heading({
   text,
   as = 'h2',
@@ -34,6 +54,7 @@ export function Heading({
   visualStyle?: 'h2' | 'h3';
 }) {
   const { t } = useLocale();
+  const flowingMobile = useContext(FlowingHeadingsContext);
   text = t(text);
   const style =
     visualStyle ?? (as === 'blockquote' ? 'quote' : as === 'span' ? 'h2' : as);
@@ -44,6 +65,7 @@ export function Heading({
   for (const char of style + variant + '|' + text)
     hash = Math.imul(hash ^ char.charCodeAt(0), 16777619) >>> 0;
   const entry = catalog[hash.toString(16)];
+  const flow = flowingMobile ? entry?.mobileFlow : undefined;
   const responsiveStyle = entry?.responsive
     ? ({
         '--heading-wide-image': `url("${asset('/typography/' + entry.desktop)}")`,
@@ -64,7 +86,7 @@ export function Heading({
   const Tag = as;
   return (
     <Tag
-      className={`brand-heading brand-heading-${style} ${weight === 'regular' ? 'heading-regular' : ''} ${align === 'center' ? 'heading-centered' : ''} ${light ? 'heading-light' : ''} ${entry?.responsive ? 'heading-adaptive' : ''}`}
+      className={`brand-heading brand-heading-${style} ${weight === 'regular' ? 'heading-regular' : ''} ${align === 'center' ? 'heading-centered' : ''} ${light ? 'heading-light' : ''} ${entry?.responsive ? 'heading-adaptive' : ''} ${flow ? 'heading-fluid-mobile' : ''}`}
       data-heading={text}
     >
       {entry ? (
@@ -94,6 +116,33 @@ export function Heading({
               className="heading-responsive-art"
               style={responsiveStyle}
             />
+          )}
+          {flow && (
+            <span
+              className="heading-mobile-flow"
+              aria-hidden="true"
+              style={
+                {
+                  '--heading-word-space': `${flow.spaceWidth}px`,
+                } as CSSProperties
+              }
+              data-type-size={flow.size}
+            >
+              {flow.words.map((word, index) => (
+                <svg
+                  key={index}
+                  width={word.width}
+                  height={flow.lineHeight}
+                  viewBox={`0 0 ${word.width} ${flow.lineHeight}`}
+                  focusable="false"
+                  aria-hidden="true"
+                >
+                  <use
+                    href={`${asset('/typography/' + flow.file)}#word-${index}`}
+                  />
+                </svg>
+              ))}
+            </span>
           )}
         </>
       ) : (

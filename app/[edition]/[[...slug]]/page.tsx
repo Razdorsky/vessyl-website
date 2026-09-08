@@ -4,6 +4,7 @@ import { ClassicSite } from '../../components/ClassicSite';
 import { pageKeys, pageTitles } from '../../../lib/content';
 import { copy, translateText, type Locale } from '../../../lib/copy';
 import { pagePath } from '../../../lib/paths';
+import { headerColor } from '../../../lib/header-theme';
 const route = (slug: string[] = []) => {
   const locale: Locale = slug[0] === 'es-LA' ? 'es-LA' : 'en';
   return {
@@ -41,6 +42,14 @@ export async function generateMetadata({
       },
     },
   };
+}
+export async function generateViewport({
+  params,
+}: {
+  params: Promise<{ edition: string; slug?: string[] }>;
+}) {
+  const { edition, slug = [] } = await params;
+  return { themeColor: headerColor(edition, route(slug).page) };
 }
 export default async function Page({
   params,

@@ -21,6 +21,7 @@ for original_id,original in list(manifest.items()):
  assert prefix, (original_id,original['text'])
  localized_id=hash_key(prefix+'|'+text)
  entry=copy.deepcopy(original);entry.update(text=text,locale='es-LA',sourceHeading=original_id)
+ entry.pop('mobileFlow',None) # Regenerated from translated words by generate.py.
  for device in ['desktop','mobile']:
   entry[device]=f'{localized_id}-{device}.svg'
   entry.get('layout',{}).get(device,{}).pop('text',None)

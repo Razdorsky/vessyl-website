@@ -32,7 +32,7 @@ import { classicPhoto } from '../../lib/classic-photography';
 import { SiteNavigation } from './SiteNavigation';
 import { type CopyKey, type Locale } from '../../lib/copy';
 import { LocaleProvider, useLocale } from './LocaleProvider';
-import { Heading } from './Typography';
+import { FluidMobileHeadings, Heading } from './Typography';
 import { PressMarks } from './PressMarks';
 import { AutoHeight } from './MotionPrimitives';
 import { EditorialFilm } from './EditorialFilm';
@@ -47,7 +47,9 @@ export function ClassicSite({
 }) {
   return (
     <LocaleProvider locale={locale}>
-      <ClassicPage page={page} />
+      <FluidMobileHeadings>
+        <ClassicPage page={page} />
+      </FluidMobileHeadings>
     </LocaleProvider>
   );
 }

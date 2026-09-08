@@ -18,8 +18,8 @@
   z-index: -1;
   background: linear-gradient(
     180deg,
-    #311500 0%,
-    rgb(49 21 0 / 84%) 42%,
+    var(--header-background) 0%,
+    color-mix(in srgb, var(--header-background) 84%, transparent) 42%,
     transparent
   );
   pointer-events: none;

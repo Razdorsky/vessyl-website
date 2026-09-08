@@ -1,0 +1,58 @@
+/* Mobile word outlines preserve Telugu MN at a fixed size while the browser
+   wraps to the actual column width. Desktop and Immersive keep their artwork. */
+.heading-mobile-flow {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  .classic #content .brand-heading.heading-fluid-mobile,
+  .classic #content .faq-list :is(h2, h3) {
+    width: calc(100vw - 32px);
+    max-width: none;
+    margin-inline: calc(50% - 50vw + 16px);
+  }
+  :is(.classic #content, .classic-controls)
+    .heading-fluid-mobile
+    > :is(picture, .heading-responsive-art) {
+    display: none;
+  }
+  :is(.classic #content, .classic-controls) .heading-mobile-flow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 0 var(--heading-word-space);
+    width: 100%;
+    fill: currentColor;
+  }
+  :is(.classic #content, .classic-controls)
+    .heading-centered
+    > .heading-mobile-flow {
+    justify-content: center;
+  }
+  :is(.classic #content, .classic-controls)
+    .heading-light
+    > .heading-mobile-flow {
+    color: var(--cream);
+  }
+  .heading-mobile-flow > svg {
+    display: block;
+    flex: 0 0 auto;
+    max-width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+  /* Widen the animation clip, keeping the existing card/photo/prose widths. */
+  .classic #content .sessions-section .motion-height {
+    margin-inline: calc(16px - var(--page-pad));
+    padding-inline: calc(var(--page-pad) - 16px);
+  }
+  .classic-controls .brand-heading.heading-fluid-mobile {
+    width: calc(100vw - 32px);
+    max-width: none;
+    margin-inline: calc(50% - 50vw + 16px);
+  }
+  .classic-controls.practice-dialog[data-slot='dialog-content'] {
+    width: max(94vw, calc(100vw - 32px));
+  }
+}

@@ -17,3 +17,9 @@ This approach preserves fixed brand typography across platforms. It does not sup
 Centered compositions use `align="center"` and a `-center` hash suffix, after any weight suffix: `h1-regular-center|text`, `h2-center|text`, etc. CoreText centers each line of the artwork itself. Optional per-device `layout` values preserve approved size, width and visual line breaks; `text` on the manifest entry remains the canonical accessible string.
 
 Classic uses `weight="bold"` with `h1-bold|text` / `h1-bold-center|text` catalog keys. Their per-device `layout.size` values preserve the user-requested size reduction during regeneration.
+
+At viewport widths up to 560px, Classic H1/H2/H3 use flowing word outlines from `mobileFlow`. The browser lays out the exact Telugu MN words at their fixed size with the font's measured spaces, so wrapping follows the available width instead of selecting a 280px pre-wrapped image. Classic mobile H1 is 39px (one unit below the shared 40px artwork); H2/H3 retain their existing small-variant sizes. Accessible copy stays in the semantic heading. Desktop, Immersive and quotations retain their existing artwork.
+
+`app/classic-typography.css` sets 16px viewport gutters for Classic mobile display headings and FAQ question headings, including headings inside nested cards. Paragraphs, images and navigation keep their existing insets. Session transition clips expand with compensating padding, and dialog titles fit within the dialog shell.
+
+The normal generation command updates both fixed and flowing artwork. Add `--mobile-only` to regenerate only flowing Classic headings, preserving all shared desktop/Immersive assets. After changing localized headings, run `localize.py` before generation; it deliberately drops inherited flow data so Spanish words are regenerated from their own source text.

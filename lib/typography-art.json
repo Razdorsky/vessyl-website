@@ -227,6 +227,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "e4a72d40-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 187.735
+        },
+        {
+          "width": 84.411
+        }
+      ]
     }
   },
   "34791db2": {
@@ -257,6 +271,29 @@
         "width": 720,
         "height": 133.64
       }
+    },
+    "mobileFlow": {
+      "file": "34791db2-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 141.504
+        },
+        {
+          "width": 10.301
+        },
+        {
+          "width": 188.35
+        },
+        {
+          "width": 10.301
+        },
+        {
+          "width": 208.266
+        }
+      ]
     }
   },
   "de6a9acf": {
@@ -287,6 +324,26 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "de6a9acf-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 109.266
+        },
+        {
+          "width": 27.44
+        },
+        {
+          "width": 88.032
+        },
+        {
+          "width": 200.057
+        }
+      ]
     }
   },
   "88bb2120": {
@@ -317,6 +374,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "88bb2120-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 121.87
+        },
+        {
+          "width": 155.461
+        }
+      ]
     }
   },
   "916963d0": {
@@ -347,6 +418,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "916963d0-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 106.489
+        },
+        {
+          "width": 155.461
+        }
+      ]
     }
   },
   "a5597fed": {
@@ -377,6 +462,38 @@
         "width": 720,
         "height": 133.64
       }
+    },
+    "mobileFlow": {
+      "file": "a5597fed-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 119.918
+        },
+        {
+          "width": 130.624
+        },
+        {
+          "width": 90.95
+        },
+        {
+          "width": 19.952
+        },
+        {
+          "width": 115.506
+        },
+        {
+          "width": 31.799
+        },
+        {
+          "width": 56.883
+        },
+        {
+          "width": 81.124
+        }
+      ]
     }
   },
   "ccbcd70e": {
@@ -407,6 +524,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "ccbcd70e-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 108.106
+        }
+      ]
     }
   },
   "f98b81ab": {
@@ -437,6 +568,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "f98b81ab-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 143.262
+        }
+      ]
     }
   },
   "b5cc138a": {
@@ -467,6 +612,23 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "b5cc138a-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 108.106
+        },
+        {
+          "width": 191.672
+        }
+      ]
     }
   },
   "65d79e30": {
@@ -497,6 +659,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "65d79e30-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 181.459
+        },
+        {
+          "width": 105.258
+        }
+      ]
     }
   },
   "bc734bce": {
@@ -527,6 +703,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "bc734bce-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 169.313
+        },
+        {
+          "width": 117.229
+        }
+      ]
     }
   },
   "c18337e9": {
@@ -557,6 +747,26 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "c18337e9-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 117.739
+        },
+        {
+          "width": 27.44
+        },
+        {
+          "width": 124.911
+        },
+        {
+          "width": 191.672
+        }
+      ]
     }
   },
   "4219368a": {
@@ -587,6 +797,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "4219368a-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 147.956
+        },
+        {
+          "width": 149.063
+        }
+      ]
     }
   },
   "1fed98ef": {
@@ -617,6 +841,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "1fed98ef-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 161.297
+        },
+        {
+          "width": 149.063
+        }
+      ]
     }
   },
   "2bf4ffb": {
@@ -647,6 +885,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "2bf4ffb-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 150.364
+        },
+        {
+          "width": 149.063
+        }
+      ]
     }
   },
   "9c50682": {
@@ -677,6 +929,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "9c50682-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 191.831
+        }
+      ]
     }
   },
   "5c809d25": {
@@ -707,6 +970,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "5c809d25-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 94.922
+        },
+        {
+          "width": 75.586
+        }
+      ]
     }
   },
   "b33daae7": {
@@ -737,6 +1014,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "b33daae7-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 30.709
+        },
+        {
+          "width": 127.618
+        }
+      ]
     }
   },
   "1c99d4c3": {
@@ -767,6 +1058,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "1c99d4c3-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 67.905
+        }
+      ]
     }
   },
   "5f4fff4e": {
@@ -797,6 +1102,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "5f4fff4e-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 102.446
+        },
+        {
+          "width": 91.178
+        }
+      ]
     }
   },
   "52902b2b": {
@@ -827,6 +1146,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "52902b2b-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 92.268
+        },
+        {
+          "width": 101.936
+        }
+      ]
     }
   },
   "d0f37a2b": {
@@ -857,6 +1190,32 @@
         "width": 720,
         "height": 133.64
       }
+    },
+    "mobileFlow": {
+      "file": "d0f37a2b-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 140.239
+        },
+        {
+          "width": 43.084
+        },
+        {
+          "width": 9.036
+        },
+        {
+          "width": 91.723
+        },
+        {
+          "width": 18.897
+        },
+        {
+          "width": 203.959
+        }
+      ]
     }
   },
   "57e87cb4": {
@@ -887,6 +1246,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "57e87cb4-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 88.717
+        }
+      ]
     }
   },
   "381ab85b": {
@@ -917,6 +1287,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "381ab85b-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 77.836
+        },
+        {
+          "width": 126.036
+        }
+      ]
     }
   },
   "7a1178e2": {
@@ -947,6 +1331,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "7a1178e2-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 101.936
+        },
+        {
+          "width": 143.192
+        }
+      ]
     }
   },
   "af01242f": {
@@ -977,6 +1375,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "af01242f-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 119.286
+        }
+      ]
     }
   },
   "f3a24ff8": {
@@ -1007,6 +1416,62 @@
         "width": 720,
         "height": 254.27999999999997
       }
+    },
+    "mobileFlow": {
+      "file": "f3a24ff8-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 108.106
+        },
+        {
+          "width": 27.756
+        },
+        {
+          "width": 129.903
+        },
+        {
+          "width": 77.045
+        },
+        {
+          "width": 38.057
+        },
+        {
+          "width": 141.997
+        },
+        {
+          "width": 101.321
+        },
+        {
+          "width": 81.317
+        },
+        {
+          "width": 31.799
+        },
+        {
+          "width": 56.883
+        },
+        {
+          "width": 130.782
+        },
+        {
+          "width": 35.842
+        },
+        {
+          "width": 56.883
+        },
+        {
+          "width": 110.268
+        },
+        {
+          "width": 147.252
+        }
+      ]
     }
   },
   "9f2580eb": {
@@ -1037,6 +1502,29 @@
         "width": 720,
         "height": 133.64
       }
+    },
+    "mobileFlow": {
+      "file": "9f2580eb-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 117.036
+        },
+        {
+          "width": 162.528
+        },
+        {
+          "width": 63.721
+        },
+        {
+          "width": 63.317
+        }
+      ]
     }
   },
   "492c4320": {
@@ -1067,6 +1555,29 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "492c4320-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 62.842
+        },
+        {
+          "width": 18.897
+        },
+        {
+          "width": 227.901
+        },
+        {
+          "width": 23.327
+        },
+        {
+          "width": 91.108
+        }
+      ]
     }
   },
   "f2e19e22": {
@@ -1097,6 +1608,23 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "f2e19e22-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 145.249
+        },
+        {
+          "width": 111.534
+        }
+      ]
     }
   },
   "f70d264b": {
@@ -1127,6 +1655,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "f70d264b-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 186.417
+        }
+      ]
     }
   },
   "8e90d94c": {
@@ -1157,6 +1699,23 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "8e90d94c-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 89.122
+        },
+        {
+          "width": 56.883
+        },
+        {
+          "width": 186.417
+        }
+      ]
     }
   },
   "f5bc55a7": {
@@ -1187,6 +1746,23 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "f5bc55a7-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 176.942
+        },
+        {
+          "width": 112.571
+        }
+      ]
     }
   },
   "78187f02": {
@@ -1217,6 +1793,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "78187f02-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 277.752
+        }
+      ]
     }
   },
   "e1d13885": {
@@ -1247,6 +1834,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "e1d13885-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 102.85
+        },
+        {
+          "width": 142.295
+        }
+      ]
     }
   },
   "c544a129": {
@@ -1277,6 +1878,29 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "c544a129-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 117.739
+        },
+        {
+          "width": 102.85
+        },
+        {
+          "width": 76.29
+        },
+        {
+          "width": 27.44
+        },
+        {
+          "width": 87.979
+        }
+      ]
     }
   },
   "aaa6b493": {
@@ -1307,6 +1931,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "aaa6b493-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 227.286
+        }
+      ]
     }
   },
   "ee453123": {
@@ -1337,6 +1972,32 @@
         "width": 720,
         "height": 133.64
       }
+    },
+    "mobileFlow": {
+      "file": "ee453123-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 75.393
+        },
+        {
+          "width": 35.842
+        },
+        {
+          "width": 159.293
+        },
+        {
+          "width": 10.301
+        },
+        {
+          "width": 117.317
+        },
+        {
+          "width": 80.069
+        }
+      ]
     }
   },
   "4ae1fdc8": {
@@ -1367,6 +2028,26 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "4ae1fdc8-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 110.268
+        },
+        {
+          "width": 139.588
+        },
+        {
+          "width": 142.331
+        },
+        {
+          "width": 74.461
+        }
+      ]
     }
   },
   "b1cbc3de": {
@@ -1397,6 +2078,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "b1cbc3de-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 182.655
+        }
+      ]
     }
   },
   "ff070f27": {
@@ -1427,6 +2119,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "ff070f27-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 118.653
+        },
+        {
+          "width": 112.975
+        }
+      ]
     }
   },
   "dfa72b79": {
@@ -1457,6 +2163,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "dfa72b79-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 123.153
+        }
+      ]
     }
   },
   "70203851": {
@@ -1487,6 +2204,23 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "70203851-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 161.297
+        },
+        {
+          "width": 75.586
+        },
+        {
+          "width": 131.713
+        }
+      ]
     }
   },
   "8bfe1b74": {
@@ -1517,6 +2251,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "8bfe1b74-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 212.924
+        }
+      ]
     }
   },
   "63295dd6": {
@@ -1547,6 +2292,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "63295dd6-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 200.848
+        }
+      ]
     }
   },
   "77e3f4c7": {
@@ -1577,6 +2333,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "77e3f4c7-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 84.411
+        },
+        {
+          "width": 92.743
+        }
+      ]
     }
   },
   "2b75422a": {
@@ -1607,6 +2377,23 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "2b75422a-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 40.043
+        },
+        {
+          "width": 27.44
+        },
+        {
+          "width": 78.627
+        }
+      ]
     }
   },
   "7f77157": {
@@ -1637,6 +2424,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "7f77157-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 133.875
+        }
+      ]
     }
   },
   "8211d09e": {
@@ -1667,6 +2465,26 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "8211d09e-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 115.506
+        },
+        {
+          "width": 31.799
+        },
+        {
+          "width": 56.883
+        },
+        {
+          "width": 81.124
+        }
+      ]
     }
   },
   "434af9d9": {
@@ -1697,6 +2515,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "434af9d9-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 234.721
+        },
+        {
+          "width": 87.487
+        }
+      ]
     }
   },
   "77a302f6": {
@@ -1727,6 +2559,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "77a302f6-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 133.295
+        },
+        {
+          "width": 115.875
+        }
+      ]
     }
   },
   "14883213": {
@@ -1757,6 +2603,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "14883213-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 102.34
+        }
+      ]
     }
   },
   "8f34c2b9": {
@@ -1787,6 +2644,20 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "8f34c2b9-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 146.016
+        },
+        {
+          "width": 65.653
+        }
+      ]
     }
   },
   "95768995": {
@@ -1817,6 +2688,29 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "95768995-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 110.059
+        },
+        {
+          "width": 8.012
+        },
+        {
+          "width": 146.495
+        },
+        {
+          "width": 8.012
+        },
+        {
+          "width": 161.985
+        }
+      ]
     }
   },
   "6a5f4e2c": {
@@ -1847,6 +2741,26 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "6a5f4e2c-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 84.985
+        },
+        {
+          "width": 21.342
+        },
+        {
+          "width": 68.469
+        },
+        {
+          "width": 155.6
+        }
+      ]
     }
   },
   "544fc607": {
@@ -1877,6 +2791,20 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "544fc607-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 94.788
+        },
+        {
+          "width": 120.915
+        }
+      ]
     }
   },
   "55b3a47f": {
@@ -1907,6 +2835,20 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "55b3a47f-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 82.825
+        },
+        {
+          "width": 120.915
+        }
+      ]
     }
   },
   "71008f64": {
@@ -1937,6 +2879,38 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "71008f64-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 93.27
+        },
+        {
+          "width": 101.596
+        },
+        {
+          "width": 70.739
+        },
+        {
+          "width": 15.518
+        },
+        {
+          "width": 89.838
+        },
+        {
+          "width": 24.733
+        },
+        {
+          "width": 44.243
+        },
+        {
+          "width": 63.096
+        }
+      ]
     }
   },
   "dd2feaf2": {
@@ -1967,6 +2941,26 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "dd2feaf2-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 96.305
+        },
+        {
+          "width": 66.213
+        },
+        {
+          "width": 47.797
+        },
+        {
+          "width": 59.473
+        }
+      ]
     }
   },
   "5aa75df7": {
@@ -1997,6 +2991,23 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "5aa75df7-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 96.305
+        },
+        {
+          "width": 66.213
+        },
+        {
+          "width": 91.506
+        }
+      ]
     }
   },
   "d405a520": {
@@ -2027,6 +3038,17 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "d405a520-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 92.778
+        }
+      ]
     }
   },
   "18617bb6": {
@@ -2057,6 +3079,20 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "18617bb6-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 50.354
+        },
+        {
+          "width": 81.868
+        }
+      ]
     }
   },
   "7aa20029": {
@@ -2087,6 +3123,20 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "7aa20029-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 131.688
+        },
+        {
+          "width": 91.178
+        }
+      ]
     }
   },
   "865902ba": {
@@ -2117,6 +3167,23 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "865902ba-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 91.575
+        },
+        {
+          "width": 21.342
+        },
+        {
+          "width": 91.247
+        }
+      ]
     }
   },
   "b808f922": {
@@ -2147,6 +3214,20 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "b808f922-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 73.829
+        },
+        {
+          "width": 58.79
+        }
+      ]
     }
   },
   "d594fc4": {
@@ -2177,6 +3258,23 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "d594fc4-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 125.454
+        },
+        {
+          "width": 58.79
+        },
+        {
+          "width": 102.444
+        }
+      ]
     }
   },
   "90f364c9": {
@@ -2207,6 +3305,17 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "90f364c9-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 165.608
+        }
+      ]
     }
   },
   "727f8527": {
@@ -2237,6 +3346,17 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "727f8527-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 156.215
+        }
+      ]
     }
   },
   "c3412fda": {
@@ -2267,6 +3387,20 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "c3412fda-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 65.653
+        },
+        {
+          "width": 72.133
+        }
+      ]
     }
   },
   "e55815f9": {
@@ -2297,6 +3431,23 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "e55815f9-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 31.145
+        },
+        {
+          "width": 21.342
+        },
+        {
+          "width": 61.155
+        }
+      ]
     }
   },
   "387362e7": {
@@ -2327,6 +3478,17 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "387362e7-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 216.03
+        }
+      ]
     }
   },
   "a3328fd2": {
@@ -2357,6 +3519,32 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "a3328fd2-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 58.639
+        },
+        {
+          "width": 27.877
+        },
+        {
+          "width": 123.895
+        },
+        {
+          "width": 8.012
+        },
+        {
+          "width": 91.247
+        },
+        {
+          "width": 62.276
+        }
+      ]
     }
   },
   "c2ef6de6": {
@@ -2387,6 +3575,17 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "c2ef6de6-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 104.125
+        }
+      ]
     }
   },
   "3836680f": {
@@ -2417,6 +3616,26 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "3836680f-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 89.838
+        },
+        {
+          "width": 24.733
+        },
+        {
+          "width": 44.243
+        },
+        {
+          "width": 63.096
+        }
+      ]
     }
   },
   "89f3b484": {
@@ -2447,6 +3666,20 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "89f3b484-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 182.561
+        },
+        {
+          "width": 68.045
+        }
+      ]
     }
   },
   "e60f0675": {
@@ -2477,6 +3710,20 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "e60f0675-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 70.725
+        },
+        {
+          "width": 69.016
+        }
+      ]
     }
   },
   "dab1d5a9": {
@@ -2507,6 +3754,20 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "dab1d5a9-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 70.725
+        },
+        {
+          "width": 56.165
+        }
+      ]
     }
   },
   "dedb2ca7": {
@@ -2567,6 +3828,44 @@
         "width": 720,
         "height": 133.64
       }
+    },
+    "mobileFlow": {
+      "file": "9a387b2b-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 98.596
+        },
+        {
+          "width": 57.411
+        },
+        {
+          "width": 121.026
+        },
+        {
+          "width": 71.297
+        },
+        {
+          "width": 27.756
+        },
+        {
+          "width": 107.456
+        },
+        {
+          "width": 24.698
+        },
+        {
+          "width": 81.668
+        },
+        {
+          "width": 97.489
+        }
+      ]
     }
   },
   "87303368": {
@@ -2617,6 +3916,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "8e08b08b-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 201.78
+        }
+      ]
     }
   },
   "9a89b861": {
@@ -2657,6 +3967,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "da40cd68-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 99.756
+        }
+      ]
     }
   },
   "bcc61f7f": {
@@ -2697,6 +4018,29 @@
         "width": 720,
         "height": 133.64
       }
+    },
+    "mobileFlow": {
+      "file": "c3fb8024-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 221.678
+        },
+        {
+          "width": 84.147
+        },
+        {
+          "width": 41.221
+        },
+        {
+          "width": 91.477
+        },
+        {
+          "width": 163.741
+        }
+      ]
     }
   },
   "f78daad0": {
@@ -3202,6 +4546,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "5de28a12-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 108.106
+        }
+      ]
     }
   },
   "70e5753f": {
@@ -3233,6 +4591,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "70e5753f-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 77.836
+        },
+        {
+          "width": 126.036
+        }
+      ]
     }
   },
   "da8765de": {
@@ -3264,6 +4636,23 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "da8765de-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 108.106
+        },
+        {
+          "width": 191.672
+        }
+      ]
     }
   },
   "e7429fd5": {
@@ -3295,6 +4684,29 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "e7429fd5-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 117.739
+        },
+        {
+          "width": 102.85
+        },
+        {
+          "width": 76.29
+        },
+        {
+          "width": 27.44
+        },
+        {
+          "width": 87.979
+        }
+      ]
     }
   },
   "429d626c": {
@@ -3326,6 +4738,26 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "429d626c-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 110.268
+        },
+        {
+          "width": 139.588
+        },
+        {
+          "width": 142.331
+        },
+        {
+          "width": 74.461
+        }
+      ]
     }
   },
   "76fc08d6": {
@@ -3357,6 +4789,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "76fc08d6-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 147.956
+        },
+        {
+          "width": 149.063
+        }
+      ]
     }
   },
   "4612d0cb": {
@@ -3388,6 +4834,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "4612d0cb-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 119.286
+        }
+      ]
     }
   },
   "1e464d14": {
@@ -3419,6 +4876,29 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "1e464d14-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 62.842
+        },
+        {
+          "width": 18.897
+        },
+        {
+          "width": 227.901
+        },
+        {
+          "width": 23.327
+        },
+        {
+          "width": 91.108
+        }
+      ]
     }
   },
   "346eb52b": {
@@ -3450,6 +4930,23 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "346eb52b-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 176.942
+        },
+        {
+          "width": 112.571
+        }
+      ]
     }
   },
   "55be60da": {
@@ -3481,6 +4978,17 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "55be60da-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 182.655
+        }
+      ]
     }
   },
   "9f3528c7": {
@@ -3512,6 +5020,29 @@
         "width": 720,
         "height": 133.64
       }
+    },
+    "mobileFlow": {
+      "file": "9f3528c7-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 117.036
+        },
+        {
+          "width": 162.528
+        },
+        {
+          "width": 63.721
+        },
+        {
+          "width": 63.317
+        }
+      ]
     }
   },
   "54ae6cee": {
@@ -3543,6 +5074,23 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "54ae6cee-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 145.249
+        },
+        {
+          "width": 111.534
+        }
+      ]
     }
   },
   "6a202e1f": {
@@ -3574,6 +5122,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "6a202e1f-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 186.417
+        }
+      ]
     }
   },
   "34bb76b4": {
@@ -3605,6 +5167,62 @@
         "width": 720,
         "height": 254.27999999999997
       }
+    },
+    "mobileFlow": {
+      "file": "34bb76b4-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 108.106
+        },
+        {
+          "width": 27.756
+        },
+        {
+          "width": 129.903
+        },
+        {
+          "width": 77.045
+        },
+        {
+          "width": 38.057
+        },
+        {
+          "width": 141.997
+        },
+        {
+          "width": 101.321
+        },
+        {
+          "width": 81.317
+        },
+        {
+          "width": 31.799
+        },
+        {
+          "width": 56.883
+        },
+        {
+          "width": 130.782
+        },
+        {
+          "width": 35.842
+        },
+        {
+          "width": 56.883
+        },
+        {
+          "width": 110.268
+        },
+        {
+          "width": 147.252
+        }
+      ]
     }
   },
   "a4e9c3b4": {
@@ -3636,6 +5254,26 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "a4e9c3b4-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 96.305
+        },
+        {
+          "width": 66.213
+        },
+        {
+          "width": 47.797
+        },
+        {
+          "width": 59.473
+        }
+      ]
     }
   },
   "11e19f91": {
@@ -3667,6 +5305,23 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "11e19f91-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 96.305
+        },
+        {
+          "width": 66.213
+        },
+        {
+          "width": 91.506
+        }
+      ]
     }
   },
   "b84ef043": {
@@ -3719,6 +5374,26 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "e1b03520-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 129.721
+        },
+        {
+          "width": 30.926
+        },
+        {
+          "width": 139.414
+        },
+        {
+          "width": 213.206
+        }
+      ]
     }
   },
   "a50e680f": {
@@ -3740,6 +5415,20 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "a50e680f-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 163.98
+        },
+        {
+          "width": 163.351
+        }
+      ]
     }
   },
   "1565fcd0": {
@@ -3761,6 +5450,20 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "1565fcd0-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 178.985
+        },
+        {
+          "width": 163.351
+        }
+      ]
     }
   },
   "3ed33a92": {
@@ -3782,6 +5485,20 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "3ed33a92-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 166.531
+        },
+        {
+          "width": 163.351
+        }
+      ]
     }
   },
   "ea757fb5": {
@@ -3803,6 +5520,17 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "ea757fb5-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 214.12
+        }
+      ]
     }
   },
   "e0f2c094": {
@@ -3824,6 +5552,20 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "e0f2c094-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 109.764
+        },
+        {
+          "width": 85.046
+        }
+      ]
     }
   },
   "811285c6": {
@@ -3845,6 +5587,20 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "811285c6-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 34.83
+        },
+        {
+          "width": 140.747
+        }
+      ]
     }
   },
   "3caf548a": {
@@ -3868,6 +5624,44 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "3caf548a-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 72.611
+        },
+        {
+          "width": 109.936
+        },
+        {
+          "width": 63.28
+        },
+        {
+          "width": 132.692
+        },
+        {
+          "width": 79.886
+        },
+        {
+          "width": 30.279
+        },
+        {
+          "width": 119.324
+        },
+        {
+          "width": 27.613
+        },
+        {
+          "width": 88.95
+        },
+        {
+          "width": 106.889
+        }
+      ]
     }
   },
   "ab66bafc": {
@@ -3890,6 +5684,20 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "ab66bafc-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 72.611
+        },
+        {
+          "width": 158.99
+        }
+      ]
     }
   },
   "a4f87901": {
@@ -3912,6 +5720,23 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "a4f87901-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 72.611
+        },
+        {
+          "width": 121.761
+        },
+        {
+          "width": 213.206
+        }
+      ]
     }
   },
   "8e3d83cd": {
@@ -3934,6 +5759,20 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "8e3d83cd-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 202.98
+        },
+        {
+          "width": 116.125
+        }
+      ]
     }
   },
   "9bb14fb5": {
@@ -3956,6 +5795,20 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "9bb14fb5-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 187.345
+        },
+        {
+          "width": 130.007
+        }
+      ]
     }
   },
   "7ffdda3d": {
@@ -3978,6 +5831,20 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "7ffdda3d-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 113.268
+        },
+        {
+          "width": 103.232
+        }
+      ]
     }
   },
   "1a515e14": {
@@ -4000,6 +5867,29 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "1a515e14-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 72.611
+        },
+        {
+          "width": 131.435
+        },
+        {
+          "width": 182.185
+        },
+        {
+          "width": 71.355
+        },
+        {
+          "width": 69.526
+        }
+      ]
     }
   },
   "aabeb8fc": {
@@ -4022,6 +5912,32 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "aabeb8fc-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 155.201
+        },
+        {
+          "width": 48.484
+        },
+        {
+          "width": 11.693
+        },
+        {
+          "width": 101.918
+        },
+        {
+          "width": 20.872
+        },
+        {
+          "width": 226.383
+        }
+      ]
     }
   },
   "d3441df5": {
@@ -4044,6 +5960,17 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "d3441df5-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 103.251
+        }
+      ]
     }
   },
   "a0ddfe66": {
@@ -4066,6 +5993,20 @@
         "size": 40,
         "width": 340
       }
+    },
+    "mobileFlow": {
+      "file": "a0ddfe66-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 101.823
+        },
+        {
+          "width": 111.592
+        }
+      ]
     }
   },
   "51c1a5f0": {
@@ -4096,6 +6037,23 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "51c1a5f0-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 73.547
+        },
+        {
+          "width": 74.198
+        },
+        {
+          "width": 39.024
+        }
+      ]
     }
   },
   "7ba3cd9f": {
@@ -4126,6 +6084,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "7ba3cd9f-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 141.17
+        }
+      ]
     }
   },
   "5a55b457": {
@@ -4156,6 +6128,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "5a55b457-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 105.258
+        },
+        {
+          "width": 145.249
+        }
+      ]
     }
   },
   "ec2cb5e7": {
@@ -4186,6 +6172,23 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "ec2cb5e7-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 169.313
+        },
+        {
+          "width": 117.229
+        },
+        {
+          "width": 145.249
+        }
+      ]
     }
   },
   "7c51e16e": {
@@ -4216,6 +6219,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "7c51e16e-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 144.95
+        },
+        {
+          "width": 192.059
+        }
+      ]
     }
   },
   "44bbf303": {
@@ -4257,6 +6274,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "c6504632-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 144.95
+        },
+        {
+          "width": 192.059
+        }
+      ]
     }
   },
   "b679eebc": {
@@ -4288,6 +6319,23 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "b679eebc-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 73.547
+        },
+        {
+          "width": 74.198
+        },
+        {
+          "width": 39.024
+        }
+      ]
     }
   },
   "2f2d6554": {
@@ -4319,6 +6367,20 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "2f2d6554-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 181.459
+        },
+        {
+          "width": 105.258
+        }
+      ]
     }
   },
   "62279fc8": {
@@ -4361,6 +6423,26 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "62279fc8-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 73.108
+        },
+        {
+          "width": 109.723
+        },
+        {
+          "width": 65.444
+        },
+        {
+          "width": 192.059
+        }
+      ]
     }
   },
   "cf40a879": {
@@ -4403,6 +6485,32 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "cf40a879-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 57.204
+        },
+        {
+          "width": 57.709
+        },
+        {
+          "width": 30.352
+        },
+        {
+          "width": 24.733
+        },
+        {
+          "width": 78.805
+        },
+        {
+          "width": 56.301
+        }
+      ]
     }
   },
   "21f71702": {
@@ -4445,6 +6553,29 @@
         "width": 720,
         "height": 50.76
       }
+    },
+    "mobileFlow": {
+      "file": "21f71702-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 50.354
+        },
+        {
+          "width": 119.917
+        },
+        {
+          "width": 24.733
+        },
+        {
+          "width": 61.661
+        },
+        {
+          "width": 99.614
+        }
+      ]
     }
   },
   "72b1a6ea": {
@@ -4487,6 +6618,44 @@
         "width": 720,
         "height": 193.95999999999998
       }
+    },
+    "mobileFlow": {
+      "file": "72b1a6ea-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 118.196
+        },
+        {
+          "width": 184.975
+        },
+        {
+          "width": 62.473
+        },
+        {
+          "width": 169.7
+        },
+        {
+          "width": 44.245
+        },
+        {
+          "width": 18.897
+        },
+        {
+          "width": 134.79
+        },
+        {
+          "width": 31.799
+        },
+        {
+          "width": 101.321
+        },
+        {
+          "width": 80.051
+        }
+      ]
     }
   },
   "b82a63e9": {
@@ -4529,6 +6698,83 @@
         "width": 720,
         "height": 176.03999999999996
       }
+    },
+    "mobileFlow": {
+      "file": "b82a63e9-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 50.354
+        },
+        {
+          "width": 84.083
+        },
+        {
+          "width": 21.588
+        },
+        {
+          "width": 31.336
+        },
+        {
+          "width": 141.477
+        },
+        {
+          "width": 113.86
+        },
+        {
+          "width": 151.403
+        },
+        {
+          "width": 101.036
+        },
+        {
+          "width": 34.413
+        },
+        {
+          "width": 39.129
+        },
+        {
+          "width": 72.79
+        },
+        {
+          "width": 27.877
+        },
+        {
+          "width": 104.823
+        },
+        {
+          "width": 132.604
+        },
+        {
+          "width": 59.924
+        },
+        {
+          "width": 44.243
+        },
+        {
+          "width": 85.764
+        },
+        {
+          "width": 108.569
+        },
+        {
+          "width": 24.733
+        },
+        {
+          "width": 29.6
+        },
+        {
+          "width": 110.442
+        },
+        {
+          "width": 78.805
+        },
+        {
+          "width": 62.262
+        }
+      ]
     }
   },
   "5d0ad97a": {
@@ -4571,6 +6817,101 @@
         "width": 720,
         "height": 259.56
       }
+    },
+    "mobileFlow": {
+      "file": "5d0ad97a-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 60.54
+        },
+        {
+          "width": 98.028
+        },
+        {
+          "width": 21.588
+        },
+        {
+          "width": 31.336
+        },
+        {
+          "width": 187.784
+        },
+        {
+          "width": 113.86
+        },
+        {
+          "width": 136.022
+        },
+        {
+          "width": 48.59
+        },
+        {
+          "width": 149.01
+        },
+        {
+          "width": 27.877
+        },
+        {
+          "width": 147.575
+        },
+        {
+          "width": 65.516
+        },
+        {
+          "width": 44.243
+        },
+        {
+          "width": 145.415
+        },
+        {
+          "width": 123.622
+        },
+        {
+          "width": 86.325
+        },
+        {
+          "width": 151.198
+        },
+        {
+          "width": 39.977
+        },
+        {
+          "width": 98.657
+        },
+        {
+          "width": 69.727
+        },
+        {
+          "width": 61.606
+        },
+        {
+          "width": 53.622
+        },
+        {
+          "width": 44.243
+        },
+        {
+          "width": 159.797
+        },
+        {
+          "width": 175.069
+        },
+        {
+          "width": 24.733
+        },
+        {
+          "width": 44.243
+        },
+        {
+          "width": 89.606
+        },
+        {
+          "width": 89.333
+        }
+      ]
     }
   },
   "babbeeb4": {
@@ -4644,6 +6985,77 @@
         "width": 720,
         "height": 176.03999999999996
       }
+    },
+    "mobileFlow": {
+      "file": "7d90ebb1-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 112.999
+        },
+        {
+          "width": 71.709
+        },
+        {
+          "width": 27.877
+        },
+        {
+          "width": 66.665
+        },
+        {
+          "width": 25.813
+        },
+        {
+          "width": 44.243
+        },
+        {
+          "width": 164.049
+        },
+        {
+          "width": 27.877
+        },
+        {
+          "width": 90.221
+        },
+        {
+          "width": 243.346
+        },
+        {
+          "width": 48.59
+        },
+        {
+          "width": 91.069
+        },
+        {
+          "width": 127.901
+        },
+        {
+          "width": 98.028
+        },
+        {
+          "width": 107.051
+        },
+        {
+          "width": 160.645
+        },
+        {
+          "width": 139.276
+        },
+        {
+          "width": 24.733
+        },
+        {
+          "width": 14.698
+        },
+        {
+          "width": 107.543
+        },
+        {
+          "width": 123.731
+        }
+      ]
     }
   },
   "56c30099": {
@@ -4666,7 +7078,21 @@
     "desktopWidth": 1100,
     "desktopHeight": 129.71999999999997,
     "mobileWidth": 340,
-    "mobileHeight": 102.80000000000001
+    "mobileHeight": 102.80000000000001,
+    "mobileFlow": {
+      "file": "56c30099-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 163.98
+        },
+        {
+          "width": 163.351
+        }
+      ]
+    }
   },
   "a4a2c1df": {
     "text": "Guests can customize their experience and choose the offerings that resonate most with them.",
@@ -4708,6 +7134,56 @@
         "width": 720,
         "height": 134.27999999999997
       }
+    },
+    "mobileFlow": {
+      "file": "a4a2c1df-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 93.625
+        },
+        {
+          "width": 47.346
+        },
+        {
+          "width": 140.657
+        },
+        {
+          "width": 64.436
+        },
+        {
+          "width": 149.379
+        },
+        {
+          "width": 48.59
+        },
+        {
+          "width": 98.178
+        },
+        {
+          "width": 44.243
+        },
+        {
+          "width": 120.559
+        },
+        {
+          "width": 53.567
+        },
+        {
+          "width": 118.795
+        },
+        {
+          "width": 68.62
+        },
+        {
+          "width": 57.709
+        },
+        {
+          "width": 76.44
+        }
+      ]
     }
   },
   "90ebe0aa": {
@@ -4739,7 +7215,21 @@
         "height": 73.32
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "90ebe0aa-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 169.313
+        },
+        {
+          "width": 117.229
+        }
+      ]
+    }
   },
   "645546f4": {
     "text": "Two doors, one experience",
@@ -4781,6 +7271,26 @@
         "width": 720,
         "height": 73.32
       }
+    },
+    "mobileFlow": {
+      "file": "645546f4-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 73.108
+        },
+        {
+          "width": 109.723
+        },
+        {
+          "width": 65.444
+        },
+        {
+          "width": 192.059
+        }
+      ]
     }
   },
   "fbf1eede": {
@@ -4803,7 +7313,21 @@
         "width": 340
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "fbf1eede-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 109.764
+        },
+        {
+          "width": 85.046
+        }
+      ]
+    }
   },
   "6cee48a3": {
     "text": "The location",
@@ -4834,7 +7358,21 @@
         "height": 73.32
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "6cee48a3-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 141.17
+        }
+      ]
+    }
   },
   "24e44558": {
     "text": "FAQs",
@@ -4865,7 +7403,18 @@
         "height": 73.32
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "24e44558-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 88.717
+        }
+      ]
+    }
   },
   "ffbd2b54": {
     "text": "Wellness Sessions",
@@ -4887,7 +7436,21 @@
         "width": 340
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "ffbd2b54-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 166.531
+        },
+        {
+          "width": 163.351
+        }
+      ]
+    }
   },
   "998c53d6": {
     "text": "Equine & Natural Experience",
@@ -4909,7 +7472,27 @@
         "width": 340
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "998c53d6-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 129.721
+        },
+        {
+          "width": 30.926
+        },
+        {
+          "width": 139.414
+        },
+        {
+          "width": 213.206
+        }
+      ]
+    }
   },
   "66b3e73f": {
     "text": "Path of Presence - Nature Walk",
@@ -4940,7 +7523,33 @@
         "height": 133.64
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "66b3e73f-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 75.393
+        },
+        {
+          "width": 35.842
+        },
+        {
+          "width": 159.293
+        },
+        {
+          "width": 10.301
+        },
+        {
+          "width": 117.317
+        },
+        {
+          "width": 80.069
+        }
+      ]
+    }
   },
   "9d799178": {
     "text": "El Rancho",
@@ -4962,7 +7571,21 @@
         "width": 340
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "9d799178-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 34.83
+        },
+        {
+          "width": 140.747
+        }
+      ]
+    }
   },
   "b0e4599b": {
     "text": "El Rancho",
@@ -4993,7 +7616,21 @@
         "height": 73.32
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "b0e4599b-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 30.709
+        },
+        {
+          "width": 127.618
+        }
+      ]
+    }
   },
   "5e1eebe7": {
     "text": "Facilitators",
@@ -5015,7 +7652,18 @@
         "width": 340
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "5e1eebe7-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 214.12
+        }
+      ]
+    }
   },
   "a44e960f": {
     "text": "Oscar",
@@ -5046,7 +7694,18 @@
         "height": 73.32
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "a44e960f-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 102.34
+        }
+      ]
+    }
   },
   "775c7bc3": {
     "text": "Dome sessions",
@@ -5077,7 +7736,21 @@
         "height": 73.32
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "775c7bc3-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 105.258
+        },
+        {
+          "width": 145.249
+        }
+      ]
+    }
   },
   "72d5c37e": {
     "text": "HydroChallenge",
@@ -5108,7 +7781,18 @@
         "height": 73.32
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "72d5c37e-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 277.752
+        }
+      ]
+    }
   },
   "3b3d3e92": {
     "text": "Quantum Sessions",
@@ -5130,7 +7814,21 @@
         "width": 340
       }
     },
-    "align": "center"
+    "align": "center",
+    "mobileFlow": {
+      "file": "3b3d3e92-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 178.985
+        },
+        {
+          "width": 163.351
+        }
+      ]
+    }
   },
   "fbaf9d7e": {
     "text": "El fundador",
@@ -5342,7 +8040,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "e4a72d40"
+    "sourceHeading": "e4a72d40",
+    "mobileFlow": {
+      "file": "a824d70e-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 84.411
+        },
+        {
+          "width": 171.159
+        }
+      ]
+    }
   },
   "9eb9b1a1": {
     "text": "Movilidad, meditación y atención plena",
@@ -5374,7 +8086,30 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "34791db2"
+    "sourceHeading": "34791db2",
+    "mobileFlow": {
+      "file": "9eb9b1a1-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 176.502
+        },
+        {
+          "width": 193.114
+        },
+        {
+          "width": 19.196
+        },
+        {
+          "width": 148.184
+        },
+        {
+          "width": 93.674
+        }
+      ]
+    }
   },
   "bc6a105f": {
     "text": "Tratamientos de sonido y trabajo corporal",
@@ -5406,7 +8141,33 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "de6a9acf"
+    "sourceHeading": "de6a9acf",
+    "mobileFlow": {
+      "file": "bc6a105f-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 231.012
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 117.036
+        },
+        {
+          "width": 19.196
+        },
+        {
+          "width": 122.749
+        },
+        {
+          "width": 148.483
+        }
+      ]
+    }
   },
   "fa0e7387": {
     "text": "Viajes por los chakras",
@@ -5438,7 +8199,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "88bb2120"
+    "sourceHeading": "88bb2120",
+    "mobileFlow": {
+      "file": "fa0e7387-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 101.198
+        },
+        {
+          "width": 60.698
+        },
+        {
+          "width": 50.098
+        },
+        {
+          "width": 131.872
+        }
+      ]
+    }
   },
   "4708f011": {
     "text": "Viajes planetarios",
@@ -5470,7 +8251,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "916963d0"
+    "sourceHeading": "916963d0",
+    "mobileFlow": {
+      "file": "4708f011-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 101.198
+        },
+        {
+          "width": 193.026
+        }
+      ]
+    }
   },
   "7fe4b196": {
     "text": "Mundos más allá de la Tierra + Voces en la oscuridad",
@@ -5502,7 +8297,48 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "a5597fed"
+    "sourceHeading": "a5597fed",
+    "mobileFlow": {
+      "file": "7fe4b196-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 137.883
+        },
+        {
+          "width": 71.104
+        },
+        {
+          "width": 58.711
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 28.793
+        },
+        {
+          "width": 103.764
+        },
+        {
+          "width": 19.952
+        },
+        {
+          "width": 105.1
+        },
+        {
+          "width": 42.592
+        },
+        {
+          "width": 28.793
+        },
+        {
+          "width": 171.686
+        }
+      ]
+    }
   },
   "d5d1f1ef": {
     "text": "El fundador",
@@ -5534,7 +8370,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "f98b81ab"
+    "sourceHeading": "f98b81ab",
+    "mobileFlow": {
+      "file": "d5d1f1ef-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 30.709
+        },
+        {
+          "width": 157.729
+        }
+      ]
+    }
   },
   "435683c9": {
     "text": "La experiencia Vessyl",
@@ -5566,7 +8416,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "b5cc138a"
+    "sourceHeading": "b5cc138a",
+    "mobileFlow": {
+      "file": "435683c9-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 38.057
+        },
+        {
+          "width": 200.163
+        },
+        {
+          "width": 108.106
+        }
+      ]
+    }
   },
   "257269f2": {
     "text": "Experiencias con caballos y en la naturaleza",
@@ -5598,7 +8465,36 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "c18337e9"
+    "sourceHeading": "c18337e9",
+    "mobileFlow": {
+      "file": "257269f2-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 217.125
+        },
+        {
+          "width": 64.829
+        },
+        {
+          "width": 140.397
+        },
+        {
+          "width": 19.196
+        },
+        {
+          "width": 42.592
+        },
+        {
+          "width": 28.793
+        },
+        {
+          "width": 179.456
+        }
+      ]
+    }
   },
   "9ef9f880": {
     "text": "Sesiones personales",
@@ -5630,7 +8526,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "4219368a"
+    "sourceHeading": "4219368a",
+    "mobileFlow": {
+      "file": "9ef9f880-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 152.913
+        },
+        {
+          "width": 187.981
+        }
+      ]
+    }
   },
   "9756c2c1": {
     "text": "Sesiones cuánticas",
@@ -5662,7 +8572,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "1fed98ef"
+    "sourceHeading": "1fed98ef",
+    "mobileFlow": {
+      "file": "9756c2c1-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 152.913
+        },
+        {
+          "width": 165.2
+        }
+      ]
+    }
   },
   "bc4c1efe": {
     "text": "Sesiones de bienestar",
@@ -5694,7 +8618,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "2bf4ffb"
+    "sourceHeading": "2bf4ffb",
+    "mobileFlow": {
+      "file": "bc4c1efe-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 152.913
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 162.317
+        }
+      ]
+    }
   },
   "16ed4299": {
     "text": "Facilitadores",
@@ -5726,7 +8667,18 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "9c50682"
+    "sourceHeading": "9c50682",
+    "mobileFlow": {
+      "file": "16ed4299-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 220.922
+        }
+      ]
+    }
   },
   "5cbc0d05": {
     "text": "La aplicación",
@@ -5758,7 +8710,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "1c99d4c3"
+    "sourceHeading": "1c99d4c3",
+    "mobileFlow": {
+      "file": "5cbc0d05-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 38.057
+        },
+        {
+          "width": 173.374
+        }
+      ]
+    }
   },
   "fda780ab": {
     "text": "Sello discográfico",
@@ -5790,7 +8756,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "5f4fff4e"
+    "sourceHeading": "5f4fff4e",
+    "mobileFlow": {
+      "file": "fda780ab-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 85.008
+        },
+        {
+          "width": 216.422
+        }
+      ]
+    }
   },
   "81b73f86": {
     "text": "Sala de prensa",
@@ -5822,7 +8802,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "52902b2b"
+    "sourceHeading": "52902b2b",
+    "mobileFlow": {
+      "file": "81b73f86-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 68.854
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 116.684
+        }
+      ]
+    }
   },
   "4c5990c4": {
     "text": "Contáctenos / Haga una reserva",
@@ -5854,7 +8851,30 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "d0f37a2b"
+    "sourceHeading": "d0f37a2b",
+    "mobileFlow": {
+      "file": "4c5990c4-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 224.157
+        },
+        {
+          "width": 9.036
+        },
+        {
+          "width": 83.954
+        },
+        {
+          "width": 61.963
+        },
+        {
+          "width": 128.075
+        }
+      ]
+    }
   },
   "12c8fbc8": {
     "text": "Preguntas frecuentes",
@@ -5886,7 +8906,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "57e87cb4"
+    "sourceHeading": "57e87cb4",
+    "mobileFlow": {
+      "file": "12c8fbc8-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 171.44
+        },
+        {
+          "width": 187.436
+        }
+      ]
+    }
   },
   "fa15399d": {
     "text": "Concepto de habitación",
@@ -5918,7 +8952,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "7a1178e2"
+    "sourceHeading": "7a1178e2",
+    "mobileFlow": {
+      "file": "fa15399d-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 173.391
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 178.313
+        }
+      ]
+    }
   },
   "72c22c15": {
     "text": "Habitaciones",
@@ -5950,7 +9001,18 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "af01242f"
+    "sourceHeading": "af01242f",
+    "mobileFlow": {
+      "file": "72c22c15-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 224.192
+        }
+      ]
+    }
   },
   "5d12717": {
     "text": "The Vessyl se encuentra cerca de La Fortuna, Costa Rica, al pie del volcán Arenal.",
@@ -5982,7 +9044,60 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "f3a24ff8"
+    "sourceHeading": "f3a24ff8",
+    "mobileFlow": {
+      "file": "5d12717-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 108.106
+        },
+        {
+          "width": 38.549
+        },
+        {
+          "width": 176.186
+        },
+        {
+          "width": 96.821
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 38.057
+        },
+        {
+          "width": 141.997
+        },
+        {
+          "width": 101.321
+        },
+        {
+          "width": 81.317
+        },
+        {
+          "width": 28.793
+        },
+        {
+          "width": 53.895
+        },
+        {
+          "width": 53.28
+        },
+        {
+          "width": 113.063
+        },
+        {
+          "width": 117.932
+        }
+      ]
+    }
   },
   "bf98b83": {
     "text": "The Vessyl, dondequiera que esté.",
@@ -6014,7 +9129,30 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "9f2580eb"
+    "sourceHeading": "9f2580eb",
+    "mobileFlow": {
+      "file": "bf98b83-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 117.036
+        },
+        {
+          "width": 219.797
+        },
+        {
+          "width": 65.127
+        },
+        {
+          "width": 80.526
+        }
+      ]
+    }
   },
   "4a1d552a": {
     "text": "No es un sustituto. Es una puerta.",
@@ -6046,7 +9184,36 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "492c4320"
+    "sourceHeading": "492c4320",
+    "mobileFlow": {
+      "file": "4a1d552a-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 48.551
+        },
+        {
+          "width": 38.549
+        },
+        {
+          "width": 43.067
+        },
+        {
+          "width": 161.842
+        },
+        {
+          "width": 38.163
+        },
+        {
+          "width": 61.963
+        },
+        {
+          "width": 121.571
+        }
+      ]
+    }
   },
   "7874dce6": {
     "text": "La biblioteca de sesiones",
@@ -6078,7 +9245,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "f2e19e22"
+    "sourceHeading": "f2e19e22",
+    "mobileFlow": {
+      "file": "7874dce6-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 38.057
+        },
+        {
+          "width": 172.583
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 149.098
+        }
+      ]
+    }
   },
   "9ebbe163": {
     "text": "Los facilitadores",
@@ -6110,7 +9297,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "f70d264b"
+    "sourceHeading": "f70d264b",
+    "mobileFlow": {
+      "file": "9ebbe163-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 59.362
+        },
+        {
+          "width": 215.508
+        }
+      ]
+    }
   },
   "37cfe361": {
     "text": "Conozca a los facilitadores",
@@ -6142,7 +9343,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "8e90d94c"
+    "sourceHeading": "8e90d94c",
+    "mobileFlow": {
+      "file": "37cfe361-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 153.264
+        },
+        {
+          "width": 18.897
+        },
+        {
+          "width": 50.098
+        },
+        {
+          "width": 215.508
+        }
+      ]
+    }
   },
   "70d50460": {
     "text": "El estudio de grabación",
@@ -6174,7 +9395,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "f5bc55a7"
+    "sourceHeading": "f5bc55a7",
+    "mobileFlow": {
+      "file": "70d50460-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 30.709
+        },
+        {
+          "width": 129.956
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 168.047
+        }
+      ]
+    }
   },
   "d51c095": {
     "text": "Conexión con los caballos",
@@ -6206,7 +9447,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "e1d13885"
+    "sourceHeading": "e1d13885",
+    "mobileFlow": {
+      "file": "d51c095-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 162.229
+        },
+        {
+          "width": 64.829
+        },
+        {
+          "width": 50.098
+        },
+        {
+          "width": 140.397
+        }
+      ]
+    }
   },
   "8f64c6ca": {
     "text": "Cabalgata y río",
@@ -6238,7 +9499,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "c544a129"
+    "sourceHeading": "c544a129",
+    "mobileFlow": {
+      "file": "8f64c6ca-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 169.999
+        },
+        {
+          "width": 19.196
+        },
+        {
+          "width": 48.411
+        }
+      ]
+    }
   },
   "9b4a1598": {
     "text": "Observación de aves",
@@ -6270,7 +9548,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "aaa6b493"
+    "sourceHeading": "aaa6b493",
+    "mobileFlow": {
+      "file": "9b4a1598-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 215.702
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 75.762
+        }
+      ]
+    }
   },
   "e19bb084": {
     "text": "Sendero de la presencia: caminata por la naturaleza",
@@ -6302,7 +9597,39 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "ee453123"
+    "sourceHeading": "ee453123",
+    "mobileFlow": {
+      "file": "e19bb084-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 145.547
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 28.793
+        },
+        {
+          "width": 176.538
+        },
+        {
+          "width": 157.096
+        },
+        {
+          "width": 60.698
+        },
+        {
+          "width": 28.793
+        },
+        {
+          "width": 179.456
+        }
+      ]
+    }
   },
   "b4b88aa4": {
     "text": "Parque Nacional Volcán Arenal",
@@ -6334,7 +9661,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "4ae1fdc8"
+    "sourceHeading": "4ae1fdc8",
+    "mobileFlow": {
+      "file": "b4b88aa4-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 120.393
+        },
+        {
+          "width": 148.624
+        },
+        {
+          "width": 117.862
+        },
+        {
+          "width": 110.268
+        }
+      ]
+    }
   },
   "e3ba7c4e": {
     "text": "DESCRIPCIÓN GENERAL",
@@ -6366,7 +9713,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "b1cbc3de"
+    "sourceHeading": "b1cbc3de",
+    "mobileFlow": {
+      "file": "e3ba7c4e-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 242.86
+        },
+        {
+          "width": 160.823
+        }
+      ]
+    }
   },
   "616c557": {
     "text": "DATOS CLAVE",
@@ -6398,7 +9759,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "ff070f27"
+    "sourceHeading": "ff070f27",
+    "mobileFlow": {
+      "file": "616c557-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 124.067
+        },
+        {
+          "width": 114.346
+        }
+      ]
+    }
   },
   "fc04e236": {
     "text": "Galería",
@@ -6430,7 +9805,18 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "dfa72b79"
+    "sourceHeading": "dfa72b79",
+    "mobileFlow": {
+      "file": "fc04e236-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 122.959
+        }
+      ]
+    }
   },
   "561c322c": {
     "text": "Sesión Quantum Soul",
@@ -6462,7 +9848,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "70203851"
+    "sourceHeading": "70203851",
+    "mobileFlow": {
+      "file": "561c322c-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 111.534
+        },
+        {
+          "width": 161.297
+        },
+        {
+          "width": 75.586
+        }
+      ]
+    }
   },
   "7f10465b": {
     "text": "Numerología",
@@ -6494,7 +9897,18 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "8bfe1b74"
+    "sourceHeading": "8bfe1b74",
+    "mobileFlow": {
+      "file": "7f10465b-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 222.627
+        }
+      ]
+    }
   },
   "24375d55": {
     "text": "Prácticas de respiración",
@@ -6526,7 +9940,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "63295dd6"
+    "sourceHeading": "63295dd6",
+    "mobileFlow": {
+      "file": "24375d55-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 158.502
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 193.659
+        }
+      ]
+    }
   },
   "a6a9a156": {
     "text": "Fractales",
@@ -6558,7 +9989,18 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "7f77157"
+    "sourceHeading": "7f77157",
+    "mobileFlow": {
+      "file": "a6a9a156-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 155.075
+        }
+      ]
+    }
   },
   "f325d5c9": {
     "text": "Voces en la oscuridad",
@@ -6590,7 +10032,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "8211d09e"
+    "sourceHeading": "8211d09e",
+    "mobileFlow": {
+      "file": "f325d5c9-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 105.1
+        },
+        {
+          "width": 42.592
+        },
+        {
+          "width": 28.793
+        },
+        {
+          "width": 171.686
+        }
+      ]
+    }
   },
   "6b7ca784": {
     "text": "Tiempo de introspección",
@@ -6622,7 +10084,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "434af9d9"
+    "sourceHeading": "434af9d9",
+    "mobileFlow": {
+      "file": "6b7ca784-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 132.627
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 238.325
+        }
+      ]
+    }
   },
   "ff7a5c45": {
     "text": "Yoga vibratorio",
@@ -6654,7 +10133,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "8f34c2b9"
+    "sourceHeading": "8f34c2b9",
+    "mobileFlow": {
+      "file": "ff7a5c45-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 65.653
+        },
+        {
+          "width": 133.124
+        }
+      ]
+    }
   },
   "d605440c": {
     "text": "Movilidad, meditación y atención plena",
@@ -6686,7 +10179,30 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "95768995"
+    "sourceHeading": "95768995",
+    "mobileFlow": {
+      "file": "d605440c-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 137.28
+        },
+        {
+          "width": 150.2
+        },
+        {
+          "width": 14.93
+        },
+        {
+          "width": 115.254
+        },
+        {
+          "width": 72.858
+        }
+      ]
+    }
   },
   "8d7bd0e8": {
     "text": "Tratamientos de sonido y trabajo corporal",
@@ -6718,7 +10234,33 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "6a5f4e2c"
+    "sourceHeading": "6a5f4e2c",
+    "mobileFlow": {
+      "file": "8d7bd0e8-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 179.676
+        },
+        {
+          "width": 33.743
+        },
+        {
+          "width": 91.028
+        },
+        {
+          "width": 14.93
+        },
+        {
+          "width": 95.471
+        },
+        {
+          "width": 115.487
+        }
+      ]
+    }
   },
   "40b0b182": {
     "text": "Viajes por los chakras",
@@ -6750,7 +10292,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "544fc607"
+    "sourceHeading": "544fc607",
+    "mobileFlow": {
+      "file": "40b0b182-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 78.709
+        },
+        {
+          "width": 47.209
+        },
+        {
+          "width": 38.965
+        },
+        {
+          "width": 102.567
+        }
+      ]
+    }
   },
   "323485f0": {
     "text": "Viajes planetarios",
@@ -6782,7 +10344,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "55b3a47f"
+    "sourceHeading": "55b3a47f",
+    "mobileFlow": {
+      "file": "323485f0-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 78.709
+        },
+        {
+          "width": 150.131
+        }
+      ]
+    }
   },
   "dce80603": {
     "text": "Mundos más allá de la Tierra + Voces en la oscuridad",
@@ -6814,7 +10390,48 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "71008f64"
+    "sourceHeading": "71008f64",
+    "mobileFlow": {
+      "file": "dce80603-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 107.243
+        },
+        {
+          "width": 55.303
+        },
+        {
+          "width": 45.665
+        },
+        {
+          "width": 33.743
+        },
+        {
+          "width": 22.395
+        },
+        {
+          "width": 80.706
+        },
+        {
+          "width": 15.518
+        },
+        {
+          "width": 81.745
+        },
+        {
+          "width": 33.127
+        },
+        {
+          "width": 22.395
+        },
+        {
+          "width": 133.534
+        }
+      ]
+    }
   },
   "bd32812": {
     "text": "En auto desde San José",
@@ -6846,7 +10463,30 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "dd2feaf2"
+    "sourceHeading": "dd2feaf2",
+    "mobileFlow": {
+      "file": "bd32812-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 32.827
+        },
+        {
+          "width": 60.444
+        },
+        {
+          "width": 80.979
+        },
+        {
+          "width": 47.797
+        },
+        {
+          "width": 59.473
+        }
+      ]
+    }
   },
   "3f2b7c57": {
     "text": "En auto desde Liberia",
@@ -6878,7 +10518,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "5aa75df7"
+    "sourceHeading": "5aa75df7",
+    "mobileFlow": {
+      "file": "3f2b7c57-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 32.827
+        },
+        {
+          "width": 60.444
+        },
+        {
+          "width": 80.979
+        },
+        {
+          "width": 91.506
+        }
+      ]
+    }
   },
   "398ceb8": {
     "text": "Habitaciones",
@@ -6910,7 +10570,18 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "d405a520"
+    "sourceHeading": "d405a520",
+    "mobileFlow": {
+      "file": "398ceb8-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 174.372
+        }
+      ]
+    }
   },
   "612d713c": {
     "text": "El Dome",
@@ -6942,7 +10613,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "18617bb6"
+    "sourceHeading": "18617bb6",
+    "mobileFlow": {
+      "file": "612d713c-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 23.885
+        },
+        {
+          "width": 81.868
+        }
+      ]
+    }
   },
   "ba0c6acd": {
     "text": "Caballos y naturaleza",
@@ -6974,7 +10659,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "865902ba"
+    "sourceHeading": "865902ba",
+    "mobileFlow": {
+      "file": "ba0c6acd-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 114.913
+        },
+        {
+          "width": 14.93
+        },
+        {
+          "width": 139.577
+        }
+      ]
+    }
   },
   "7a21d503": {
     "text": "Sesión Quantum Soul",
@@ -7006,7 +10708,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "d594fc4"
+    "sourceHeading": "d594fc4",
+    "mobileFlow": {
+      "file": "7a21d503-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 86.749
+        },
+        {
+          "width": 125.454
+        },
+        {
+          "width": 58.79
+        }
+      ]
+    }
   },
   "cdcc1e4c": {
     "text": "Numerología",
@@ -7038,7 +10757,18 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "90f364c9"
+    "sourceHeading": "90f364c9",
+    "mobileFlow": {
+      "file": "cdcc1e4c-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 173.155
+        }
+      ]
+    }
   },
   "972bdb70": {
     "text": "Prácticas de respiración",
@@ -7070,7 +10800,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "727f8527"
+    "sourceHeading": "727f8527",
+    "mobileFlow": {
+      "file": "972bdb70-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 123.28
+        },
+        {
+          "width": 33.743
+        },
+        {
+          "width": 150.624
+        }
+      ]
+    }
   },
   "dac22603": {
     "text": "Sendero de la presencia: caminata por la naturaleza",
@@ -7102,7 +10849,39 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "a3328fd2"
+    "sourceHeading": "a3328fd2",
+    "mobileFlow": {
+      "file": "dac22603-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 113.204
+        },
+        {
+          "width": 33.743
+        },
+        {
+          "width": 22.395
+        },
+        {
+          "width": 137.307
+        },
+        {
+          "width": 122.186
+        },
+        {
+          "width": 47.209
+        },
+        {
+          "width": 22.395
+        },
+        {
+          "width": 139.577
+        }
+      ]
+    }
   },
   "8416ba5d": {
     "text": "Fractales",
@@ -7134,7 +10913,18 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "c2ef6de6"
+    "sourceHeading": "c2ef6de6",
+    "mobileFlow": {
+      "file": "8416ba5d-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 120.614
+        }
+      ]
+    }
   },
   "b88dfb22": {
     "text": "Voces en la oscuridad",
@@ -7166,7 +10956,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "3836680f"
+    "sourceHeading": "3836680f",
+    "mobileFlow": {
+      "file": "b88dfb22-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 81.745
+        },
+        {
+          "width": 33.127
+        },
+        {
+          "width": 22.395
+        },
+        {
+          "width": 133.534
+        }
+      ]
+    }
   },
   "9c297a63": {
     "text": "Tiempo de introspección",
@@ -7198,7 +11008,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "89f3b484"
+    "sourceHeading": "89f3b484",
+    "mobileFlow": {
+      "file": "9c297a63-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 103.155
+        },
+        {
+          "width": 33.743
+        },
+        {
+          "width": 185.364
+        }
+      ]
+    }
   },
   "bb566e5b": {
     "text": "Sanar debería ser una experiencia llena de vida. Debería sentirse como la música, la risa, la aventura, la naturaleza y la compañía de otras personas. No buscamos ayudar a las personas a escapar de sus vidas. Buscamos ayudarlas a reconectar con sus vidas.",
@@ -7262,7 +11089,45 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "9a387b2b"
+    "sourceHeading": "9a387b2b",
+    "mobileFlow": {
+      "file": "4cec59f6-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 30.709
+        },
+        {
+          "width": 121.834
+        },
+        {
+          "width": 38.549
+        },
+        {
+          "width": 99.809
+        },
+        {
+          "width": 71.104
+        },
+        {
+          "width": 140.538
+        },
+        {
+          "width": 77.256
+        },
+        {
+          "width": 176.186
+        },
+        {
+          "width": 28.793
+        },
+        {
+          "width": 109.67
+        }
+      ]
+    }
   },
   "252cfa5b": {
     "text": "Tecnología",
@@ -7306,7 +11171,18 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "8e08b08b"
+    "sourceHeading": "8e08b08b",
+    "mobileFlow": {
+      "file": "1e023e30-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 190.09
+        }
+      ]
+    }
   },
   "34ec2bac": {
     "text": "Piso vibrotáctil de Clark Synthesis",
@@ -7350,7 +11226,30 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "c3fb8024"
+    "sourceHeading": "c3fb8024",
+    "mobileFlow": {
+      "file": "2ec4bcc1-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 71.42
+        },
+        {
+          "width": 178.647
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 91.477
+        },
+        {
+          "width": 163.741
+        }
+      ]
+    }
   },
   "3191381d": {
     "text": "El estudio de grabación",
@@ -7826,7 +11725,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "da8765de"
+    "sourceHeading": "da8765de",
+    "mobileFlow": {
+      "file": "b5e9c53d-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 38.057
+        },
+        {
+          "width": 200.163
+        },
+        {
+          "width": 108.106
+        }
+      ]
+    }
   },
   "c80bfb46": {
     "text": "Cabalgata y río",
@@ -7859,7 +11775,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "e7429fd5"
+    "sourceHeading": "e7429fd5",
+    "mobileFlow": {
+      "file": "c80bfb46-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 169.999
+        },
+        {
+          "width": 19.196
+        },
+        {
+          "width": 48.411
+        }
+      ]
+    }
   },
   "60fa7a00": {
     "text": "Parque Nacional Volcán Arenal",
@@ -7892,7 +11825,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "429d626c"
+    "sourceHeading": "429d626c",
+    "mobileFlow": {
+      "file": "60fa7a00-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 120.393
+        },
+        {
+          "width": 148.624
+        },
+        {
+          "width": 117.862
+        },
+        {
+          "width": 110.268
+        }
+      ]
+    }
   },
   "328c88bc": {
     "text": "Sesiones personales",
@@ -7925,7 +11878,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "76fc08d6"
+    "sourceHeading": "76fc08d6",
+    "mobileFlow": {
+      "file": "328c88bc-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 152.913
+        },
+        {
+          "width": 187.981
+        }
+      ]
+    }
   },
   "2b645b51": {
     "text": "Habitaciones",
@@ -7958,7 +11925,18 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "4612d0cb"
+    "sourceHeading": "4612d0cb",
+    "mobileFlow": {
+      "file": "2b645b51-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 224.192
+        }
+      ]
+    }
   },
   "5f90a31e": {
     "text": "No es un sustituto. Es una puerta.",
@@ -7991,7 +11969,36 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "1e464d14"
+    "sourceHeading": "1e464d14",
+    "mobileFlow": {
+      "file": "5f90a31e-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 48.551
+        },
+        {
+          "width": 38.549
+        },
+        {
+          "width": 43.067
+        },
+        {
+          "width": 161.842
+        },
+        {
+          "width": 38.163
+        },
+        {
+          "width": 61.963
+        },
+        {
+          "width": 121.571
+        }
+      ]
+    }
   },
   "a7d56dbc": {
     "text": "El estudio de grabación",
@@ -8024,7 +12031,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "346eb52b"
+    "sourceHeading": "346eb52b",
+    "mobileFlow": {
+      "file": "a7d56dbc-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 30.709
+        },
+        {
+          "width": 129.956
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 168.047
+        }
+      ]
+    }
   },
   "e3b32512": {
     "text": "DESCRIPCIÓN GENERAL",
@@ -8057,7 +12084,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "55be60da"
+    "sourceHeading": "55be60da",
+    "mobileFlow": {
+      "file": "e3b32512-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 242.86
+        },
+        {
+          "width": 160.823
+        }
+      ]
+    }
   },
   "db9cbc77": {
     "text": "The Vessyl, dondequiera que esté.",
@@ -8090,7 +12131,30 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "9f3528c7"
+    "sourceHeading": "9f3528c7",
+    "mobileFlow": {
+      "file": "db9cbc77-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 117.036
+        },
+        {
+          "width": 219.797
+        },
+        {
+          "width": 65.127
+        },
+        {
+          "width": 80.526
+        }
+      ]
+    }
   },
   "6158a632": {
     "text": "La biblioteca de sesiones",
@@ -8123,7 +12187,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "54ae6cee"
+    "sourceHeading": "54ae6cee",
+    "mobileFlow": {
+      "file": "6158a632-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 38.057
+        },
+        {
+          "width": 172.583
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 149.098
+        }
+      ]
+    }
   },
   "7df8ed37": {
     "text": "Los facilitadores",
@@ -8156,7 +12240,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "6a202e1f"
+    "sourceHeading": "6a202e1f",
+    "mobileFlow": {
+      "file": "7df8ed37-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 59.362
+        },
+        {
+          "width": 215.508
+        }
+      ]
+    }
   },
   "be9f7a53": {
     "text": "The Vessyl se encuentra cerca de La Fortuna, Costa Rica, al pie del volcán Arenal.",
@@ -8189,7 +12287,60 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "34bb76b4"
+    "sourceHeading": "34bb76b4",
+    "mobileFlow": {
+      "file": "be9f7a53-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 64.741
+        },
+        {
+          "width": 108.106
+        },
+        {
+          "width": 38.549
+        },
+        {
+          "width": 176.186
+        },
+        {
+          "width": 96.821
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 38.057
+        },
+        {
+          "width": 141.997
+        },
+        {
+          "width": 101.321
+        },
+        {
+          "width": 81.317
+        },
+        {
+          "width": 28.793
+        },
+        {
+          "width": 53.895
+        },
+        {
+          "width": 53.28
+        },
+        {
+          "width": 113.063
+        },
+        {
+          "width": 117.932
+        }
+      ]
+    }
   },
   "ac07b940": {
     "text": "En auto desde San José",
@@ -8222,7 +12373,30 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "a4e9c3b4"
+    "sourceHeading": "a4e9c3b4",
+    "mobileFlow": {
+      "file": "ac07b940-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 32.827
+        },
+        {
+          "width": 60.444
+        },
+        {
+          "width": 80.979
+        },
+        {
+          "width": 47.797
+        },
+        {
+          "width": 59.473
+        }
+      ]
+    }
   },
   "caba5bc5": {
     "text": "En auto desde Liberia",
@@ -8255,7 +12429,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "11e19f91"
+    "sourceHeading": "11e19f91",
+    "mobileFlow": {
+      "file": "caba5bc5-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 32.827
+        },
+        {
+          "width": 60.444
+        },
+        {
+          "width": 80.979
+        },
+        {
+          "width": 91.506
+        }
+      ]
+    }
   },
   "1025fa57": {
     "text": "Sanar debería ser una experiencia llena de vida. Debería sentirse como la música, la risa, la aventura, la naturaleza y la compañía de otras personas. No buscamos ayudar a las personas a escapar de sus vidas. Buscamos ayudarlas a reconectar con sus vidas.",
@@ -8311,7 +12505,36 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "e1b03520"
+    "sourceHeading": "e1b03520",
+    "mobileFlow": {
+      "file": "7dfd585d-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 241.351
+        },
+        {
+          "width": 70.897
+        },
+        {
+          "width": 154.763
+        },
+        {
+          "width": 22.852
+        },
+        {
+          "width": 46.561
+        },
+        {
+          "width": 32.374
+        },
+        {
+          "width": 199.114
+        }
+      ]
+    }
   },
   "c6cd1cd": {
     "text": "Sesiones personales",
@@ -8334,7 +12557,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "a50e680f"
+    "sourceHeading": "a50e680f",
+    "mobileFlow": {
+      "file": "c6cd1cd-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 167.94
+        },
+        {
+          "width": 204.903
+        }
+      ]
+    }
   },
   "bd32b99a": {
     "text": "Sesiones cuánticas",
@@ -8357,7 +12594,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "1565fcd0"
+    "sourceHeading": "1565fcd0",
+    "mobileFlow": {
+      "file": "bd32b99a-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 167.94
+        },
+        {
+          "width": 179.214
+        }
+      ]
+    }
   },
   "3424597": {
     "text": "Sesiones de bienestar",
@@ -8380,7 +12631,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "3ed33a92"
+    "sourceHeading": "3ed33a92",
+    "mobileFlow": {
+      "file": "3424597-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 167.94
+        },
+        {
+          "width": 47.037
+        },
+        {
+          "width": 178.071
+        }
+      ]
+    }
   },
   "6aa95b10": {
     "text": "Facilitadores",
@@ -8403,7 +12671,18 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "ea757fb5"
+    "sourceHeading": "ea757fb5",
+    "mobileFlow": {
+      "file": "6aa95b10-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 245.407
+        }
+      ]
+    }
   },
   "9056993": {
     "text": "El mundo se volvió más ruidoso. Aquí encuentra la calma.",
@@ -8427,7 +12706,45 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "3caf548a"
+    "sourceHeading": "3caf548a",
+    "mobileFlow": {
+      "file": "9056993-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 34.83
+        },
+        {
+          "width": 132.978
+        },
+        {
+          "width": 41.419
+        },
+        {
+          "width": 112.525
+        },
+        {
+          "width": 74.801
+        },
+        {
+          "width": 153.106
+        },
+        {
+          "width": 86.894
+        },
+        {
+          "width": 193.648
+        },
+        {
+          "width": 32.374
+        },
+        {
+          "width": 121.133
+        }
+      ]
+    }
   },
   "2fd618cc": {
     "text": "El fundador",
@@ -8451,7 +12768,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "ab66bafc"
+    "sourceHeading": "ab66bafc",
+    "mobileFlow": {
+      "file": "2fd618cc-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 34.83
+        },
+        {
+          "width": 172.701
+        }
+      ]
+    }
   },
   "bd633f6": {
     "text": "La experiencia Vessyl",
@@ -8475,7 +12806,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "a4f87901"
+    "sourceHeading": "a4f87901",
+    "mobileFlow": {
+      "file": "bd633f6-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 44.466
+        },
+        {
+          "width": 222.613
+        },
+        {
+          "width": 121.761
+        }
+      ]
+    }
   },
   "b4b7856e": {
     "text": "Sello discográfico",
@@ -8499,7 +12847,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "7ffdda3d"
+    "sourceHeading": "7ffdda3d",
+    "mobileFlow": {
+      "file": "b4b7856e-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 95.691
+        },
+        {
+          "width": 234.934
+        }
+      ]
+    }
   },
   "79e9e04": {
     "text": "The Vessyl, dondequiera que esté.",
@@ -8523,7 +12885,30 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "1a515e14"
+    "sourceHeading": "1a515e14",
+    "mobileFlow": {
+      "file": "79e9e04-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 72.611
+        },
+        {
+          "width": 131.435
+        },
+        {
+          "width": 240.323
+        },
+        {
+          "width": 70.974
+        },
+        {
+          "width": 82.78
+        }
+      ]
+    }
   },
   "ca26071": {
     "text": "Contáctenos / Haga una reserva",
@@ -8547,7 +12932,30 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "aabeb8fc"
+    "sourceHeading": "aabeb8fc",
+    "mobileFlow": {
+      "file": "ca26071-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 243.446
+        },
+        {
+          "width": 11.693
+        },
+        {
+          "width": 94.111
+        },
+        {
+          "width": 68.289
+        },
+        {
+          "width": 142.499
+        }
+      ]
+    }
   },
   "3ca6c429": {
     "text": "Preguntas frecuentes",
@@ -8571,7 +12979,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "d3441df5"
+    "sourceHeading": "d3441df5",
+    "mobileFlow": {
+      "file": "3ca6c429-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 190.335
+        },
+        {
+          "width": 204.998
+        }
+      ]
+    }
   },
   "90736587": {
     "text": "Sala de prensa",
@@ -8595,7 +13017,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "a0ddfe66"
+    "sourceHeading": "a0ddfe66",
+    "mobileFlow": {
+      "file": "90736587-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 78.286
+        },
+        {
+          "width": 47.037
+        },
+        {
+          "width": 127.341
+        }
+      ]
+    }
   },
   "6c08a4ce": {
     "text": "Hospédese con nosotros",
@@ -8627,7 +13066,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "51c1a5f0"
+    "sourceHeading": "51c1a5f0",
+    "mobileFlow": {
+      "file": "6c08a4ce-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 190.336
+        },
+        {
+          "width": 64.829
+        },
+        {
+          "width": 154.495
+        }
+      ]
+    }
   },
   "fccde87d": {
     "text": "La ubicación",
@@ -8659,7 +13115,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "7ba3cd9f"
+    "sourceHeading": "7ba3cd9f",
+    "mobileFlow": {
+      "file": "fccde87d-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 38.057
+        },
+        {
+          "width": 165.991
+        }
+      ]
+    }
   },
   "79519be7": {
     "text": "Sesiones en el Dome",
@@ -8691,7 +13161,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "5a55b457"
+    "sourceHeading": "5a55b457",
+    "mobileFlow": {
+      "file": "79519be7-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 152.913
+        },
+        {
+          "width": 42.592
+        },
+        {
+          "width": 31.096
+        },
+        {
+          "width": 105.258
+        }
+      ]
+    }
   },
   "56e910ba": {
     "text": "Sesiones en Harmonic Hearth",
@@ -8723,7 +13213,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "ec2cb5e7"
+    "sourceHeading": "ec2cb5e7",
+    "mobileFlow": {
+      "file": "56e910ba-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 152.913
+        },
+        {
+          "width": 42.592
+        },
+        {
+          "width": 169.313
+        },
+        {
+          "width": 117.229
+        }
+      ]
+    }
   },
   "4edbdafe": {
     "text": "Experiencia culinaria",
@@ -8755,7 +13265,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "7c51e16e"
+    "sourceHeading": "7c51e16e",
+    "mobileFlow": {
+      "file": "4edbdafe-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 199.776
+        },
+        {
+          "width": 147.709
+        }
+      ]
+    }
   },
   "beb8660f": {
     "text": "Experiencia culinaria",
@@ -8800,7 +13324,21 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "c6504632"
+    "sourceHeading": "c6504632",
+    "mobileFlow": {
+      "file": "dcd97c3a-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 199.776
+        },
+        {
+          "width": 147.709
+        }
+      ]
+    }
   },
   "a4f1e2d2": {
     "text": "Hospédese con nosotros",
@@ -8833,7 +13371,24 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "b679eebc"
+    "sourceHeading": "b679eebc",
+    "mobileFlow": {
+      "file": "a4f1e2d2-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 190.336
+        },
+        {
+          "width": 64.829
+        },
+        {
+          "width": 154.495
+        }
+      ]
+    }
   },
   "572160ee": {
     "text": "Dos puertas, una experiencia",
@@ -8877,7 +13432,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "62279fc8"
+    "sourceHeading": "62279fc8",
+    "mobileFlow": {
+      "file": "572160ee-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 67.676
+        },
+        {
+          "width": 140.186
+        },
+        {
+          "width": 61.963
+        },
+        {
+          "width": 200.163
+        }
+      ]
+    }
   },
   "186629db": {
     "text": "Hospédese con nosotros en Costa Rica",
@@ -8921,7 +13496,33 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "cf40a879"
+    "sourceHeading": "cf40a879",
+    "mobileFlow": {
+      "file": "186629db-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 148.04
+        },
+        {
+          "width": 50.422
+        },
+        {
+          "width": 120.163
+        },
+        {
+          "width": 33.127
+        },
+        {
+          "width": 78.805
+        },
+        {
+          "width": 56.301
+        }
+      ]
+    }
   },
   "6e25544a": {
     "text": "Las sesiones, en su bolsillo.",
@@ -8965,7 +13566,30 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "21f71702"
+    "sourceHeading": "21f71702",
+    "mobileFlow": {
+      "file": "6e25544a-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 43.094
+        },
+        {
+          "width": 122.911
+        },
+        {
+          "width": 33.127
+        },
+        {
+          "width": 30.352
+        },
+        {
+          "width": 103.319
+        }
+      ]
+    }
   },
   "8b94549a": {
     "text": "Sonido, frecuencia y presencia, en un volcán de Costa Rica.",
@@ -9009,7 +13633,45 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "72b1a6ea"
+    "sourceHeading": "72b1a6ea",
+    "mobileFlow": {
+      "file": "8b94549a-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 129.78
+        },
+        {
+          "width": 184.483
+        },
+        {
+          "width": 19.196
+        },
+        {
+          "width": 177.803
+        },
+        {
+          "width": 42.592
+        },
+        {
+          "width": 43.067
+        },
+        {
+          "width": 113.063
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 101.321
+        },
+        {
+          "width": 80.051
+        }
+      ]
+    }
   },
   "1857344f": {
     "text": "The Vessyl es un destino de bienestar inmersivo ubicado en 118 acres de selva tropical cerca del volcán Arenal, en La Fortuna, Costa Rica.",
@@ -9053,7 +13715,87 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "b82a63e9"
+    "sourceHeading": "b82a63e9",
+    "mobileFlow": {
+      "file": "1857344f-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 50.354
+        },
+        {
+          "width": 84.083
+        },
+        {
+          "width": 29.983
+        },
+        {
+          "width": 33.497
+        },
+        {
+          "width": 100.858
+        },
+        {
+          "width": 33.743
+        },
+        {
+          "width": 126.247
+        },
+        {
+          "width": 133.165
+        },
+        {
+          "width": 107.817
+        },
+        {
+          "width": 33.127
+        },
+        {
+          "width": 39.129
+        },
+        {
+          "width": 72.79
+        },
+        {
+          "width": 33.743
+        },
+        {
+          "width": 66.624
+        },
+        {
+          "width": 104.823
+        },
+        {
+          "width": 75.305
+        },
+        {
+          "width": 41.44
+        },
+        {
+          "width": 87.938
+        },
+        {
+          "width": 92.709
+        },
+        {
+          "width": 33.127
+        },
+        {
+          "width": 29.6
+        },
+        {
+          "width": 110.442
+        },
+        {
+          "width": 78.805
+        },
+        {
+          "width": 62.262
+        }
+      ]
+    }
   },
   "ced13a22": {
     "text": "Josh Stanley es emprendedor, innovador en el ámbito del bienestar y cofundador de Charlotte’s Web, la empresa pionera ampliamente reconocida por contribuir a que el CBD entrara en la conversación pública en Estados Unidos.",
@@ -9097,7 +13839,117 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "5d0ad97a"
+    "sourceHeading": "5d0ad97a",
+    "mobileFlow": {
+      "file": "ced13a22-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 60.54
+        },
+        {
+          "width": 98.028
+        },
+        {
+          "width": 29.983
+        },
+        {
+          "width": 193.102
+        },
+        {
+          "width": 135.215
+        },
+        {
+          "width": 33.127
+        },
+        {
+          "width": 24.186
+        },
+        {
+          "width": 95.922
+        },
+        {
+          "width": 41.44
+        },
+        {
+          "width": 126.247
+        },
+        {
+          "width": 14.93
+        },
+        {
+          "width": 156.461
+        },
+        {
+          "width": 33.743
+        },
+        {
+          "width": 149.092
+        },
+        {
+          "width": 65.516
+        },
+        {
+          "width": 22.395
+        },
+        {
+          "width": 116.84
+        },
+        {
+          "width": 103.127
+        },
+        {
+          "width": 175.725
+        },
+        {
+          "width": 152.838
+        },
+        {
+          "width": 47.209
+        },
+        {
+          "width": 135.913
+        },
+        {
+          "width": 14.698
+        },
+        {
+          "width": 50.655
+        },
+        {
+          "width": 24.186
+        },
+        {
+          "width": 61.606
+        },
+        {
+          "width": 97.836
+        },
+        {
+          "width": 33.127
+        },
+        {
+          "width": 22.395
+        },
+        {
+          "width": 177.762
+        },
+        {
+          "width": 96.538
+        },
+        {
+          "width": 33.127
+        },
+        {
+          "width": 104.016
+        },
+        {
+          "width": 99.231
+        }
+      ]
+    }
   },
   "10517d90": {
     "text": "Las personas se sienten abrumadas, desconectadas, ansiosas y anhelan algo real. The Vessyl se creó para que pudieran volver a la naturaleza, a la comunidad, al presente y a sí mismas.",
@@ -9174,7 +14026,111 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "7d90ebb1"
+    "sourceHeading": "7d90ebb1",
+    "mobileFlow": {
+      "file": "a552c06f-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 18.143
+        },
+        {
+          "width": 25.471
+        },
+        {
+          "width": 68.032
+        },
+        {
+          "width": 33.743
+        },
+        {
+          "width": 43.846
+        },
+        {
+          "width": 61.538
+        },
+        {
+          "width": 33.743
+        },
+        {
+          "width": 95.471
+        },
+        {
+          "width": 33.127
+        },
+        {
+          "width": 38.965
+        },
+        {
+          "width": 109.417
+        },
+        {
+          "width": 33.743
+        },
+        {
+          "width": 22.395
+        },
+        {
+          "width": 76.946
+        },
+        {
+          "width": 24.186
+        },
+        {
+          "width": 226.981
+        },
+        {
+          "width": 14.93
+        },
+        {
+          "width": 24.186
+        },
+        {
+          "width": 125.85
+        },
+        {
+          "width": 115.788
+        },
+        {
+          "width": 98.028
+        },
+        {
+          "width": 29.983
+        },
+        {
+          "width": 109.991
+        },
+        {
+          "width": 62.659
+        },
+        {
+          "width": 45.323
+        },
+        {
+          "width": 55.303
+        },
+        {
+          "width": 47.209
+        },
+        {
+          "width": 48.194
+        },
+        {
+          "width": 120.997
+        },
+        {
+          "width": 33.743
+        },
+        {
+          "width": 85.737
+        },
+        {
+          "width": 108.2
+        }
+      ]
+    }
   },
   "ac3ed5f": {
     "text": "Sesiones personales",
@@ -9198,7 +14154,21 @@
     "mobileWidth": 340,
     "mobileHeight": 102.80000000000001,
     "locale": "es-LA",
-    "sourceHeading": "56c30099"
+    "sourceHeading": "56c30099",
+    "mobileFlow": {
+      "file": "ac3ed5f-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 167.94
+        },
+        {
+          "width": 204.903
+        }
+      ]
+    }
   },
   "a90266ca": {
     "text": "Los huéspedes pueden personalizar su experiencia y elegir las propuestas con las que más se identifiquen.",
@@ -9242,7 +14212,63 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "a4a2c1df"
+    "sourceHeading": "a4a2c1df",
+    "mobileFlow": {
+      "file": "a90266ca-flow.svg",
+      "lineHeight": 32.48,
+      "size": 28,
+      "spaceWidth": 5.7421875,
+      "words": [
+        {
+          "width": 46.17
+        },
+        {
+          "width": 143.624
+        },
+        {
+          "width": 101.063
+        },
+        {
+          "width": 165.704
+        },
+        {
+          "width": 30.352
+        },
+        {
+          "width": 155.682
+        },
+        {
+          "width": 14.93
+        },
+        {
+          "width": 76.631
+        },
+        {
+          "width": 35.889
+        },
+        {
+          "width": 150.692
+        },
+        {
+          "width": 50.422
+        },
+        {
+          "width": 35.889
+        },
+        {
+          "width": 50.655
+        },
+        {
+          "width": 55.303
+        },
+        {
+          "width": 29.983
+        },
+        {
+          "width": 169.422
+        }
+      ]
+    }
   },
   "86de13ba": {
     "text": "Dos puertas, una experiencia",
@@ -9286,7 +14312,27 @@
       }
     },
     "locale": "es-LA",
-    "sourceHeading": "645546f4"
+    "sourceHeading": "645546f4",
+    "mobileFlow": {
+      "file": "86de13ba-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 67.676
+        },
+        {
+          "width": 140.186
+        },
+        {
+          "width": 61.963
+        },
+        {
+          "width": 200.163
+        }
+      ]
+    }
   },
   "69f4ea71": {
     "text": "La ubicación",
@@ -9319,7 +14365,21 @@
     },
     "align": "center",
     "locale": "es-LA",
-    "sourceHeading": "6cee48a3"
+    "sourceHeading": "6cee48a3",
+    "mobileFlow": {
+      "file": "69f4ea71-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 38.057
+        },
+        {
+          "width": 165.991
+        }
+      ]
+    }
   },
   "786b9c14": {
     "text": "Preguntas frecuentes",
@@ -9352,7 +14412,21 @@
     },
     "align": "center",
     "locale": "es-LA",
-    "sourceHeading": "24e44558"
+    "sourceHeading": "24e44558",
+    "mobileFlow": {
+      "file": "786b9c14-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 171.44
+        },
+        {
+          "width": 187.436
+        }
+      ]
+    }
   },
   "bbca71e5": {
     "text": "Sesiones de bienestar",
@@ -9376,7 +14450,24 @@
     },
     "align": "center",
     "locale": "es-LA",
-    "sourceHeading": "ffbd2b54"
+    "sourceHeading": "ffbd2b54",
+    "mobileFlow": {
+      "file": "bbca71e5-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 167.94
+        },
+        {
+          "width": 47.037
+        },
+        {
+          "width": 178.071
+        }
+      ]
+    }
   },
   "973f44df": {
     "text": "Experiencias con caballos y en la naturaleza",
@@ -9400,7 +14491,36 @@
     },
     "align": "center",
     "locale": "es-LA",
-    "sourceHeading": "998c53d6"
+    "sourceHeading": "998c53d6",
+    "mobileFlow": {
+      "file": "973f44df-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 241.351
+        },
+        {
+          "width": 70.897
+        },
+        {
+          "width": 154.763
+        },
+        {
+          "width": 22.852
+        },
+        {
+          "width": 46.561
+        },
+        {
+          "width": 32.374
+        },
+        {
+          "width": 199.114
+        }
+      ]
+    }
   },
   "8378ed80": {
     "text": "Sendero de la presencia: caminata por la naturaleza",
@@ -9433,7 +14553,39 @@
     },
     "align": "center",
     "locale": "es-LA",
-    "sourceHeading": "66b3e73f"
+    "sourceHeading": "66b3e73f",
+    "mobileFlow": {
+      "file": "8378ed80-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 145.547
+        },
+        {
+          "width": 43.383
+        },
+        {
+          "width": 28.793
+        },
+        {
+          "width": 176.538
+        },
+        {
+          "width": 157.096
+        },
+        {
+          "width": 60.698
+        },
+        {
+          "width": 28.793
+        },
+        {
+          "width": 179.456
+        }
+      ]
+    }
   },
   "7901d9f6": {
     "text": "Facilitadores",
@@ -9457,7 +14609,18 @@
     },
     "align": "center",
     "locale": "es-LA",
-    "sourceHeading": "5e1eebe7"
+    "sourceHeading": "5e1eebe7",
+    "mobileFlow": {
+      "file": "7901d9f6-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 245.407
+        }
+      ]
+    }
   },
   "e957b7db": {
     "text": "Sesiones en el Dome",
@@ -9490,7 +14653,27 @@
     },
     "align": "center",
     "locale": "es-LA",
-    "sourceHeading": "775c7bc3"
+    "sourceHeading": "775c7bc3",
+    "mobileFlow": {
+      "file": "e957b7db-flow.svg",
+      "lineHeight": 41.76,
+      "size": 36,
+      "spaceWidth": 7.3828125,
+      "words": [
+        {
+          "width": 152.913
+        },
+        {
+          "width": 42.592
+        },
+        {
+          "width": 31.096
+        },
+        {
+          "width": 105.258
+        }
+      ]
+    }
   },
   "e7beb654": {
     "text": "Sesiones cuánticas",
@@ -9514,6 +14697,20 @@
     },
     "align": "center",
     "locale": "es-LA",
-    "sourceHeading": "3b3d3e92"
+    "sourceHeading": "3b3d3e92",
+    "mobileFlow": {
+      "file": "e7beb654-flow.svg",
+      "lineHeight": 45.239999999999995,
+      "size": 39,
+      "spaceWidth": 7.998046875,
+      "words": [
+        {
+          "width": 167.94
+        },
+        {
+          "width": 179.214
+        }
+      ]
+    }
   }
 }

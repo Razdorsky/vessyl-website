@@ -13,6 +13,7 @@ import { BOOKING } from '../../lib/content';
 import { asset, pagePath } from '../../lib/paths';
 import { useLocale } from './LocaleProvider';
 import { LanguageSelector } from './LanguageSelector';
+import { headerTone } from '../../lib/header-theme';
 import {
   Accordion,
   AccordionItem,
@@ -91,7 +92,12 @@ export function SiteNavigation({
     </a>
   );
   return (
-    <header className="site-header" role="banner" ref={header}>
+    <header
+      className="site-header"
+      role="banner"
+      data-header-tone={headerTone(edition, page)}
+      ref={header}
+    >
       <a href={href()} className="brand" aria-label={c('ui.homeLink')}>
         <img
           src={asset(
